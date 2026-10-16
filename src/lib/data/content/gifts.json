@@ -1,0 +1,1721 @@
+[
+  {
+    "id": "gift-signature-box",
+    "slug": "signature-box",
+    "name": {
+      "ar": "بوكس النخلة المباركة",
+      "en": "Al Nakhlah Signature Box",
+      "fr": "Coffret Signature Al Nakhlah",
+      "tr": "Al Nakhlah Signature Kutusu",
+      "ur": "النخلہ سگنیچر باکس",
+      "ms": "Kotak Signature Al Nakhlah",
+      "bn": "আল নাখলা সিগনেচার বক্স",
+      "id": "Kotak Signature Al Nakhlah"
+    },
+    "teaser": {
+      "ar": "هدية جاهزة للتقديم بتكوين قابل للتخصيص بعد اعتماد المنتجات.",
+      "en": "A ready-to-gift selection with a structure that can later be personalised.",
+      "fr": "Une sélection prête à offrir dont le contenu pourra ensuite être personnalisé.",
+      "tr": "İçeriği daha sonra kişiselleştirilebilen, hediye edilmeye hazır bir seçki.",
+      "ur": "تحفے کے لیے تیار انتخاب جسے بعد میں ذاتی بنایا جا سکتا ہے۔",
+      "ms": "Pilihan sedia untuk dihadiahkan dengan susunan yang boleh diperibadikan kemudian.",
+      "bn": "উপহার দিতে প্রস্তুত একটি নির্বাচন, যার কাঠামো পরে ব্যক্তিগতকরণ করা যাবে।",
+      "id": "Pilihan siap hadiah dengan susunan yang nanti dapat dipersonalisasi."
+    },
+    "images": [
+      "/images/gifts/premium-assortment.jpg",
+      "/images/uploads/premium-assortment02.jpeg"
+    ],
+    "price": {
+      "amount": 179,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 209,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      }
+    ],
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "personal"
+  },
+  {
+    "id": "gift-ramadan-gift",
+    "slug": "ramadan-gift",
+    "name": {
+      "ar": "هدية رمضان",
+      "en": "Ramadan Gift",
+      "fr": "Coffret Ramadan",
+      "tr": "Ramazan Hediyesi",
+      "ur": "رمضان تحفہ",
+      "ms": "Hadiah Ramadan",
+      "bn": "রমজান উপহার",
+      "id": "Hadiah Ramadan"
+    },
+    "teaser": {
+      "ar": "تشكيلة فخمة من تمور المدينة المنوّرة الأصيلة و الرّفيعة. .",
+      "en": "An occasion-led selection that can evolve with the actual product assortment.",
+      "fr": "Une sélection pensée pour l'occasion, qui évoluera avec l'assortiment réel.",
+      "tr": "Gerçek ürün çeşitliliğiyle birlikte gelişebilecek, özel gün odaklı bir seçki.",
+      "ur": "ایک موقع پر مبنی انتخاب جو اصل مصنوعات کے ساتھ ترقی کر سکتا ہے۔",
+      "ms": "Pilihan berteraskan majlis yang boleh berkembang dengan pilihan produk sebenar.",
+      "bn": "অনুষ্ঠানভিত্তিক একটি নির্বাচন, যা প্রকৃত পণ্য তালিকার সঙ্গে বিকশিত হতে পারে।",
+      "id": "Pilihan bertema acara yang dapat berkembang sesuai produk aktual."
+    },
+    "images": [
+      "/images/uploads/1791976183942--.jpeg"
+    ],
+    "price": {
+      "amount": 249,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 289,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      }
+    ],
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "occasions",
+    "contents": [
+      {
+        "ar": "تتكوّن العلبة من 24 حبّة تمر مقسّمة بين أربعة أصناف مميّزة : 6 حبّات عجوة المدينة،  6 حبّات عجوة العالية، 6 حبّات تمر المبروم، 6 حبّات تمر المجدول",
+        "en": "",
+        "fr": "",
+        "tr": "",
+        "ur": "",
+        "ms": "",
+        "bn": "",
+        "id": ""
+      }
+    ]
+  },
+  {
+    "kind": "gift",
+    "id": "gift-date-sweets",
+    "slug": "date-sweets",
+    "name": {
+      "ar": "حلويات ومصنوعات التمر",
+      "en": "Date Sweets & Creations",
+      "fr": "Douceurs & créations de dattes",
+      "tr": "Hurma Tatlıları & Kreasyonlar",
+      "ur": "کھجور کی مٹھائیاں و تخلیقات",
+      "ms": "Manisan & Kreasi Kurma",
+      "bn": "খেজুরের মিষ্টি ও সৃষ্টি",
+      "id": "Manisan & Kreasi Kurma"
+    },
+    "teaser": {
+      "ar": "مساحة مستقبلية للحلويات والمنتجات المصنوعة من التمر.",
+      "en": "A future-facing category for sweets and products made with dates.",
+      "fr": "Une catégorie tournée vers l'avenir pour les douceurs et produits à base de dattes.",
+      "tr": "Hurmadan yapılan tatlılar ve ürünler için geleceğe dönük bir kategori.",
+      "ur": "کھجور سے بنی مٹھائیوں اور مصنوعات کے لیے مستقبل پر مبنی زمرہ۔",
+      "ms": "Kategori berorientasikan masa depan untuk manisan dan produk berasaskan kurma.",
+      "bn": "খেজুরের তৈরি মিষ্টি ও পণ্যের জন্য ভবিষ্যৎমুখী একটি বিভাগ।",
+      "id": "Kategori berorientasi masa depan untuk manisan dan olahan kurma."
+    },
+    "images": [
+      "/images/gifts/date-sweets.jpg",
+      "/images/gifts/date-sweets__2.jpg",
+      "/images/gifts/date-sweets__3.jpg"
+    ],
+    "price": {
+      "amount": 129,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 149,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-madinah-signature-box",
+    "slug": "madinah-signature-box",
+    "name": {
+      "ar": "صندوق روائع المدينة",
+      "en": "Madinah Signature Box",
+      "fr": "Coffret Signature Médine",
+      "tr": "Medine Signature Kutusu",
+      "ur": "مدینہ سگنیچر باکس",
+      "ms": "Kotak Signature Madinah",
+      "bn": "মদিনা সিগনেচার বক্স",
+      "id": "Kotak Signature Madinah"
+    },
+    "teaser": {
+      "ar": "عجوة وصفاوي وعنبرة مع معمول فاخر، في صندوق هادئ يترجم روح المدينة.",
+      "en": "Ajwa, Safawi and Anbara with premium date maamoul in a refined Madinah-inspired box.",
+      "fr": "Ajwa, Safawi et Anbara avec un maamoul premium, dans un coffret raffiné inspiré de Médine.",
+      "tr": "Rafine bir Medine ilhamlı kutuda Ajwa, Safawi ve Anbara ile premium hurma maamulü.",
+      "ur": "عجوہ، صفاوی اور عنبرہ پریمیم کھجور معمول کے ساتھ، مدینہ سے متاثر ایک نفیس ڈبے میں۔",
+      "ms": "Ajwa, Safawi dan Anbara dengan maamoul premium dalam kotak halus berinspirasikan Madinah.",
+      "bn": "প্রিমিয়াম খেজুর মামুলসহ আজওয়া, সাফাওয়ি ও আনবারা — মদিনা-অনুপ্রাণিত নিখুঁত বাক্সে।",
+      "id": "Ajwa, Safawi, dan Anbara dengan maamoul premium dalam kotak elegan terinspirasi Madinah."
+    },
+    "images": [
+      "/images/gifts/premium-assortment__2.jpg",
+      "/images/gifts/madinah-signature-box__2.jpg",
+      "/images/gifts/madinah-signature-box__3.jpg"
+    ],
+    "price": {
+      "amount": 179,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 209,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "من المدينة",
+        "en": "From Medina"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "personal",
+    "contents": [
+      {
+        "ar": "عجوة",
+        "en": "Ajwa"
+      },
+      {
+        "ar": "صفاوي",
+        "en": "Safawi"
+      },
+      {
+        "ar": "عنبرة",
+        "en": "Anbara"
+      },
+      {
+        "ar": "معمول بالهيل",
+        "en": "Cardamom maamoul"
+      }
+    ],
+    "sizeLabel": {
+      "ar": "تشكيلة 750 جم + حلويات",
+      "en": "750 g mix + sweets"
+    },
+    "occasion": "visit"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-royal-stuffed-date-box",
+    "slug": "royal-stuffed-date-box",
+    "name": {
+      "ar": "بوكس التمور المحشية الملكي",
+      "en": "Royal Stuffed Dates Box",
+      "fr": "Coffret Royal de dattes farcies",
+      "tr": "Kraliyet İçli Hurma Kutusu",
+      "ur": "شاہی بھری کھجور باکس",
+      "ms": "Kotak Kurma Berisi Diraja",
+      "bn": "রয়্যাল ভরা খেজুর বক্স",
+      "id": "Kotak Kurma Isi Royal"
+    },
+    "teaser": {
+      "ar": "تمور مختارة بحشوات فستق ولوز وطحينة وشوكولاتة، مهيأة للتقديم والهدايا.",
+      "en": "Selected dates with pistachio, almond, tahini and chocolate fillings, ready for refined gifting.",
+      "fr": "Dattes sélectionnées aux farces pistache, amande, tahini et chocolat, prêtes pour un cadeau raffiné.",
+      "tr": "Antep fıstığı, badem, tahin ve çikolata dolgulu seçme hurmalar; şık hediye için hazır.",
+      "ur": "پستہ، بادام، طحینہ اور چاکلیٹ بھرائی والی منتخب کھجوریں، نفیس تحفے کے لیے تیار۔",
+      "ms": "Kurma pilihan dengan inti pistachio, badam, tahini dan coklat, sedia untuk hadiah yang halus.",
+      "bn": "পেস্তা, বাদাম, তাহিনি ও চকলেট ভরাসহ নির্বাচিত খেজুর — অভিজাত উপহারের জন্য প্রস্তুত।",
+      "id": "Kurma pilihan dengan isian pistachio, almond, tahini, dan cokelat, siap untuk hadiah istimewa."
+    },
+    "images": [
+      "/images/gifts/royal-stuffed-date-box.jpg",
+      "/images/gifts/royal-stuffed-date-box__2.jpg",
+      "/images/gifts/royal-stuffed-date-box__3.jpg"
+    ],
+    "price": {
+      "amount": 159,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 189,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "فاخر",
+        "en": "Luxury"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "personal",
+    "contents": [
+      {
+        "ar": "فستق",
+        "en": "Pistachio"
+      },
+      {
+        "ar": "لوز",
+        "en": "Almond"
+      },
+      {
+        "ar": "طحينة",
+        "en": "Tahini"
+      },
+      {
+        "ar": "شوكولاتة",
+        "en": "Chocolate"
+      }
+    ],
+    "sizeLabel": {
+      "ar": "18 قطعة فاخرة",
+      "en": "18 luxury pieces"
+    },
+    "occasion": "visit"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-coffee-hospitality-box",
+    "slug": "coffee-hospitality-box",
+    "name": {
+      "ar": "صندوق القهوة والتمور",
+      "en": "Coffee & Dates Box",
+      "fr": "Coffret Café & Dattes",
+      "tr": "Kahve & Hurma Kutusu",
+      "ur": "کافی و کھجور باکس",
+      "ms": "Kotak Kopi & Kurma",
+      "bn": "কফি ও খেজুর বক্স",
+      "id": "Kotak Kopi & Kurma"
+    },
+    "teaser": {
+      "ar": "تشكيلة تمور مع معمول ودبس تمر بالهيل؛ مصممة لترافق القهوة السعودية في جلسة راقية.",
+      "en": "Dates, maamoul and cardamom date syrup designed to accompany Saudi coffee in an elegant setting.",
+      "fr": "Dattes, maamoul et sirop de dattes à la cardamome pour accompagner le café saoudien avec élégance.",
+      "tr": "Suudi kahvesine zarif bir ortamda eşlik etmek üzere tasarlanan hurma, maamul ve kakuleli hurma şurubu.",
+      "ur": "کھجور، معمول اور الائچی کھجور شربت — سعودی کافی کے ساتھ نفیس انداز میں۔",
+      "ms": "Kurma, maamoul dan sirap kurma buah pelaga direka untuk meneman kopi Arab dengan elegan.",
+      "bn": "সৌদি কফির সঙ্গে নিখুঁত পরিবেশে সঙ্গত দেওয়ার জন্য খেজুর, মামুল ও এলাচি খেজুর সিরাপ।",
+      "id": "Kurma, maamoul, dan sirup kurma kapulaga untuk mendampingi kopi khas Arab dengan elegan."
+    },
+    "images": [
+      "/images/gifts/coffee-hospitality-box.jpg",
+      "/images/gifts/coffee-hospitality-box__2.jpg",
+      "/images/gifts/coffee-hospitality-box__3.jpg"
+    ],
+    "price": {
+      "amount": 189,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 219,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "ضيافة",
+        "en": "Hospitality"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "personal",
+    "contents": [
+      {
+        "ar": "سكري",
+        "en": "Sukkari"
+      },
+      {
+        "ar": "مجدول",
+        "en": "Medjool"
+      },
+      {
+        "ar": "معمول",
+        "en": "Maamoul"
+      },
+      {
+        "ar": "دبس تمر بالهيل",
+        "en": "Cardamom date syrup"
+      }
+    ],
+    "sizeLabel": {
+      "ar": "تشكيلة ضيافة",
+      "en": "Hospitality mix"
+    },
+    "occasion": "visit"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-desert-discovery-box",
+    "slug": "desert-discovery-box",
+    "name": {
+      "ar": "صندوق رحلة التذوق",
+      "en": "Desert Discovery Box",
+      "fr": "Coffret Découverte du désert",
+      "tr": "Çöl Keşif Kutusu",
+      "ur": "صحرائی دریافت باکس",
+      "ms": "Kotak Penemuan Gurun",
+      "bn": "মরু আবিষ্কার বক্স",
+      "id": "Kotak Penjelajahan Gurun"
+    },
+    "teaser": {
+      "ar": "رحلة صغيرة بين أصناف ناعمة وشبه جافة وجافة، مستوحاة مباشرة من دليل التمور.",
+      "en": "A curated journey across soft, semi-dry and dry varieties, inspired directly by the dates guide.",
+      "fr": "Un voyage qui traverse variétés molles, semi-sèches et sèches, directement inspiré du guide des dattes.",
+      "tr": "Hurma rehberinden ilhamla yumuşak, yarı kuru ve kuru çeşitler arasında küratörlü bir yolculuk.",
+      "ur": "کھجور گائیڈ سے براہ راست متاثر، نرم، نیم خشک اور خشک اقسام کا ایک منتخب سفر۔",
+      "ms": "Perjalanan terpilih merentasi varieti lembut, separa kering dan kering, diilhamkan terus daripada panduan kurma.",
+      "bn": "খেজুর গাইড থেকে সরাসরি অনুপ্রাণিত — কোমল, আধা-শুকনো ও শুকনো জাতের নির্বাচিত যাত্রা।",
+      "id": "Perjalanan terkurasi melintasi varietas lembut, setengah kering, dan kering, terinspirasi langsung dari panduan kurma."
+    },
+    "images": [
+      "/images/gifts/premium-assortment__3.png",
+      "/images/gifts/desert-discovery-box__2.jpg",
+      "/images/gifts/desert-discovery-box__3.jpg"
+    ],
+    "price": {
+      "amount": 229,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 269,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "اكتشاف",
+        "en": "Discovery"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "personal",
+    "contents": [
+      {
+        "ar": "مجدول",
+        "en": "Medjool"
+      },
+      {
+        "ar": "عجوة",
+        "en": "Ajwa"
+      },
+      {
+        "ar": "سكري",
+        "en": "Sukkari"
+      },
+      {
+        "ar": "بياروم",
+        "en": "Piarom"
+      },
+      {
+        "ar": "دقلة نور",
+        "en": "Deglet Noor"
+      },
+      {
+        "ar": "زهدي",
+        "en": "Zahidi"
+      }
+    ],
+    "sizeLabel": {
+      "ar": "6 أصناف × 125 جم",
+      "en": "6 varieties × 125 g"
+    },
+    "occasion": "visit"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-date-sweets-selection",
+    "slug": "date-sweets-selection",
+    "name": {
+      "ar": "صندوق حلويات التمر الفاخرة",
+      "en": "Premium Date Sweets Box",
+      "fr": "Coffret Premium de douceurs de dattes",
+      "tr": "Premium Hurma Tatlıları Kutusu",
+      "ur": "پریمیم کھجور مٹھائی باکس",
+      "ms": "Kotak Manisan Kurma Premium",
+      "bn": "প্রিমিয়াম খেজুর মিষ্টি বক্স",
+      "id": "Kotak Manisan Kurma Premium"
+    },
+    "teaser": {
+      "ar": "معمول وتمرية وكرات تمر بالمكسرات في تكوين يصلح كهدية أنيقة مع القهوة.",
+      "en": "Maamoul, tamreya and date-nut bites arranged as an elegant coffee-time gift.",
+      "fr": "Maamoul, tamreya et bouchées de dattes et noix, présentés comme un cadeau élégant pour l'heure du café.",
+      "tr": "Maamul, tamreya ve hurma-fındık lokmaları zarif bir kahve vakti hediyesi olarak düzenlendi.",
+      "ur": "معمول، تمریہ اور کھجور اخروٹ ٹکڑے — کافی کے وقت کے نفیس تحفے کے طور پر۔",
+      "ms": "Maamoul, tamreya dan gigitan kurma-kacang disusun sebagai hadiah waktu kopi yang elegan.",
+      "bn": "মামুল, তামরেয়া ও খেজুর-বাদাম বিট — কফির সময়ের নিখুঁত উপহাররূপে সাজানো।",
+      "id": "Maamoul, tamreya, dan gigitan kurma-kacang ditata sebagai hadiah santai minum kopi yang elegan."
+    },
+    "images": [
+      "/images/gifts/date-sweets-selection.jpg",
+      "/images/gifts/date-sweets-selection__2.jpg",
+      "/images/gifts/date-sweets-selection__3.jpg"
+    ],
+    "price": {
+      "amount": 139,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 159,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "حلويات",
+        "en": "Sweets"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "personal",
+    "contents": [
+      {
+        "ar": "معمول",
+        "en": "Maamoul"
+      },
+      {
+        "ar": "تمرية",
+        "en": "Tamreya"
+      },
+      {
+        "ar": "كرات تمر بالمكسرات",
+        "en": "Date-nut bites"
+      }
+    ],
+    "sizeLabel": {
+      "ar": "تشكيلة 550 جم",
+      "en": "550 g mix"
+    },
+    "occasion": "visit"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-mini-hospitality-box",
+    "slug": "mini-hospitality-box",
+    "name": {
+      "ar": "علبة ضيافة صغيرة",
+      "en": "Mini Hospitality Box",
+      "fr": "Mini coffret d'accueil",
+      "tr": "Mini İkram Kutusu",
+      "ur": "منی مہمان نوازی باکس",
+      "ms": "Kotak Jamuan Mini",
+      "bn": "মিনি আপ্যায়ন বক্স",
+      "id": "Kotak Jamuan Mini"
+    },
+    "teaser": {
+      "ar": "هدية خفيفة وأنيقة للزيارة أو الشكر، تجمع تمرات محشية مع لمسة شوكولاتة.",
+      "en": "A small elegant gesture for visits or thanks, combining filled dates with a chocolate touch.",
+      "fr": "Un geste petit et élégant pour les visites ou les remerciements, mêlant dattes farcies et touche de chocolat.",
+      "tr": "Ziyaretler veya teşekkürler için küçük, zarif bir jest; içli hurma ve çikolata dokunuşu.",
+      "ur": "ملاقاتوں یا شکریے کے لیے ایک چھوٹا نفیس اشارہ — بھری کھجور اور چاکلیٹ کا امتزاج۔",
+      "ms": "Sentuhan kecil yang elegan untuk kunjungan atau ucapan terima kasih, menggabungkan kurma berisi dengan coklat.",
+      "bn": "সাক্ষাৎ বা কৃতজ্ঞতার জন্য ছোট নিখুঁত ইঙ্গিত — ভরা খেজুরের সঙ্গে চকলেটের ছোঁয়া।",
+      "id": "Sentuhan kecil yang elegan untuk kunjungan atau ucapan terima kasih, memadukan kurma isi dengan cokelat."
+    },
+    "images": [
+      "/images/gifts/mini-hospitality-box.jpg",
+      "/images/gifts/mini-hospitality-box__2.jpg",
+      "/images/gifts/mini-hospitality-box__3.jpg"
+    ],
+    "price": {
+      "amount": 79,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 89,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "هدية خفيفة",
+        "en": "Small gesture"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "personal",
+    "contents": [
+      {
+        "ar": "6 تمرات محشية",
+        "en": "6 stuffed dates"
+      },
+      {
+        "ar": "6 تمرات بالشوكولاتة",
+        "en": "6 chocolate-covered dates"
+      }
+    ],
+    "sizeLabel": {
+      "ar": "12 قطعة",
+      "en": "12 pieces"
+    },
+    "occasion": "visit"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-ramadan-majlis-box",
+    "slug": "ramadan-majlis-box",
+    "name": {
+      "ar": "صندوق رمضان للمجلس",
+      "en": "Ramadan Majlis Box",
+      "fr": "Coffret Majlis du Ramadan",
+      "tr": "Ramazan Meclis Kutusu",
+      "ur": "رمضان مجلس باکس",
+      "ms": "Kotak Majlis Ramadan",
+      "bn": "রমজান মজলিস বক্স",
+      "id": "Kotak Majlis Ramadan"
+    },
+    "teaser": {
+      "ar": "تشكيلة موسمية للضيافة مع تمر فاخر، معمول ودبس تمر بالهيل.",
+      "en": "A seasonal hospitality selection with premium dates, maamoul and cardamom date syrup.",
+      "fr": "Une sélection saisonnière d'accueil avec dattes premium, maamoul et sirop de dattes à la cardamome.",
+      "tr": "Premium hurma, maamul ve kakuleli hurma şurubuyla mevsimlik bir ikram seçkisi.",
+      "ur": "پریمیم کھجور، معمول اور الائچی کھجور شربت کے ساتھ موسمی مہمان نوازی کا انتخاب۔",
+      "ms": "Pilihan jamuan bermusim dengan kurma premium, maamoul dan sirap kurma buah pelaga.",
+      "bn": "প্রিমিয়াম খেজুর, মামুল ও এলাচি খেজুর সিরাপসহ ঋতুনির্ভর আপ্যায়ন নির্বাচন।",
+      "id": "Pilihan jamuan musiman dengan kurma premium, maamoul, dan sirup kurma kapulaga."
+    },
+    "images": [
+      "/images/gifts/ramadan-majlis-box.jpg",
+      "/images/gifts/ramadan-majlis-box__2.jpg",
+      "/images/gifts/ramadan-majlis-box__3.jpg"
+    ],
+    "price": {
+      "amount": 249,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 289,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "رمضان",
+        "en": "Ramadan"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "occasions",
+    "contents": [
+      {
+        "ar": "تمر مشكل",
+        "en": "Assorted dates"
+      },
+      {
+        "ar": "معمول",
+        "en": "Maamoul"
+      },
+      {
+        "ar": "دبس تمر بالهيل",
+        "en": "Cardamom date syrup"
+      },
+      {
+        "ar": "تمر محشي",
+        "en": "Stuffed dates"
+      }
+    ],
+    "sizeLabel": {
+      "ar": "تشكيلة ضيافة كبيرة",
+      "en": "Large hospitality mix"
+    },
+    "occasion": "ramadan"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-eid-golden-box",
+    "slug": "eid-golden-box",
+    "name": {
+      "ar": "صندوق العيد الذهبي",
+      "en": "Golden Eid Box",
+      "fr": "Coffret Doré de l'Aïd",
+      "tr": "Altın Ramazan Bayramı Kutusu",
+      "ur": "سنہری عید باکس",
+      "ms": "Kotak Emas Aidilfitri",
+      "bn": "সোনালি ঈদ বক্স",
+      "id": "Kotak Emas Idul Fitri"
+    },
+    "teaser": {
+      "ar": "مجدول وعجوة وعنبرة مع حلويات التمر في صندوق ذهبي مخصص للعيد.",
+      "en": "Medjool, Ajwa and Anbara with date sweets in a celebratory golden Eid box.",
+      "fr": "Medjool, Ajwa et Anbara accompagnés de douceurs de dattes dans un coffret doré de fête.",
+      "tr": "Kutlama amaçlı altın bayram kutusunda Medjool, Ajwa ve Anbara ile hurma tatlıları.",
+      "ur": "مجدول، عجوہ اور عنبرہ کھجور مٹھائیوں کے ساتھ ایک خوشیوں بھرے سنہری عید ڈبے میں۔",
+      "ms": "Medjool, Ajwa dan Anbara bersama manisan kurma dalam kotak Aidilfitri emas yang meriah.",
+      "bn": "উদযাপনের সোনালি ঈদ বাক্সে মেডজুল, আজওয়া ও আনবারা — খেজুর মিষ্টির সঙ্গে।",
+      "id": "Medjool, Ajwa, dan Anbara bersama manisan kurma dalam kotak Idul Fitri emas yang meriah."
+    },
+    "images": [
+      "/images/gifts/eid-golden-box.jpg",
+      "/images/gifts/eid-golden-box__2.jpg",
+      "/images/gifts/eid-golden-box__3.jpg"
+    ],
+    "price": {
+      "amount": 289,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 329,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "العيد",
+        "en": "Eid"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "occasions",
+    "contents": [
+      {
+        "ar": "مجدول",
+        "en": "Medjool"
+      },
+      {
+        "ar": "عجوة",
+        "en": "Ajwa"
+      },
+      {
+        "ar": "عنبرة",
+        "en": "Anbara"
+      },
+      {
+        "ar": "معمول",
+        "en": "Maamoul"
+      },
+      {
+        "ar": "تمر محشي",
+        "en": "Stuffed dates"
+      }
+    ],
+    "sizeLabel": {
+      "ar": "تشكيلة 1 كجم + حلويات",
+      "en": "1 kg mix + sweets"
+    },
+    "occasion": "eid"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-wedding-luxury-tray",
+    "slug": "wedding-luxury-tray",
+    "name": {
+      "ar": "صينية زفاف التمور الفاخرة",
+      "en": "Luxury Wedding Date Tray",
+      "fr": "Plateau de mariage de luxe",
+      "tr": "Lüks Düğün İkram Tablası",
+      "ur": "لگژری شادی کی سینی",
+      "ms": "Dulang Perkahwinan Mewah",
+      "bn": "লাক্সারি বিয়ের থালা",
+      "id": "Nampan Pernikahan Mewah"
+    },
+    "teaser": {
+      "ar": "صينية تقديم راقية تجمع التمور المحشية والمعمول، مهيأة للمناسبات والضيافة الراقية.",
+      "en": "A refined hospitality tray combining stuffed dates and maamoul for weddings and elevated occasions.",
+      "fr": "Un plateau d'accueil raffiné associant dattes farcies et maamoul, pour les mariages et les grandes occasions.",
+      "tr": "Düğünler ve özel günler için içli hurma ile maamulü bir araya getiren rafine bir ikram tablası.",
+      "ur": "شادیوں اور اعلیٰ مواقع کے لیے بھری کھجور اور معمول کا نفیس امتزاج۔",
+      "ms": "Dulang jamuan halus menggabungkan kurma berisi dan maamoul untuk perkahwinan dan majlis istimewa.",
+      "bn": "বিয়েসহ উচ্চতর অনুষ্ঠানে ভরা খেজুর ও মামুলের নিখুঁত আপ্যায়ন থালা।",
+      "id": "Nampan jamuan elegan menggabungkan kurma isi dan maamoul untuk pernikahan dan acara istimewa."
+    },
+    "images": [
+      "/images/gifts/wedding-luxury-tray.jpg",
+      "/images/gifts/wedding-luxury-tray__2.jpg",
+      "/images/gifts/wedding-luxury-tray__3.jpg"
+    ],
+    "price": {
+      "amount": 369,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 419,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "زفاف",
+        "en": "Wedding"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "occasions",
+    "contents": [
+      {
+        "ar": "تمور محشية",
+        "en": "Stuffed dates"
+      },
+      {
+        "ar": "معمول فاخر",
+        "en": "Premium maamoul"
+      },
+      {
+        "ar": "مكسرات",
+        "en": "Nuts"
+      }
+    ],
+    "sizeLabel": {
+      "ar": "1.5 كجم — تصميم ضيافة",
+      "en": "1.5 kg — hospitality design"
+    },
+    "occasion": "wedding"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-visit-elegance-box",
+    "slug": "visit-elegance-box",
+    "name": {
+      "ar": "صندوق الزيارة الراقية",
+      "en": "Elegant Visit Box",
+      "fr": "Coffret élégant de visite",
+      "tr": "Zarif Ziyaret Kutusu",
+      "ur": "نفیس ملاقات باکس",
+      "ms": "Kotak Kunjungan Elegan",
+      "bn": "নিখুঁত সাক্ষাৎ বক্স",
+      "id": "Kotak Kunjungan Elegan"
+    },
+    "teaser": {
+      "ar": "بوكس متوازن للزيارة: مجدول وعجوة مع حلويات تمر ودبس تمر فاخر.",
+      "en": "A balanced visit gift with Medjool and Ajwa, date sweets and premium date syrup.",
+      "fr": "Un cadeau de visite équilibré : Medjool et Ajwa, douceurs de dattes et sirop premium de dattes.",
+      "tr": "Medjool ve Ajwa, hurma tatlıları ve premium hurma şurubuyla dengeli bir ziyaret hediyesi.",
+      "ur": "مجدول اور عجوہ، کھجور مٹھائیاں اور پریمیم کھجور شربت کے ساتھ متوازن تحفہ۔",
+      "ms": "Hadiah kunjungan seimbang dengan Medjool dan Ajwa, manisan kurma serta sirap kurma premium.",
+      "bn": "মেডজুল ও আজওয়া, খেজুর মিষ্টি ও প্রিমিয়াম খেজুর সিরাপসহ সুষম সাক্ষাৎ উপহার।",
+      "id": "Hadiah kunjungan seimbang: Medjool dan Ajwa, manisan kurma, serta sirup kurma premium."
+    },
+    "images": [
+      "/images/gifts/visit-elegance-box.jpg",
+      "/images/gifts/visit-elegance-box__2.jpg",
+      "/images/gifts/visit-elegance-box__3.jpg"
+    ],
+    "price": {
+      "amount": 179,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 209,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "زيارة",
+        "en": "Visit"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "occasions",
+    "contents": [
+      {
+        "ar": "مجدول",
+        "en": "Medjool"
+      },
+      {
+        "ar": "عجوة",
+        "en": "Ajwa"
+      },
+      {
+        "ar": "معمول",
+        "en": "Maamoul"
+      },
+      {
+        "ar": "دبس تمر",
+        "en": "Date syrup"
+      }
+    ],
+    "sizeLabel": {
+      "ar": "تشكيلة 650 جم",
+      "en": "650 g mix"
+    },
+    "occasion": "visit"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-elite-hospitality-tray",
+    "slug": "elite-hospitality-tray",
+    "name": {
+      "ar": "صينية ضيافة النخبة",
+      "en": "Elite Hospitality Tray",
+      "fr": "Plateau d'accueil Élite",
+      "tr": "Elit İkram Tablası",
+      "ur": "ایلیٹ مہمان نوازی سینی",
+      "ms": "Dulang Jamuan Elite",
+      "bn": "এলিট আপ্যায়ন থালা",
+      "id": "Nampan Jamuan Elite"
+    },
+    "teaser": {
+      "ar": "تشكيلة تقديم كبيرة للضيافة الراقية، يمكن تخصيص أصنافها وحشواتها عند الطلب.",
+      "en": "A generous premium hospitality tray, with variety and fillings customisable on request.",
+      "fr": "Un plateau d'accueil premium et généreux, composition et farces personnalisables sur demande.",
+      "tr": "Cömert bir premium ikram tablası; içerik ve dolgular istek üzerine özelleştirilebilir.",
+      "ur": "ایک فراخ پریمیم سینی — ترکیب اور بھرائیاں درخواست پر تبدیل کی جا سکتی ہیں۔",
+      "ms": "Dulang jamuan premium yang banyak, komposisi dan inti boleh disesuaikan atas permintaan.",
+      "bn": "উদার প্রিমিয়াম আপ্যায়ন থালা — পরিবর্তনযোগ্য রচনা ও ভরতি, অনুরোধে।",
+      "id": "Nampan jamuan premium yang berlimpah, komposisi dan isian dapat disesuaikan atas permintaan."
+    },
+    "images": [
+      "/images/gifts/elite-hospitality-tray.jpg",
+      "/images/gifts/elite-hospitality-tray__2.jpg",
+      "/images/gifts/elite-hospitality-tray__3.jpg"
+    ],
+    "price": {
+      "amount": 299,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 349,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "ضيافة فاخرة",
+        "en": "Premium hospitality"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "occasions",
+    "contents": [
+      {
+        "ar": "مجدول",
+        "en": "Medjool"
+      },
+      {
+        "ar": "سكري",
+        "en": "Sukkari"
+      },
+      {
+        "ar": "صفاوي",
+        "en": "Safawi"
+      },
+      {
+        "ar": "صقعي",
+        "en": "Sagai"
+      },
+      {
+        "ar": "حشوات مشكلة",
+        "en": "Assorted fillings"
+      }
+    ],
+    "sizeLabel": {
+      "ar": "1.5 كجم",
+      "en": "1.5 kg"
+    },
+    "occasion": "visit"
+  },
+  {
+    "kind": "gift",
+    "id": "gift-stuffed-sukkari-pistachio",
+    "slug": "stuffed-sukkari-pistachio",
+    "name": {
+      "ar": "سكري محشو بالفستق والهيل",
+      "en": "Sukkari Stuffed with Pistachio & Cardamom",
+      "fr": "Sukkari farcie à la pistache & cardamome",
+      "tr": "Fıstık & Kakuleli İçli Sukkari",
+      "ur": "پستہ و الائچی بھری سکری",
+      "ms": "Sukkari Berisi Pistachio & Buah Pelaga",
+      "bn": "পেস্তা ও এলাচি ভরা সুক্কারি",
+      "id": "Sukkari Isi Pistachio & Kapulaga"
+    },
+    "teaser": {
+      "ar": "حبة سكري طرية بحشوة فستق ولمسة هيل، مصممة للقهوة والتقديم الفاخر.",
+      "en": "Soft Sukkari dates filled with pistachio and a hint of cardamom, made for coffee-time gifting.",
+      "fr": "Dattes Sukkari molles farcies de pistache et d'une pointe de cardamome, pensées pour l'heure du café.",
+      "tr": "Kahve vakti hediyeleri için antep fıstığı ve bir tutam kakuleyle doldurulmuş yumuşak Sukkari hurmaları.",
+      "ur": "نرم سکری کھجوریں پستے اور ہلکی الائچی سے بھری ہوئی — کافی کے وقت کے لیے۔",
+      "ms": "Kurma Sukkari lembut berisi pistachio dan sedikit buah pelaga, sesuai untuk hadiah waktu kopi.",
+      "bn": "পেস্তা ও সামান্য এলাচি দিয়ে ভরা কোমল সুক্কারি খেজুর — কফির সময়ের উপহারের জন্য।",
+      "id": "Kurma Sukkari empuk berisi pistachio dengan sentuhan kapulaga, dibuat untuk hadiah saat minum kopi."
+    },
+    "images": [
+      "/images/gifts/stuffed-sukkari-pistachio.jpg",
+      "/images/gifts/stuffed-sukkari-pistachio__2.jpg",
+      "/images/gifts/stuffed-sukkari-pistachio__3.jpg"
+    ],
+    "price": {
+      "amount": 69,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 79,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "تمور محشية",
+        "en": "Stuffed dates"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products",
+    "sizeLabel": {
+      "ar": "300 جم",
+      "en": "300 g"
+    }
+  },
+  {
+    "kind": "gift",
+    "id": "gift-ajwa-pistachio-saffron",
+    "slug": "ajwa-pistachio-saffron",
+    "name": {
+      "ar": "عجوة بالفستق والهيل والزعفران",
+      "en": "Ajwa with Pistachio, Cardamom & Saffron",
+      "fr": "Ajwa à la pistache, cardamome & safran",
+      "tr": "Fıstık, Kakule & Safranlı Ajwa",
+      "ur": "پستہ، الائچی و زعفران عجوہ",
+      "ms": "Ajwa dengan Pistachio, Buah Pelaga & Saffron",
+      "bn": "পেস্তা, এলাচি ও জাফরান আজওয়া",
+      "id": "Ajwa dengan Pistachio, Kapulaga & Saffron"
+    },
+    "teaser": {
+      "ar": "عجوة المدينة في تركيبة هدية مركزة بالفستق والهيل والزعفران.",
+      "en": "Medina Ajwa in a concentrated gifting format with pistachio, cardamom and saffron.",
+      "fr": "Ajwa de Médine en format cadeau concentré, avec pistache, cardamome et safran.",
+      "tr": "Antep fıstığı, kakule ve safranla Medine Ajwa'sı, yoğunlaştırılmış hediye formatında.",
+      "ur": "پستہ، الائچی اور زعفران کے ساتھ مدینہ عجوہ — مرتکز تحفے کی شکل میں۔",
+      "ms": "Ajwa Madinah dalam format hadiah pekat dengan pistachio, buah pelaga dan saffron.",
+      "bn": "পেস্তা, এলাচি ও জাফরানসহ মদিনা আজওয়া — ঘনীভূত উপহার ফরম্যাটে।",
+      "id": "Ajwa Madinah dalam format hadiah padat dengan pistachio, kapulaga, dan saffron."
+    },
+    "images": [
+      "/images/gifts/ajwa-pistachio-saffron.jpg",
+      "/images/gifts/ajwa-pistachio-saffron__2.jpg",
+      "/images/gifts/ajwa-pistachio-saffron__3.jpg"
+    ],
+    "price": {
+      "amount": 95,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 115,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "اختيار فاخر",
+        "en": "Luxury pick"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products",
+    "sizeLabel": {
+      "ar": "300 جم",
+      "en": "300 g"
+    }
+  },
+  {
+    "kind": "gift",
+    "id": "gift-medjool-dark-chocolate",
+    "slug": "medjool-dark-chocolate",
+    "name": {
+      "ar": "مجدول بالشوكولاتة الداكنة",
+      "en": "Dark Chocolate Medjool",
+      "fr": "Medjool au chocolat noir",
+      "tr": "Bitter Çikolata Kaplı Medjool",
+      "ur": "ڈارک چاکلیٹ مجدول",
+      "ms": "Medjool Coklat Gelap",
+      "bn": "ডার্ক চকলেট মেডজুল",
+      "id": "Medjool Cokelat Hitam"
+    },
+    "teaser": {
+      "ar": "مجدول كبير مغطى بطبقة شوكولاتة داكنة مع لمسة ملح ومكسرات.",
+      "en": "Large Medjool dates coated in dark chocolate with a refined touch of salt and nuts.",
+      "fr": "De grosses dattes Medjool enrobées de chocolat noir, avec une touche raffinée de sel et de noix.",
+      "tr": "Rafine bir tuz ve fındık dokunuşuyla bitter çikolataya batırılmış büyük Medjool hurmaları.",
+      "ur": "بڑی مجدول کھجوریں ڈارک چاکلیٹ میں، نمک اور اخروٹ کے نفیس لمس کے ساتھ۔",
+      "ms": "Kurma Medjool besar bersalut coklat gelap dengan sentuhan garam dan kacang yang halus.",
+      "bn": "নিখুঁত লবণ ও বাদামের ছোঁয়াসহ ডার্ক চকলেটে মোড়ানো বড় মেডজুল খেজুর।",
+      "id": "Kurma Medjool besar dilapisi cokelat hitam dengan sentuhan halus garam dan kacang."
+    },
+    "images": [
+      "/images/gifts/medjool-dark-chocolate.jpg",
+      "/images/gifts/medjool-dark-chocolate__2.jpg",
+      "/images/gifts/medjool-dark-chocolate__3.jpg"
+    ],
+    "price": {
+      "amount": 75,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 89,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "شوكولاتة بالتمر",
+        "en": "Date chocolate"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products",
+    "sizeLabel": {
+      "ar": "300 جم",
+      "en": "300 g"
+    }
+  },
+  {
+    "kind": "gift",
+    "id": "gift-date-maamoul-cardamom",
+    "slug": "date-maamoul-cardamom",
+    "name": {
+      "ar": "معمول فاخر بالتمر والهيل",
+      "en": "Premium Date Maamoul with Cardamom",
+      "fr": "Maamoul premium aux dattes et à la cardamome",
+      "tr": "Kakuleli Premium Hurma Maamulü",
+      "ur": "الائچی والا پریمیم کھجور معمول",
+      "ms": "Maamoul Premium Isi Kurma Buah Pelaga",
+      "bn": "এলাচিসহ প্রিমিয়াম খেজুর মামুল",
+      "id": "Maamoul Premium Isi Kurma Kapulaga"
+    },
+    "teaser": {
+      "ar": "معمول بقلب تمر متجانس ولمسة هيل، مناسب للقهوة والهدايا.",
+      "en": "Delicate date-filled maamoul with a cardamom touch, made for coffee and gifting.",
+      "fr": "Un maamoul délicat fourré de dattes avec une touche de cardamome, fait pour le café et le cadeau.",
+      "tr": "Kahve ve hediye için üretilen, kakule dokunuşlu, hurmalı zarif maamul.",
+      "ur": "الائچی کے لمس کے ساتھ نفیس کھجور معمول — کافی اور تحفوں کے لیے۔",
+      "ms": "Maamoul halus berisi kurma dengan sentuhan buah pelaga, dibuat untuk kopi dan hadiah.",
+      "bn": "এলাচির ছোঁয়াসহ সূক্ষ্ম খেজুর-ভরা মামুল — কফি ও উপহারের জন্য তৈরি।",
+      "id": "Maamoul lembut berisi kurma dengan sentuhan kapulaga, dibuat untuk kopi dan hadiah."
+    },
+    "images": [
+      "/images/gifts/date-maamoul-cardamom.jpg",
+      "/images/gifts/date-maamoul-cardamom__2.jpg",
+      "/images/gifts/date-maamoul-cardamom__3.jpg"
+    ],
+    "price": {
+      "amount": 59,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 69,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "معمول",
+        "en": "Maamoul"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products",
+    "sizeLabel": {
+      "ar": "400 جم",
+      "en": "400 g"
+    }
+  },
+  {
+    "kind": "gift",
+    "id": "gift-tamreya-tahini-sesame",
+    "slug": "tamreya-tahini-sesame",
+    "name": {
+      "ar": "تمرية بالطحينة والسمسم",
+      "en": "Tamreya with Tahini & Sesame",
+      "fr": "Tamreya au tahini & sésame",
+      "tr": "Tahin & Susamlı Tamreya",
+      "ur": "طحینہ و تل تمریہ",
+      "ms": "Tamreya dengan Tahini & Bijan",
+      "bn": "তাহিনি ও তিল তামরেয়া",
+      "id": "Tamreya dengan Tahini & Biji Wijen"
+    },
+    "teaser": {
+      "ar": "مزيج من التمر والطحينة والسمسم بطابع تراثي ولمسة تقديم حديثة.",
+      "en": "Dates, tahini and sesame in a traditional profile with a modern presentation.",
+      "fr": "Dattes, tahini et sésame dans un profil traditionnel avec une présentation moderne.",
+      "tr": "Hurma, tahin ve susam; geleneksel profil, modern sunum.",
+      "ur": "کھجور، طحینہ اور تل — روایتی ذائقہ، جدید پیشکش۔",
+      "ms": "Kurma, tahini dan bijan dalam profil tradisional dengan penyampaian moden.",
+      "bn": "খেজুর, তাহিনি ও তিল — ঐতিহ্যবাহী রূপ, আধুনিক উপস্থাপনা।",
+      "id": "Kurma, tahini, dan wijen dalam profil tradisional dengan penyajian modern."
+    },
+    "images": [
+      "/images/gifts/tamreya-tahini-sesame.jpg",
+      "/images/gifts/tamreya-tahini-sesame__2.jpg",
+      "/images/gifts/tamreya-tahini-sesame__3.jpg"
+    ],
+    "price": {
+      "amount": 49,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 59,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "تمرية",
+        "en": "Tamreya"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products",
+    "sizeLabel": {
+      "ar": "400 جم",
+      "en": "400 g"
+    }
+  },
+  {
+    "kind": "gift",
+    "id": "gift-date-syrup-original",
+    "slug": "date-syrup-original",
+    "name": {
+      "ar": "شراب التمر الأصلي",
+      "en": "Original Date Syrup",
+      "fr": "Sirop de dattes original",
+      "tr": "Orijinal Hurma Şurubu",
+      "ur": "اصلی کھجور شربت",
+      "ms": "Sirap Kurma Asli",
+      "bn": "আসল খেজুর সিরাপ",
+      "id": "Sirup Kurma Asli"
+    },
+    "teaser": {
+      "ar": "شراب تمر مركز للاستخدام مع القهوة والحلويات والفطور والضيافة.",
+      "en": "A concentrated date syrup for coffee, desserts, breakfast and hospitality.",
+      "fr": "Un sirop de dattes concentré pour le café, les desserts, le petit-déjeuner et l'accueil.",
+      "tr": "Kahve, tatlılar, kahvaltı ve ikramlar için yoğun hurma şurubu.",
+      "ur": "کافی، میٹھے، ناشتے اور مہمان نوازی کے لیے مرتکز کھجور شربت۔",
+      "ms": "Sirap kurma pekat untuk kopi, pencuci mulut, sarapan dan jamuan.",
+      "bn": "কফি, মিষ্টান্ন, সকালের নাশতা ও আপ্যায়নের জন্য ঘনীভূত খেজুর সিরাপ।",
+      "id": "Sirup kurma pekat untuk kopi, hidangan penutup, sarapan, dan jamuan."
+    },
+    "images": [
+      "/images/gifts/date-syrup-original.jpg",
+      "/images/gifts/date-syrup-original__2.jpg",
+      "/images/gifts/date-syrup-original__3.jpg"
+    ],
+    "price": {
+      "amount": 35,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 39,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "مكمل",
+        "en": "Complement"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products",
+    "sizeLabel": {
+      "ar": "250 مل",
+      "en": "250 ml"
+    }
+  },
+  {
+    "kind": "gift",
+    "id": "gift-date-syrup-cardamom",
+    "slug": "date-syrup-cardamom",
+    "name": {
+      "ar": "شراب التمر بالهيل",
+      "en": "Cardamom Date Syrup",
+      "fr": "Sirop de dattes à la cardamome",
+      "tr": "Kakuleli Hurma Şurubu",
+      "ur": "الائچی کھجور شربت",
+      "ms": "Sirap Kurma Buah Pelaga",
+      "bn": "এলাচি খেজুর সিরাপ",
+      "id": "Sirup Kurma Kapulaga"
+    },
+    "teaser": {
+      "ar": "دبس تمر بنكهة الهيل، مصمم للاقتران مع القهوة السعودية والحلويات.",
+      "en": "Date syrup infused with cardamom, designed to pair with Saudi coffee and desserts.",
+      "fr": "Sirop de dattes infusé à la cardamome, conçu pour accompagner le café saoudien et les desserts.",
+      "tr": "Suudi kahvesi ve tatlılarla uyum için kakule ile demlenmiş hurma şurubu.",
+      "ur": "الائچی سے مہکا کھجور شربت — سعودی کافی اور میٹھوں کے ساتھ۔",
+      "ms": "Sirap kurma berinfusi buah pelaga, direka untuk berpadu dengan kopi Arab dan pencuci mulut.",
+      "bn": "এলাচিতে সুগন্ধি খেজুর সিরাপ — সৌদি কফি ও মিষ্টান্নের সঙ্গে সঙ্গতি রেখে।",
+      "id": "Sirup kurma berinfus kapulaga, dirancang berpadu dengan kopi Arab dan hidangan penutup."
+    },
+    "images": [
+      "/images/gifts/date-syrup-cardamom.jpg",
+      "/images/gifts/date-syrup-cardamom__2.jpg",
+      "/images/gifts/date-syrup-cardamom__3.jpg"
+    ],
+    "price": {
+      "amount": 39,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 45,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "نكهة مميزة",
+        "en": "Signature flavour"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products",
+    "sizeLabel": {
+      "ar": "250 مل",
+      "en": "250 ml"
+    }
+  },
+  {
+    "kind": "gift",
+    "id": "gift-date-jam-cardamom-cinnamon",
+    "slug": "date-jam-cardamom-cinnamon",
+    "name": {
+      "ar": "مربى التمر بالقرفة والهيل",
+      "en": "Date Jam with Cinnamon & Cardamom",
+      "fr": "Confiture de dattes cannelle & cardamome",
+      "tr": "Tarçın & Kakuleli Hurma Reçeli",
+      "ur": "دار چینی و الائچی کھجور جام",
+      "ms": "Jem Kurma Kayu Manis & Buah Pelaga",
+      "bn": "দারুচিনি ও এলাচি খেজুর জ্যাম",
+      "id": "Selai Kurma Kayu Manis & Kapulaga"
+    },
+    "teaser": {
+      "ar": "مربى تمر بطابع دافئ يجمع القرفة والهيل؛ خيار للفطور والتقديم مع الأجبان.",
+      "en": "A warm date jam combining cinnamon and cardamom, suited to breakfast and cheese boards.",
+      "fr": "Une confiture de dattes chaleureuse mêlant cannelle et cardamome, parfaite au petit-déjeuner et en plateau de fromages.",
+      "tr": "Kahvaltı ve peynir tabaklarına uygun, tarçın ile kakuleyi buluşturan sıcacık bir hurma reçeli.",
+      "ur": "دار چینی اور الائچی کا گرم امتزاج — ناشتے اور پنیر بورڈز کے لیے۔",
+      "ms": "Jem kurma hangat menggabungkan kayu manis dan buah pelaga, sesuai untuk sarapan dan papan keju.",
+      "bn": "দারুচিনি ও এলাচির উষ্ণ সংমিশ্রণ — সকালের নাশতা ও পনির বোর্ডের জন্য উপযুক্ত।",
+      "id": "Selai kurma hangat memadukan kayu manis dan kapulaga, cocok untuk sarapan dan papan keju."
+    },
+    "images": [
+      "/images/gifts/date-jam-cardamom-cinnamon.jpg",
+      "/images/gifts/date-jam-cardamom-cinnamon__2.jpg",
+      "/images/gifts/date-jam-cardamom-cinnamon__3.jpg"
+    ],
+    "price": {
+      "amount": 42,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 49,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "مكمل",
+        "en": "Complement"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products",
+    "sizeLabel": {
+      "ar": "220 جم",
+      "en": "220 g"
+    }
+  },
+  {
+    "kind": "gift",
+    "id": "gift-date-paste-premium",
+    "slug": "date-paste-premium",
+    "name": {
+      "ar": "معجون تمر فاخر",
+      "en": "Premium Date Paste",
+      "fr": "Pâte de dattes premium",
+      "tr": "Premium Hurma Ezmesi",
+      "ur": "پریمیم کھجور پیسٹ",
+      "ms": "Pes Kurma Premium",
+      "bn": "প্রিমিয়াম খেজুর পেস্ট",
+      "id": "Pasta Kurma Premium"
+    },
+    "teaser": {
+      "ar": "معجون تمر ناعم للاستخدام في المخبوزات والتمريات والوصفات المنزلية.",
+      "en": "Smooth date paste for baking, maamoul, tamreya and home recipes.",
+      "fr": "Une pâte de dattes lisse pour la pâtisserie, le maamoul, la tamreya et les recettes maison.",
+      "tr": "Fırıncılık, maamul, tamreya ve ev tarifleri için pürüzsüz hurma ezmesi.",
+      "ur": "بیکنگ، معمول، تمریہ اور گھریلو ترکیبوں کے لیے ہموار کھجور پیسٹ۔",
+      "ms": "Pes kurma licin untuk membakar, maamoul, tamreya dan resipi rumah.",
+      "bn": "বেকিং, মামুল, তামরেয়া ও ঘরোয়া রেসিপির জন্য মসৃণ খেজুর পেস্ট।",
+      "id": "Pasta kurma lembut untuk memanggang, maamoul, tamreya, dan resep rumahan."
+    },
+    "images": [
+      "/images/gifts/date-paste-premium.jpg",
+      "/images/gifts/date-paste-premium__2.jpg",
+      "/images/gifts/date-paste-premium__3.jpg"
+    ],
+    "price": {
+      "amount": 29,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 35,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "للمطبخ",
+        "en": "For the kitchen"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products",
+    "sizeLabel": {
+      "ar": "500 جم",
+      "en": "500 g"
+    }
+  },
+  {
+    "kind": "gift",
+    "id": "gift-date-nut-bites",
+    "slug": "date-nut-bites",
+    "name": {
+      "ar": "كرات التمر والمكسرات",
+      "en": "Date & Nut Bites",
+      "fr": "Bouchées dattes & noix",
+      "tr": "Hurma & Fındık Lokmaları",
+      "ur": "کھجور و اخروٹ ٹکڑے",
+      "ms": "Gigitan Kurma & Kacang",
+      "bn": "খেজুর ও বাদাম বিট",
+      "id": "Gigitan Kurma & Kacang"
+    },
+    "teaser": {
+      "ar": "كرات تمر ومكسرات مصممة كقطعة ضيافة أنيقة وسهلة المشاركة.",
+      "en": "Date and nut bites designed as elegant, easy-to-share hospitality pieces.",
+      "fr": "Des bouchées de dattes et de noix conçues comme de élégantes pièces d'accueil faciles à partager.",
+      "tr": "Paylaşması kolay zarif ikram parçaları olarak tasarlanan hurma ve fındık lokmaları.",
+      "ur": "بانٹنے میں آسان، نفیس مہمان نوازی کے ٹکڑوں کے طور پر تیار کردہ۔",
+      "ms": "Gigitan kurma dan kacang direka sebagai hidangan jamuan elegan yang mudah dikongsi.",
+      "bn": "সহজে ভাগ করার মতো নিখুঁত আপ্যায়ন টুকরারূপে তৈরি খেজুর ও বাদাম বিট।",
+      "id": "Gigitan kurma dan kacang sebagai sajian jamuan elegan dan mudah dibagikan."
+    },
+    "images": [
+      "/images/gifts/date-nut-bites.jpg",
+      "/images/gifts/date-nut-bites__2.jpg",
+      "/images/gifts/date-nut-bites__3.jpg"
+    ],
+    "price": {
+      "amount": 55,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 65,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "ضيافة",
+        "en": "Hospitality"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products",
+    "sizeLabel": {
+      "ar": "250 جم",
+      "en": "250 g"
+    }
+  },
+  {
+    "kind": "gift",
+    "id": "gift-white-chocolate-dates",
+    "slug": "white-chocolate-dates",
+    "name": {
+      "ar": "تمر بالشوكولاتة البيضاء",
+      "en": "White Chocolate Dates",
+      "fr": "Dattes au chocolat blanc",
+      "tr": "Beyaz Çikolatalı Hurmalar",
+      "ur": "وائٹ چاکلیٹ کھجور",
+      "ms": "Kurma Coklat Putih",
+      "bn": "হোয়াইট চকলেট খেজুর",
+      "id": "Kurma Cokelat Putih"
+    },
+    "teaser": {
+      "ar": "تمرات مغطاة بالشوكولاتة البيضاء، مناسبة لصندوق الهدايا والتقديم العصري.",
+      "en": "Dates coated in white chocolate, designed for modern gifting and elegant presentation.",
+      "fr": "Dattes enrobées de chocolat blanc, conçues pour un cadeau moderne et une présentation élégante.",
+      "tr": "Modern hediyeleşme ve zarif sunum için beyaz çikolataya batırılmış hurmalar.",
+      "ur": "وائٹ چاکلیٹ میں لیپت کھجوریں — جدید تحفوں اور نفیس پیشکش کے لیے۔",
+      "ms": "Kurma bersalut coklat putih, direka untuk hadiah moden dan penyampaian elegan.",
+      "bn": "হোয়াইট চকলেটে মোড়ানো খেজুর — আধুনিক উপহার ও নিখুঁত উপস্থাপনার জন্য।",
+      "id": "Kurma dilapisi cokelat putih, dirancang untuk hadiah modern dengan penyajian elegan."
+    },
+    "images": [
+      "/images/gifts/white-chocolate-dates.jpg",
+      "/images/gifts/white-chocolate-dates__2.jpg",
+      "/images/gifts/white-chocolate-dates__3.jpg"
+    ],
+    "price": {
+      "amount": 65,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 75,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "badges": [
+      {
+        "ar": "عرض تجريبي",
+        "en": "Demo offer",
+        "fr": "Offre démo",
+        "tr": "Demo teklif",
+        "ur": "ڈیمو پیشکش",
+        "ms": "Tawaran demo",
+        "bn": "ডেমো অফার",
+        "id": "Penawaran demo"
+      },
+      {
+        "ar": "هدايا عصرية",
+        "en": "Modern gifting"
+      }
+    ],
+    "contentStatus": "demo",
+    "category": "date-products",
+    "sizeLabel": {
+      "ar": "200 جم",
+      "en": "200 g"
+    }
+  }
+]

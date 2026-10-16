@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+ * Design tokens — V1 art direction (ivory / forest-green / gold / date-brown).
+ * Typography: Amiri (Arabic display), Marcellus (Latin display),
+ * IBM Plex Sans Arabic (Arabic UI), Inter (Latin UI).
+ * Font variables are injected by `next/font/google` in `app/[locale]/layout.tsx`.
+ * ------------------------------------------------------------------------- */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Brand palette */
+  --color-ivory: #fbf5ee;
+  --color-ivory-deep: #f4ead9;
+  --color-cream: #f7efe1;
+  --color-forest: #1d3826;
+  --color-forest-deep: #122517;
+  --color-forest-soft: #2e5238;
+  --color-gold: #dec390;
+  --color-gold-deep: #b89a63;
+  --color-gold-light: #eddcb9;
+  --color-date: #6b3f1d;
+  --color-date-deep: #4a2a12;
+  --color-date-soft: #8a5a33;
+  --color-charcoal: #23211d;
+  /* `#756d60` measured 4.32:1 on the cream band (`gold-light/40`) used by the
+     stats block — just under the 4.5:1 AA threshold for small text. `#6f6659`
+     is the same hue one step darker: 5.2:1 on ivory, 4.8:1 on that cream. */
+  --color-muted: #6f6659;
+  --color-line: #e6dbc8;
+
+  /* Semantic */
+  --color-surface: #ffffff;
+  --color-surface-raised: var(--color-ivory);
+  --color-accent: var(--color-gold);
+  --color-success: #2f6b45;
+  --color-warning: #b4703a;
+  --color-danger: #9a3b2f;
+
+  /* Announcement marquee accent (PO 2026-09) — out-of-brand attract color */
+  --color-bordeaux: #7d1f2a;
+  --color-bordeaux-deep: #59141d;
+
+  /* Fonts (overridden at runtime by next/font variables) */
+  --font-arabic: var(--font-amiri), "Times New Roman", serif;
+  --font-arabic-ui: var(--font-ibm-plex-arabic), "Segoe UI", Tahoma, sans-serif;
+  --font-display: var(--font-marcellus), "Times New Roman", serif;
+  --font-latin: var(--font-inter), "Helvetica Neue", Arial, sans-serif;
+  --font-urdu: var(--font-urdu), "Noto Nastaliq Urdu", "Times New Roman", serif;
+  --font-bengali:
+    var(--font-bengali), "Noto Sans Bengali", "Segoe UI", sans-serif;
+}
+
+/* Base surface — warm ivory, dark charcoal text (premium, print-like). */
+:root {
+  --background: var(--color-ivory);
+  --foreground: var(--color-charcoal);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-latin);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Arabic-first: when `lang` is Arabic, use Arabic UI/display faces. */
+[lang="ar"] body {
+  font-family: var(--font-arabic-ui);
+}
+
+[lang="ar"] h1,
+[lang="ar"] h2,
+[lang="ar"] .font-display {
+  font-family: var(--font-arabic);
+}
+
+/* Urdu is RTL too — Nastaliq UI face. */
+[lang="ur"] body {
+  font-family: var(--font-urdu);
+}
+
+[lang="ur"] h1,
+[lang="ur"] h2,
+[lang="ur"] .font-display {
+  font-family: var(--font-urdu);
+}
+
+/* Bengali UI face. */
+[lang="bn"] body {
+  font-family: var(--font-bengali);
+}
+
+[lang="bn"] h1,
+[lang="bn"] h2,
+[lang="bn"] .font-display {
+  font-family: var(--font-bengali);
+}
+
+/* Latin display headings. */
+h1,
+h2 {
+  font-family: var(--font-display);
+}
+
+/* Arabic overrides display headings back to Amiri (selector specificity above). */
+
+/* Focus ring — accessible, visible on ivory. */
+:focus-visible {
+  outline: 2px solid var(--color-forest);
+  outline-offset: 2px;
+}
+
+/* Typographic refinements. */
+.font-arabic-display {
+  font-family: var(--font-arabic);
+}
+
+.font-latin-display {
+  font-family: var(--font-display);
+}
+
+/* Decorative gold hairline used under section titles. */
+.rule-gold {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-gold),
+    transparent
+  );
+}
+
+/* Skip link (a11y). */
+.skip-link {
+  position: absolute;
+  inset-inline-start: 1rem;
+  top: -3rem;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: var(--color-forest);
+  color: var(--color-ivory);
+  border-radius: 0.375rem;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* ---------------------------------------------------------------------------
+ * Announcement marquee (PO 2026-09): seamless infinite scroll.
+ * `--marquee-duration` can be tuned per breakpoint; reduced-motion pauses it.
+ * The track holds two identical halves, so a -50% translate loops seamlessly
+ * in both LTR and RTL (the halves are indistinguishable).
+ * ------------------------------------------------------------------------- */
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee-scroll var(--marquee-duration, 30s) linear infinite;
+}
+
+.marquee-track[data-dir="rtl"] {
+  animation-direction: reverse;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track,
+  .marquee-track[data-dir="rtl"] {
+    animation: none;
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "titleTemplate": "%s | Al Nakhlah Al Mubarakah — Medine'den premium hurmalar",
+    "defaultTitle": "Al Nakhlah Al Mubarakah — Medine'den premium hurmalar",
+    "description": "Medine'nin en seçkin hurmaları, premium seçkiler ve hediyelik kutular — Suudi misafirperverliği ruhuyla."
+  },
+  "common": {
+    "brand": "Al Nakhlah Al Mubarakah",
+    "brandFull": "Al Nakhlah Al Mubarakah — Medine'den premium hurmalar",
+    "tagline": "Medine hurmaları, unutulmaz bir tat",
+    "demoPricesBanner": "Önizleme mağazası — fiyatlar ve teklifler sohbette onaylanır.",
+    "demoBadge": "Demo",
+    "skipToContent": "İçeriğe atla",
+    "loading": "Yükleniyor…",
+    "notFoundTitle": "Sayfa bulunamadı",
+    "notFoundBody": "Üzgünüz, aradığınız şeyi bulamadık. Ana sayfaya dönebilirsiniz.",
+    "backToHome": "Ana sayfaya dön",
+    "currency": "SAR",
+    "perKg": "kg",
+    "dialogClose": "Kapat",
+    "menuOpen": "Menüyü aç",
+    "menuClose": "Menüyü kapat",
+    "languageLabel": "Dil",
+    "errorTitle": "Bir sorun oluştu",
+    "errorBody": "Üzgünüz — teknik bir aksaklık. Lütfen tekrar deneyin.",
+    "retry": "Tekrar dene",
+    "copyFailed": "Kopyalama başarısız",
+    "notFoundBrowse": "Bölümlere göz atın",
+    "notFoundOtherLanguages": "Ya da başka bir dilde devam edin:",
+    "photoToConfirm": "Fotoğraf onay bekliyor"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "dates": "Hurmalarımız",
+    "gifts": "Hediyelik Kutular",
+    "guide": "Hurma Rehberi",
+    "blog": "Blog",
+    "story": "Hikayemiz",
+    "contact": "İletişim",
+    "faq": "SSS",
+    "cart": "Sepet",
+    "cartCount": "Ürün",
+    "whatsapp": "WhatsApp ile Sipariş Ver",
+    "switchToEn": "English",
+    "switchToAr": "العربية"
+  },
+  "hero": {
+    "eyebrow": "Medine hurmaları, unutulmaz bir tat",
+    "titleLine1": "Premium hurmalar",
+    "titleLine2": "Medine'nin kalbinden",
+    "subtitle": "Medine Merkezi Hurma Pazarı'ndan özenle seçilmiş en iyi hurmalar ve lüks hediyelik kutular.",
+    "heroImageAlt": "Al Nakhlah Al Mubarakah premium hurma seçkisi",
+    "badgeDemo": "Önizleme mağazası — fiyatlar ve teklifler sohbette onaylanır",
+    "ctaOrderAjwaMedina": "Medine Ajwa Sipariş Ver",
+    "ctaOrderAjwaAaliya": "Ajwa Aaliya Sipariş Ver",
+    "ctaOrderMedjool": "Medjool Hurması Sipariş Ver"
+  },
+  "home": {
+    "categoriesEyebrow": "Koleksiyonlarımız",
+    "categoriesTitle": "Neler sunuyoruz",
+    "categoriesSubtitle": "Her durum için özgünlük ve lüksü bir araya getiren üç koleksiyon.",
+    "reassuranceEyebrow": "Neden Al Nakhlah Al Mubarakah",
+    "reassuranceTitle": "Suudi misafirperverliğine layık kalite",
+    "reassuranceSubtitle": "Çeşitlerimizi özenle seçiyor, fiyat onaylanana kadar şeffaf fiyatlar sunuyoruz.",
+    "reassuranceItems": {
+      "selection": {
+        "title": "Özenle seçilmiş çeşitler",
+        "text": "Medine Merkez Hurma Pazarı'ndan en iyi Suudi çeşitlerini seçiyoruz."
+      },
+      "gifting": {
+        "title": "Hediye etmesi keyifli kutular",
+        "text": "Ramazan, Bayram, düğünler ve ziyaretler için hazır hediye kutuları ve koleksiyonlar."
+      },
+      "service": {
+        "title": "WhatsApp ile sipariş",
+        "text": "WhatsApp üzerinden doğrudan sipariş verin, teslimatınız kolayca size ulaşsın."
+      },
+      "transparency": {
+        "title": "Tam şeffaflık",
+        "text": "Fiyatlarımız mağazanın güncel fiyatlarıdır — her sipariş sohbette sizinle onaylanır."
+      }
+    },
+    "stats": {
+      "years": {
+        "value": "+25",
+        "label": "yıllık deneyim"
+      },
+      "clients": {
+        "value": "+2000",
+        "label": "memnun müşteri"
+      },
+      "varieties": {
+        "value": "24",
+        "label": "rehberdeki çeşit"
+      },
+      "location": {
+        "value": "Hurma Pazarı",
+        "label": "Medine"
+      }
+    },
+    "demoNote": "Aşağıdaki rakamlar önceki siteden alınmıştır ve onaya kadar geçici olarak gösterilir:",
+    "demoPricesCta": "Spesifikasyonları doğrulamak için iletişime geçin",
+    "featuredEyebrow": "Öne çıkanlarımız",
+    "featuredTitle": "Çok satanlar",
+    "featuredSubtitle": "En çok talep edilen hurma ve hediyelik kutularımızdan bir seçki.",
+    "viewAll": "Tümünü gör",
+    "explore": "Keşfet",
+    "countDates": "{count} çeşit",
+    "countGifts": "{count} hediye fikri",
+    "aboutEyebrow": "Hikayemiz",
+    "aboutTitle": "Medine hurma pazarının kalbinde",
+    "aboutText": "Nesillerdir premium hurma ticaretiyle uğraşan bir Medine hurma dükkanı. Elle seçim, garantili kalite ve dürüst hizmet — her çeşidi Merkezi Hurma Pazarı'nda kendimiz seçiyoruz.",
+    "aboutCta": "Hikayemizi keşfedin",
+    "dateSweetsTitle": "Hurma Tatlıları ve Ürünleri",
+    "countDateSweets": "{count} tatlı & hurma ürünü"
+  },
+  "guide": {
+    "eyebrow": "Hurma Rehberi",
+    "title": "Dünyadan 24 hurma çeşidi",
+    "subtitle": "Her çeşidi tanıyın: kökenleri, dokusu, tadı ve saklanması.",
+    "readMore": "Daha fazla",
+    "backToList": "Rehbere dön",
+    "textures": {
+      "soft": "Yumuşak",
+      "semi-soft": "Yarı kuru",
+      "dry": "Kuru"
+    },
+    "regions": {
+      "maghreb": "Mağrip",
+      "mashriq": "Maşrık",
+      "gulf": "Körfez",
+      "iran": "İran",
+      "oman": "Umman",
+      "egypt": "Mısır"
+    },
+    "regionLabel": "Bölge",
+    "timeline": "Çeşidin yolculuğu",
+    "strengths": "Başlıca özellikler",
+    "taste": "Tat",
+    "nutrition": "Besin değeri (100 g başına)",
+    "prices": "Piyasada gösterge fiyatlar",
+    "resources": "Daha fazla bilgi",
+    "buyThis": "Bu çeşidi sipariş et",
+    "showingPrice": "Gösterge fiyat",
+    "prev": "Önceki çeşit",
+    "next": "Sonraki çeşit",
+    "regionsLabel": "Bölgeye göre keşfet",
+    "regionInformational": "Not: Aşağıdaki fiyat aralıkları gösterge niteliğindeki piyasa verileridir; mağaza teklifi değildir."
+  },
+  "dates": {
+    "eyebrow": "Hurmalar",
+    "title": "Hurma koleksiyonu",
+    "subtitle": "Medine'den ve Krallık genelinde fiili mevcudiyete göre seçilmiş Suudi hurma çeşitleri.",
+    "categoriesLabel": "Hurma kategorileri",
+    "categories": {
+      "medina": "Medine Hurmaları",
+      "kingdom": "Krallık Hurmaları"
+    },
+    "originMedina": "Medine'den",
+    "originKingdom": "Krallıktan",
+    "otherVarietiesTitle": "Diğer hurma çeşitleri"
+  },
+  "gifts": {
+    "eyebrow": "Hediyelik Kutular",
+    "title": "Hediyelik kutu koleksiyonu",
+    "subtitle": "Her durum için hediyelik kutular ve koleksiyonlar.",
+    "categoriesLabel": "Hediyelik kutu kategorileri",
+    "categories": {
+      "personal": "Kişisel Hediyeler",
+      "occasions": "Özel Gün Hediyeleri",
+      "date-products": "Hurma Ürünleri"
+    },
+    "occasions": {
+      "visit": "Ziyaret",
+      "ramadan": "Ramazan",
+      "eid": "Bayram",
+      "wedding": "Özel gün"
+    }
+  },
+  "product": {
+    "addToCart": "Sepete Ekle",
+    "orderViaWhatsapp": "WhatsApp ile Sipariş Ver",
+    "weightOptions": "Bir boyut seçin",
+    "weightLabel": "Ağırlık (kg)",
+    "weightPlaceholder": "Bir ağırlık girin veya seçin",
+    "weightHint": "Standart paketler: 0,5 · 1 · 3 · 7 · 20 kg (3 ve 7 kg kartonlar)",
+    "kg": "kg",
+    "estimatedPrice": "Tahmini fiyat",
+    "weightSuggestions": "Standart ağırlıklar",
+    "weightInvalid": "Geçerli bir ağırlık girin (en az 0,5 kg)",
+    "outOfStock": "Şu anda stokta yok",
+    "preorder": "Ön sipariş",
+    "inStock": "Stokta",
+    "demoOffer": "Demo teklif",
+    "fromTheGuide": "Hurma rehberinden",
+    "viewGuide": "Rehberde ayrıntıları gör",
+    "details": "Detaylar",
+    "contents": "Kutu içeriği",
+    "backToCatalog": "Listeye dön",
+    "origin": "Menşei",
+    "texture": "Doku",
+    "pricePerKg": "kg başına",
+    "related": "Bunları da beğenebilirsiniz",
+    "size": "Boyut",
+    "occasion": "Durum",
+    "galleryPrev": "Önceki görsel",
+    "galleryNext": "Sonraki görsel",
+    "availabilityToConfirm": "Uygunluk talep üzerine doğrulanır",
+    "gradeLabel": "Sınıf / kalibre",
+    "ajwaFamilyTitle": "Ajwa",
+    "bulkOrderText": "Büyük siparişler için (200 kg üzeri)",
+    "bulkOrderLink": "buraya tıklayın"
+  },
+  "cart": {
+    "title": "Sepetiniz",
+    "empty": "Sepetiniz şu anda boş.",
+    "subtotal": "Ara toplam",
+    "shipping": "Kargo",
+    "discount": "İndirim",
+    "total": "Toplam",
+    "checkout": "Siparişi Tamamla",
+    "viewCart": "Sepeti Görüntüle",
+    "continueShopping": "Alışverişe Devam Et",
+    "increase": "Miktarı artır",
+    "decrease": "Miktarı azalt",
+    "remove": "Sepetten çıkar",
+    "freeShipping": "Medine içinde ücretsiz (200 SAR üzeri faturalar)",
+    "shippingToConfirm": "Sohbette onaylanır (Medine içi ~20 SAR)"
+  },
+  "checkout": {
+    "title": "Siparişi tamamla",
+    "demoNotice": "Önizleme modu — hiçbir tutar tahsil edilmez. Siparişiniz WhatsApp üzerinden doğrulanır.",
+    "customerName": "Ad Soyad",
+    "customerPhone": "Telefon numarası",
+    "customerEmail": "E-posta (isteğe bağlı)",
+    "customerCity": "Şehir",
+    "customerAddress": "Adres",
+    "deliveryMode": "Teslimat şekli",
+    "delivery": "Kargo",
+    "pickup": "Mağazadan teslim",
+    "paymentMethod": "Ödeme yöntemi",
+    "placeOrder": "Siparişi WhatsApp'tan Gönder",
+    "sending": "Gönderiliyor…",
+    "success": "Siparişiniz hazır! Detayları doğrulamak için sizinle iletişime geçeceğiz.",
+    "error": "Sipariş gönderilemedi. Tekrar deneyin veya doğrudan bize ulaşın.",
+    "bankTransfer": "Banka havalesi",
+    "iban": "IBAN",
+    "beneficiary": "Hesap sahibi",
+    "onlineSoon": "Yakında",
+    "paymentDemoNote": "Önizleme modunda hiçbir tutar tahsil edilmez — sipariş özeti WhatsApp'a gönderilir.",
+    "cartEmpty": "Sepetiniz boş — önce ürün ekleyin.",
+    "backToCatalog": "Hurmaları gör",
+    "continue": "Alışverişe devam et",
+    "notes": "Notlar",
+    "subtotal": "Ara toplam",
+    "total": "Toplam",
+    "whatsapp": "WhatsApp",
+    "cod": "Kapıda ödeme",
+    "bank-transfer": "Banka havalesi",
+    "online": "Online ödeme",
+    "bankName": "Banka adı",
+    "bankPending": "Hesap bilgileri doğrulanıyor — havale detaylarını WhatsApp üzerinden size göndereceğiz.",
+    "shipping": "Kargo",
+    "freeShipping": "Medine içinde ücretsiz (200 SAR üzeri faturalar)",
+    "shippingToConfirm": "Sohbette onaylanır (Medine içi ~20 SAR)"
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Sorularınız ve siparişleriniz için hafta boyunca yanınızdayız.",
+    "whatsapp": "WhatsApp",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "address": "Adres",
+    "atTheStore": "Mağazada",
+    "hours": "Çalışma saatleri",
+    "hoursNote": "Çalışma saatleri doğrulandıktan sonra yayınlanacaktır.",
+    "followUs": "Bizi takip edin",
+    "formTitle": "Mesaj gönder",
+    "formName": "Adınız",
+    "formMessage": "Mesajınız",
+    "formSend": "WhatsApp'tan Gönder",
+    "formHint": "Mesajınız hazır bir şekilde WhatsApp sohbeti açılacaktır."
+  },
+  "story": {
+    "eyebrow": "Hikayemiz",
+    "title": "Medine pazarından… sofranıza",
+    "lead": "Al Nakhlah Al Mubarakah, Medine Merkezi Hurma Pazarı'nın kalbinde aile işletmesi bir premium hurma dükkanıdır.",
+    "body1": "Her çeşidi en güzel hasatlardan elle seçiyor ve Suudi misafirperverliği ruhuyla taze ve özenle paketlenmiş şekilde size ulaştırıyoruz.",
+    "body2": "Bizim için hurmalar bir kimlik ve tarih parçasıdır — bu yüzden satışın ötesinde, her çeşidin kökenini, tadını ve saklanmasını anlatan bir rehber tutuyoruz; böylece bilinçli ve güvenle seçim yaparsınız.",
+    "valuesTitle": "Bizim için değerli olanlar",
+    "cta": "Koleksiyonlarımızı keşfedin",
+    "visitUs": "Mağazamızı ziyaret edin",
+    "addressLabel": "Mağaza adresi"
+  },
+  "faq": {
+    "eyebrow": "SSS",
+    "title": "Sık sorulan sorular",
+    "subtitle": "En sık sorulan soruların yanıtları — mağazanın resmi içeriğinden alınmıştır.",
+    "cta": "Sorunuzun yanıtını bulamadınız mı? WhatsApp üzerinden doğrudan bize ulaşın.",
+    "items": [
+      {
+        "q": "Nereye teslimat yapıyorsunuz?",
+        "a": "Medine içinde 200 SAR üzeri faturalarda teslimat ücretsizdir; altında ücret (~20 SAR) sohbette kararlaştırılır. Medine dışında teslimat, varış noktasına göre WhatsApp üzerinden sizinle ayarlanır. Detaylar ve zamanlama sohbette kararlaştırılır."
+      },
+      {
+        "q": "Nasıl sipariş veririm?",
+        "a": "İstediklerinizi sepete ekleyin, ardından siparişi tamamlayın: teslim ve ödeme yönteminizi seçip bize gönderin. Sipariş bize doğrudan ulaşan hazır bir WhatsApp mesajına dönüşür."
+      },
+      {
+        "q": "Fiyatlarınız kesin mi?",
+        "a": "Gösterilen fiyatlar mağazanın kilo başına güncel fiyatlarıdır. Siparişiniz, sohbette (WhatsApp) sizinle onaylandığında kesinleşir. Miktar, ağırlık ve sınıfa göre tam fiyat için WhatsApp'tan sorun veya mağazayı ziyaret edin."
+      },
+      {
+        "q": "Hediye paketi sunuyor musunuz?",
+        "a": "Siparişleri, taşınma sırasında hurmayı koruyan ve siparişin türüne, miktarına ve vesilesine göre uyarlanan pratik bir ambalajda hazırlarız."
+      },
+      {
+        "q": "Hurma çeşitleri arasındaki fark nedir?",
+        "a": "Her çeşidin benzersiz bir tadı ve dokusu vardır. Her birini tanıyın: köken, tarih, tat ve besin değeri — « Hurma Rehberi »nde açıklanmaktadır."
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Blog",
+    "subtitle": "Medine hurma butiğimizden rehberler, ipuçları ve hikâyeler.",
+    "empty": "Henüz yazı yok — dergimiz yakında yayında.",
+    "back": "Dergiye dön",
+    "published": "Yayınlandı",
+    "readMore": "Devamını oku",
+    "faq": "SSS",
+    "categories": {
+      "ramadan": "Ramazan",
+      "nutrition": "Beslenme",
+      "recipes": "Tarifler",
+      "story": "Hikâyemiz"
+    },
+    "shopProducts": "Bu ürünleri satın alın",
+    "discover": "Keşfet"
+  },
+  "footer": {
+    "about": "Medine Merkezi Hurma Pazarı'nda premium hurma dükkanı.",
+    "quickLinks": "Hızlı bağlantılar",
+    "categories": "Koleksiyonlar",
+    "categoriesDates": "Hurmalar",
+    "categoriesGifts": "Hediyelik Kutular",
+    "categoriesGuide": "Hurma Rehberi",
+    "contactTitle": "İletişim",
+    "socialsTitle": "Bizi takip edin",
+    "locationTitle": "Mağaza adresi",
+    "openMap": "Haritayı aç",
+    "getDirections": "Google Maps'te yol tarifi",
+    "rights": "Tüm hakları saklıdır",
+    "demoNote": "Önizleme mağazası — fiyatlar ve teklifler sohbette onaylanır.",
+    "madeWith": "Medine'de sevgiyle yapıldı",
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "legal": "Yasal"
+  },
+  "whatsapp": {
+    "greeting": "Merhaba Al Nakhlah Al Mubarakah 👋 Ürünleriniz hakkında bilgi almak istiyorum.",
+    "orderPrefix": "Al Nakhlah Al Mubarakah sitesinden yeni sipariş:",
+    "orderProduct": "Al Nakhlah Al Mubarakah siparişi: {product} — {option}",
+    "help": "Merhaba, aradığım sayfayı bulamadım."
+  },
+  "seo": {
+    "twitterHandle": "",
+    "siteName": "Al Nakhlah Al Mubarakah — Medine'den premium hurmalar",
+    "openGraphTitle": "Al Nakhlah Al Mubarakah — Medine'den premium hurmalar",
+    "openGraphDescription": "Medine'nin en seçkin hurmaları ve lüks hediyelik kutular — WhatsApp'tan doğrudan sipariş verin."
+  },
+  "announcement": {
+    "label": "Teslimat duyurusu",
+    "text": "Medine içinde 200 SAR üzeri ücretsiz teslimat — diğer teslimatlar ve teklifler sohbette onaylanır"
+  },
+  "ajwa": {
+    "eyebrow": "Koleksiyonun Yıldızı",
+    "title": "Medine Ajwa",
+    "lead": "Peygamber (s.a.v.) tarafından adıyla anılan hurma: Medine'nin kapısındaki Kuba bahçelerinde yetişir ve koruyucu faziletleri rivayet edilen tek çeşittir. Küçük siyah bir meyve; yoğun, eriyen eti ve olağanüstü antioksidan zenginliği.",
+    "bullets": [
+      "Küçük siyah bir meyve; ipeksi parlaklık ve pürüzsüz kabuk.",
+      "Ağızda eriyen yoğun, az lifli et.",
+      "Olağanüstü polifenol zenginliği — iftar ve misafir ağırlama için ideal."
+    ],
+    "priceLabel": "15–45 SAR/kg — sohbette onaylanır",
+    "ctaBuy": "Medine Ajwa Sipariş Ver",
+    "readArticles": "Blogda daha fazlası"
+  },
+  "bank": {
+    "title": "Banka havalesi bilgileri",
+    "intro": "Sipariş tutarını aşağıdaki banka hesabına gönderebilir, ardından siparişinizi hazırlamamız için havale bildirimini WhatsApp üzerinden bize iletebilirsiniz. Bu sitede çevrimiçi ödeme yoktur ve onayınız olmadan hiçbir tahsilat yapılmaz.",
+    "bankName": "Banka adı",
+    "accountName": "Hesap sahibi",
+    "iban": "IBAN",
+    "accountNumber": "Hesap numarası",
+    "copyValue": "Kopyala",
+    "copyIban": "IBAN kopyala",
+    "copied": "Kopyalandı",
+    "referenceNote": "Havale formunda açıklama alanı varsa adınızı ve sipariş numaranızı yazın; böylece ödeme açık bir referansla bize ulaşır.",
+    "provenance": "Bu bilgiler {bank} tarafından {date} tarihinde düzenlenen resmi IBAN sertifikasından alınmıştır — referans {ref}.",
+    "pendingTitle": "Banka hesap bilgileri doğrulanıyor",
+    "pendingBody": "Hesap bilgilerini yayımlamadan önce doğruluyoruz. WhatsApp üzerinden bize ulaşın, bilgileri doğrudan size iletelim.",
+    "whatsappAsk": "WhatsApp üzerinden hesap bilgilerini isteyin"
+  },
+  "payment": {
+    "title": "Ödeme yöntemi",
+    "intro": "Bu sitede çevrimiçi ödeme yoktur. Kullanılabilir yöntemler: banka havalesi veya anlaşmaya bağlı olarak kapıda ödeme.",
+    "stepsTitle": "Banka havalesi adımları",
+    "step1": "Siparişi tamamlarken “Banka havalesi”ni seçin; IBAN'ınız gösterilir.",
+    "step2": "Sipariş tutarını banka uygulamasından veya şubeden gönderin ve havale makbuzunu saklayın.",
+    "step3": "Adınızı ve sipariş numaranızı belirterek WhatsApp üzerinden havale bildirimini bize iletin.",
+    "step4": "Ödemenin ulaştığını onaylar, ardından teslim veya mağazadan teslim üzerine birlikte karar vererek siparişinizi hazırlarız.",
+    "noOnlineTitle": "Neden çevrimiçi ödeme yok?",
+    "noOnlineBody": "Ödeme koşulları doğrulanana kadar hiçbir ödeme altyapısı göstermiyoruz. O süreye kadar hiçbir yerden tahsilat yapılmaz: sipariş WhatsApp veya banka havalesi ile tamamlanır.",
+    "metaTitle": "Ödeme yöntemi — banka havalesi",
+    "metaDescription": "Medine'deki Al Nakhlah Al Mubarakah mağazasında kullanılabilir ödeme yöntemleri: banka havalesi ve kapıda ödeme. Çevrimiçi ödeme yoktur ve onayınız olmadan hiçbir tahsilat yapılmaz."
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "intro": "Sipariş sırasında ne topladığımızın, nedeninin ve asla toplamadıklarımızın kısa ve açık özeti — gizli koşul yok.",
+    "metaTitle": "Gizlilik Politikası — Al Nakhlah Al Mubarakah",
+    "metaDescription": "Checkout işlemimiz ne toplar ve neden; asla yapmadıklarımız: çevrimiçi ödeme yok, veri paylaşımı yok, analitik yok.",
+    "sections": [
+      {
+        "heading": "Siparişte toplananlar",
+        "body": "Sipariş verildiğinde ad, cep telefonu, e-posta ve adres (teslim alma veya kargo için) toplanır. Sitede çevrimiçi ödeme olmadığından kart bilgisi alınmaz."
+      },
+      {
+        "heading": "Neden",
+        "body": "Siparişi hazırlamak, WhatsApp'tan havale dekontu istemek, teslim almayı/kargoyu ayarlamak ve soruları e-postayla yanıtlamak için."
+      },
+      {
+        "heading": "Asla yapmadıklarımız",
+        "body": "Verilerinizi satmayız, üçüncü taraflarla paylaşmayız, reklam/analiz hizmetlerine göndermeyiz ve mağazanın kendi yazışmaları (WhatsApp/e-posta) dışında saklamayız."
+      },
+      {
+        "heading": "Saklama",
+        "body": "Sipariş yazışmaları mağazada tutulur ve isteğiniz üzerine silinir. Genel bir müşteri veritabanı yoktur."
+      },
+      {
+        "heading": "İletişim",
+        "body": "Verilerinizle ilgili her talepte: WhatsApp +966 59 610 1097 veya nakhla.mubaraka26@gmail.com"
+      },
+      {
+        "heading": "Tüzel kişilik",
+        "body": "مؤسسة النخلة المباركة للتجارة — Ticari Sicil 7043497630, Medine."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Kullanım Koşulları",
+    "intro": "Site ve siparişler için kısa kurallar: kabul edilen her şey konuşmada doğrulanır.",
+    "metaTitle": "Kullanım Koşulları — Al Nakhlah Al Mubarakah",
+    "metaDescription": "Sipariş kuralları: konuşmada doğrulama, banka havalesi, çevrimiçi ödeme yok ve sabit teslimat süresi yok.",
+    "sections": [
+      {
+        "heading": "Siparişler",
+        "body": "Katalogdaki fiyatlar geçerli fiyatlardır. Hiçbir sipariş, sizinle konuşmada (WhatsApp) doğrulanmadan kesinleşmez."
+      },
+      {
+        "heading": "Ödeme",
+        "body": "Yöntemler: banka havalesi veya kararlaştırılan başka düzenleme. Çevrimiçi ödeme yoktur, otomatik kart tahsilatı yoktur."
+      },
+      {
+        "heading": "Teslim alma & kargo",
+        "body": "Mağazadan teslim veya anlaşılan şekilde kargo — çoğunlukla Medine'de. Sabit teslimat süresi duyurmuyoruz."
+      },
+      {
+        "heading": "İptal & iade",
+        "body": "Gönderimden önce konuşmada çözülür; teslimden sonra duruma ve anlaşmaya göre işlenir."
+      },
+      {
+        "heading": "İletişim",
+        "body": "WhatsApp +966 59 610 1097 — nakhla.mubaraka26@gmail.com"
+      }
+    ]
+  },
+  "bulkOrder": {
+    "eyebrow": "Toptan Siparişler",
+    "title": "Büyük Siparişler (200 kg üzeri)",
+    "greeting": "Al Nakhlah Al Mubarakah'a hoş geldiniz 🌴 Büyük siparişlerinizde size hizmet etmekten mutluluk duyarız.",
+    "intro": "Lütfen aşağıdaki formu doldurun; size en kısa sürede dönüş yapacağız",
+    "fullName": "Ad Soyad",
+    "city": "Şehir",
+    "phone": "Telefon / WhatsApp Numarası",
+    "quantity": "Talep Edilen Miktar",
+    "variety": "İstenen Tür",
+    "grade": "Sınıf / Kalite",
+    "fullNamePh": "Adınızı girin",
+    "cityPh": "Şehrinizi girin",
+    "phonePh": "örn. +966 5XX XXX XXXX",
+    "quantityPh": "örn. 500 kg",
+    "varietyPh": "örn. Ajwa, Sukkari, Medjool",
+    "gradePh": "örn. Premium, Orta",
+    "submitWhatsApp": "WhatsApp ile Gönder",
+    "submitEmail": "E-posta ile kopya gönder",
+    "emailNote": "Takip ve arşiv için kopya e-postamıza (nakhla.mubaraka26@gmail.com) gönderilir.",
+    "message": "Toptan sipariş talebi — Al Nakhlah Al Mubarakah:\nAd Soyad: {name}\nŞehir: {city}\nTelefon / WhatsApp: {phone}\nTalep edilen miktar: {quantity}\nİstenen tür: {variety}\nSınıf: {grade}",
+    "emailSubject": "Toptan sipariş talebi — {name}"
+  }
+}

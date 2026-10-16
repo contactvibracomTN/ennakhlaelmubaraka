@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "titleTemplate": "%s | Al Nakhlah Al Mubarakah — Kurma premium dari Madinah",
+    "defaultTitle": "Al Nakhlah Al Mubarakah — Kurma premium dari Madinah",
+    "description": "Kurma terbaik Madinah, pilihan premium dan kotak hadiah — dalam semangat layanan tetamu Arab Saudi."
+  },
+  "common": {
+    "brand": "Al Nakhlah Al Mubarakah",
+    "brandFull": "Al Nakhlah Al Mubarakah — Kurma premium dari Madinah",
+    "tagline": "Kurma Madinah, rasa yang tidak dapat dilupakan",
+    "demoPricesBanner": "Kedai pratonton — harga dan tawaran disahkan dalam perbualan.",
+    "demoBadge": "Demo",
+    "skipToContent": "Terus ke kandungan",
+    "loading": "Memuat…",
+    "notFoundTitle": "Halaman tidak ditemui",
+    "notFoundBody": "Maaf, kami tidak menjumpai apa yang anda cari. Kembali ke laman utama.",
+    "backToHome": "Kembali ke laman utama",
+    "currency": "SAR",
+    "perKg": "kg",
+    "dialogClose": "Tutup",
+    "menuOpen": "Buka menu",
+    "menuClose": "Tutup menu",
+    "languageLabel": "Bahasa",
+    "errorTitle": "Berlaku ralat",
+    "errorBody": "Maaf — gangguan teknikal. Sila cuba lagi.",
+    "retry": "Cuba lagi",
+    "copyFailed": "Salin gagal",
+    "notFoundBrowse": "Lihat bahagian",
+    "notFoundOtherLanguages": "Atau teruskan dalam bahasa lain:",
+    "photoToConfirm": "Foto menunggu pengesahan"
+  },
+  "nav": {
+    "home": "Laman Utama",
+    "dates": "Kurma Kami",
+    "gifts": "Kotak Hadiah",
+    "guide": "Panduan Kurma",
+    "blog": "Blog",
+    "story": "Kisah Kami",
+    "contact": "Hubungi",
+    "faq": "Soalan Lazim",
+    "cart": "Troli",
+    "cartCount": "Item",
+    "whatsapp": "Tempah melalui WhatsApp",
+    "switchToEn": "English",
+    "switchToAr": "العربية"
+  },
+  "hero": {
+    "eyebrow": "Kurma Madinah, rasa yang tidak dapat dilupakan",
+    "titleLine1": "Kurma premium",
+    "titleLine2": "dari jantung Madinah",
+    "subtitle": "Pilihan kurma terbaik dan kotak hadiah mewah dari Pasar Kurma Pusat Madinah.",
+    "heroImageAlt": "Pilihan kurma premium Al Nakhlah Al Mubarakah",
+    "badgeDemo": "Kedai pratonton — harga dan tawaran disahkan dalam perbualan",
+    "ctaOrderAjwaMedina": "Pesan Ajwa Madinah",
+    "ctaOrderAjwaAaliya": "Pesan Ajwa Aaliya",
+    "ctaOrderMedjool": "Pesan Kurma Medjool"
+  },
+  "home": {
+    "categoriesEyebrow": "Koleksi kami",
+    "categoriesTitle": "Apa yang kami tawarkan",
+    "categoriesSubtitle": "Tiga koleksi yang menggabungkan keaslian dan kemewahan, untuk setiap majlis.",
+    "reassuranceEyebrow": "Mengapa Al Nakhlah Al Mubarakah",
+    "reassuranceTitle": "Kualiti yang setimpal dengan layanan tetamu Arab Saudi",
+    "reassuranceSubtitle": "Kami memilih varieti kami dengan teliti dan mengekalkan harga yang telus sehingga kelulusan.",
+    "reassuranceItems": {
+      "selection": {
+        "title": "Varieti terpilih",
+        "text": "Dari Pasar Kurma Pusat Madinah, kami memilih varieti Arab Saudi terbaik."
+      },
+      "gifting": {
+        "title": "Kotak yang menggembirakan untuk dihadiah",
+        "text": "Kotak hadiah dan koleksi sedia untuk Ramadan, Aidilfitri, majlis perkahwinan dan kunjungan."
+      },
+      "service": {
+        "title": "Tempahan melalui WhatsApp",
+        "text": "Tempah terus melalui WhatsApp dan terima penghantaran anda dengan mudah."
+      },
+      "transparency": {
+        "title": "Ketelusan penuh",
+        "text": "Harga kami ialah harga semasa kedai — setiap pesanan disahkan dengan anda dalam perbualan."
+      }
+    },
+    "stats": {
+      "years": {
+        "value": "+25",
+        "label": "tahun pengalaman"
+      },
+      "clients": {
+        "value": "+2000",
+        "label": "pelanggan berpuas hati"
+      },
+      "varieties": {
+        "value": "24",
+        "label": "varieti dalam panduan"
+      },
+      "location": {
+        "value": "Pasar Kurma",
+        "label": "Madinah"
+      }
+    },
+    "demoNote": "Angka-angka berikut diambil dari laman sebelumnya dan dipaparkan buat sementara sehingga diluluskan:",
+    "demoPricesCta": "Hubungi kami untuk pengesahan spesifikasi",
+    "featuredEyebrow": "Pilihan kami",
+    "featuredTitle": "Terlaris",
+    "featuredSubtitle": "Pilihan kurma dan kotak hadiah kami yang paling mendapat permintaan.",
+    "viewAll": "Lihat semua",
+    "explore": "Terokai",
+    "countDates": "{count} varieti",
+    "countGifts": "{count} idea hadiah",
+    "aboutEyebrow": "Kisah kami",
+    "aboutTitle": "Di jantung pasar kurma Madinah",
+    "aboutText": "Kedai kurma Madinah yang bergiat dalam perdagangan kurma premium sejak turun-temurun. Pilihan tangan, kualiti terjamin dan perkhidmatan jujur — kami memilih sendiri setiap varieti di Pasar Kurma Pusat.",
+    "aboutCta": "Ketahui kisah kami",
+    "dateSweetsTitle": "Manisan & Produk Kurma",
+    "countDateSweets": "{count} manisan & produk kurma"
+  },
+  "guide": {
+    "eyebrow": "Panduan Kurma",
+    "title": "24 varieti kurma dari seluruh dunia",
+    "subtitle": "Kenali setiap varieti: asal, tekstur, rasa dan penyimpanan.",
+    "readMore": "Baca lagi",
+    "backToList": "Kembali ke panduan",
+    "textures": {
+      "soft": "Lembut",
+      "semi-soft": "Separuh kering",
+      "dry": "Kering"
+    },
+    "regions": {
+      "maghreb": "Maghrib",
+      "mashriq": "Mashriq",
+      "gulf": "Teluk",
+      "iran": "Iran",
+      "oman": "Oman",
+      "egypt": "Mesir"
+    },
+    "regionLabel": "Wilayah",
+    "timeline": "Perjalanan varieti",
+    "strengths": "Ciri utama",
+    "taste": "Rasa",
+    "nutrition": "Nutrisi (setiap 100 g)",
+    "prices": "Harga indikatif pasaran",
+    "resources": "Baca lanjut",
+    "buyThis": "Tempah varieti ini",
+    "showingPrice": "Harga indikatif",
+    "prev": "Varieti sebelumnya",
+    "next": "Varieti seterusnya",
+    "regionsLabel": "Terokai mengikut wilayah",
+    "regionInformational": "Nota: julat harga di bawah adalah data pasaran indikatif, bukan tawaran kedai."
+  },
+  "dates": {
+    "eyebrow": "Kurma",
+    "title": "Koleksi kurma",
+    "subtitle": "Varieti Arab Saudi dari Madinah dan seluruh Kerajaan, mengikut ketersediaan sebenar.",
+    "categoriesLabel": "Kategori kurma",
+    "categories": {
+      "medina": "Kurma Madinah",
+      "kingdom": "Kurma Kerajaan"
+    },
+    "originMedina": "Dari Madinah",
+    "originKingdom": "Dari Kerajaan",
+    "otherVarietiesTitle": "Varieti kurma lain"
+  },
+  "gifts": {
+    "eyebrow": "Hadiah",
+    "title": "Koleksi kotak hadiah",
+    "subtitle": "Kotak hadiah dan koleksi untuk setiap majlis.",
+    "categoriesLabel": "Kategori kotak hadiah",
+    "categories": {
+      "personal": "Hadiah Peribadi",
+      "occasions": "Hadiah Majlis",
+      "date-products": "Produk Kurma"
+    },
+    "occasions": {
+      "visit": "Kunjungan",
+      "ramadan": "Ramadan",
+      "eid": "Aidilfitri",
+      "wedding": "Majlis istimewa"
+    }
+  },
+  "product": {
+    "addToCart": "Tambah ke Troli",
+    "orderViaWhatsapp": "Tempah melalui WhatsApp",
+    "weightOptions": "Pilih saiz",
+    "weightLabel": "Berat (kg)",
+    "weightPlaceholder": "Masukkan berat atau pilih satu",
+    "weightHint": "Pakej standard: 0.5 · 1 · 3 · 7 · 20 kg (karton 3 kg dan 7 kg)",
+    "kg": "kg",
+    "estimatedPrice": "Anggaran harga",
+    "weightSuggestions": "Berat standard",
+    "weightInvalid": "Masukkan berat yang sah (sekurang-kurangnya 0.5 kg)",
+    "outOfStock": "Tiada stok buat masa ini",
+    "preorder": "Tempahan awal",
+    "inStock": "Ada stok",
+    "demoOffer": "Tawaran demo",
+    "fromTheGuide": "Dari panduan varieti",
+    "viewGuide": "Lihat butiran dalam panduan",
+    "details": "Butiran",
+    "contents": "Kandungan kotak",
+    "backToCatalog": "Kembali ke senarai",
+    "origin": "Asal",
+    "texture": "Tekstur",
+    "pricePerKg": "Setiap kg",
+    "related": "Anda mungkin juga menyukai",
+    "size": "Saiz",
+    "occasion": "Majlis",
+    "galleryPrev": "Imej sebelumnya",
+    "galleryNext": "Imej seterusnya",
+    "availabilityToConfirm": "Ketersediaan disahkan atas permintaan",
+    "gradeLabel": "Gred / kaliber",
+    "ajwaFamilyTitle": "Ajwa",
+    "bulkOrderText": "Untuk pesanan besar (melebihi 200 kg)",
+    "bulkOrderLink": "klik di sini"
+  },
+  "cart": {
+    "title": "Troli anda",
+    "empty": "Troli anda kini kosong.",
+    "subtotal": "Subjumlah",
+    "shipping": "Penghantaran",
+    "discount": "Diskaun",
+    "total": "Jumlah",
+    "checkout": "Selesaikan Pesanan",
+    "viewCart": "Lihat Troli",
+    "continueShopping": "Terus Membeli",
+    "increase": "Tambah kuantiti",
+    "decrease": "Kurangkan kuantiti",
+    "remove": "Keluarkan dari troli",
+    "freeShipping": "Percuma di Madinah (invois melebihi SAR 200)",
+    "shippingToConfirm": "Sahkan dalam perbualan (~SAR 20 di Madinah)"
+  },
+  "checkout": {
+    "title": "Selesaikan pesanan",
+    "demoNotice": "Mod pratonton — tiada amaun dicaj. Pesanan anda akan disahkan melalui WhatsApp.",
+    "customerName": "Nama penuh",
+    "customerPhone": "Nombor telefon",
+    "customerEmail": "E-mel (pilihan)",
+    "customerCity": "Bandar",
+    "customerAddress": "Alamat",
+    "deliveryMode": "Kaedah penghantaran",
+    "delivery": "Penghantaran",
+    "pickup": "Ambil di kedai",
+    "paymentMethod": "Kaedah pembayaran",
+    "placeOrder": "Hantar Pesanan melalui WhatsApp",
+    "sending": "Menghantar…",
+    "success": "Pesanan anda sedia! Kami akan menghubungi anda untuk pengesahan butiran.",
+    "error": "Pesanan gagal dihantar. Cuba lagi atau hubungi kami terus.",
+    "bankTransfer": "Pindahan bank",
+    "iban": "IBAN",
+    "beneficiary": "Pemegang akaun",
+    "onlineSoon": "Akan datang",
+    "paymentDemoNote": "Dalam mod pratonton tiada amaun dicaj — ringkasan pesanan dihantar ke WhatsApp.",
+    "cartEmpty": "Troli anda kosong — tambah produk dahulu.",
+    "backToCatalog": "Lihat kurma",
+    "continue": "Terus membeli",
+    "notes": "Nota",
+    "subtotal": "Subjumlah",
+    "total": "Jumlah",
+    "whatsapp": "WhatsApp",
+    "cod": "Bayar semasa penghantaran",
+    "bank-transfer": "Pindahan bank",
+    "online": "Pembayaran dalam talian",
+    "bankName": "Nama bank",
+    "bankPending": "Butiran akaun sedang disahkan — kami akan menghantar butiran pemindahan melalui WhatsApp.",
+    "shipping": "Penghantaran",
+    "freeShipping": "Percuma di Madinah (invois melebihi SAR 200)",
+    "shippingToConfirm": "Sahkan dalam perbualan (~SAR 20 di Madinah)"
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Kami sedia menjawab soalan dan pesanan anda sepanjang minggu.",
+    "whatsapp": "WhatsApp",
+    "phone": "Telefon",
+    "email": "E-mel",
+    "address": "Alamat",
+    "atTheStore": "Di kedai",
+    "hours": "Waktu operasi",
+    "hoursNote": "Waktu operasi akan diterbitkan selepas pengesahan.",
+    "followUs": "Ikuti kami",
+    "formTitle": "Hantar mesej",
+    "formName": "Nama anda",
+    "formMessage": "Mesej anda",
+    "formSend": "Hantar melalui WhatsApp",
+    "formHint": "Perbualan WhatsApp akan dibuka dengan mesej anda yang sedia."
+  },
+  "story": {
+    "eyebrow": "Kisah kami",
+    "title": "Dari pasar Madinah… ke meja anda",
+    "lead": "Al Nakhlah Al Mubarakah ialah kedai kurma premium milik keluarga di jantung Pasar Kurma Pusat Madinah.",
+    "body1": "Kami memilih sendiri setiap varieti daripada hasil terbaik dan memastikan ia sampai kepada anda segar serta dibungkus dengan teliti, dalam semangat layanan tetamu Arab Saudi.",
+    "body2": "Bagi kami, kurma adalah sebahagian daripada identiti dan sejarah — justeru di samping jualan, kami menyediakan panduan yang menerangkan asal, rasa dan penyimpanan setiap varieti, agar anda memilih dengan yakin dan berpengetahuan.",
+    "valuesTitle": "Nilai yang kami junjung",
+    "cta": "Terokai koleksi kami",
+    "visitUs": "Kunjungi kedai kami",
+    "addressLabel": "Alamat kedai"
+  },
+  "faq": {
+    "eyebrow": "Soalan Lazim",
+    "title": "Soalan yang kerap ditanya",
+    "subtitle": "Jawapan kepada soalan paling lazim — diambil daripada kandungan rasmi kedai.",
+    "cta": "Tiada jawapan? Hubungi kami terus di WhatsApp.",
+    "items": [
+      {
+        "q": "Ke mana anda menghantar?",
+        "a": "Penghantaran di Madinah adalah percuma untuk invois melebihi SAR 200; di bawah itu, caj (~SAR 20) dipersetujui dalam perbualan. Di luar Madinah, penghantaran diatur dengan anda melalui WhatsApp mengikut destinasi. Butiran dan masa dipersetujui dalam perbualan."
+      },
+      {
+        "q": "Bagaimana cara.tempah?",
+        "a": "Tambah apa yang anda mahu ke dalam troli, kemudian lengkapkan pesanan: pilih cara anda menerima pesanan dan cara pembayaran, lalu hantarkan kepada kami. Pesanan menjadi mesej WhatsApp yang sedia dan terus sampai kepada kami."
+      },
+      {
+        "q": "Adakah harga anda muktamad?",
+        "a": "Harga yang dipaparkan ialah harga semasa kedai per kilogram. Pesanan anda menjadi muktamad setelah disahkan dengan anda dalam perbualan (WhatsApp). Untuk harga tepat mengikut kuantiti, berat dan gred, tanya melalui WhatsApp atau lawati kedai."
+      },
+      {
+        "q": "Adakah anda menyediakan pembungkusan hadiah?",
+        "a": "Kami membungkus pesanan dengan pembungkusan praktikal yang melindungi kurma semasa penghantaran, disesuaikan dengan jenis, kuantiti dan majlis pesanan."
+      },
+      {
+        "q": "Apakah perbezaan antara varieti kurma?",
+        "a": "Setiap varieti mempunyai rasa dan tekstur yang unik. Kenali setiap satu: asal, sejarah, rasa dan nilai nutrisi — diterangkan dalam « Panduan Kurma »."
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Blog",
+    "subtitle": "Panduan, tip dan kisah daripada butik kurma kami di Madinah.",
+    "empty": "Tiada artikel lagi — jurnal kami akan dibuka tidak lama lagi.",
+    "back": "Kembali ke blog",
+    "published": "Diterbitkan",
+    "readMore": "Baca lagi",
+    "faq": "FAQ",
+    "categories": {
+      "ramadan": "Ramadan",
+      "nutrition": "Pemakanan",
+      "recipes": "Resipi",
+      "story": "Kisah kami"
+    },
+    "shopProducts": "Beli produk ini",
+    "discover": "Terokai"
+  },
+  "footer": {
+    "about": "Kedai kurma premium di Pasar Kurma Pusat Madinah.",
+    "quickLinks": "Pautan pantas",
+    "categories": "Koleksi",
+    "categoriesDates": "Kurma",
+    "categoriesGifts": "Kotak Hadiah",
+    "categoriesGuide": "Panduan Kurma",
+    "contactTitle": "Hubungi",
+    "socialsTitle": "Ikuti kami",
+    "locationTitle": "Alamat kedai",
+    "openMap": "Buka peta",
+    "getDirections": "Arah laluan di Google Maps",
+    "rights": "Hak cipta terpelihara",
+    "demoNote": "Kedai pratonton — harga dan tawaran disahkan dalam perbualan.",
+    "madeWith": "Dihasilkan dengan kasih di Madinah",
+    "faqTitle": "Soalan Lazim",
+    "privacy": "Dasar Privasi",
+    "terms": "Syarat Penggunaan",
+    "legal": "Perundangan"
+  },
+  "whatsapp": {
+    "greeting": "Assalamualaikum Al Nakhlah Al Mubarakah 👋 Saya ingin bertanya tentang produk anda.",
+    "orderPrefix": "Pesanan baharu dari laman Al Nakhlah Al Mubarakah:",
+    "orderProduct": "Pesanan Al Nakhlah Al Mubarakah: {product} — {option}",
+    "help": "Helo, saya tidak menemui halaman yang saya cari."
+  },
+  "seo": {
+    "twitterHandle": "",
+    "siteName": "Al Nakhlah Al Mubarakah — Kurma premium dari Madinah",
+    "openGraphTitle": "Al Nakhlah Al Mubarakah — Kurma premium dari Madinah",
+    "openGraphDescription": "Kurma terbaik Madinah dan kotak hadiah mewah — tempah terus melalui WhatsApp."
+  },
+  "announcement": {
+    "label": "Pengulhantaran",
+    "text": "Penghantaran percuma di Madinah melebihi SAR 200 — penghantaran dan tawaran lain disahkan dalam perbualan"
+  },
+  "ajwa": {
+    "eyebrow": "Bintang Koleksi",
+    "title": "Ajwa Madinah",
+    "lead": "Kurma yang disebut khas oleh Nabi ﷺ: ditanam di kebun Quba di pintu Madinah, satu-satunya yang diriwayatkan memiliki kelebihan perlindungan. Buah hitam kecil; isi pekat yang meleleh dan kekayaan antioksidan yang luar biasa.",
+    "bullets": [
+      "Buah hitam kecil dengan kilau sutera dan kulit licin.",
+      "Isi pekat, kurang serat, meleleh di mulut.",
+      "Kekayaan polifenol yang luar biasa — sesuai untuk iftar dan jamuan."
+    ],
+    "priceLabel": "SAR 15–45/kg — disahkan dalam perbualan",
+    "ctaBuy": "Tempah Ajwa Madinah",
+    "readArticles": "Lagi di blog"
+  },
+  "bank": {
+    "title": "Maklumat pemindahan bank",
+    "intro": "Anda boleh memindahkan nilai pesanan ke akaun bank di bawah, kemudian menghantar notis pemindahan melalui WhatsApp supaya kami boleh menyediakan pesanan anda. Tiada pembayaran dalam talian di laman ini, dan tiada jumlah dicaj tanpa kebenaran anda.",
+    "bankName": "Nama bank",
+    "accountName": "Pemegang akaun",
+    "iban": "IBAN",
+    "accountNumber": "Nombor akaun",
+    "copyValue": "Salin",
+    "copyIban": "Salin IBAN",
+    "copied": "Disalin",
+    "referenceNote": "Jika borang pemindahan menyediakan ruangan tujuan, nyatakan nama dan nombor pesanan anda supaya bayaran sampai kepada kami dengan rujukan yang jelas.",
+    "provenance": "Maklumat ini daripada sijil IBAN rasmi yang dikeluarkan oleh {bank} pada {date} — rujukan {ref}.",
+    "pendingTitle": "Butiran akaun bank sedang disahkan",
+    "pendingBody": "Kami sedang mengesahkan butiran akaun bank sebelum menerbitkannya. Hubungi kami melalui WhatsApp dan kami akan menghantarnya terus kepada anda.",
+    "whatsappAsk": "Minta butiran akaun melalui WhatsApp"
+  },
+  "payment": {
+    "title": "Kaedah pembayaran",
+    "intro": "Tiada pembayaran dalam talian di laman ini. Kaedah yang tersedia: pindahan bank, atau bayar di tempat mengikutinya.",
+    "stepsTitle": "Langkah pindahan bank",
+    "step1": "Pilih “Pindahan bank” ketika melengkapkan pesanan dan IBAN anda akan dipaparkan.",
+    "step2": "Pindahkan nilai pesanan daripada aplikasi perbankan atau cawangan, dan simpan resit pemindahan.",
+    "step3": "Hantarkan notis pemindahan melalui WhatsApp bersama nama dan nombor pesanan anda.",
+    "step4": "Kami mengesahkan penerimaan bayaran, kemudian menyediakan pesanan bersama anda untuk menetapkan pengambilan atau penghantaran.",
+    "noOnlineTitle": "Mengapa tiada pembayaran dalam talian?",
+    "noOnlineBody": "Kami tidak memaparkan mana-mana gerbang pembayaran sehingga butiran pembayaran disahkan. Pada masa itu, tiada sesiapa yang mengambil bayaran: pesanan diselesaikan melalui WhatsApp atau pindahan bank.",
+    "metaTitle": "Kaedah pembayaran — pindahan bank",
+    "metaDescription": "Kaedah pembayaran yang tersedia di Al Nakhlah Al Mubarakah, Madinah: pindahan bank dan bayar di tempat. Tiada pembayaran dalam talian, dan tiada jumlah dicaj tanpa kebenaran anda."
+  },
+  "privacy": {
+    "title": "Dasar Privasi",
+    "intro": "Ringkasan ringkas yang jelas tentang data yang kami kumpul semasa pesanan, sebabnya, dan yang tidak pernah kami kumpul.",
+    "metaTitle": "Dasar Privasi — Al Nakhlah Al Mubarakah",
+    "metaDescription": "Apa yang dikumpul oleh checkout kami dan mengapa, serta yang tidak pernah kami lakukan: tiada bayaran dalam talian, tiada perkongsian data, tiada analitik.",
+    "sections": [
+      {
+        "heading": "Data semasa pesanan",
+        "body": "Apabila pesanan dibuat kami mengumpul nama, nombor telefon, e-mel dan alamat (untuk ambil atau hantar). Tiada data kad kerana laman tidak menerima bayaran dalam talian."
+      },
+      {
+        "heading": "Sebabnya",
+        "body": "Menyediakan pesanan, menghubungi anda di WhatsApp (resit pindahan), mengatur ambilan/penghantaran dan membalas pertanyaan melalui e-mel."
+      },
+      {
+        "heading": "Yang tidak kami lakukan",
+        "body": "Kami tidak menjual atau berkongsi data dengan pihak ketiga, tidak menghantarnya ke perkhidmatan iklan/analitik, dan tidak menyimpannya di luar perbualan kedai (WhatsApp dan e-mel)."
+      },
+      {
+        "heading": "Penyimpanan",
+        "body": "Perbualan pesanan disimpan oleh kedai dan dipadam atas permintaan anda. Tiada pangkalan data pelanggan umum."
+      },
+      {
+        "heading": "Hubungi",
+        "body": "Untuk sebarang permintaan tentang data anda: WhatsApp +966 59 610 1097 atau nakhla.mubaraka26@gmail.com"
+      },
+      {
+        "heading": "Entiti sah",
+        "body": "مؤسسة النخلة المباركة للتجارة — Pendaftaran Komersial 7043497630, Madinah."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Syarat Penggunaan",
+    "intro": "Peraturan ringkas untuk laman dan pesanan: apa yang diterima disahkan dalam perbualan.",
+    "metaTitle": "Syarat Penggunaan — Al Nakhlah Al Mubarakah",
+    "metaDescription": "Peraturan pesanan: disahkan dalam perbualan, pindahan bank, tiada bayaran dalam talian dan tiada jangka masa penghantaran tetap.",
+    "sections": [
+      {
+        "heading": "Pesanan",
+        "body": "Harga yang dipaparkan dalam katalog adalah harga semasa. Tiada pesanan muktamad sehingga disahkan dengan anda dalam perbualan (WhatsApp)."
+      },
+      {
+        "heading": "Pembayaran",
+        "body": "Kaedah: pindahan bank, atau urusan lain yang dipersetujui. Tiada bayaran dalam talian dan tiada caj kad automatik."
+      },
+      {
+        "heading": "Ambil & hantar",
+        "body": "Ambil di kedai, atau hantar mengikut persetujuan — terutamanya di Madinah. Kami tidak mengumumkan jangka masa penghantaran tetap."
+      },
+      {
+        "heading": "Pembatalan & pulangan",
+        "body": "Diselesaikan dalam perbualan sebelum penghantaran; selepas diterima diproses mengikut keadaan dan persetujuan."
+      },
+      {
+        "heading": "Hubungi",
+        "body": "WhatsApp +966 59 610 1097 — nakhla.mubaraka26@gmail.com"
+      }
+    ]
+  },
+  "bulkOrder": {
+    "eyebrow": "Pesanan Pukal",
+    "title": "Pesanan Besar (melebihi 200 kg)",
+    "greeting": "Selamat datang ke Al Nakhlah Al Mubarakah 🌴 Seronok melayan pesanan besar anda.",
+    "intro": "Sila isi borang di bawah dan kami akan menghubungi anda dengan pantas",
+    "fullName": "Nama penuh",
+    "city": "Bandar",
+    "phone": "Telefon / Nombor WhatsApp",
+    "quantity": "Kuantiti Diminta",
+    "variety": "Jenis yang Diingini",
+    "grade": "Gred / Mutu",
+    "fullNamePh": "Masukkan nama penuh anda",
+    "cityPh": "Masukkan bandar anda",
+    "phonePh": "cth. +9665XXXXXXXX",
+    "quantityPh": "cth. 500 kg",
+    "varietyPh": "cth. Ajwa, Sukkari, Medjool",
+    "gradePh": "cth. Premium, Sederhana",
+    "submitWhatsApp": "Hantar melalui WhatsApp",
+    "submitEmail": "Hantar salinan melalui e-mel",
+    "emailNote": "Salinan dihantar ke e-mel kami (nakhla.mubaraka26@gmail.com) untuk tindakan susulan dan rekod.",
+    "message": "Permintaan pesanan pukal — Al Nakhlah Al Mubarakah:\nNama penuh: {name}\nBandar: {city}\nTelefon / WhatsApp: {phone}\nKuantiti diminta: {quantity}\nJenis diingini: {variety}\nGred: {grade}",
+    "emailSubject": "Permintaan pesanan pukal — {name}"
+  }
+}

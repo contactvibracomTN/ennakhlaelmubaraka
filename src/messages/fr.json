@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "titleTemplate": "%s | Al Nakhlah Al Mubarakah — Dattes premium de Médine",
+    "defaultTitle": "Al Nakhlah Al Mubarakah — Dattes premium de Médine",
+    "description": "Les plus belles dattes de Médine, sélections premium et coffrets cadeaux — dans l'esprit de l'hospitalité saoudienne."
+  },
+  "common": {
+    "brand": "Al Nakhlah Al Mubarakah",
+    "brandFull": "Al Nakhlah Al Mubarakah — Dattes premium de Médine",
+    "tagline": "Les dattes de Médine, un goût inoubliable",
+    "demoPricesBanner": "Boutique en preview — prix et offres confirmés dans la conversation.",
+    "demoBadge": "Démo",
+    "skipToContent": "Aller au contenu",
+    "loading": "Chargement…",
+    "notFoundTitle": "Page introuvable",
+    "notFoundBody": "Désolé, nous n'avons pas trouvé ce que vous cherchiez. Retournez à la page d'accueil.",
+    "backToHome": "Retour à l'accueil",
+    "currency": "SAR",
+    "perKg": "kg",
+    "dialogClose": "Fermer",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "languageLabel": "Langue",
+    "errorTitle": "Une erreur est survenue",
+    "errorBody": "Désolé — un problème technique. Veuillez réessayer.",
+    "retry": "Réessayer",
+    "copyFailed": "Échec de la copie",
+    "notFoundBrowse": "Parcourir les sections",
+    "notFoundOtherLanguages": "Ou continuer dans une autre langue :",
+    "photoToConfirm": "Photo en cours de confirmation"
+  },
+  "nav": {
+    "home": "Accueil",
+    "dates": "Nos dattes",
+    "gifts": "Coffrets cadeaux",
+    "guide": "Guide des dattes",
+    "blog": "Journal",
+    "story": "Notre histoire",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "cart": "Panier",
+    "cartCount": "Articles",
+    "whatsapp": "Commander sur WhatsApp",
+    "switchToEn": "English",
+    "switchToAr": "العربية"
+  },
+  "hero": {
+    "eyebrow": "Les dattes de Médine, un goût inoubliable",
+    "titleLine1": "Dattes premium",
+    "titleLine2": "du cœur de Médine",
+    "subtitle": "Une sélection choisie des plus belles dattes et des coffrets de luxe du Marché central des dattes de Médine.",
+    "heroImageAlt": "Une sélection de dattes premium d'Al Nakhlah Al Mubarakah",
+    "badgeDemo": "Boutique en preview — prix et offres confirmés dans la conversation",
+    "ctaOrderAjwaMedina": "Commander l'Ajwa de Médine",
+    "ctaOrderAjwaAaliya": "Commander l'Ajwa Aaliya",
+    "ctaOrderMedjool": "Commander des dattes Medjool"
+  },
+  "home": {
+    "categoriesEyebrow": "Nos collections",
+    "categoriesTitle": "Ce que nous proposons",
+    "categoriesSubtitle": "Trois collections alliant authenticité et luxe, pour chaque occasion.",
+    "reassuranceEyebrow": "Pourquoi Al Nakhlah Al Mubarakah",
+    "reassuranceTitle": "Une qualité digne de l'hospitalité saoudienne",
+    "reassuranceSubtitle": "Nous sélectionnons nos variétés avec soin et gardons des prix transparents jusqu'à leur approbation finale.",
+    "reassuranceItems": {
+      "selection": {
+        "title": "Variétés choisies",
+        "text": "Depuis le Marché central des dattes de Médine, nous sélectionnons les meilleures variétés saoudiennes."
+      },
+      "gifting": {
+        "title": "Des coffrets qui feront plaisir",
+        "text": "Coffrets et collections prêts à offrir pour le Ramadan, l'Aïd, les mariages et les visites."
+      },
+      "service": {
+        "title": "Commande via WhatsApp",
+        "text": "Commandez directement sur WhatsApp et recevez votre livraison en toute simplicité."
+      },
+      "transparency": {
+        "title": "Transparence totale",
+        "text": "Nos prix sont les prix actuels de la boutique — chaque commande est confirmée avec vous dans la conversation."
+      }
+    },
+    "stats": {
+      "years": {
+        "value": "+25",
+        "label": "années d'expérience"
+      },
+      "clients": {
+        "value": "+2000",
+        "label": "clients satisfaits"
+      },
+      "varieties": {
+        "value": "24",
+        "label": "variétés dans le guide"
+      },
+      "location": {
+        "value": "Marché des dattes",
+        "label": "Médine"
+      }
+    },
+    "demoNote": "Les chiffres suivants proviennent de l'ancien site et sont affichés à titre provisoire jusqu'à approbation :",
+    "demoPricesCta": "Contactez-nous pour confirmer les spécifications",
+    "featuredEyebrow": "Nos coups de cœur",
+    "featuredTitle": "Meilleures ventes",
+    "featuredSubtitle": "Une sélection de nos dattes et coffrets les plus demandés.",
+    "viewAll": "Tout voir",
+    "explore": "Explorer",
+    "countDates": "{count} variétés",
+    "countGifts": "{count} idées cadeaux",
+    "aboutEyebrow": "Notre histoire",
+    "aboutTitle": "Au cœur du marché des dattes de Médine",
+    "aboutText": "Une boutique de dattes de Médine, acteur du commerce des dattes premium depuis des générations. Sélection manuelle, qualité garantie et service honnête — nous choisissons chaque variété nous-mêmes au Marché central des dattes.",
+    "aboutCta": "Découvrir notre histoire",
+    "dateSweetsTitle": "Douceurs & produits de dattes",
+    "countDateSweets": "{count} douceurs & produits de dattes"
+  },
+  "guide": {
+    "eyebrow": "Guide des dattes",
+    "title": "24 variétés de dattes du monde entier",
+    "subtitle": "Découvrez chaque variété : origines, texture, saveur et conservation.",
+    "readMore": "En savoir plus",
+    "backToList": "Retour au guide",
+    "textures": {
+      "soft": "Molles",
+      "semi-soft": "Semi-sèches",
+      "dry": "Sèches"
+    },
+    "regions": {
+      "maghreb": "Maghreb",
+      "mashriq": "Machrek",
+      "gulf": "Golfe",
+      "iran": "Iran",
+      "oman": "Oman",
+      "egypt": "Égypte"
+    },
+    "regionLabel": "Région",
+    "timeline": "Le parcours de la variété",
+    "strengths": "Caractéristiques clés",
+    "taste": "Saveur",
+    "nutrition": "Nutrition (pour 100 g)",
+    "prices": "Prix indicatifs sur les marchés",
+    "resources": "Pour aller plus loin",
+    "buyThis": "Commander cette variété",
+    "showingPrice": "Prix indicatif",
+    "prev": "Variété précédente",
+    "next": "Variété suivante",
+    "regionsLabel": "Explorer par région",
+    "regionInformational": "Remarque : les fourchettes de prix ci-dessous sont des données de marché indicatives, et non une offre du magasin."
+  },
+  "dates": {
+    "eyebrow": "Dattes",
+    "title": "Collection de dattes",
+    "subtitle": "Des variétés saoudiennes sélectionnées à Médine et dans tout le Royaume, selon la disponibilité réelle.",
+    "categoriesLabel": "Catégories de dattes",
+    "categories": {
+      "medina": "Dattes de Médine",
+      "kingdom": "Dattes du Royaume"
+    },
+    "originMedina": "De Médine",
+    "originKingdom": "Du Royaume",
+    "otherVarietiesTitle": "Autres variétés de dattes"
+  },
+  "gifts": {
+    "eyebrow": "Coffrets",
+    "title": "Collection de coffrets cadeaux",
+    "subtitle": "Coffrets et collections pour chaque occasion.",
+    "categoriesLabel": "Catégories de coffrets",
+    "categories": {
+      "personal": "Cadeaux personnels",
+      "occasions": "Cadeaux d'occasion",
+      "date-products": "Produits de dattes"
+    },
+    "occasions": {
+      "visit": "Visite",
+      "ramadan": "Ramadan",
+      "eid": "Aïd",
+      "wedding": "Belle occasion"
+    }
+  },
+  "product": {
+    "addToCart": "Ajouter au panier",
+    "orderViaWhatsapp": "Commander sur WhatsApp",
+    "weightOptions": "Choisir un format",
+    "weightLabel": "Poids (kg)",
+    "weightPlaceholder": "Saisissez un poids ou choisissez-en un",
+    "weightHint": "Cartons standards : 0,5 · 1 · 3 · 7 · 20 kg (cartons de 3 kg et 7 kg)",
+    "kg": "kg",
+    "estimatedPrice": "Prix estimé",
+    "weightSuggestions": "Poids standards",
+    "weightInvalid": "Saisissez un poids valide (0,5 kg minimum)",
+    "outOfStock": "Indisponible actuellement",
+    "preorder": "Précommande",
+    "inStock": "En stock",
+    "demoOffer": "Offre démo",
+    "fromTheGuide": "Issue du guide des variétés",
+    "viewGuide": "Voir les détails dans le guide",
+    "details": "Détails",
+    "contents": "Contenu du coffret",
+    "backToCatalog": "Retour à la liste",
+    "origin": "Origine",
+    "texture": "Texture",
+    "pricePerKg": "Par kg",
+    "related": "Vous aimerez aussi",
+    "size": "Format",
+    "occasion": "Occasion",
+    "galleryPrev": "Image précédente",
+    "galleryNext": "Image suivante",
+    "availabilityToConfirm": "Disponibilité confirmée à la demande",
+    "gradeLabel": "Grade / calibre",
+    "ajwaFamilyTitle": "Ajwa",
+    "bulkOrderText": "Pour les commandes importantes (plus de 200 kg)",
+    "bulkOrderLink": "cliquez ici"
+  },
+  "cart": {
+    "title": "Votre panier",
+    "empty": "Votre panier est actuellement vide.",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "discount": "Remise",
+    "total": "Total",
+    "checkout": "Finaliser la commande",
+    "viewCart": "Voir le panier",
+    "continueShopping": "Continuer mes achats",
+    "increase": "Augmenter la quantité",
+    "decrease": "Diminuer la quantité",
+    "remove": "Retirer du panier",
+    "freeShipping": "Gratuite à Médine (commandes supérieures à 200 SAR)",
+    "shippingToConfirm": "À confirmer (~20 SAR à Médine)"
+  },
+  "checkout": {
+    "title": "Finaliser la commande",
+    "demoNotice": "Mode d'aperçu — aucun montant n'est débité. Votre commande sera confirmée via WhatsApp.",
+    "customerName": "Nom complet",
+    "customerPhone": "Numéro de téléphone",
+    "customerEmail": "E-mail (facultatif)",
+    "customerCity": "Ville",
+    "customerAddress": "Adresse",
+    "deliveryMode": "Mode de livraison",
+    "delivery": "Livraison",
+    "pickup": "Retrait en magasin",
+    "paymentMethod": "Mode de paiement",
+    "placeOrder": "Envoyer la commande via WhatsApp",
+    "sending": "Envoi…",
+    "success": "Votre commande est prête ! Nous vous contacterons pour confirmer les détails.",
+    "error": "Impossible d'envoyer la commande. Réessayez ou contactez-nous directement.",
+    "bankTransfer": "Virement bancaire",
+    "iban": "IBAN",
+    "beneficiary": "Titulaire du compte",
+    "onlineSoon": "Bientôt disponible",
+    "paymentDemoNote": "En mode d'aperçu, aucun montant n'est débité — un récapitulatif de la commande est envoyé sur WhatsApp.",
+    "cartEmpty": "Votre panier est vide — ajoutez d'abord des produits.",
+    "backToCatalog": "Voir les dattes",
+    "continue": "Continuer mes achats",
+    "notes": "Notes",
+    "subtotal": "Sous-total",
+    "total": "Total",
+    "whatsapp": "WhatsApp",
+    "cod": "Paiement à la livraison",
+    "bank-transfer": "Virement bancaire",
+    "online": "Paiement en ligne",
+    "bankName": "Banque",
+    "bankPending": "Les coordonnées du compte sont en cours de confirmation — nous vous enverrons les détails du virement sur WhatsApp.",
+    "shipping": "Livraison",
+    "freeShipping": "Gratuite à Médine (commandes supérieures à 200 SAR)",
+    "shippingToConfirm": "À confirmer (~20 SAR à Médine)"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous répondons à vos questions et commandes toute la semaine.",
+    "whatsapp": "WhatsApp",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "address": "Adresse",
+    "atTheStore": "En magasin",
+    "hours": "Horaires d'ouverture",
+    "hoursNote": "Les horaires d'ouverture seront publiés après vérification.",
+    "followUs": "Suivez-nous",
+    "formTitle": "Envoyer un message",
+    "formName": "Votre nom",
+    "formMessage": "Votre message",
+    "formSend": "Envoyer via WhatsApp",
+    "formHint": "Une conversation WhatsApp s'ouvrira avec votre message prêt."
+  },
+  "story": {
+    "eyebrow": "Notre histoire",
+    "title": "Du marché de Médine… à votre table",
+    "lead": "Al Nakhlah Al Mubarakah est une boutique familiale de dattes premium au cœur du Marché central des dattes de Médine.",
+    "body1": "Nous sélectionnons à la main chaque variété parmi les plus belles récoltes et veillons à ce qu'elle vous parvienne fraîche et soigneusement emballée, dans l'esprit de l'hospitalité saoudienne.",
+    "body2": "Pour nous, les dattes sont une part d'identité et d'histoire — aussi, au-delà de la vente, nous tenons un guide expliquant les origines, la saveur et la conservation de chaque variété, pour que vous choisissiez en confiance et en connaissance.",
+    "valuesTitle": "Des valeurs qui nous sont chères",
+    "cta": "Découvrir nos collections",
+    "visitUs": "Visiter notre boutique",
+    "addressLabel": "Adresse de la boutique"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes",
+    "subtitle": "Les réponses aux questions les plus courantes — issues du contenu officiel du magasin.",
+    "cta": "Vous n'avez pas trouvé votre réponse ? Contactez-nous directement sur WhatsApp.",
+    "items": [
+      {
+        "q": "Où livrez-vous ?",
+        "a": "La livraison à Médine est gratuite pour les commandes supérieures à 200 SAR ; en dessous, les frais (~20 SAR) sont convenus dans la conversation. Hors de Médine, la livraison est organisée avec vous sur WhatsApp selon la destination. Les détails et les délais sont convenus dans la conversation."
+      },
+      {
+        "q": "Comment commander ?",
+        "a": "Ajoutez ce que vous souhaitez au panier, puis finalisez : choisissez le mode de réception et le mode de paiement, et envoyez-nous la commande. Elle devient un message WhatsApp prêt qui nous parvient directement."
+      },
+      {
+        "q": "Vos prix sont-ils définitifs ?",
+        "a": "Les prix affichés sont les prix actuels de la boutique au kilo. Votre commande ne devient définitive qu'après confirmation avec vous dans la conversation (WhatsApp). Pour un prix exact selon la quantité, le poids et le calibre, demandez via WhatsApp ou en boutique."
+      },
+      {
+        "q": "Proposez-vous un emballage cadeau ?",
+        "a": "Nous emballons les commandes dans un emballage pratique qui protège les dattes pendant le transport, adapté au type, à la quantité et à l'occasion de la commande."
+      },
+      {
+        "q": "Quelle est la différence entre les variétés de dattes ?",
+        "a": "Chaque variété a une saveur et une texture uniques. Parcourez le « Guide des dattes » pour découvrir chacune : origine, histoire, saveur et valeur nutritionnelle."
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Journal",
+    "title": "Journal",
+    "subtitle": "Guides, conseils et histoires de notre boutique de dattes à Médine.",
+    "empty": "Aucun article pour l'instant — notre journal ouvre bientôt.",
+    "back": "Retour au journal",
+    "published": "Publié",
+    "readMore": "Lire la suite",
+    "faq": "FAQ",
+    "categories": {
+      "ramadan": "Ramadan",
+      "nutrition": "Nutrition",
+      "recipes": "Recettes",
+      "story": "Notre histoire"
+    },
+    "shopProducts": "Ces produits en boutique",
+    "discover": "Découvrir"
+  },
+  "footer": {
+    "about": "Une boutique de dattes premium au Marché central des dattes de Médine.",
+    "quickLinks": "Liens rapides",
+    "categories": "Collections",
+    "categoriesDates": "Dattes",
+    "categoriesGifts": "Coffrets",
+    "categoriesGuide": "Guide des dattes",
+    "contactTitle": "Nous contacter",
+    "socialsTitle": "Suivez-nous",
+    "locationTitle": "Adresse de la boutique",
+    "openMap": "Ouvrir la carte",
+    "getDirections": "Itinéraire sur Google Maps",
+    "rights": "Tous droits réservés",
+    "demoNote": "Boutique en preview — prix et offres confirmés dans la conversation.",
+    "madeWith": "Fait avec passion à Médine",
+    "faqTitle": "Questions fréquentes",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "legal": "Mentions légales"
+  },
+  "whatsapp": {
+    "greeting": "Bonjour Al Nakhlah Al Mubarakah 👋 Je souhaite me renseigner sur vos produits.",
+    "orderPrefix": "Nouvelle commande depuis le site d'Al Nakhlah Al Mubarakah :",
+    "orderProduct": "Commande Al Nakhlah Al Mubarakah : {product} — {option}",
+    "help": "Bonjour, je n'ai pas trouvé la page que je cherchais."
+  },
+  "seo": {
+    "twitterHandle": "",
+    "siteName": "Al Nakhlah Al Mubarakah — Dattes premium de Médine",
+    "openGraphTitle": "Al Nakhlah Al Mubarakah — Dattes premium de Médine",
+    "openGraphDescription": "Une sélection des plus belles dattes de Médine et des coffrets de luxe, commandez directement sur WhatsApp."
+  },
+  "announcement": {
+    "label": "Annonce livraison",
+    "text": "Livraison gratuite à Médine dès 200 SAR — les autres livraisons et offres sont confirmées dans la conversation"
+  },
+  "ajwa": {
+    "eyebrow": "La star de la gamme",
+    "title": "Ajwa de Médine",
+    "lead": "La datte que le Prophète ﷺ a distinguée par son nom : cultivée dans les jardins de Quba aux portes de Médine, la seule que la tradition prophétique crédite de vertus protectrices. Une petite baie noire, à la chair dense et fondante, d'une richesse exceptionnelle en antioxydants.",
+    "bullets": [
+      "Une petite baie noire au reflet soyeux, à la peau lisse.",
+      "Une chair dense, peu fibreuse, fondante en bouche.",
+      "Une richesse exceptionnelle en polyphénols — idéale pour l'iftar et l'accueil."
+    ],
+    "priceLabel": "15–45 SAR/kg — confirmé dans la conversation",
+    "ctaBuy": "Commander l'Ajwa de Médine",
+    "readArticles": "Lire sur le blog"
+  },
+  "bank": {
+    "title": "Coordonnées du virement bancaire",
+    "intro": "Vous pouvez virer le montant de la commande sur le compte ci-dessous, puis nous envoyer l'avis de virement sur WhatsApp afin que nous préparions votre commande. Aucun paiement en ligne n'existe sur ce site, et rien n'est débité sans votre accord.",
+    "bankName": "Banque",
+    "accountName": "Titulaire du compte",
+    "iban": "IBAN",
+    "accountNumber": "Numéro de compte",
+    "copyValue": "Copier",
+    "copyIban": "Copier l'IBAN",
+    "copied": "Copié",
+    "referenceNote": "Si le formulaire de virement propose un motif, indiquez votre nom et votre numéro de commande afin que le paiement nous parvienne avec une référence claire.",
+    "provenance": "Ces coordonnées proviennent du certificat IBAN officiel délivré par {bank} le {date} — référence {ref}.",
+    "pendingTitle": "Coordonnées bancaires en cours de confirmation",
+    "pendingBody": "Nous confirmons les coordonnées du compte avant de les publier. Contactez-nous sur WhatsApp et nous vous les enverrons directement.",
+    "whatsappAsk": "Demander les coordonnées sur WhatsApp"
+  },
+  "payment": {
+    "title": "Mode de paiement",
+    "intro": "Il n'y a aucun paiement en ligne sur ce site. Modes disponibles : virement bancaire, ou paiement à la livraison selon l'accord.",
+    "stepsTitle": "Étapes du virement bancaire",
+    "step1": "Choisissez « Virement bancaire » au moment de finaliser : votre IBAN s'affiche.",
+    "step2": "Effectuez le virement depuis votre application bancaire ou en agence, et conservez le reçu.",
+    "step3": "Envoyez-nous l'avis de virement sur WhatsApp avec votre nom et le numéro de commande.",
+    "step4": "Nous confirmons la réception du paiement, puis préparons la commande avec vous pour convenir du retrait ou de la livraison.",
+    "noOnlineTitle": "Pourquoi n'y a-t-il pas de paiement en ligne ?",
+    "noOnlineBody": "Nous n'affichons aucune passerelle de paiement tant que les modalités ne sont pas confirmées. D'ici là, personne ne prélève de montant : la commande se conclut par WhatsApp ou virement bancaire.",
+    "metaTitle": "Mode de paiement — virement bancaire",
+    "metaDescription": "Modes de paiement disponibles chez Al Nakhlah Al Mubarakah à Médine : virement bancaire et paiement à la livraison. Aucun paiement en ligne, et rien n'est débité sans votre accord."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "intro": "Un résumé court et direct de ce que le paiement collecte, pourquoi, et de ce que nous ne collectons jamais.",
+    "metaTitle": "Politique de confidentialité — Al Nakhlah Al Mubarakah",
+    "metaDescription": "Ce que notre paiement collecte et pourquoi, et ce que nous ne faisons jamais : pas de paiement en ligne, pas de partage, pas d'analytique.",
+    "sections": [
+      {
+        "heading": "Ce que nous collectons lors d'une commande",
+        "body": "Lorsqu'une commande est passée, nous collectons le nom, le numéro mobile, l'e-mail et l'adresse (retrait ou livraison). Aucune donnée de carte bancaire n'est collectée : le site n'accepte pas le paiement en ligne."
+      },
+      {
+        "heading": "Pourquoi",
+        "body": "Préparer la commande, vous écrire sur WhatsApp (reçu du virement), organiser le retrait ou la livraison, et répondre à toute question par e-mail."
+      },
+      {
+        "heading": "Ce que nous ne faisons jamais",
+        "body": "Nous ne vendons ni ne partageons vos données avec des tiers, ne les envoyons à aucun service publicitaire ou d'analyse, et ne les stockons pas hors des conversations propres de la boutique (WhatsApp et e-mail)."
+      },
+      {
+        "heading": "Conservation",
+        "body": "Les conversations de commande sont conservées par la boutique et supprimées sur demande. Pas de base clients générale."
+      },
+      {
+        "heading": "Contact",
+        "body": "Pour toute demande concernant vos données : WhatsApp +966 59 610 1097 ou nakhla.mubaraka26@gmail.com"
+      },
+      {
+        "heading": "Entité légale",
+        "body": "مؤسسة النخلة المباركة للتجارة — Registre commercial 7043497630, Médine."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "intro": "Règles courtes pour le site et les commandes : ce qui est accepté se confirme dans la conversation.",
+    "metaTitle": "Conditions d'utilisation — Al Nakhlah Al Mubarakah",
+    "metaDescription": "Règles de commande : confirmation dans la conversation, virement bancaire, pas de paiement en ligne ni de délais de livraison fixes.",
+    "sections": [
+      {
+        "heading": "Commandes",
+        "body": "Les prix affichés sur le catalogue sont les prix en vigueur. Aucune commande n'est définitive tant qu'elle n'est pas confirmée avec vous dans la conversation (WhatsApp)."
+      },
+      {
+        "heading": "Paiement",
+        "body": "Moyens de paiement : virement bancaire, ou tout autre arrangement convenu ensemble. Pas de paiement en ligne ni de prélèvement automatique sur carte."
+      },
+      {
+        "heading": "Retrait & livraison",
+        "body": "Retrait à la boutique, ou livraison selon accord — principalement à Médine. Aucun délai de livraison fixe n'est annoncé."
+      },
+      {
+        "heading": "Annulation & retours",
+        "body": "Gérés dans la conversation avant expédition ; après réception, ils sont traités au cas par cas, selon accord."
+      },
+      {
+        "heading": "Contact",
+        "body": "WhatsApp +966 59 610 1097 — nakhla.mubaraka26@gmail.com"
+      }
+    ]
+  },
+  "bulkOrder": {
+    "eyebrow": "Commandes en gros",
+    "title": "Commandes importantes (plus de 200 kg)",
+    "greeting": "Bienvenue chez Al Nakhlah Al Mubarakah 🌴 C'est un plaisir de vous accompagner pour vos commandes importantes.",
+    "intro": "Merci de remplir le formulaire ci-dessous et nous vous recontacterons rapidement",
+    "fullName": "Nom complet",
+    "city": "Ville",
+    "phone": "Téléphone / WhatsApp",
+    "quantity": "Quantité demandée",
+    "variety": "Type souhaité",
+    "grade": "Grade / calibre",
+    "fullNamePh": "Entrez votre nom complet",
+    "cityPh": "Entrez votre ville",
+    "phonePh": "ex. +9665XXXXXXXX",
+    "quantityPh": "ex. 500 kg",
+    "varietyPh": "ex. Ajwa, Sukkari, Medjool",
+    "gradePh": "ex. Premium, Moyenne",
+    "submitWhatsApp": "Envoyer via WhatsApp",
+    "submitEmail": "Envoyer une copie par e-mail",
+    "emailNote": "Une copie est envoyée à notre messagerie (nakhla.mubaraka26@gmail.com) pour le suivi et l'archivage.",
+    "message": "Demande de commande en gros — Al Nakhlah Al Mubarakah :\nNom complet : {name}\nVille : {city}\nTéléphone / WhatsApp : {phone}\nQuantité demandée : {quantity}\nType souhaité : {variety}\nGrade : {grade}",
+    "emailSubject": "Demande de commande en gros — {name}"
+  }
+}

@@ -1,0 +1,81 @@
+# Photos — sources & crédits
+
+Photos issues de Pexels (licence Pexels : usage gratuit et commercial, sans attribution obligatoire) et de Wikimedia Commons (licences libres).
+
+- date_ajwa — source catalogue
+- date_ajwa-medina — source catalogue
+- date_amir-hajj — source catalogue
+- date_anbara — source catalogue
+- date_barhi — source catalogue
+- date_deglet-noor — source catalogue
+- date_fard — source catalogue
+- date_hallawi — source catalogue
+- date_hayani — source catalogue
+- date_kabkab — source catalogue
+- date_khadrawi-24 — source catalogue
+- date_khadrawy — source catalogue
+- date_khalas — source catalogue
+- date_khasab — source catalogue
+- date_khidri — source catalogue
+- date_mazafati — source catalogue
+- date_medjool — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/37417610/
+- date_piarom — source catalogue
+- date_premium-selection — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/16034404/
+- date_rabbi — source catalogue
+- date_safawi — source catalogue
+- date_sagai — source catalogue
+- date_sayer — source catalogue
+- date_shishi — source catalogue
+- date_sukkari — source catalogue
+- date_zahidi — source catalogue
+- gift_ajwa-pistachio-saffron — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/30868043/
+- gift_coffee-hospitality-box — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/32692732/
+- gift_date-jam-cardamom-cinnamon — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/3993525/
+- gift_date-maamoul-cardamom — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/30631337/
+- gift_date-nut-bites — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/1295572/
+- gift_date-paste-premium — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/11682822/
+- gift_date-sweets — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/32710824/
+- gift_date-sweets-selection — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/14275713/
+- gift_date-syrup-cardamom — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/10819687/
+- gift_date-syrup-original — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/8805077/
+- gift_desert-discovery-box — source catalogue
+- gift_eid-golden-box — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/28769884/
+- gift_elite-hospitality-tray — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/29173090/
+- gift_madinah-signature-box — source catalogue
+- gift_medjool-dark-chocolate — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/29609856/
+- gift_mini-hospitality-box — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/30353752/
+- gift_ramadan-gift — source catalogue
+- gift_ramadan-majlis-box — source catalogue
+- gift_royal-stuffed-date-box — source catalogue
+- gift_signature-box — source catalogue
+- gift_stuffed-sukkari-pistachio — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/30859026/
+- gift_tamreya-tahini-sesame — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/20632756/
+- gift_visit-elegance-box — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/36663545/
+- gift_wedding-luxury-tray — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/8164799/
+- gift_white-chocolate-dates — photo Pexels (libre d'usage commercial) — https://www.pexels.com/photo/29609856/
+- guide_ajwa — source catalogue
+- guide_amir-hajj — source catalogue
+- guide_anbara — source catalogue
+- guide_barhi — source catalogue
+- guide_deglet-noor — source catalogue
+- guide_fard — source catalogue
+- guide_hallawi — source catalogue
+- guide_hayani — source catalogue
+- guide_kabkab — source catalogue
+- guide_khadrawi-24 — source catalogue
+- guide_khadrawy — source catalogue
+- guide_khalas — source catalogue
+- guide_khasab — source catalogue
+- guide_khidri — source catalogue
+- guide_mazafati — source catalogue
+- guide_medjool — source catalogue
+- guide_piarom — source catalogue
+- guide_rabbi — source catalogue
+- guide_safawi — source catalogue
+- guide_sagai — source catalogue
+- guide_sayer — source catalogue
+- guide_shishi — source catalogue
+- guide_sukkari — source catalogue
+- guide_zahidi — source catalogue
+- hero — Wikimedia Commons — File:Ripe and dry dates fruit bunches.jpg
+- blog_guide-achat-ramadan — couverture blog (76 Ko) : source à confirmer par le propriétaire (image provisoire — à remplacer/valider avant publication)

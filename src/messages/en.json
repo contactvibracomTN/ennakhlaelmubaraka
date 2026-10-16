@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "titleTemplate": "%s | Al Nakhlah Al Mubarakah",
+    "defaultTitle": "Al Nakhlah Al Mubarakah — Premium Dates",
+    "description": "Finest Madinah dates, premium selections and gifts — with the spirit of Saudi hospitality."
+  },
+  "common": {
+    "brand": "Al Nakhlah Al Mubarakah",
+    "brandFull": "Al Nakhlah Al Mubarakah — Premium Dates",
+    "tagline": "Madinah's dates, an unforgettable taste",
+    "demoPricesBanner": "Preview shop — prices and offers are confirmed in the conversation.",
+    "demoBadge": "Demo",
+    "skipToContent": "Skip to content",
+    "loading": "Loading…",
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "Sorry, we couldn't find what you were looking for. Head back to the homepage.",
+    "backToHome": "Back to homepage",
+    "currency": "SAR",
+    "perKg": "kg",
+    "dialogClose": "Close",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "languageLabel": "Language",
+    "errorTitle": "Something went wrong",
+    "errorBody": "Sorry — a technical hiccup. Please try again.",
+    "retry": "Try again",
+    "copyFailed": "Copy failed",
+    "notFoundBrowse": "Browse the sections",
+    "notFoundOtherLanguages": "Or continue in another language:",
+    "photoToConfirm": "Photo pending confirmation"
+  },
+  "nav": {
+    "home": "Home",
+    "dates": "Dates",
+    "gifts": "Gifts",
+    "guide": "Variety Guide",
+    "blog": "Journal",
+    "story": "Our Story",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "cart": "Cart",
+    "cartCount": "Items",
+    "whatsapp": "Order on WhatsApp",
+    "switchToEn": "English",
+    "switchToAr": "العربية"
+  },
+  "hero": {
+    "eyebrow": "Madinah's dates, an unforgettable taste",
+    "titleLine1": "Premium dates",
+    "titleLine2": "from the heart of Madinah",
+    "subtitle": "A curated selection of the finest dates and luxury gifts from the Central Dates Market in Madinah.",
+    "heroImageAlt": "A selection of premium dates from Al Nakhlah Al Mubarakah",
+    "badgeDemo": "Preview shop — prices and offers are confirmed in the conversation",
+    "ctaOrderAjwaMedina": "Order Ajwa Medina",
+    "ctaOrderAjwaAaliya": "Order Ajwa Aaliya",
+    "ctaOrderMedjool": "Order Medjool Dates"
+  },
+  "home": {
+    "categoriesEyebrow": "Our collections",
+    "categoriesTitle": "What we offer",
+    "categoriesSubtitle": "Three collections blending authenticity and luxury, fit for every occasion.",
+    "reassuranceEyebrow": "Why Al Nakhlah Al Mubarakah",
+    "reassuranceTitle": "Quality worthy of Saudi hospitality",
+    "reassuranceSubtitle": "We select our varieties with care and keep pricing transparent until final approval.",
+    "reassuranceItems": {
+      "selection": {
+        "title": "Curated varieties",
+        "text": "From Madinah's Central Dates Market, we select the finest Saudi varieties."
+      },
+      "gifting": {
+        "title": "Gifts your guests will love",
+        "text": "Ready boxes and collections for Ramadan, Eid, weddings and visits."
+      },
+      "service": {
+        "title": "Order via WhatsApp",
+        "text": "Order directly on WhatsApp and receive your delivery with ease."
+      },
+      "transparency": {
+        "title": "Full transparency",
+        "text": "Our prices are the current shop prices — every order is confirmed with you in conversation."
+      }
+    },
+    "stats": {
+      "years": {
+        "value": "+25",
+        "label": "years of experience"
+      },
+      "clients": {
+        "value": "+2000",
+        "label": "happy clients"
+      },
+      "varieties": {
+        "value": "24",
+        "label": "varieties in the guide"
+      },
+      "location": {
+        "value": "Dates Market",
+        "label": "Madinah"
+      }
+    },
+    "demoNote": "The following figures come from the previous site and are shown provisionally until approved:",
+    "demoPricesCta": "Contact us to confirm specifications",
+    "featuredEyebrow": "Our picks",
+    "featuredTitle": "Best sellers",
+    "featuredSubtitle": "A selection of our most requested dates and gifts.",
+    "viewAll": "View all",
+    "explore": "Explore",
+    "countDates": "{count} varieties",
+    "countGifts": "{count} gift ideas",
+    "aboutEyebrow": "Our story",
+    "aboutTitle": "From the heart of Madinah's date market",
+    "aboutText": "A Madinah date boutique trading premium dates for generations. Hand-selected, quality-guaranteed and served with honest care — we choose every variety ourselves at the Central Dates Market.",
+    "aboutCta": "Read our story",
+    "dateSweetsTitle": "Date Sweets & Products",
+    "countDateSweets": "{count} sweets & date products"
+  },
+  "guide": {
+    "eyebrow": "Variety Guide",
+    "title": "24 date varieties from around the world",
+    "subtitle": "Discover each variety: its origins, texture, taste and storage.",
+    "readMore": "Read more",
+    "backToList": "Back to guide",
+    "textures": {
+      "soft": "Soft",
+      "semi-soft": "Semi-soft",
+      "dry": "Dry"
+    },
+    "regions": {
+      "maghreb": "Maghreb",
+      "mashriq": "Mashriq",
+      "gulf": "Gulf",
+      "iran": "Iran",
+      "oman": "Oman",
+      "egypt": "Egypt"
+    },
+    "regionLabel": "Region",
+    "timeline": "The variety's journey",
+    "strengths": "Key characteristics",
+    "taste": "Taste",
+    "nutrition": "Nutrition (per 100 g)",
+    "prices": "Indicative market prices",
+    "resources": "Further reading",
+    "buyThis": "Order this variety",
+    "showingPrice": "Indicative price",
+    "prev": "Previous variety",
+    "next": "Next variety",
+    "regionsLabel": "Browse by region",
+    "regionInformational": "Note: the price ranges below are indicative market figures, not a store offer."
+  },
+  "dates": {
+    "eyebrow": "Dates",
+    "title": "Dates collection",
+    "subtitle": "Saudi varieties curated from Madinah and across the Kingdom, based on actual availability.",
+    "categoriesLabel": "Date categories",
+    "categories": {
+      "medina": "Medina Dates",
+      "kingdom": "Kingdom Dates"
+    },
+    "originMedina": "From Medina",
+    "originKingdom": "From the Kingdom",
+    "otherVarietiesTitle": "Other date varieties"
+  },
+  "gifts": {
+    "eyebrow": "Gifts",
+    "title": "Gifts collection",
+    "subtitle": "Gift boxes and collections for every occasion.",
+    "categoriesLabel": "Gift categories",
+    "categories": {
+      "personal": "Personal Gifts",
+      "occasions": "Occasion Gifts",
+      "date-products": "Date Products"
+    },
+    "occasions": {
+      "visit": "Visit",
+      "ramadan": "Ramadan",
+      "eid": "Eid",
+      "wedding": "Happy occasion"
+    }
+  },
+  "product": {
+    "addToCart": "Add to cart",
+    "orderViaWhatsapp": "Order on WhatsApp",
+    "weightOptions": "Choose a size",
+    "weightLabel": "Weight (kg)",
+    "weightPlaceholder": "Enter a weight or choose one",
+    "weightHint": "Standard retail packs: 0.5 · 1 · 3 · 7 · 20 kg (3 kg and 7 kg cartons)",
+    "kg": "kg",
+    "estimatedPrice": "Estimated price",
+    "weightSuggestions": "Standard weights",
+    "weightInvalid": "Enter a valid weight (at least 0.5 kg)",
+    "outOfStock": "Currently unavailable",
+    "preorder": "Pre-order",
+    "inStock": "In stock",
+    "demoOffer": "Demo offer",
+    "fromTheGuide": "From the variety guide",
+    "viewGuide": "See details in the guide",
+    "details": "Details",
+    "contents": "Box contents",
+    "backToCatalog": "Back to the list",
+    "origin": "Origin",
+    "texture": "Texture",
+    "pricePerKg": "Per kg",
+    "related": "You might also like",
+    "size": "Size",
+    "occasion": "Occasion",
+    "galleryPrev": "Previous image",
+    "galleryNext": "Next image",
+    "availabilityToConfirm": "Availability confirmed on request",
+    "gradeLabel": "Grade / calibre",
+    "ajwaFamilyTitle": "Ajwa",
+    "bulkOrderText": "For large orders (over 200 kg)",
+    "bulkOrderLink": "click here"
+  },
+  "cart": {
+    "title": "Shopping cart",
+    "empty": "Your cart is currently empty.",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "discount": "Discount",
+    "total": "Total",
+    "checkout": "Checkout",
+    "viewCart": "View cart",
+    "continueShopping": "Continue shopping",
+    "increase": "Increase quantity",
+    "decrease": "Decrease quantity",
+    "remove": "Remove from cart",
+    "freeShipping": "Free within Madinah (invoices above SAR 200)",
+    "shippingToConfirm": "To be confirmed (~SAR 20 within Madinah)"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "demoNotice": "Preview mode — no amount is charged. Your order will be confirmed via WhatsApp.",
+    "customerName": "Full name",
+    "customerPhone": "Phone number",
+    "customerEmail": "Email (optional)",
+    "customerCity": "City",
+    "customerAddress": "Address",
+    "deliveryMode": "Delivery method",
+    "delivery": "Delivery",
+    "pickup": "Store pickup",
+    "paymentMethod": "Payment method",
+    "placeOrder": "Send order via WhatsApp",
+    "sending": "Sending…",
+    "success": "Your order is ready! We will contact you to confirm the details.",
+    "error": "Could not send the order. Try again or contact us directly.",
+    "bankTransfer": "Bank transfer",
+    "iban": "IBAN",
+    "beneficiary": "Account name",
+    "onlineSoon": "Coming soon",
+    "paymentDemoNote": "In preview mode no amount is charged — a WhatsApp summary of the order is sent instead.",
+    "cartEmpty": "Your cart is empty — add products first.",
+    "backToCatalog": "Browse dates",
+    "continue": "Continue shopping",
+    "notes": "Notes",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "whatsapp": "WhatsApp",
+    "cod": "Cash on delivery",
+    "bank-transfer": "Bank transfer",
+    "online": "Online payment",
+    "bankName": "Bank",
+    "bankPending": "The account details are being confirmed — we will send you the transfer details on WhatsApp.",
+    "shipping": "Shipping",
+    "freeShipping": "Free within Madinah (invoices above SAR 200)",
+    "shippingToConfirm": "To be confirmed (~SAR 20 within Madinah)"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "We welcome your questions and orders all week long.",
+    "whatsapp": "WhatsApp",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "atTheStore": "At the store",
+    "hours": "Opening hours",
+    "hoursNote": "Opening hours will be published once verified.",
+    "followUs": "Follow us",
+    "formTitle": "Send a message",
+    "formName": "Your name",
+    "formMessage": "Your message",
+    "formSend": "Send via WhatsApp",
+    "formHint": "A WhatsApp chat will open with your message ready."
+  },
+  "story": {
+    "eyebrow": "Our story",
+    "title": "From Madinah's market… to your home",
+    "lead": "Al Nakhlah Al Mubarakah is a family-run boutique for premium dates at the heart of Madinah's Central Dates Market.",
+    "body1": "We hand-select every variety from the finest harvests and make sure it reaches you fresh and carefully packaged, with the spirit of Saudi hospitality.",
+    "body2": "For us, dates are part of identity and story — so beyond selling, we maintain a guide explaining every variety's origins, taste and storage, so you can choose with confidence and thought.",
+    "valuesTitle": "Values we hold dear",
+    "cta": "Explore our collections",
+    "visitUs": "Visit our store",
+    "addressLabel": "Store location"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "subtitle": "Answers to the most common questions — migrated from the store's official content.",
+    "cta": "Didn't find your answer? Contact us directly on WhatsApp.",
+    "items": [
+      {
+        "q": "Where do you deliver?",
+        "a": "Delivery within Madinah is free for invoices above 200 SAR; below that the fee (~SAR 20) is agreed in the conversation. Outside Madinah, delivery is arranged with you on WhatsApp depending on the destination. The details and the timing are agreed in the conversation."
+      },
+      {
+        "q": "How do I order?",
+        "a": "Add what you want to the cart, then check out: choose how you would like to receive the order and how to pay, and send it to us. It becomes a ready WhatsApp message that reaches us directly."
+      },
+      {
+        "q": "Are your prices final?",
+        "a": "The prices shown are the current shop prices per kilogram. Your order becomes final once it is confirmed with you in conversation (WhatsApp). For exact pricing by quantity, weight and grade, ask on WhatsApp or visit the store."
+      },
+      {
+        "q": "Do you offer gift packaging?",
+        "a": "We pack orders in practical packaging that protects the dates during transport, adapted to the type, the quantity and the occasion of the order."
+      },
+      {
+        "q": "What is the difference between date varieties?",
+        "a": "Each variety has a unique taste and texture. Browse the “Dates Guide” to learn about each one: origin, story, flavour and nutritional value."
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Journal",
+    "title": "Journal",
+    "subtitle": "Guides, tips and stories from Madinah's date boutique.",
+    "empty": "No articles yet — our journal opens soon.",
+    "back": "Back to journal",
+    "published": "Published",
+    "readMore": "Read more",
+    "faq": "FAQ",
+    "categories": {
+      "ramadan": "Ramadan",
+      "nutrition": "Nutrition",
+      "recipes": "Recipes",
+      "story": "Our story"
+    },
+    "shopProducts": "Shop these products",
+    "discover": "Discover"
+  },
+  "footer": {
+    "about": "A premium dates store at Madinah's Central Dates Market.",
+    "quickLinks": "Quick links",
+    "categories": "Collections",
+    "categoriesDates": "Dates",
+    "categoriesGifts": "Gifts",
+    "categoriesGuide": "Variety Guide",
+    "contactTitle": "Contact us",
+    "socialsTitle": "Follow us",
+    "locationTitle": "Store location",
+    "openMap": "Open map",
+    "getDirections": "Directions on Google Maps",
+    "rights": "All rights reserved",
+    "demoNote": "Preview shop — prices and offers are confirmed in the conversation.",
+    "madeWith": "Crafted with passion in Madinah",
+    "faqTitle": "Frequently Asked Questions",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "legal": "Legal"
+  },
+  "whatsapp": {
+    "greeting": "Hello Al Nakhlah Al Mubarakah 👋 I'd like to ask about your products.",
+    "orderPrefix": "New order from Al Nakhlah Al Mubarakah website:",
+    "orderProduct": "Order from Al Nakhlah Al Mubarakah: {product} — {option}",
+    "help": "Hello, I could not find the page I was looking for."
+  },
+  "seo": {
+    "twitterHandle": "",
+    "siteName": "Al Nakhlah Al Mubarakah — Premium Dates",
+    "openGraphTitle": "Al Nakhlah Al Mubarakah — Premium Madinah Dates",
+    "openGraphDescription": "A selection of the finest Madinah dates and luxury gifts, order directly on WhatsApp."
+  },
+  "announcement": {
+    "label": "Delivery announcement",
+    "text": "Free delivery within Madinah above 200 SAR — other deliveries and offers are confirmed in the conversation"
+  },
+  "ajwa": {
+    "eyebrow": "Our flagship date",
+    "title": "Ajwa Medina",
+    "lead": "The date the Prophet ﷺ singled out by name: grown in the gardens of Quba at the gates of Madinah, the only one that prophetic tradition credits with protective virtues. A small black berry with dense, melting flesh and exceptional antioxidant richness.",
+    "bullets": [
+      "A small black berry with a silky sheen and a smooth skin.",
+      "Dense, low-fibre flesh that melts in the mouth.",
+      "Exceptional polyphenol richness — ideal for iftar and hospitality."
+    ],
+    "priceLabel": "SAR 15–45/kg — confirmed in the conversation",
+    "ctaBuy": "Order Ajwa Medina",
+    "readArticles": "More on the blog"
+  },
+  "bank": {
+    "title": "Bank transfer details",
+    "intro": "You can transfer the order amount to the bank account below, then send us the transfer notice on WhatsApp so we can prepare your order. There is no online payment on this site, and nothing is charged without your agreement.",
+    "bankName": "Bank",
+    "accountName": "Account holder",
+    "iban": "IBAN",
+    "accountNumber": "Account number",
+    "copyValue": "Copy",
+    "copyIban": "Copy IBAN",
+    "copied": "Copied",
+    "referenceNote": "If the transfer form offers a purpose field, put your name and order number there so the payment reaches us with a clear reference.",
+    "provenance": "These details come from the official IBAN certificate issued by {bank} on {date} — reference {ref}.",
+    "pendingTitle": "Bank details being confirmed",
+    "pendingBody": "We are confirming the bank account details before publishing them. Contact us on WhatsApp and we will send them to you directly.",
+    "whatsappAsk": "Ask for the account details on WhatsApp"
+  },
+  "payment": {
+    "title": "Payment method",
+    "intro": "There is no online payment on this site. Available methods: bank transfer, or cash on delivery as agreed.",
+    "stepsTitle": "Bank transfer steps",
+    "step1": "Choose “Bank transfer” at checkout and your IBAN will be shown.",
+    "step2": "Transfer the order amount from your banking app or the branch, and keep the transfer receipt.",
+    "step3": "Send us the transfer notice on WhatsApp with your name and the order number.",
+    "step4": "We confirm receipt of the payment, then prepare your order with you to agree pickup or delivery.",
+    "noOnlineTitle": "Why is there no online payment?",
+    "noOnlineBody": "We do not display any payment gateway until the payment details are confirmed. Until then nothing is charged by anyone: the order is completed through WhatsApp or bank transfer.",
+    "metaTitle": "Payment method — bank transfer",
+    "metaDescription": "Payment methods available at Al Nakhlah Al Mubarakah in Madinah: bank transfer and cash on delivery. There is no online payment, and nothing is charged without your agreement."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "A short, plain summary of what the checkout collects, why, and what we never collect.",
+    "metaTitle": "Privacy Policy — Al Nakhlah Al Mubarakah",
+    "metaDescription": "What our checkout collects and why, and what we never do: no online payment, no data sharing, no analytics.",
+    "sections": [
+      {
+        "heading": "What we collect when you order",
+        "body": "When you place an order we collect your name, mobile number, email and address (for pickup or delivery). No card or bank-account details are collected, because the site has no online payment."
+      },
+      {
+        "heading": "Why we collect it",
+        "body": "To prepare your order, to message you on WhatsApp (bank-transfer receipt), to arrange pickup or delivery, and to answer any question by email."
+      },
+      {
+        "heading": "What we never do",
+        "body": "We never sell or share your data with third parties, never send it to advertising or analytics services, and never store it outside the shop's own conversations (WhatsApp and email)."
+      },
+      {
+        "heading": "Retention",
+        "body": "Order conversations are kept by the shop and deleted on your request. There is no general customer database."
+      },
+      {
+        "heading": "Contact",
+        "body": "For any request about your data: WhatsApp +966 59 610 1097 or nakhla.mubaraka26@gmail.com"
+      },
+      {
+        "heading": "Legal entity",
+        "body": "مؤسسة النخلة المباركة للتجارة — Commercial Registration 7043497630, Madinah."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "intro": "Short rules for the site and orders: everything accepted is confirmed in conversation.",
+    "metaTitle": "Terms of Use — Al Nakhlah Al Mubarakah",
+    "metaDescription": "Order rules: confirmed in conversation, bank transfer only, no online payment and no fixed delivery timelines.",
+    "sections": [
+      {
+        "heading": "Orders",
+        "body": "The prices shown on the catalogue are the current ones. No order is final until we confirm it with you in conversation (WhatsApp)."
+      },
+      {
+        "heading": "Payment",
+        "body": "Payment methods: bank transfer, or another arrangement agreed together. There is no online payment and no automatic card charge."
+      },
+      {
+        "heading": "Pickup & delivery",
+        "body": "Pickup at the shop, or delivery as agreed — mainly within Madinah. We do not advertise fixed delivery timelines."
+      },
+      {
+        "heading": "Cancellation & returns",
+        "body": "Handled in conversation before dispatch; after delivery they are dealt with case by case, by agreement."
+      },
+      {
+        "heading": "Contact",
+        "body": "WhatsApp +966 59 610 1097 — nakhla.mubaraka26@gmail.com"
+      }
+    ]
+  },
+  "bulkOrder": {
+    "eyebrow": "Bulk orders",
+    "title": "Large orders (over 200 kg)",
+    "greeting": "Welcome to Al Nakhlah Al Mubarakah 🌴 It is a pleasure to serve your large orders.",
+    "intro": "Please fill in the form below and we will get back to you quickly",
+    "fullName": "Full name",
+    "city": "City",
+    "phone": "Phone / WhatsApp number",
+    "quantity": "Requested quantity",
+    "variety": "Desired type",
+    "grade": "Grade / quality",
+    "fullNamePh": "Enter your full name",
+    "cityPh": "Enter your city",
+    "phonePh": "e.g. +9665XXXXXXXX",
+    "quantityPh": "e.g. 500 kg",
+    "varietyPh": "e.g. Ajwa, Sukkari, Medjool",
+    "gradePh": "e.g. Premium, Medium",
+    "submitWhatsApp": "Send via WhatsApp",
+    "submitEmail": "Send a copy by email",
+    "emailNote": "A copy is sent to our inbox (nakhla.mubaraka26@gmail.com) for follow-up and records.",
+    "message": "Bulk order request — Al Nakhlah Al Mubarakah:\nFull name: {name}\nCity: {city}\nPhone / WhatsApp: {phone}\nRequested quantity: {quantity}\nDesired type: {variety}\nGrade: {grade}",
+    "emailSubject": "Bulk order request — {name}"
+  }
+}

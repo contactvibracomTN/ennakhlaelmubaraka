@@ -1,0 +1,123 @@
+{
+  "dates": [
+    {
+      "slug": "medina",
+      "name": {
+        "ar": "تمور المدينة",
+        "en": "Medina Dates",
+        "fr": "Dattes de Médine",
+        "tr": "Medine Hurmaları",
+        "ur": "مدینہ کی کھجوریں",
+        "ms": "Kurma Madinah",
+        "bn": "মদিনার খেজুর",
+        "id": "Kurma Madinah"
+      },
+      "description": {
+        "ar": "اختيارات من أصناف المدينة المنورة، نعرضها بأسلوب يبرز أصلها وطابعها المميز.",
+        "en": "Selections associated with Medina, presented around origin, character and taste.",
+        "fr": "Des sélections associées à Médine, présentées autour de l'origine, du caractère et du goût.",
+        "tr": "Medine ile ilişkili seçkiler; köken, karakter ve tat etrafında sunulur.",
+        "ur": "مدینہ سے منسلک انتخابات — اصل، شناخت اور ذائقے کے گرد ترتیب دیے گئے۔",
+        "ms": "Pilihan yang dikaitkan dengan Madinah, disampaikan berdasarkan asal, perwatakan dan rasa.",
+        "bn": "মদিনার সঙ্গে জড়িত নির্বাচন — উৎস, চরিত্র ও স্বাদকে ঘিরে সাজানো।",
+        "id": "Pilihan yang terkait dengan Madinah, disajikan berdasarkan asal, karakter, dan rasa."
+      },
+      "image": "/images/dates/ajwa.jpg"
+    },
+    {
+      "slug": "kingdom",
+      "name": {
+        "ar": "تمور المملكة",
+        "en": "Kingdom Dates",
+        "fr": "Dattes du Royaume",
+        "tr": "Krallık Hurmaları",
+        "ur": "مملکت کی کھجوریں",
+        "ms": "Kurma Kerajaan",
+        "bn": "রাজ্যের খেজুর",
+        "id": "Kurma Kerajaan"
+      },
+      "description": {
+        "ar": "أصناف سعودية من مختلف مناطق المملكة، تُنتقى من أسواقها المحلية بحسب التوفر الفعلي.",
+        "en": "Saudi varieties from across the Kingdom, selected from their local markets based on actual availability.",
+        "fr": "Des variétés saoudiennes issues de toutes les régions du Royaume, sélectionnées sur les marchés locaux selon la disponibilité réelle.",
+        "tr": "Krallığın her bölgesinden, fiili mevcudiyete göre yerel pazarlardan seçilen Suudi çeşitler.",
+        "ur": "مملکت کے مختلف علاقوں سے، دستیابی کے مطابق مقامی منڈیوں سے منتخب سعودی اقسام۔",
+        "ms": "Varieti Arab Saudi dari seluruh Kerajaan, dipilih dari pasaran tempatan mengikut ketersediaan sebenar.",
+        "bn": "প্রকৃত প্রাপ্যতা অনুযায়ী স্থানীয় বাজার থেকে নির্বাচিত রাজ্যের বিভিন্ন অঞ্চলের সৌদি জাত।",
+        "id": "Varietas Arab Saudi dari seluruh Kerajaan, dipilih dari pasar lokal sesuai ketersediaan aktual."
+      },
+      "image": "/images/dates/safawi.jpg"
+    }
+  ],
+  "gifts": [
+    {
+      "slug": "personal",
+      "name": {
+        "ar": "الهدايا الشخصية",
+        "en": "Personal Gifts",
+        "fr": "Cadeaux personnels",
+        "tr": "Kişisel Hediyeler",
+        "ur": "ذاتی تحائف",
+        "ms": "Hadiah Peribadi",
+        "bn": "ব্যক্তিগত উপহার",
+        "id": "Hadiah Pribadi"
+      },
+      "description": {
+        "ar": "اختيارات هدايا بمستويات سعر مختلفة، من الهدية البسيطة إلى الاختيار الأكثر فخامة.",
+        "en": "Gift choices across price levels, from simple gestures to more luxurious selections.",
+        "fr": "Des choix cadeaux à tous les niveaux de prix, du geste simple aux sélections les plus luxueuses.",
+        "tr": "Basit jestlerden en lüks seçimlere kadar her fiyat seviyesinde hediye seçenekleri.",
+        "ur": "سادہ اشاروں سے لے کر انتہائی پرتعیش انتخاب تک، ہر قیمت کی سطح پر تحفے۔",
+        "ms": "Pilihan hadiah merentas tahap harga, daripada gerak isyarat ringkas kepada pilihan paling mewah.",
+        "bn": "সাধারণ ইঙ্গিত থেকে সবচেয়ে বিলাসবহুল নির্বাচন — প্রতিটি মূল্য স্তরে উপহার।",
+        "id": "Pilihan hadiah di berbagai tingkat harga, dari gestur sederhana hingga pilihan paling mewah."
+      }
+    },
+    {
+      "slug": "occasions",
+      "name": {
+        "ar": "هدايا المناسبات",
+        "en": "Occasion Gifts",
+        "fr": "Cadeaux d'occasion",
+        "tr": "Özel Gün Hediyeleri",
+        "ur": "موقع کے تحائف",
+        "ms": "Hadiah Majlis",
+        "bn": "অনুষ্ঠানের উপহার",
+        "id": "Hadiah Acara"
+      },
+      "description": {
+        "ar": "اختيارات تتغير حسب المناسبة: رمضان، العيد، الزواج، الزيارات وغيرها.",
+        "en": "Selections organised around Ramadan, Eid, weddings, visits and other occasions.",
+        "fr": "Des coffrets conçus pour le Ramadan, l'Aïd, les mariages et les visites.",
+        "tr": "Ramazan, bayram, düğün ve ziyaretler için tasarlanmış kutular.",
+        "ur": "رمضان، عید، شادیوں اور ملاقاتوں کے لیے بنائے گئے ڈبے۔",
+        "ms": "Kotak direka untuk Ramadan, Aidilfitri, perkahwinan dan kunjungan.",
+        "bn": "রমজান, ঈদ, বিয়ে ও সাক্ষাতের জন্য নকশা করা বাক্স।",
+        "id": "Kotak yang dirancang untuk Ramadan, Idul Fitri, pernikahan, dan kunjungan."
+      }
+    },
+    {
+      "slug": "date-products",
+      "name": {
+        "ar": "منتجات التمور",
+        "en": "Date Products",
+        "fr": "Produits de dattes",
+        "tr": "Hurma Ürünleri",
+        "ur": "کھجور کی مصنوعات",
+        "ms": "Produk Kurma",
+        "bn": "খেজুরের পণ্য",
+        "id": "Produk Kurma"
+      },
+      "description": {
+        "ar": "حلويات ومنتجات مرتبطة بالتمر، مع إمكانية إضافة منتجات مكملة تدريجياً.",
+        "en": "Date-based sweets and related products, with room to expand gradually.",
+        "fr": "Sirops, confitures, pâtes et douceurs élaborés à base de dattes.",
+        "tr": "Hurma esaslı şuruplar, reçeller, ezmeler ve tatlılar.",
+        "ur": "کھجور سے بنے شربت، جام، پیسٹ اور مٹھائیاں۔",
+        "ms": "Sirap, jem, pes dan manisan yang dibuat daripada kurma.",
+        "bn": "খেজুর থেকে তৈরি সিরাপ, জ্যাম, পেস্ট ও মিষ্টি।",
+        "id": "Sirup, selai, pasta, dan manisan berbahan dasar kurma."
+      }
+    }
+  ]
+}

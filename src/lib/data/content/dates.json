@@ -1,0 +1,619 @@
+[
+  {
+    "id": "date-ajwa",
+    "slug": "ajwa",
+    "name": {
+      "ar": "عجوة المدينة",
+      "en": "Ajwa Medina",
+      "fr": "Ajwa de Médine",
+      "tr": "Medine Ajwa",
+      "ur": "عجوہ مدینہ",
+      "ms": "Ajwa Madinah",
+      "bn": "মদিনা আজওয়া",
+      "id": "Ajwa Madinah"
+    },
+    "teaser": {
+      "ar": "صنف مرتبط بهوية المدينة المنورة، بنكهة غنية وقوام طري ومظهر داكن مميز.",
+      "en": "A Medina signature with a rich profile, tender texture and distinctive dark appearance.",
+      "fr": "Une signature de Médine au profil riche, au grain tendre et à l'apparence sombre distinctive.",
+      "tr": "Zengin profili, yumuşak dokusu ve kendine özgü koyu görünümüyle Medine imzası.",
+      "ur": "مدینہ کی پہچان — بھرپور ذائقہ، نرم ساخت اور مخصوص گہرا رنگ۔",
+      "ms": "Khas Madinah dengan profil kaya, tekstur lembut dan rupa gelap yang tersendiri.",
+      "bn": "মদিনার পরিচয় — সমৃদ্ধ স্বাদ, কোমল গঠন এবং স্বতন্ত্র গাঢ় চেহারা।",
+      "id": "Khas Madinah dengan profil kaya, tekstur lembut, dan tampilan gelap yang khas."
+    },
+    "images": [
+      "/images/dates/ajwa.jpg",
+      "/images/dates/ajwa__2.jpg",
+      "/images/uploads/ajwa__3.jpeg"
+    ],
+    "price": {
+      "amount": 40,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "date",
+    "category": "medina",
+    "varietySlug": "ajwa",
+    "origin": {
+      "ar": "السعودية (المدينة المنورة)",
+      "en": "Saudi Arabia (Medina)",
+      "fr": "Arabie saoudite (Médine)",
+      "tr": "Suudi Arabistan (Medine)",
+      "ur": "سعودی عرب (مدینہ)",
+      "ms": "Arab Saudi (Madinah)",
+      "bn": "সৌদি আরব (মদিনা)",
+      "id": "Arab Saudi (Madinah)"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-fakhira",
+        "label": {
+          "ar": "الفاخرة",
+          "en": "Premium",
+          "fr": "Premium"
+        },
+        "pricePerKg": {
+          "amount": 40,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      },
+      {
+        "id": "g-wusta",
+        "label": {
+          "ar": "الوسطى",
+          "en": "Medium",
+          "fr": "Moyenne"
+        },
+        "pricePerKg": {
+          "amount": 25,
+          "currency": "SAR"
+        },
+        "tier": "medium"
+      },
+      {
+        "id": "g-saghira",
+        "label": {
+          "ar": "الصغيرة",
+          "en": "Small",
+          "fr": "Petite"
+        },
+        "pricePerKg": {
+          "amount": 15,
+          "currency": "SAR"
+        },
+        "tier": "economic"
+      }
+    ],
+    "defaultGradeId": "g-fakhira",
+    "texture": "soft"
+  },
+  {
+    "kind": "date",
+    "id": "date-safawi",
+    "slug": "safawi",
+    "name": {
+      "ar": "صفاوي",
+      "en": "Safawi",
+      "fr": "Safawi",
+      "tr": "Safawi",
+      "ur": "صفاوی",
+      "ms": "Safawi",
+      "bn": "সাফাওয়ি",
+      "id": "Safawi"
+    },
+    "teaser": {
+      "ar": "تمر داكن ذو قوام طري ولحمي ونكهة غنية تميل إلى الكراميل والعسل.",
+      "en": "A dark, tender and meaty date with rich caramelised and honeyed notes.",
+      "fr": "Une datte sombre, tendre et charnue aux notes riches de caramel et de miel.",
+      "tr": "Zengin karamel ve bal notaları taşıyan koyu, yumuşak ve etli hurma.",
+      "ur": "گہری، نرم اور گوشت دار کھجور جس میں کیریمل اور شہد کی بھرپور جھلک ہے۔",
+      "ms": "Kurma gelap, lembut dan berisi dengan aroma karamel dan madu yang kaya.",
+      "bn": "গাঢ়, কোমল ও মাংসল খেজুর, সমৃদ্ধ ক্যারামেল ও মধুর ইঙ্গিতসহ।",
+      "id": "Kurma gelap, lembut, dan berdaging dengan aroma karamel dan madu yang kaya."
+    },
+    "images": [
+      "/images/dates/safawi.jpg",
+      "/images/dates/safawi__2.jpg",
+      "/images/dates/safawi__3.jpg"
+    ],
+    "price": {
+      "amount": 20,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "category": "medina",
+    "varietySlug": "safawi",
+    "origin": {
+      "ar": "السعودية / منطقة المدينة بحسب الدليل",
+      "en": "Saudi Arabia / Medina region as documented in the guide",
+      "fr": "Arabie saoudite / région de Médine (documenté dans le guide)",
+      "tr": "Suudi Arabistan / Medine bölgesi (rehberde belgelenmiştir)",
+      "ur": "سعودی عرب / مدینہ علاقہ (گائیڈ میں درج)",
+      "ms": "Arab Saudi / wilayah Madinah (didokumentasikan dalam panduan)",
+      "bn": "সৌদি আরব / মদিনা অঞ্চল (গাইডে নথিভুক্ত)",
+      "id": "Arab Saudi / wilayah Madinah (terdokumentasi di panduan)"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-20",
+        "label": {
+          "ar": "20 ريال/كجم",
+          "en": "SAR 20/kg",
+          "fr": "20 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 20,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      },
+      {
+        "id": "g-15",
+        "label": {
+          "ar": "15 ريال/كجم",
+          "en": "SAR 15/kg",
+          "fr": "15 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 15,
+          "currency": "SAR"
+        },
+        "tier": "medium"
+      }
+    ],
+    "defaultGradeId": "g-20",
+    "texture": "soft"
+  },
+  {
+    "kind": "date",
+    "id": "date-sukkari",
+    "slug": "sukkari",
+    "name": {
+      "ar": "سكري",
+      "en": "Sukkari",
+      "fr": "Sukkari",
+      "tr": "Sukkari",
+      "ur": "سکری",
+      "ms": "Sukkari",
+      "bn": "সুক্কারি",
+      "id": "Sukkari"
+    },
+    "teaser": {
+      "ar": "صنف شديد الحلاوة بطابع كراميلي وقوام طبيعي طري.",
+      "en": "A very sweet variety with caramelised notes and a naturally soft texture.",
+      "fr": "Une variété très sucrée aux notes caramélisées et à la texture naturellement molle.",
+      "tr": "Karamel notaları ve doğal yumuşak dokusuyla çok tatlı bir çeşit.",
+      "ur": "بہت میٹھی قسم جس میں کیریمل کی جھلک اور قدرتی نرم ساخت ہے۔",
+      "ms": "Varieti sangat manis dengan aroma karamel dan tekstur semula jadi yang lembut.",
+      "bn": "ক্যারামেল ইঙ্গিত ও প্রাকৃতিক কোমল গঠনের খুব মিষ্টি জাত।",
+      "id": "Varietas sangat manis dengan aroma karamel dan tekstur alami yang empuk."
+    },
+    "images": [
+      "/images/dates/sukkari.jpg",
+      "/images/dates/sukkari__2.jpg",
+      "/images/dates/sukkari__3.jpg"
+    ],
+    "price": {
+      "amount": 27,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "category": "kingdom",
+    "varietySlug": "sukkari",
+    "origin": {
+      "ar": "السعودية (القصيم)",
+      "en": "Saudi Arabia (Qassim)",
+      "fr": "Arabie saoudite (Qassim)",
+      "tr": "Suudi Arabistan (Kasım)",
+      "ur": "سعودی عرب (قاسم)",
+      "ms": "Arab Saudi (Qassim)",
+      "bn": "সৌদি আরব (কাসিম)",
+      "id": "Arab Saudi (Qassim)"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-mufattal",
+        "label": {
+          "ar": "سكري مفتّل",
+          "en": "Sukkari Mufattal",
+          "fr": "Sukkari Mufattal"
+        },
+        "pricePerKg": {
+          "amount": 27,
+          "currency": "SAR"
+        },
+        "tier": "medium"
+      },
+      {
+        "id": "g-rutab",
+        "label": {
+          "ar": "سكري رطب",
+          "en": "Sukkari Rutab",
+          "fr": "Sukkari Rutab"
+        },
+        "pricePerKg": {
+          "amount": 40,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      }
+    ],
+    "defaultGradeId": "g-mufattal",
+    "texture": "soft"
+  },
+  {
+    "kind": "date",
+    "id": "date-sagai",
+    "slug": "sagai",
+    "name": {
+      "ar": "صقعي",
+      "en": "Sagai",
+      "fr": "Sagai",
+      "tr": "Sagai",
+      "ur": "سگائی",
+      "ms": "Sagai",
+      "bn": "সাগাই",
+      "id": "Sagai"
+    },
+    "teaser": {
+      "ar": "صقعي — طرف أشقر وقاعدة عنبرية",
+      "en": "Sagai — blonde tip, amber base",
+      "fr": "Sagai — pointe blonde, base ambrée",
+      "tr": "Sagai — sarışın uç, kehribar taban",
+      "ur": "سگائی — سنہری سرا، عنبیری بنیاد",
+      "ms": "Sagai — hujung perang muda, pangkal ambar",
+      "bn": "সাগাই — স্বর্ণাভ অগ্রভাগ, অ্যাম্বার গোড়া",
+      "id": "Sagai — ujung pirang, pangkal ambar"
+    },
+    "images": [
+      "/images/dates/sagai.jpg",
+      "/images/dates/sagai__2.jpg"
+    ],
+    "price": {
+      "amount": 30,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "category": "kingdom",
+    "varietySlug": "sagai",
+    "origin": {
+      "ar": "السعودية",
+      "en": "Saudi Arabia",
+      "fr": "Arabie saoudite",
+      "tr": "Suudi Arabistan",
+      "ur": "سعودی عرب",
+      "ms": "Arab Saudi",
+      "bn": "সৌদি আরব",
+      "id": "Arab Saudi"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-30",
+        "label": {
+          "ar": "30 ريال/كجم",
+          "en": "SAR 30/kg",
+          "fr": "30 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 30,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      },
+      {
+        "id": "g-25",
+        "label": {
+          "ar": "25 ريال/كجم",
+          "en": "SAR 25/kg",
+          "fr": "25 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 25,
+          "currency": "SAR"
+        },
+        "tier": "medium"
+      }
+    ],
+    "defaultGradeId": "g-30",
+    "texture": "semi-soft"
+  },
+  {
+    "kind": "date",
+    "id": "date-anbara",
+    "slug": "anbara",
+    "name": {
+      "ar": "عنبرة",
+      "en": "Anbara",
+      "fr": "Anbara",
+      "tr": "Anbara",
+      "ur": "عنبرہ",
+      "ms": "Anbara",
+      "bn": "আনবারা",
+      "id": "Anbara"
+    },
+    "teaser": {
+      "ar": "عنبرة — عيار استثنائي ولون عنبري",
+      "en": "Anbara — exceptional calibre, amber robe",
+      "fr": "Anbara — calibre exceptionnel, robe ambrée",
+      "tr": "Anbara — olağanüstü kalibre, kehribar giysi",
+      "ur": "عنبرہ — غیر معمولی سائز، عنبیری لباس",
+      "ms": "Anbara — kaliber luar biasa, jubah ambar",
+      "bn": "আনবারা — অসাধারণ সাইজ, অ্যাম্বার পোশাক",
+      "id": "Anbara — kaliber luar biasa, jubah ambar"
+    },
+    "images": [
+      "/images/dates/anbara.jpg",
+      "/images/dates/anbara__2.jpg",
+      "/images/dates/anbara__3.jpg"
+    ],
+    "price": {
+      "amount": 35,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "category": "medina",
+    "varietySlug": "anbara",
+    "origin": {
+      "ar": "السعودية (المدينة)",
+      "en": "Saudi Arabia (Medina)",
+      "fr": "Arabie saoudite (Médine)",
+      "tr": "Suudi Arabistan (Medine)",
+      "ur": "سعودی عرب (مدینہ)",
+      "ms": "Arab Saudi (Madinah)",
+      "bn": "সৌদি আরব (মদিনা)",
+      "id": "Arab Saudi (Madinah)"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-35",
+        "label": {
+          "ar": "35 ريال/كجم",
+          "en": "SAR 35/kg",
+          "fr": "35 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 35,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      }
+    ],
+    "defaultGradeId": "g-35",
+    "texture": "soft"
+  },
+  {
+    "kind": "date",
+    "id": "date-medjool",
+    "slug": "medjool",
+    "name": {
+      "ar": "مجدول",
+      "en": "Medjool",
+      "fr": "Medjool",
+      "tr": "Medjool",
+      "ur": "مجدول",
+      "ms": "Medjool",
+      "bn": "মেজদুল",
+      "id": "Medjool"
+    },
+    "teaser": {
+      "ar": "تمر عالي العيار بلحم سميك طري ذائب ونكهة كراميل-عسل غنية — من إنتاج مزارع المملكة.",
+      "en": "A large-calibre date with thick, melting flesh and rich caramel-honey notes — grown in the Kingdom.",
+      "fr": "Une datte de gros calibre à la chair épaisse et fondante, aux notes de caramel et de miel — issue des fermes du Royaume.",
+      "tr": "Kalın ve eriyen etli, zengin karamel-bal notalı iri kalibre hurma — Krallık çiftliklerinden.",
+      "ur": "بڑے سائز کی کھجور — موٹا، پگھلنے والا گوشت اور کیریمل-شہد کا بھرپور ذائقہ، مملکت کے فارموں سے۔",
+      "ms": "Kurma kaliber besar dengan isi tebal yang lembut meleleh dan rasa karamel-madu yang kaya — dari ladang Kerajaan.",
+      "bn": "বড় সাইজের খেজুর — পুরু, গলে যাওয়া শাঁস ও সমৃদ্ধ ক্যারামেল-মধু স্বাদ — রাজ্যের খামার থেকে।",
+      "id": "Kurma kaliber besar dengan daging tebal yang lembut meleleh dan rasa karamel-madu yang kaya — dari perkebunan Kerajaan."
+    },
+    "images": [
+      "/images/dates/medjool__3.webp",
+      "/images/dates/medjool__2.webp",
+      "/images/dates/medjool.jpg"
+    ],
+    "price": {
+      "amount": 35,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "category": "kingdom",
+    "varietySlug": "medjool",
+    "origin": {
+      "ar": "السعودية",
+      "en": "Saudi Arabia",
+      "fr": "Arabie saoudite",
+      "tr": "Suudi Arabistan",
+      "ur": "سعودی عرب",
+      "ms": "Arab Saudi",
+      "bn": "সৌদি আরব",
+      "id": "Arab Saudi"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-35",
+        "label": {
+          "ar": "35 ريال/كجم",
+          "en": "SAR 35/kg",
+          "fr": "35 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 35,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      },
+      {
+        "id": "g-25",
+        "label": {
+          "ar": "25 ريال/كجم",
+          "en": "SAR 25/kg",
+          "fr": "25 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 25,
+          "currency": "SAR"
+        },
+        "tier": "medium"
+      }
+    ],
+    "defaultGradeId": "g-35",
+    "texture": "soft"
+  },
+  {
+    "kind": "date",
+    "id": "date-mabroom",
+    "slug": "mabroom",
+    "name": {
+      "ar": "مبروم",
+      "en": "Mabroom",
+      "fr": "Mabroom",
+      "tr": "Mabroom",
+      "ur": "مبروم",
+      "ms": "Mabroom",
+      "bn": "মাবরুম",
+      "id": "Mabroom"
+    },
+    "teaser": {
+      "ar": "تمر ممدود بلون بني محمر وقوام طري متماسك بنكهة معتدلة.",
+      "en": "An elongated date with reddish-brown tones, a firm yet tender texture and balanced sweetness.",
+      "fr": "Une datte allongée aux tons brun-rouge, à la texture ferme et tendre, d'une douceur équilibrée.",
+      "tr": "Kırmızımsı-kahve tonlarında, sıkı ama yumuşak dokulu ve dengeli tatlılıkta uzun hurma.",
+      "ur": "لمبی کھجور — سرخی مائل بھورے رنگ، سخت مگر نرم ساخت اور متوازن مٹھاس۔",
+      "ms": "Kurma memanjang berwarna perang kemerahan, tekstur lembut tetapi padat dengan kemanisan seimbang.",
+      "bn": "লম্বাটে খেজুর — লালচে-বাদামি আভা, দৃঢ় তবু কোমল গঠন ও ভারসাম্যপূর্ণ মিষ্টতা।",
+      "id": "Kurma memanjang dengan warna cokelat kemerahan, tekstur padat namun lembut, dan rasa manis seimbang."
+    },
+    "images": [],
+    "price": {
+      "amount": 35,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "category": "kingdom",
+    "origin": {
+      "ar": "السعودية",
+      "en": "Saudi Arabia",
+      "fr": "Arabie saoudite",
+      "tr": "Suudi Arabistan",
+      "ur": "سعودی عرب",
+      "ms": "Arab Saudi",
+      "bn": "সৌদি আরব",
+      "id": "Arab Saudi"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-35",
+        "label": {
+          "ar": "35 ريال/كجم",
+          "en": "SAR 35/kg",
+          "fr": "35 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 35,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      },
+      {
+        "id": "g-30",
+        "label": {
+          "ar": "30 ريال/كجم",
+          "en": "SAR 30/kg",
+          "fr": "30 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 30,
+          "currency": "SAR"
+        },
+        "tier": "medium"
+      }
+    ],
+    "defaultGradeId": "g-35",
+    "texture": "semi-soft"
+  },
+  {
+    "kind": "date",
+    "id": "date-ajwa-aaliya",
+    "slug": "ajwa-aaliya",
+    "name": {
+      "ar": "عجوة العالية",
+      "en": "Ajwa Aaliya",
+      "fr": "Ajwa Aaliya",
+      "tr": "Ajwa Aaliya",
+      "ur": "عجوہ عالیہ",
+      "ms": "Ajwa Aaliya",
+      "bn": "আজওয়া আলিয়া",
+      "id": "Ajwa Aaliya"
+    },
+    "teaser": {
+      "ar": "عجوة العالية — صنف مزارع العالية بالمدينة المنورة، بقوام طري وحلاوة متوازنة.",
+      "en": "Ajwa from the Al-Aliya groves of Medina — tender texture, balanced sweetness.",
+      "fr": "L'Ajwa des palmeraies d'Al-Aliya à Médine — texture tendre, douceur équilibrée.",
+      "tr": "Medine'deki Al-Aliya bahçelerinin Ajwa'sı — yumuşak doku, dengeli tatlılık.",
+      "ur": "عجوہ العالیہ — مدینہ کے عالیہ باغات کی عجوہ، نرم ساخت اور متوازن مٹھاس۔",
+      "ms": "Ajwa dari kebun Al-Aliya di Madinah — tekstur lembut, kemanisan seimbang.",
+      "bn": "মদিনার আল-আলিয়া বাগানের আজওয়া — কোমল গঠন, ভারসাম্যপূর্ণ মিষ্টতা।",
+      "id": "Ajwa dari kebun Al-Aliya di Madinah — tekstur lembut, rasa manis seimbang."
+    },
+    "images": [],
+    "price": {
+      "amount": 45,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "category": "medina",
+    "varietySlug": "ajwa",
+    "origin": {
+      "ar": "السعودية (المدينة المنورة)",
+      "en": "Saudi Arabia (Medina)",
+      "fr": "Arabie saoudite (Médine)",
+      "tr": "Suudi Arabistan (Medine)",
+      "ur": "سعودی عرب (مدینہ)",
+      "ms": "Arab Saudi (Madinah)",
+      "bn": "সৌদি আরব (মদিনা)",
+      "id": "Arab Saudi (Madinah)"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-45",
+        "label": {
+          "ar": "45 ريال/كجم",
+          "en": "SAR 45/kg",
+          "fr": "45 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 45,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      }
+    ],
+    "defaultGradeId": "g-45",
+    "texture": "soft"
+  }
+]
