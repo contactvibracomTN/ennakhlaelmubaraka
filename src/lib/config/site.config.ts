@@ -59,9 +59,9 @@ export const siteConfig = {
   /**
    * Production/public URL. While EMPTY the site is `noindex` (never indexed),
    * which is the safe default until deployment (Blueprint §31).
-   * Set by the owner (D9) — ennakhlaelmubaraka.sa.
+   * Official domain (Hostinger, D9) — ennakhlaelmubaraka.com.
    */
-  siteUrl: "https://ennakhlaelmubaraka.sa",
+  siteUrl: "https://ennakhlaelmubaraka.com",
 
   /** Locale tags used in `<html lang>` / metadata. */
   localeTag: { ar: "ar-SA", en: "en-SA" } as const,

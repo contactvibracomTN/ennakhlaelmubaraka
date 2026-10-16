@@ -44,7 +44,7 @@ Voir `.env.example`. En production elles sont définies côté Vercel :
 ## Déploiement
 
 Push sur `main` → rebuild automatique Vercel.
-Production : https://ennakhlaelmubaraka.vercel.app
+Production : https://ennakhlaelmubaraka.com (et `www` → redirection vers l'apex)
 
 ## Analytics
 
