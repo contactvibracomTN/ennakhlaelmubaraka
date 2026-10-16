@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# النخلة المباركة — Al Nakhlah Al Mubarakah
 
-## Getting Started
+Boutique de dattes premium · 8 langues · Next.js 16 (App Router) + next-intl.
 
-First, run the development server:
+## Stack
+
+- Next.js 16 / React 19 / TypeScript
+- next-intl (ar, fr, en, …)
+- Tailwind CSS 4
+- Contenu éditable en JSON + panneau d'administration maison
+
+## Démarrage
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000 → redirige vers /ar
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scripts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Commande            | Rôle                                                       |
+| ------------------- | ---------------------------------------------------------- |
+| `npm run dev`       | Serveur de développement                                   |
+| `npm run build`     | Build de production (rendu statique, ~650 pages)           |
+| `npm run check`     | ESLint + TypeScript                                        |
+| `npm run lint`      | ESLint seul                                                |
+| `npm run typecheck` | `tsc --noEmit` seul                                        |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Structure
 
-## Learn More
+- `src/app/[locale]/` — pages publiques (8 langues)
+- `src/app/admin/` — panneau d'administration (auth par variables d'env)
+- `src/lib/data/content/*.json` — contenus éditables (dattes, cadeaux, catégories, articles)
+- `src/messages/*.json` — textes d'interface par langue
+- `resources/` — données sources & crédits photos (hors runtime)
+- `scripts/deploy/` — pipeline de déploiement utilisé par l'admin
 
-To learn more about Next.js, take a look at the following resources:
+## Variables d'environnement
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Voir `.env.example`. En production elles sont définies côté Vercel :
+`NEXT_PUBLIC_BANK_*`, `ADMIN_PASSWORD`, `ADMIN_SECRET`, `GOOGLE_TRANSLATE_API_KEY`,
+`ADMIN_SOURCE_LOCALE`. **Aucun secret n'est versionné.**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Déploiement
 
-## Deploy on Vercel
+Push sur `main` → rebuild automatique Vercel.
+Production : https://ennakhlaelmubaraka.vercel.app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Analytics
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GTM `GTM-TWZ3M2WB` (GA4 `G-PPQCN5D354` configuré **dans** le conteneur) +
+Meta Pixel `4588962788006820` injecté directement par l'application.
