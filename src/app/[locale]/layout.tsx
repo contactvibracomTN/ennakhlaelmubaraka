@@ -198,10 +198,10 @@ export default async function LocaleLayout({
             <ConsentBanner />
             <CartDrawer />
 
-            {/* Analytics — when `managedByGtm` is true, the GTM container is the
-                only tag injected (GA4 + Meta Pixel live INSIDE GTM, single
-                source of truth → no double counting). Otherwise the app loads
-                GA4 + Meta directly (legacy behaviour). */}
+            {/* Analytics — GA4 lives INSIDE GTM when `managedByGtm` is true
+                (single source of truth → no double counting); otherwise GA4 is
+                injected directly (legacy behaviour). The Meta Pixel is injected
+                directly whenever `metaPixelDirect` is true, regardless of GTM. */}
             {siteConfig.analytics.ga4Id && !siteConfig.analytics.managedByGtm ? (
               <>
                 <Script
@@ -218,7 +218,8 @@ gtag('config', '${siteConfig.analytics.ga4Id}');`}
               </>
             ) : null}
             {siteConfig.analytics.metaPixelId &&
-            !siteConfig.analytics.managedByGtm ? (
+            (siteConfig.analytics.metaPixelDirect ||
+              !siteConfig.analytics.managedByGtm) ? (
               <>
                 <Script id="meta-pixel" strategy="afterInteractive">
                   {`!function(f,b,e,v,n,t,s)

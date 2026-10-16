@@ -71,15 +71,21 @@ export const siteConfig = {
     ga4Id: "G-PPQCN5D354",
     gtmId: "GTM-TWZ3M2WB",
     clarityId: "",
-    metaPixelId: "2369842980424778",
+    metaPixelId: "4588962788006820",
     tiktokPixelId: "",
     /**
-     * When true, Google Tag Manager is the SINGLE source of truth: the app
-     * injects ONLY the GTM container, and GA4 + Meta Pixel must be configured
-     * as tags INSIDE the container (avoids double counting). When false, the
-     * app injects GA4 + Meta Pixel directly on every page (legacy behaviour).
+     * When true, Google Tag Manager is the SINGLE source of truth for GA4: the
+     * app injects the GTM container, and GA4 must be configured as a tag INSIDE
+     * the container (avoids double counting). When false, the app injects GA4
+     * directly on every page (legacy behaviour).
      */
     managedByGtm: true,
+    /**
+     * Meta Pixel is injected DIRECTLY by the app, independently of
+     * `managedByGtm` (GA4 stays inside GTM). Set to false to let GTM own the
+     * Meta Pixel instead — never enable both, to avoid double counting.
+     */
+    metaPixelDirect: true,
     /** Consent banner — disabled while no consent framework is required. */
     consentRequired: false,
   },
