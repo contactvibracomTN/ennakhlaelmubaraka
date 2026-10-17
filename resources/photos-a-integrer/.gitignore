@@ -1,0 +1,5 @@
+# Les originaux déposés ici restent en local : seules les versions optimisées
+# (dans public/images/) sont versionnées.
+*
+!.gitignore
+!README.md
