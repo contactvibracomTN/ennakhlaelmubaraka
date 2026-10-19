@@ -8,39 +8,46 @@
         "at": "2026-09-30T11:38:07.803Z"
       },
       "en": {
-        "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-09-30T11:38:07.803Z"
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-10-19T09:44:16.476Z",
+        "machine": true
       },
       "fr": {
-        "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-09-30T11:38:07.803Z"
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-10-19T09:44:16.483Z",
+        "machine": true
       },
       "tr": {
-        "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-09-30T11:38:07.803Z"
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-10-19T09:41:44.112Z",
+        "machine": true
       },
       "ur": {
-        "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-09-30T11:38:07.803Z"
+        "status": "machine",
+        "by": "traduction assistée (IA)",
+        "at": "2026-10-19T09:58:02.622Z",
+        "machine": true
       },
       "ms": {
-        "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-09-30T11:38:07.803Z"
+        "status": "machine",
+        "by": "traduction assistée (IA)",
+        "at": "2026-10-19T09:58:02.622Z",
+        "machine": true
       },
       "bn": {
-        "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-09-30T11:38:07.803Z"
+        "status": "machine",
+        "by": "traduction assistée (IA)",
+        "at": "2026-10-19T09:58:02.622Z",
+        "machine": true
       },
       "id": {
         "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-09-30T11:38:07.803Z"
+        "by": "admin",
+        "at": "2026-10-19T09:42:53.009Z",
+        "machine": false
       }
     },
     "post:guide-achat-ramadan": {

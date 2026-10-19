@@ -3,24 +3,24 @@
     "id": "date-ajwa",
     "slug": "ajwa",
     "name": {
-      "ar": "عجوة المدينة",
+      "ar": "عجوة المدينة الأصليّة",
       "en": "Ajwa Medina",
       "fr": "Ajwa de Médine",
       "tr": "Medine Ajwa",
       "ur": "عجوہ مدینہ",
       "ms": "Ajwa Madinah",
       "bn": "মদিনা আজওয়া",
-      "id": "Ajwa Madinah"
+      "id": "Madinah Ajwa Asli"
     },
     "teaser": {
-      "ar": "صنف مرتبط بهوية المدينة المنورة، بنكهة غنية وقوام طري ومظهر داكن مميز.",
-      "en": "A Medina signature with a rich profile, tender texture and distinctive dark appearance.",
-      "fr": "Une signature de Médine au profil riche, au grain tendre et à l'apparence sombre distinctive.",
-      "tr": "Zengin profili, yumuşak dokusu ve kendine özgü koyu görünümüyle Medine imzası.",
-      "ur": "مدینہ کی پہچان — بھرپور ذائقہ، نرم ساخت اور مخصوص گہرا رنگ۔",
-      "ms": "Khas Madinah dengan profil kaya, tekstur lembut dan rupa gelap yang tersendiri.",
-      "bn": "মদিনার পরিচয় — সমৃদ্ধ স্বাদ, কোমল গঠন এবং স্বতন্ত্র গাঢ় চেহারা।",
-      "id": "Khas Madinah dengan profil kaya, tekstur lembut, dan tampilan gelap yang khas."
+      "ar": "تمتّع بأجود أنواع العجوة الأصيلة، من عمق مزارع المدينة المنوّرة. ننتقي لكم أفخم وألذّ عجوة تمنحك تجربة تذوّق مميّزة وفوائد صحّية عظيمة.\nاحصل عليها الآن بأسعار تناسب ميزانيتك!",
+      "en": "Enjoy the finest authentic Ajwa dates, grown in the heart of Madinah's farms. We select for you the most exquisite and delicious Ajwa, offering a distinctive tasting experience and remarkable health benefits.\nGet yours now at a price that suits your budget!",
+      "fr": "Savourez les meilleures dattes Ajwa authentiques, cultivées au cœur des fermes de Médine. Nous sélectionnons pour vous l'Ajwa la plus raffinée et la plus savoureuse, pour une expérience gustative d'exception et de grands bienfaits pour la santé.\nProcurez-vous-la dès maintenant à un prix adapté à votre budget !",
+      "tr": "Medine'nin bağlarının kalbinden gelen en kaliteli özgün Ajwa hurmalarının tadını çıkarın. Size en seçkin ve en lezzetli Ajwa'yı seçiyoruz; size kendine özgü bir tat deneyimi ve olağanüstü sağlık faydaları sunuyor.\nŞimdi bütçenize uygun fiyatlarla edinin!",
+      "ur": "مدینہ کے باغات کی گہرائی سے حاصل ہونے والی بہترین اصل عجوہ کا لطف اٹھائیں۔ ہم آپ کے لیے نہایت اعلیٰ اور لذیذ عجوہ منتخب کرتے ہیں جو آپ کو منفرد ذائقے کا تجربہ اور شاندار صحت بخش فوائد دیتی ہے۔\nاسے ابھی اپنے بجٹ کے مطابق قیمت پر حاصل کریں!",
+      "ms": "Nikmati Ajwa asli terbaik, yang tumbuh dari ladang-ladang Madinah yang subur. Kami memilih untuk anda Ajwa yang paling mewah dan lazat, memberikan pengalaman rasa yang istimewa dan manfaat kesihatan yang hebat.\nDapatkan sekarang pada harga yang sesuai dengan bajet anda!",
+      "bn": "মদিনার খেজুর বাগানের গভীর থেকে আসা সেরা খাঁটি আজওয়া উপভোগ করুন। আমরা আপনার জন্য সবচেয়ে অভিজাত ও সুস্বাদু আজওয়া বেছে নিই, যা আপনাকে দেয় অনন্য স্বাদের অভিজ্ঞতা এবং অসাধারণ স্বাস্থ্য উপকারিতা।\nএখনই আপনার বাজেটের সাথে মানানসই দামে এটি সংগ্রহ করুন!",
+      "id": "Nikmati kurma Ajwa asli terbaik, yang bersumber dari jantung perkebunan Madinah. Kami memilih kurma Ajwa yang paling lezat dan kaya rasa untuk pengalaman rasa yang unik dan manfaat kesehatan yang luar biasa.\n\nDapatkan sekarang juga dengan harga yang sesuai dengan anggaran Anda!"
     },
     "images": [
       "/images/dates/ajwa.jpg",
