@@ -5,6 +5,9 @@ import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { getDirection } from "@/i18n/routing";
+import { imageAlt } from "@/lib/data/localize";
+import type { LocalizedText } from "@/types/localization";
+import type { Locale } from "@/lib/config/locales";
 
 const SWIPE_THRESHOLD = 60;
 const AUTOPLAY_MS = 4000;
@@ -23,13 +26,19 @@ const AUTOPLAY_MS = 4000;
 export function ProductGallery({
   images,
   alt,
+  alts,
 }: {
   images: string[];
   alt: string;
+  /** Per-image alt text keyed by image path; falls back to `alt`. */
+  alts?: Record<string, LocalizedText>;
 }) {
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const t = useTranslations("product");
   const isRtl = getDirection(locale) === "rtl";
+
+  /** Descriptive alt for one slide — per-image when available, else `alt`. */
+  const altFor = (src: string) => imageAlt(alts, src, alt, locale);
 
   const [index, setIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
@@ -134,7 +143,7 @@ export function ProductGallery({
             >
               <Image
                 src={src}
-                alt={i === index ? alt : ""}
+                alt={i === index ? altFor(src) : ""}
                 fill
                 sizes="(max-width: 1024px) 100vw, 45vw"
                 priority={i === 0}

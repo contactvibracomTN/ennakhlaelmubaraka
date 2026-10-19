@@ -42,6 +42,7 @@ const gradeSchema = z
     pricePerKg: moneySchema,
     tier: z.enum(["premium", "medium", "economic"]).optional(),
     images: z.array(z.string()).optional(),
+    imageAlts: z.record(z.string(), localizableSchema).optional(),
   })
   .passthrough();
 
@@ -53,6 +54,7 @@ const productBaseSchema = z
     teaser: localizableSchema,
     description: localizableSchema.optional(),
     images: z.array(z.string()),
+    imageAlts: z.record(z.string(), localizableSchema).optional(),
     price: moneySchema,
     compareAtPrice: moneySchema.optional(),
     availability: availabilitySchema,

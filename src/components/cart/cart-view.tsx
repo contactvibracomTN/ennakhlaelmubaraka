@@ -13,7 +13,7 @@ import {
   formatWeightKg,
 } from "@/lib/data/weight-price";
 import { isFreeDeliveryEligible } from "@/lib/config/promos";
-import { pick } from "@/lib/data";
+import { imageAlt, pick } from "@/lib/data";
 import type { Locale } from "@/lib/config/locales";
 
 /**
@@ -121,7 +121,12 @@ export function CartView({ products }: { products: Product[] }) {
                   >
                     <Image
                       src={product.images[0]}
-                      alt={name}
+                      alt={imageAlt(
+                        product.imageAlts,
+                        product.images[0],
+                        name,
+                        locale,
+                      )}
                       fill
                       sizes="96px"
                       className="object-cover"

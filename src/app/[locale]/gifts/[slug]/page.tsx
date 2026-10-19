@@ -106,7 +106,11 @@ export default async function GiftDetailPage({
         </Link>
 
         <div className="mt-6 grid gap-10 lg:grid-cols-2 lg:gap-14">
-          <ProductGallery images={product.images} alt={name} />
+          <ProductGallery
+            images={product.images}
+            alt={name}
+            alts={product.imageAlts}
+          />
 
           <div>
             <div className="flex flex-wrap items-center gap-2">

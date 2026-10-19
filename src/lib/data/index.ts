@@ -14,4 +14,4 @@ export { staticProductRepository } from "@/lib/data/product-repository";
 export { staticGuideRepository } from "@/lib/data/guide-repository";
 export { staticBlogRepository } from "@/lib/data/blog-repository";
 export { mockCommerceProvider } from "@/lib/data/commerce-provider";
-export { pick } from "@/lib/data/localize";
+export { pick, imageAlt } from "@/lib/data/localize";

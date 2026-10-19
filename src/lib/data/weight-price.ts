@@ -1,4 +1,5 @@
 import type { DateGrade, DateProduct, GradeTier, WeightOption } from "@/types/product";
+import type { LocalizedText } from "@/types/localization";
 import type { Locale } from "@/lib/config/locales";
 
 /**
@@ -205,4 +206,18 @@ export function gradeImages(
   const grade = gradeFor(product, gradeId);
   if (grade?.images && grade.images.length > 0) return grade.images;
   return product.images;
+}
+
+/**
+ * Alt-text map matching `gradeImages`: the grade's own map when the grade
+ * carries its own photos, otherwise the product's map. Always resolved from the
+ * SAME grade as `gradeImages` so the two never disagree.
+ */
+export function gradeImageAlts(
+  product: DateProduct,
+  gradeId?: string,
+): Record<string, LocalizedText> | undefined {
+  const grade = gradeFor(product, gradeId);
+  if (grade?.images && grade.images.length > 0) return grade.imageAlts;
+  return product.imageAlts;
 }

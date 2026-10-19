@@ -16,6 +16,7 @@ import { formatMoney } from "@/types/money";
 import {
   dateLineGradeLabel,
   gradeFor,
+  gradeImageAlts,
   gradeImages,
   gradeTierLabel,
 } from "@/lib/data/weight-price";
@@ -61,6 +62,7 @@ export function DateProductView({
   );
   const selectedGrade = gradeFor(product, gradeId);
   const images = gradeImages(product, gradeId);
+  const imageAlts = gradeImageAlts(product, gradeId);
 
   const body = (
     <div className="grid gap-10 lg:grid-cols-2 lg:gap-14">
@@ -71,6 +73,7 @@ export function DateProductView({
           key={selectedGrade?.id ?? "base"}
           images={images}
           alt={name}
+          alts={imageAlts}
         />
         {product.images.length === 0 ? (
           <div className="flex aspect-[4/3] w-full items-center justify-center rounded-2xl border border-dashed border-line bg-ivory-deep p-6 text-center text-xs leading-relaxed text-muted">

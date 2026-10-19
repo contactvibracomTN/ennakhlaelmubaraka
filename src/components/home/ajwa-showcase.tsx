@@ -2,7 +2,7 @@ import Image from "next/image";
 import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getDirection } from "@/i18n/routing";
-import { pick, staticBlogRepository, staticProductRepository } from "@/lib/data";
+import { imageAlt, pick, staticBlogRepository, staticProductRepository } from "@/lib/data";
 import type { Locale } from "@/lib/config/locales";
 
 /** The two blog articles endorsing the Ajwa section (PO 2026-09). */
@@ -33,7 +33,12 @@ export async function AjwaShowcase({
   ).filter((p) => p !== undefined);
 
   const image = flagship?.images[0] ?? "/images/dates/ajwa.jpg";
-  const imageAlt = flagship ? pick(flagship.name, locale) : t("title");
+  const imageAltText = imageAlt(
+    flagship?.imageAlts,
+    image,
+    flagship ? pick(flagship.name, locale) : t("title"),
+    locale,
+  );
 
   if (variant === "compact") {
     return (
@@ -44,7 +49,7 @@ export async function AjwaShowcase({
         <div className="grid items-center gap-5 p-5 sm:p-6 md:grid-cols-[auto_1fr_auto]">
           <Image
             src={image}
-            alt={imageAlt}
+            alt={imageAltText}
             width={320}
             height={240}
             className="size-28 rounded-xl border-2 border-gold/40 object-cover sm:size-32"
@@ -97,7 +102,7 @@ export async function AjwaShowcase({
           <div className="relative">
             <Image
               src={image}
-              alt={imageAlt}
+              alt={imageAltText}
               width={800}
               height={600}
               className="aspect-[4/3] w-full rounded-2xl border-4 border-gold/40 object-cover"

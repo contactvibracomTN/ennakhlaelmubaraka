@@ -29,6 +29,13 @@ export interface ProductBase {
   teaser: LocalizedText; // short card copy
   description?: LocalizedText; // long copy (product page)
   images: string[]; // local paths under /images/dates or /images/gifts
+  /**
+   * Per-image alt text, keyed by the exact image path (SEO + accessibility).
+   * Optional: when an image has no entry, components fall back to the localized
+   * product name. Keyed by path (not by index) so re-ordering photos in the
+   * admin never desynchronizes the alt text.
+   */
+  imageAlts?: Record<string, LocalizedText>;
   price: Money;
   /** Previous/compare-at price (used for demo offers). Optional. */
   compareAtPrice?: Money;
@@ -74,6 +81,8 @@ export interface DateGrade {
   tier?: GradeTier;
   /** Photos specific to this grade; falls back to the product images when empty. */
   images?: string[];
+  /** Per-image alt text for this grade's photos, keyed by image path. */
+  imageAlts?: Record<string, LocalizedText>;
 }
 
 export interface DateProduct extends ProductBase {

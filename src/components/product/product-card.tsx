@@ -5,7 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { isDateProduct } from "@/types/product";
 import type { Product } from "@/types/product";
 import type { Locale } from "@/lib/config/locales";
-import { pick } from "@/lib/data";
+import { imageAlt, pick } from "@/lib/data";
 import { formatMoney } from "@/types/money";
 import { dateLineGradeLabel } from "@/lib/data/weight-price";
 
@@ -32,6 +32,9 @@ export async function ProductCard({
   const name = pick(product.name, locale);
   const teaser = pick(product.teaser, locale);
   const image = product.images[0];
+  const imageAltText = image
+    ? imageAlt(product.imageAlts, image, name, locale)
+    : name;
   const href =
     product.kind === "date"
       ? // The Ajwa family lives on ONE page (PO 2026-10): /dates/ajwa hosts
@@ -94,7 +97,7 @@ export async function ProductCard({
         {image ? (
           <Image
             src={image}
-            alt={name}
+            alt={imageAltText}
             fill
             sizes="(max-width: 768px) 50vw, (max-width: 1152px) 33vw, 20vw"
             className="object-cover transition-transform duration-500 group-hover:scale-105"

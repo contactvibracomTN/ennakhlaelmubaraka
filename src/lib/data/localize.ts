@@ -12,3 +12,21 @@ export function pick(text: LocalizedText, locale: Locale): string {
   if (locale === "ar") return text.ar;
   return text[locale] ?? text.en;
 }
+
+/**
+ * Alt text for one image.
+ *
+ * Prefers the per-image localized alt carried by the data (an `imageAlts` map
+ * keyed by the exact image path), and otherwise falls back to the supplied
+ * string — normally the localized product name. Every rendered image therefore
+ * keeps a meaningful `alt`, which helps both accessibility and image SEO.
+ */
+export function imageAlt(
+  alts: Record<string, LocalizedText> | undefined,
+  src: string,
+  fallback: string,
+  locale: Locale,
+): string {
+  const entry = alts?.[src];
+  return entry ? pick(entry, locale) : fallback;
+}

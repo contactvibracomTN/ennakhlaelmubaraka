@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { getDirection } from "@/i18n/routing";
-import { pick, staticProductRepository } from "@/lib/data";
+import { imageAlt, pick, staticProductRepository } from "@/lib/data";
 import type { Product } from "@/types/product";
 import type { Locale } from "@/lib/config/locales";
 
@@ -53,7 +53,12 @@ export async function ProductCta({
               <div className="relative aspect-[16/10] overflow-hidden bg-ivory-deep">
                 <Image
                   src={product.images[0]}
-                  alt={pick(product.name, locale)}
+                  alt={imageAlt(
+                    product.imageAlts,
+                    product.images[0],
+                    pick(product.name, locale),
+                    locale,
+                  )}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"

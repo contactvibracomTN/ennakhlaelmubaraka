@@ -170,7 +170,24 @@
       }
     ],
     "defaultGradeId": "g-20",
-    "texture": "soft"
+    "texture": "soft",
+    "imageAlts": {
+      "/images/dates/safawi.jpg": {
+        "ar": "تمر الصفاوي المميّز الأصلي من المدينة المنوّرة",
+        "en": "Original premium Safawi dates from Madinah",
+        "fr": "Dattes Safawi premium originales de Médine"
+      },
+      "/images/dates/safawi__2.jpg": {
+        "ar": "تمر الصفاوي المميّز — حبّات مختارة",
+        "en": "Premium Safawi dates — selected dates",
+        "fr": "Dattes Safawi premium — sélection"
+      },
+      "/images/dates/safawi__3.jpg": {
+        "ar": "تمر الصفاوي الأصلي — عرض المنتج",
+        "en": "Original Safawi dates — product view",
+        "fr": "Dattes Safawi originales — vue produit"
+      }
+    }
   },
   {
     "kind": "date",
@@ -198,8 +215,7 @@
     },
     "images": [
       "/images/dates/sukkari.jpg",
-      "/images/dates/sukkari__2.jpg",
-      "/images/dates/sukkari__3.jpg"
+      "/images/dates/sukkari__2.jpg"
     ],
     "price": {
       "amount": 27,
@@ -233,7 +249,29 @@
           "amount": 27,
           "currency": "SAR"
         },
-        "tier": "medium"
+        "tier": "medium",
+        "images": [
+          "/images/dates/sukkari-mufattal.jpg",
+          "/images/dates/sukkari-mufattal__2.jpg",
+          "/images/dates/sukkari-mufattal__3.jpg"
+        ],
+        "imageAlts": {
+          "/images/dates/sukkari-mufattal.jpg": {
+            "ar": "تمر السكري المفتل الفاخر الأصلي من المدينة المنوّرة",
+            "en": "Original premium twisted Sukkari dates from Madinah",
+            "fr": "Dattes Sukkari m'fattal premium originales de Médine"
+          },
+          "/images/dates/sukkari-mufattal__2.jpg": {
+            "ar": "تمر السكري المفتل السعودي الأصلي — كرتون ٣ كغ",
+            "en": "Original Saudi twisted Sukkari dates — 3 kg box",
+            "fr": "Dattes Sukkari m'fattal saoudiennes originales — carton 3 kg"
+          },
+          "/images/dates/sukkari-mufattal__3.jpg": {
+            "ar": "تمر السكري المفتل الفاخر — كرتون ٣ كغ",
+            "en": "Premium twisted Sukkari dates — 3 kg box",
+            "fr": "Dattes Sukkari m'fattal premium — carton 3 kg"
+          }
+        }
       },
       {
         "id": "g-rutab",
@@ -250,7 +288,19 @@
       }
     ],
     "defaultGradeId": "g-mufattal",
-    "texture": "soft"
+    "texture": "soft",
+    "imageAlts": {
+      "/images/dates/sukkari.jpg": {
+        "ar": "تمر السكري الأصلي الممتاز من المدينة المنوّرة",
+        "en": "Original premium Sukkari dates from Madinah",
+        "fr": "Dattes Sukkari premium originales de Médine"
+      },
+      "/images/dates/sukkari__2.jpg": {
+        "ar": "تمر السكري الفاخر — حبّات مختارة",
+        "en": "Premium Sukkari dates — selected dates",
+        "fr": "Dattes Sukkari premium — sélection"
+      }
+    }
   },
   {
     "kind": "date",
@@ -278,7 +328,8 @@
     },
     "images": [
       "/images/dates/sagai.jpg",
-      "/images/dates/sagai__2.jpg"
+      "/images/dates/sagai__2.jpg",
+      "/images/dates/sagai__3.jpg"
     ],
     "price": {
       "amount": 30,
@@ -329,7 +380,24 @@
       }
     ],
     "defaultGradeId": "g-30",
-    "texture": "semi-soft"
+    "texture": "semi-soft",
+    "imageAlts": {
+      "/images/dates/sagai.jpg": {
+        "ar": "تمر الصقعي الممتاز من المدينة المنوّرة — صورة حقيقية من متجرنا",
+        "en": "Premium Sagai dates from Madinah — photo taken at our shop",
+        "fr": "Dattes Sagai premium de Médine — photo prise dans notre boutique"
+      },
+      "/images/dates/sagai__2.jpg": {
+        "ar": "تمر الصقعي الممتاز — حبّات مختارة",
+        "en": "Premium Sagai dates — selected dates",
+        "fr": "Dattes Sagai premium — sélection"
+      },
+      "/images/dates/sagai__3.jpg": {
+        "ar": "تمر الصقعي المميّز — عرض المنتج",
+        "en": "Premium Sagai dates — product view",
+        "fr": "Dattes Sagai premium — vue produit"
+      }
+    }
   },
   {
     "kind": "date",
@@ -423,9 +491,9 @@
       "id": "Kurma kaliber besar dengan daging tebal yang lembut meleleh dan rasa karamel-madu yang kaya — dari perkebunan Kerajaan."
     },
     "images": [
-      "/images/dates/medjool__3.webp",
-      "/images/dates/medjool__2.webp",
-      "/images/dates/medjool.jpg"
+      "/images/dates/medjool.jpg",
+      "/images/dates/medjool__2.jpg",
+      "/images/dates/medjool__3.jpg"
     ],
     "price": {
       "amount": 35,
@@ -476,7 +544,24 @@
       }
     ],
     "defaultGradeId": "g-35",
-    "texture": "soft"
+    "texture": "soft",
+    "imageAlts": {
+      "/images/dates/medjool.jpg": {
+        "ar": "تمر المجدول الملكي المميّز",
+        "en": "Premium Royal Medjool dates",
+        "fr": "Dattes Medjool Royal premium"
+      },
+      "/images/dates/medjool__2.jpg": {
+        "ar": "تمر المجدول عالي الجودة — صورة حقيقية من متجرنا",
+        "en": "High-quality Medjool dates — photo taken at our shop",
+        "fr": "Dattes Medjool de haute qualité — photo prise dans notre boutique"
+      },
+      "/images/dates/medjool__3.jpg": {
+        "ar": "تمر المجدول الممتاز — حبّات مختارة",
+        "en": "Premium Medjool dates — selected dates",
+        "fr": "Dattes Medjool premium — sélection"
+      }
+    }
   },
   {
     "kind": "date",
@@ -502,7 +587,11 @@
       "bn": "লম্বাটে খেজুর — লালচে-বাদামি আভা, দৃঢ় তবু কোমল গঠন ও ভারসাম্যপূর্ণ মিষ্টতা।",
       "id": "Kurma memanjang dengan warna cokelat kemerahan, tekstur padat namun lembut, dan rasa manis seimbang."
     },
-    "images": [],
+    "images": [
+      "/images/dates/mabroom.jpg",
+      "/images/dates/mabroom__2.jpg",
+      "/images/dates/mabroom__3.jpg"
+    ],
     "price": {
       "amount": 35,
       "currency": "SAR"
@@ -551,7 +640,24 @@
       }
     ],
     "defaultGradeId": "g-35",
-    "texture": "semi-soft"
+    "texture": "semi-soft",
+    "imageAlts": {
+      "/images/dates/mabroom.jpg": {
+        "ar": "تمر المبروم الفاخر — درجة أولى، صورة حقيقية من متجرنا",
+        "en": "Premium Mabroom dates — grade 1, photo taken at our shop",
+        "fr": "Dattes Mabroom premium — première qualité, photo prise dans notre boutique"
+      },
+      "/images/dates/mabroom__2.jpg": {
+        "ar": "تمر المبروم الفاخر من المدينة المنوّرة",
+        "en": "Premium Mabroom dates from Madinah",
+        "fr": "Dattes Mabroom premium de Médine"
+      },
+      "/images/dates/mabroom__3.jpg": {
+        "ar": "تمر المبروم الفاخر — عرض المنتج",
+        "en": "Premium Mabroom dates — product view",
+        "fr": "Dattes Mabroom premium — vue produit"
+      }
+    }
   },
   {
     "kind": "date",
@@ -577,7 +683,10 @@
       "bn": "মদিনার আল-আলিয়া বাগানের আজওয়া — কোমল গঠন, ভারসাম্যপূর্ণ মিষ্টতা।",
       "id": "Ajwa dari kebun Al-Aliya di Madinah — tekstur lembut, rasa manis seimbang."
     },
-    "images": [],
+    "images": [
+      "/images/dates/ajwa-aaliya.jpg",
+      "/images/dates/ajwa-aaliya__2.jpg"
+    ],
     "price": {
       "amount": 45,
       "currency": "SAR"
@@ -614,6 +723,18 @@
       }
     ],
     "defaultGradeId": "g-45",
-    "texture": "soft"
+    "texture": "soft",
+    "imageAlts": {
+      "/images/dates/ajwa-aaliya.jpg": {
+        "ar": "تمر عجوة العالية الفاخر من المدينة المنوّرة",
+        "en": "Premium Ajwa Aaliya dates from Madinah",
+        "fr": "Dattes Ajwa Aaliya premium de Médine"
+      },
+      "/images/dates/ajwa-aaliya__2.jpg": {
+        "ar": "تمر عجوة العالية — تفاصيل الحبّات",
+        "en": "Ajwa Aaliya dates — close-up of the dates",
+        "fr": "Dattes Ajwa Aaliya — gros plan"
+      }
+    }
   }
 ]
