@@ -231,6 +231,17 @@ export function DateItemEditor({
             multiline
           />
           <LocalizedInput
+            label="Description"
+            hint="Texte long de la fiche produit — traduit automatiquement avec les autres textes."
+            record={doc.description}
+            onChange={(r) => patch({ description: r })}
+            statuses={statuses}
+            kind="date"
+            slug={originalSlug}
+            source={sourceLocale}
+            multiline
+          />
+          <LocalizedInput
             label="Origine"
             record={doc.origin}
             onChange={(r) => patch({ origin: r })}
