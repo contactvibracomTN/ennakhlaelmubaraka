@@ -685,7 +685,10 @@
     },
     "images": [
       "/images/dates/ajwa-aaliya.jpg",
-      "/images/dates/ajwa-aaliya__2.jpg"
+      "/images/dates/ajwa-aaliya__2.jpg",
+      "/images/dates/ajwa-aaliya__3.jpg",
+      "/images/dates/ajwa-aaliya__4.jpg",
+      "/images/dates/ajwa-aaliya__5.jpg"
     ],
     "price": {
       "amount": 45,
@@ -728,12 +731,52 @@
       "/images/dates/ajwa-aaliya.jpg": {
         "ar": "تمر عجوة العالية الفاخر من المدينة المنوّرة",
         "en": "Premium Ajwa Aaliya dates from Madinah",
-        "fr": "Dattes Ajwa Aaliya premium de Médine"
+        "fr": "Dattes Ajwa Aaliya premium de Médine",
+        "tr": "Madinah'dan premium Ajwa Aaliya hurmaları",
+        "ur": "مدینہ منورہ سے پریمیم عجوہ عالیہ کھجوریں",
+        "ms": "Kurma Ajwa Aaliya premium dari Madinah",
+        "bn": "মদিনা থেকে প্রিমিয়াম আজওয়া আলিয়া খেজুর",
+        "id": "Kurma Ajwa Aaliya premium dari Madinah"
       },
       "/images/dates/ajwa-aaliya__2.jpg": {
         "ar": "تمر عجوة العالية — تفاصيل الحبّات",
         "en": "Ajwa Aaliya dates — close-up of the dates",
-        "fr": "Dattes Ajwa Aaliya — gros plan"
+        "fr": "Dattes Ajwa Aaliya — gros plan",
+        "tr": "Ajwa Aaliya hurmaları — hurmaların yakın çekimi",
+        "ur": "عجوہ عالیہ کھجوریں — کھجوروں کا قریبی منظر",
+        "ms": "Kurma Ajwa Aaliya — gambar rapat kurma",
+        "bn": "আজওয়া আলিয়া খেজুর — খেজুরের ক্লোজ-আপ",
+        "id": "Kurma Ajwa Aaliya — close-up kurma"
+      },
+      "/images/dates/ajwa-aaliya__3.jpg": {
+        "ar": "كرتونة تمر عجوة العالية الفاخرة",
+        "en": "Premium box of Ajwa Aaliya dates",
+        "fr": "Coffret premium de dattes Ajwa Aaliya",
+        "tr": "Ajwa Aaliya hurmalarının premium kutusu",
+        "ur": "پریمیم عجوہ عالیہ کھجوروں کی کارٹن",
+        "ms": "Kotak premium kurma Ajwa Aaliya",
+        "bn": "প্রিমিয়াম বক্স আজওয়া আলিয়া খেজুর",
+        "id": "Kotak premium kurma Ajwa Aaliya"
+      },
+      "/images/dates/ajwa-aaliya__4.jpg": {
+        "ar": "عرض فاخر لتمر عجوة العالية",
+        "en": "Luxury presentation of Ajwa Aaliya dates",
+        "fr": "Présentation luxueuse des dattes Ajwa Aaliya",
+        "tr": "Ajwa Aaliya hurmalarının lüks sunumu",
+        "ur": "عجوہ عالیہ کھجوروں کی شانیہ پیشکش",
+        "ms": "Pembentangan mewah kurma Ajwa Aaliya",
+        "bn": "আজওয়া আলিয়া খেজুরের বিলাসবহুল উপস্থাপনা",
+        "id": "Presentasi mewah kurma Ajwa Aaliya"
+      },
+      "/images/dates/ajwa-aaliya__5.jpg": {
+        "ar": "تمر عجوة العالية — من متجرنا",
+        "en": "Ajwa Aaliya dates — from our shop",
+        "fr": "Dattes Ajwa Aaliya — de notre boutique",
+        "tr": "Ajwa Aaliya hurmaları — mağazamızdan",
+        "ur": "عجوہ عالیہ کھجوریں — ہماری دکان سے",
+        "ms": "Kurma Ajwa Aaliya — dari kedai kami",
+        "bn": "আজওয়া আলিয়া খেজুর — আমাদের দোকান থেকে",
+        "id": "Kurma Ajwa Aaliya — dari toko kami"
       }
     }
   }
