@@ -53,6 +53,11 @@ export function DateProductView({
   const tg = useTranslations("guide");
 
   const name = pick(product.name, locale);
+  // Long copy (PO 2026-10): optional description written in the admin editor,
+  // rendered under the teaser on the product sheet only.
+  const description = product.description
+    ? pick(product.description, locale)
+    : null;
   const headingId = `date-card-${product.id}`;
   const Heading = framed ? "h2" : "h1";
 
@@ -152,6 +157,17 @@ export function DateProductView({
         <p className="mt-5 text-base leading-relaxed text-charcoal/85">
           {pick(product.teaser, locale)}
         </p>
+
+        {description ? (
+          <div className="mt-5 border-t border-line pt-5">
+            <h2 className="text-sm font-semibold text-forest">
+              {t("descriptionTitle")}
+            </h2>
+            <p className="mt-2 text-sm leading-relaxed whitespace-pre-line text-charcoal/80">
+              {description}
+            </p>
+          </div>
+        ) : null}
 
         <div className="mt-8 rounded-2xl border border-line bg-white p-5 sm:p-6">
           <WeightSelector
