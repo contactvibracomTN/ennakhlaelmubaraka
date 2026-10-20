@@ -170,12 +170,28 @@ h2 {
   }
 }
 
+/*
+ * RTL needs its own keyframe: reversing `marquee-scroll` starts the track at
+ * -50% (half the content already off-screen to the left, which in RTL is the
+ * wrong side) and slides it further left — the ribbon empties out. Translating
+ * to +50% instead scrolls the content the way RTL reads (rightwards), and the
+ * two identical halves still make the loop seamless.
+ */
+@keyframes marquee-scroll-rtl {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
+
 .marquee-track {
   animation: marquee-scroll var(--marquee-duration, 30s) linear infinite;
 }
 
 .marquee-track[data-dir="rtl"] {
-  animation-direction: reverse;
+  animation-name: marquee-scroll-rtl;
 }
 
 @media (prefers-reduced-motion: reduce) {

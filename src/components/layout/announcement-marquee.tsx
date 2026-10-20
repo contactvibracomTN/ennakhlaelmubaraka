@@ -66,9 +66,10 @@ function MarqueeHalf({ promos, hidden }: { promos: Promo[]; hidden?: boolean }) 
  * duration is scaled up because a half now holds many phrases.
  *
  * Seamless loop: the track is two identical halves; `marquee-scroll` slides to
- * -50% and restarts. In RTL the animation runs reversed (content flows right).
- * Reduced-motion users get a static ribbon (see globals.css); screen readers
- * get a single sr-only line in the visitor's own language.
+ * -50% and restarts. RTL uses its own `marquee-scroll-rtl` keyframe (+50%) so
+ * the ribbon scrolls the way RTL reads (see globals.css). Reduced-motion
+ * users get a static ribbon; screen readers get a single sr-only line in the
+ * visitor's own language.
  */
 export async function AnnouncementMarquee() {
   const t = await getTranslations("announcement");
