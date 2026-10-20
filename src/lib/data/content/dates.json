@@ -32,7 +32,7 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "contentStatus": "demo",
+    "contentStatus": "published",
     "kind": "date",
     "category": "medina",
     "varietySlug": "ajwa",
@@ -90,7 +90,39 @@
       }
     ],
     "defaultGradeId": "g-fakhira",
-    "texture": "soft"
+    "texture": "soft",
+    "imageAlts": {
+      "/images/dates/ajwa.jpg": {
+        "ar": "تمر عجوة المدينة الأصليّة",
+        "en": "Original Ajwa Medina dates",
+        "fr": "Dattes Ajwa de Médine originales",
+        "tr": "Orijinal Medine Ajwa hurmaları",
+        "ur": "اصلی عجوہ مدینہ کھجوریں",
+        "ms": "Tarikh Ajwa Madinah asli",
+        "bn": "আসল মদিনা আজওয়া খেজুর",
+        "id": "Kurma Ajwa Madinah asli"
+      },
+      "/images/dates/ajwa__2.jpg": {
+        "ar": "تمر عجوة المدينة — عرض المنتج",
+        "en": "Ajwa Medina dates — product view",
+        "fr": "Dattes Ajwa de Médine — vue produit",
+        "tr": "Medine Ajwa hurmaları — ürün görünümü",
+        "ur": "عجوہ مدینہ کھجوریں — پروڈکٹ کی تصویر",
+        "ms": "Tarikh Ajwa Madinah — paparan produk",
+        "bn": "মদিনা আজওয়া খেজুর — পণ্যের দৃশ্য",
+        "id": "Kurma Ajwa Madinah — tampilan produk"
+      },
+      "/images/dates/ajwa__3.jpg": {
+        "ar": "تمر عجوة المدينة — تقديم المنتج",
+        "en": "Ajwa Medina dates — presentation",
+        "fr": "Dattes Ajwa de Médine — présentation",
+        "tr": "Medine Ajwa hurmaları — sunum",
+        "ur": "عجوہ مدینہ کھجوریں — پیشکش",
+        "ms": "Tarikh Ajwa Madinah — pembentangan",
+        "bn": "মদিনা আজওয়া খেজুর — উপস্থাপনা",
+        "id": "Kurma Ajwa Madinah — presentasi"
+      }
+    }
   },
   {
     "kind": "date",
@@ -126,7 +158,7 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "contentStatus": "demo",
+    "contentStatus": "published",
     "category": "medina",
     "varietySlug": "safawi",
     "origin": {
@@ -175,17 +207,32 @@
       "/images/dates/safawi.jpg": {
         "ar": "تمر الصفاوي المميّز الأصلي من المدينة المنوّرة",
         "en": "Original premium Safawi dates from Madinah",
-        "fr": "Dattes Safawi premium originales de Médine"
+        "fr": "Dattes Safawi premium originales de Médine",
+        "tr": "Medine'den orijinal premium Safawi hurmaları",
+        "ur": "مدینہ منورہ سے اصلی پریمیم صفائی کھجوریں",
+        "ms": "Tarikh Safawi premium asli dari Madinah",
+        "bn": "মদিনা থেকে আসল প্রিমিয়াম সাফাউই খেজুর",
+        "id": "Kurma Safawi premium asli dari Madinah"
       },
       "/images/dates/safawi__2.jpg": {
         "ar": "تمر الصفاوي المميّز — حبّات مختارة",
         "en": "Premium Safawi dates — selected dates",
-        "fr": "Dattes Safawi premium — sélection"
+        "fr": "Dattes Safawi premium — sélection",
+        "tr": "Premium Safawi hurmaları — seçilmiş hurmalar",
+        "ur": "پریمیم صفائی کھجوریں — منتخب کھجوریں",
+        "ms": "Tarikh Safawi premium — pilihan tarikh",
+        "bn": "প্রিমিয়াম সাফাউই খেজুর — নির্বাচিত খেজুর",
+        "id": "Kurma Safawi premium — kurma pilihan"
       },
       "/images/dates/safawi__3.jpg": {
         "ar": "تمر الصفاوي الأصلي — عرض المنتج",
         "en": "Original Safawi dates — product view",
-        "fr": "Dattes Safawi originales — vue produit"
+        "fr": "Dattes Safawi originales — vue produit",
+        "tr": "Orijinal Safawi hurmaları — ürün görünümü",
+        "ur": "اصلی صفائی کھجوریں — پروڈکٹ کی تصویر",
+        "ms": "Tarikh Safawi asli — paparan produk",
+        "bn": "আসল সাফাউই খেজুর — পণ্যের দৃশ্য",
+        "id": "Kurma Safawi asli — tampilan produk"
       }
     }
   },
@@ -222,7 +269,7 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "contentStatus": "demo",
+    "contentStatus": "published",
     "category": "kingdom",
     "varietySlug": "sukkari",
     "origin": {
@@ -293,12 +340,22 @@
       "/images/dates/sukkari.jpg": {
         "ar": "تمر السكري الأصلي الممتاز من المدينة المنوّرة",
         "en": "Original premium Sukkari dates from Madinah",
-        "fr": "Dattes Sukkari premium originales de Médine"
+        "fr": "Dattes Sukkari premium originales de Médine",
+        "tr": "Medine'den orijinal premium Sukkari hurmaları",
+        "ur": "مدینہ منورہ سے اصلی پریمیم سکری کھجوریں",
+        "ms": "Tarikh Sukkari premium asli dari Madinah",
+        "bn": "মদিনা থেকে আসল প্রিমিয়াম সুকারি খেজুর",
+        "id": "Kurma Sukkari premium asli dari Madinah"
       },
       "/images/dates/sukkari__2.jpg": {
         "ar": "تمر السكري الفاخر — حبّات مختارة",
         "en": "Premium Sukkari dates — selected dates",
-        "fr": "Dattes Sukkari premium — sélection"
+        "fr": "Dattes Sukkari premium — sélection",
+        "tr": "Premium Sukkari hurmaları — seçilmiş hurmalar",
+        "ur": "پریمیم سکری کھجوریں — منتخب کھجوریں",
+        "ms": "Tarikh Sukkari premium — pilihan tarikh",
+        "bn": "প্রিমিয়াম সুকারি খেজুর — নির্বাচিত খেজুর",
+        "id": "Kurma Sukkari premium — kurma pilihan"
       }
     }
   },
@@ -336,7 +393,7 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "contentStatus": "demo",
+    "contentStatus": "published",
     "category": "kingdom",
     "varietySlug": "sagai",
     "origin": {
@@ -385,17 +442,32 @@
       "/images/dates/sagai.jpg": {
         "ar": "تمر الصقعي الممتاز من المدينة المنوّرة — صورة حقيقية من متجرنا",
         "en": "Premium Sagai dates from Madinah — photo taken at our shop",
-        "fr": "Dattes Sagai premium de Médine — photo prise dans notre boutique"
+        "fr": "Dattes Sagai premium de Médine — photo prise dans notre boutique",
+        "tr": "Medine'den premium Sagai hurmaları — mağazamızda çekilen fotoğraf",
+        "ur": "مدینہ منورہ سے پریمیم صقیعی کھجوریں — ہماری دکان پر کھینچی گئی تصویر",
+        "ms": "Tarikh Sagai premium dari Madinah — foto diambil di kedai kami",
+        "bn": "মদিনা থেকে প্রিমিয়াম সাগাই খেজুর — আমাদের দোকানে তোলা ছবি",
+        "id": "Kurma Sagai premium dari Madinah — foto diambil di toko kami"
       },
       "/images/dates/sagai__2.jpg": {
         "ar": "تمر الصقعي الممتاز — حبّات مختارة",
         "en": "Premium Sagai dates — selected dates",
-        "fr": "Dattes Sagai premium — sélection"
+        "fr": "Dattes Sagai premium — sélection",
+        "tr": "Premium Sagai hurmaları — seçilmiş hurmalar",
+        "ur": "پریمیم صقیعی کھجوریں — منتخب کھجوریں",
+        "ms": "Tarikh Sagai premium — pilihan tarikh",
+        "bn": "প্রিমিয়াম সাগাই খেজুর — নির্বাচিত খেজুর",
+        "id": "Kurma Sagai premium — kurma pilihan"
       },
       "/images/dates/sagai__3.jpg": {
         "ar": "تمر الصقعي المميّز — عرض المنتج",
         "en": "Premium Sagai dates — product view",
-        "fr": "Dattes Sagai premium — vue produit"
+        "fr": "Dattes Sagai premium — vue produit",
+        "tr": "Premium Sagai hurmaları — ürün görünümü",
+        "ur": "پریمیم صقیعی کھجوریں — پروڈکٹ کی تصویر",
+        "ms": "Tarikh Sagai premium — paparan produk",
+        "bn": "প্রিমিয়াম সাগাই খেজুর — পণ্যের দৃশ্য",
+        "id": "Kurma Sagai premium — tampilan produk"
       }
     }
   },
@@ -433,7 +505,7 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "contentStatus": "demo",
+    "contentStatus": "published",
     "category": "medina",
     "varietySlug": "anbara",
     "origin": {
@@ -464,7 +536,39 @@
       }
     ],
     "defaultGradeId": "g-35",
-    "texture": "soft"
+    "texture": "soft",
+    "imageAlts": {
+      "/images/dates/anbara.jpg": {
+        "ar": "تمر العنبرة",
+        "en": "Anbara dates",
+        "fr": "Dattes Anbara",
+        "tr": "Anbara hurmaları",
+        "ur": "عنبرہ کھجوریں",
+        "ms": "Tarikh Anbara",
+        "bn": "আনবারা খেজুর",
+        "id": "Kurma Anbara"
+      },
+      "/images/dates/anbara__2.jpg": {
+        "ar": "تمر العنبرة — عرض المنتج",
+        "en": "Anbara dates — product view",
+        "fr": "Dattes Anbara — vue produit",
+        "tr": "Anbara hurmaları — ürün görünümü",
+        "ur": "عنبرہ کھجوریں — پروڈکٹ کی تصویر",
+        "ms": "Tarikh Anbara — paparan produk",
+        "bn": "আনবারা খেজুর — পণ্যের দৃশ্য",
+        "id": "Kurma Anbara — tampilan produk"
+      },
+      "/images/dates/anbara__3.jpg": {
+        "ar": "تمر العنبرة — تقديم المنتج",
+        "en": "Anbara dates — presentation",
+        "fr": "Dattes Anbara — présentation",
+        "tr": "Anbara hurmaları — sunum",
+        "ur": "عنبرہ کھجوریں — پیشکش",
+        "ms": "Tarikh Anbara — pembentangan",
+        "bn": "আনবারা খেজুর — উপস্থাপনা",
+        "id": "Kurma Anbara — presentasi"
+      }
+    }
   },
   {
     "kind": "date",
@@ -500,7 +604,7 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "contentStatus": "demo",
+    "contentStatus": "published",
     "category": "kingdom",
     "varietySlug": "medjool",
     "origin": {
@@ -549,17 +653,32 @@
       "/images/dates/medjool.jpg": {
         "ar": "تمر المجدول الملكي المميّز",
         "en": "Premium Royal Medjool dates",
-        "fr": "Dattes Medjool Royal premium"
+        "fr": "Dattes Medjool Royal premium",
+        "tr": "Premium Kral Medjool hurmaları",
+        "ur": "پریمیم شاہی مجدول کھجوریں",
+        "ms": "Tarikh Medjool Royal premium",
+        "bn": "প্রিমিয়াম রয়্যাল মেদজুল খেজুর",
+        "id": "Kurma Medjool Royal premium"
       },
       "/images/dates/medjool__2.jpg": {
         "ar": "تمر المجدول عالي الجودة — صورة حقيقية من متجرنا",
         "en": "High-quality Medjool dates — photo taken at our shop",
-        "fr": "Dattes Medjool de haute qualité — photo prise dans notre boutique"
+        "fr": "Dattes Medjool de haute qualité — photo prise dans notre boutique",
+        "tr": "Yüksek kaliteli Medjool hurmaları — mağazamızda çekilen fotoğraf",
+        "ur": "اعلیٰ معیار کی مجدول کھجوریں — ہماری دکان پر کھینچی گئی تصویر",
+        "ms": "Tarikh Medjool berkualiti tinggi — foto diambil di kedai kami",
+        "bn": "উচ্চমানের মেদজুল খেজুর — আমাদের দোকানে তোলা ছবি",
+        "id": "Kurma Medjool berkualitas tinggi — foto diambil di toko kami"
       },
       "/images/dates/medjool__3.jpg": {
         "ar": "تمر المجدول الممتاز — حبّات مختارة",
         "en": "Premium Medjool dates — selected dates",
-        "fr": "Dattes Medjool premium — sélection"
+        "fr": "Dattes Medjool premium — sélection",
+        "tr": "Premium Medjool hurmaları — seçilmiş hurmalar",
+        "ur": "پریمیم مجدول کھجوریں — منتخب کھجوریں",
+        "ms": "Tarikh Medjool premium — pilihan tarikh",
+        "bn": "প্রিমিয়াম মেদজুল খেজুর — নির্বাচিত খেজুর",
+        "id": "Kurma Medjool premium — kurma pilihan"
       }
     }
   },
@@ -597,7 +716,7 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "contentStatus": "demo",
+    "contentStatus": "published",
     "category": "kingdom",
     "origin": {
       "ar": "السعودية",
@@ -645,17 +764,32 @@
       "/images/dates/mabroom.jpg": {
         "ar": "تمر المبروم الفاخر — درجة أولى، صورة حقيقية من متجرنا",
         "en": "Premium Mabroom dates — grade 1, photo taken at our shop",
-        "fr": "Dattes Mabroom premium — première qualité, photo prise dans notre boutique"
+        "fr": "Dattes Mabroom premium — première qualité, photo prise dans notre boutique",
+        "tr": "Premium Mabroom hurmaları — 1. kalite, mağazamızda çekilen fotoğraf",
+        "ur": "پریمیم مبروم کھجوریں — پہلا درجہ، ہماری دکان پر کھینچی گئی تصویر",
+        "ms": "Tarikh Mabroom premium gred 1 — foto diambil di kedai kami",
+        "bn": "প্রিমিয়াম মাবরুম খেজুর — গ্রেড ১, আমাদের দোকানে তোলা ছবি",
+        "id": "Kurma Mabroom premium gred 1 — foto diambil di toko kami"
       },
       "/images/dates/mabroom__2.jpg": {
         "ar": "تمر المبروم الفاخر من المدينة المنوّرة",
         "en": "Premium Mabroom dates from Madinah",
-        "fr": "Dattes Mabroom premium de Médine"
+        "fr": "Dattes Mabroom premium de Médine",
+        "tr": "Medine'den premium Mabroom hurmaları",
+        "ur": "مدینہ منورہ سے پریمیم مبروم کھجوریں",
+        "ms": "Tarikh Mabroom premium dari Madinah",
+        "bn": "মদিনা থেকে প্রিমিয়াম মাবরুম খেজুর",
+        "id": "Kurma Mabroom premium dari Madinah"
       },
       "/images/dates/mabroom__3.jpg": {
         "ar": "تمر المبروم الفاخر — عرض المنتج",
         "en": "Premium Mabroom dates — product view",
-        "fr": "Dattes Mabroom premium — vue produit"
+        "fr": "Dattes Mabroom premium — vue produit",
+        "tr": "Premium Mabroom hurmaları — ürün görünümü",
+        "ur": "پریمیم مبروم کھجوریں — پروڈکٹ کی تصویر",
+        "ms": "Tarikh Mabroom premium — paparan produk",
+        "bn": "প্রিমিয়াম মাবরুম খেজুর — পণ্যের দৃশ্য",
+        "id": "Kurma Mabroom premium — tampilan produk"
       }
     }
   },
@@ -695,7 +829,7 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "contentStatus": "demo",
+    "contentStatus": "published",
     "category": "medina",
     "varietySlug": "ajwa",
     "origin": {
