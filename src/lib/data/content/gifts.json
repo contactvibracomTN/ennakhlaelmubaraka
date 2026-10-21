@@ -34,18 +34,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      }
-    ],
     "contentStatus": "demo",
     "kind": "gift",
     "category": "personal"
@@ -85,18 +73,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      }
-    ],
     "contentStatus": "demo",
     "kind": "gift",
     "category": "occasions",
@@ -151,18 +127,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products"
   },
@@ -204,22 +168,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "من المدينة",
-        "en": "From Medina"
-      }
-    ],
     "contentStatus": "demo",
     "category": "personal",
     "contents": [
@@ -284,22 +232,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "فاخر",
-        "en": "Luxury"
-      }
-    ],
     "contentStatus": "demo",
     "category": "personal",
     "contents": [
@@ -364,22 +296,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "ضيافة",
-        "en": "Hospitality"
-      }
-    ],
     "contentStatus": "demo",
     "category": "personal",
     "contents": [
@@ -444,22 +360,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "اكتشاف",
-        "en": "Discovery"
-      }
-    ],
     "contentStatus": "demo",
     "category": "personal",
     "contents": [
@@ -532,22 +432,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "حلويات",
-        "en": "Sweets"
-      }
-    ],
     "contentStatus": "demo",
     "category": "personal",
     "contents": [
@@ -608,22 +492,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "هدية خفيفة",
-        "en": "Small gesture"
-      }
-    ],
     "contentStatus": "demo",
     "category": "personal",
     "contents": [
@@ -680,22 +548,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "رمضان",
-        "en": "Ramadan"
-      }
-    ],
     "contentStatus": "demo",
     "category": "occasions",
     "contents": [
@@ -760,22 +612,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "العيد",
-        "en": "Eid"
-      }
-    ],
     "contentStatus": "demo",
     "category": "occasions",
     "contents": [
@@ -844,22 +680,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "زفاف",
-        "en": "Wedding"
-      }
-    ],
     "contentStatus": "demo",
     "category": "occasions",
     "contents": [
@@ -920,22 +740,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "زيارة",
-        "en": "Visit"
-      }
-    ],
     "contentStatus": "demo",
     "category": "occasions",
     "contents": [
@@ -1000,22 +804,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "ضيافة فاخرة",
-        "en": "Premium hospitality"
-      }
-    ],
     "contentStatus": "demo",
     "category": "occasions",
     "contents": [
@@ -1084,22 +872,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "تمور محشية",
-        "en": "Stuffed dates"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products",
     "sizeLabel": {
@@ -1145,22 +917,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "اختيار فاخر",
-        "en": "Luxury pick"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products",
     "sizeLabel": {
@@ -1206,22 +962,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "شوكولاتة بالتمر",
-        "en": "Date chocolate"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products",
     "sizeLabel": {
@@ -1267,22 +1007,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "معمول",
-        "en": "Maamoul"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products",
     "sizeLabel": {
@@ -1328,22 +1052,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "تمرية",
-        "en": "Tamreya"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products",
     "sizeLabel": {
@@ -1389,22 +1097,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "مكمل",
-        "en": "Complement"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products",
     "sizeLabel": {
@@ -1450,22 +1142,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "نكهة مميزة",
-        "en": "Signature flavour"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products",
     "sizeLabel": {
@@ -1511,22 +1187,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "مكمل",
-        "en": "Complement"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products",
     "sizeLabel": {
@@ -1572,22 +1232,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "للمطبخ",
-        "en": "For the kitchen"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products",
     "sizeLabel": {
@@ -1633,22 +1277,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "ضيافة",
-        "en": "Hospitality"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products",
     "sizeLabel": {
@@ -1694,22 +1322,6 @@
       "currency": "SAR"
     },
     "availability": "in-stock",
-    "badges": [
-      {
-        "ar": "عرض تجريبي",
-        "en": "Demo offer",
-        "fr": "Offre démo",
-        "tr": "Demo teklif",
-        "ur": "ڈیمو پیشکش",
-        "ms": "Tawaran demo",
-        "bn": "ডেমো অফার",
-        "id": "Penawaran demo"
-      },
-      {
-        "ar": "هدايا عصرية",
-        "en": "Modern gifting"
-      }
-    ],
     "contentStatus": "demo",
     "category": "date-products",
     "sizeLabel": {
