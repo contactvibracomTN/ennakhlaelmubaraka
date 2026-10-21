@@ -8,8 +8,6 @@
     "brand": "Al Nakhlah Al Mubarakah",
     "brandFull": "Al Nakhlah Al Mubarakah — Kurma premium dari Madinah",
     "tagline": "Kurma Madinah, rasa yang tak terlupakan",
-    "demoPricesBanner": "Toko pratinjau — harga dan penawaran dikonfirmasi dalam percakapan.",
-    "demoBadge": "Demo",
     "skipToContent": "Langsung ke konten",
     "loading": "Memuat…",
     "notFoundTitle": "Halaman tidak ditemukan",
@@ -50,7 +48,6 @@
     "titleLine2": "dari jantung Madinah",
     "subtitle": "Seleksi kurma terbaik dan kotak hadiah mewah dari Pasar Kurma Sentral Madinah.",
     "heroImageAlt": "Seleksi kurma premium Al Nakhlah Al Mubarakah",
-    "badgeDemo": "Toko pratinjau — harga dan penawaran dikonfirmasi dalam percakapan",
     "ctaOrderAjwaMedina": "Pesan Ajwa Madinah",
     "ctaOrderAjwaAaliya": "Pesan Ajwa Aaliya",
     "ctaOrderMedjool": "Pesan Kurma Medjool"
@@ -98,7 +95,6 @@
         "label": "Madinah"
       }
     },
-    "demoNote": "Angka-angka berikut diambil dari situs sebelumnya dan ditampilkan sementara sampai disetujui:",
     "demoPricesCta": "Hubungi kami untuk konfirmasi spesifikasi",
     "featuredEyebrow": "Pilihan kami",
     "featuredTitle": "Terlaris",
@@ -191,7 +187,6 @@
     "outOfStock": "Sedang tidak tersedia",
     "preorder": "Pre-order",
     "inStock": "Tersedia",
-    "demoOffer": "Penawaran demo",
     "fromTheGuide": "Dari panduan varietas",
     "viewGuide": "Lihat detail di panduan",
     "details": "Detail",
@@ -230,7 +225,7 @@
   },
   "checkout": {
     "title": "Selesaikan pesanan",
-    "demoNotice": "Mode pratinjau — tidak ada jumlah yang ditagih. Pesanan Anda akan dikonfirmasi via WhatsApp.",
+    "orderNotice": "Tidak ada pembayaran daring — pesanan Anda akan dikonfirmasi via WhatsApp.",
     "customerName": "Nama lengkap",
     "customerPhone": "Nomor telepon",
     "customerEmail": "Email (opsional)",
@@ -248,7 +243,7 @@
     "iban": "IBAN",
     "beneficiary": "Pemilik rekening",
     "onlineSoon": "Segera hadir",
-    "paymentDemoNote": "Dalam mode pratinjau tidak ada jumlah yang ditagih — ringkasan pesanan dikirim ke WhatsApp.",
+    "paymentNote": "Tidak ada pembayaran daring — ringkasan pesanan dikirim ke WhatsApp.",
     "cartEmpty": "Keranjang Anda kosong — tambahkan produk terlebih dahulu.",
     "backToCatalog": "Lihat kurma",
     "continue": "Lanjut belanja",
@@ -352,7 +347,6 @@
     "openMap": "Buka peta",
     "getDirections": "Petunjuk arah di Google Maps",
     "rights": "Hak cipta dilindungi",
-    "demoNote": "Toko pratinjau — harga dan penawaran dikonfirmasi dalam percakapan.",
     "madeWith": "Dibuat dengan cinta di Madinah",
     "faqTitle": "Pertanyaan Umum",
     "privacy": "Kebijakan Privasi",

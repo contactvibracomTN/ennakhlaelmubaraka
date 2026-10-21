@@ -43,7 +43,6 @@ export function CheckoutForm({
   };
 }) {
   const t = useTranslations("checkout");
-  const tc = useTranslations("common");
   const router = useRouter();
   const locale = useLocale() as Locale;
   const { items, clear } = useCart();
@@ -363,7 +362,7 @@ export function CheckoutForm({
             )}
           </div>
           <p className="mt-3 text-[0.65rem] text-muted">
-            {t("paymentDemoNote")}
+            {t("paymentNote")}
           </p>
         </fieldset>
       </div>
@@ -431,9 +430,6 @@ export function CheckoutForm({
           </p>
         ) : null}
 
-        <p className="mt-4 text-center text-[0.65rem] text-muted">
-          {tc("demoPricesBanner")}
-        </p>
       </aside>
     </form>
   );

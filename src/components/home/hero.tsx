@@ -62,10 +62,6 @@ export async function Hero() {
               {t("ctaOrderMedjool")}
             </Link>
           </div>
-
-          <p className="mt-8 inline-flex items-center gap-1.5 rounded-full bg-forest-deep/70 px-3 py-1.5 text-[0.7rem] font-medium text-gold-light/80 backdrop-blur-sm">
-            {t("badgeDemo")}
-          </p>
         </div>
       </div>
     </section>

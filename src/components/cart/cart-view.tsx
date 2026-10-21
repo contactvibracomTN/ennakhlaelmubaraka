@@ -263,9 +263,6 @@ export function CartView({ products }: { products: Product[] }) {
           >
             {t("checkout")}
           </Link>
-          <p className="mt-3 text-center text-[0.65rem] text-muted">
-            {tc("demoPricesBanner")}
-          </p>
         </aside>
       </div>
     </div>

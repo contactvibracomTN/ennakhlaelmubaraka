@@ -8,8 +8,6 @@
     "brand": "Al Nakhlah Al Mubarakah",
     "brandFull": "Al Nakhlah Al Mubarakah — Medine'den premium hurmalar",
     "tagline": "Medine hurmaları, unutulmaz bir tat",
-    "demoPricesBanner": "Önizleme mağazası — fiyatlar ve teklifler sohbette onaylanır.",
-    "demoBadge": "Demo",
     "skipToContent": "İçeriğe atla",
     "loading": "Yükleniyor…",
     "notFoundTitle": "Sayfa bulunamadı",
@@ -50,7 +48,6 @@
     "titleLine2": "Medine'nin kalbinden",
     "subtitle": "Medine Merkezi Hurma Pazarı'ndan özenle seçilmiş en iyi hurmalar ve lüks hediyelik kutular.",
     "heroImageAlt": "Al Nakhlah Al Mubarakah premium hurma seçkisi",
-    "badgeDemo": "Önizleme mağazası — fiyatlar ve teklifler sohbette onaylanır",
     "ctaOrderAjwaMedina": "Medine Ajwa Sipariş Ver",
     "ctaOrderAjwaAaliya": "Ajwa Aaliya Sipariş Ver",
     "ctaOrderMedjool": "Medjool Hurması Sipariş Ver"
@@ -98,7 +95,6 @@
         "label": "Medine"
       }
     },
-    "demoNote": "Aşağıdaki rakamlar önceki siteden alınmıştır ve onaya kadar geçici olarak gösterilir:",
     "demoPricesCta": "Spesifikasyonları doğrulamak için iletişime geçin",
     "featuredEyebrow": "Öne çıkanlarımız",
     "featuredTitle": "Çok satanlar",
@@ -191,7 +187,6 @@
     "outOfStock": "Şu anda stokta yok",
     "preorder": "Ön sipariş",
     "inStock": "Stokta",
-    "demoOffer": "Demo teklif",
     "fromTheGuide": "Hurma rehberinden",
     "viewGuide": "Rehberde ayrıntıları gör",
     "details": "Detaylar",
@@ -230,7 +225,7 @@
   },
   "checkout": {
     "title": "Siparişi tamamla",
-    "demoNotice": "Önizleme modu — hiçbir tutar tahsil edilmez. Siparişiniz WhatsApp üzerinden doğrulanır.",
+    "orderNotice": "Çevrimiçi ödeme yok — siparişiniz WhatsApp üzerinden doğrulanır.",
     "customerName": "Ad Soyad",
     "customerPhone": "Telefon numarası",
     "customerEmail": "E-posta (isteğe bağlı)",
@@ -248,7 +243,7 @@
     "iban": "IBAN",
     "beneficiary": "Hesap sahibi",
     "onlineSoon": "Yakında",
-    "paymentDemoNote": "Önizleme modunda hiçbir tutar tahsil edilmez — sipariş özeti WhatsApp'a gönderilir.",
+    "paymentNote": "Çevrimiçi ödeme yok — sipariş özeti WhatsApp'a gönderilir.",
     "cartEmpty": "Sepetiniz boş — önce ürün ekleyin.",
     "backToCatalog": "Hurmaları gör",
     "continue": "Alışverişe devam et",
@@ -352,7 +347,6 @@
     "openMap": "Haritayı aç",
     "getDirections": "Google Maps'te yol tarifi",
     "rights": "Tüm hakları saklıdır",
-    "demoNote": "Önizleme mağazası — fiyatlar ve teklifler sohbette onaylanır.",
     "madeWith": "Medine'de sevgiyle yapıldı",
     "faqTitle": "Sıkça Sorulan Sorular",
     "privacy": "Gizlilik Politikası",

@@ -109,11 +109,6 @@ export async function ProductCard({
             {t("photoToConfirm")}
           </div>
         )}
-        {isDemo ? (
-          <span className="absolute top-3 start-3 rounded-full bg-gold-light/95 px-2.5 py-1 text-[0.65rem] font-semibold text-date-deep shadow-sm">
-            {t("demoBadge")}
-          </span>
-        ) : null}
         {/* Origin — visibly shown on every date card (PO 13/10/2026): Médine
             in forest/gold, Kingdom in bordeaux. Gifts don't carry it. */}
         {isDateProduct(product) ? (

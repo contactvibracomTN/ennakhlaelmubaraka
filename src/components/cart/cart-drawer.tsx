@@ -292,9 +292,6 @@ export function CartDrawer() {
               >
                 {t("viewCart")}
               </Link>
-              <p className="mt-3 text-center text-[0.65rem] text-muted">
-                {tc("demoPricesBanner")}
-              </p>
             </footer>
           </>
         )}

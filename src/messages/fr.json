@@ -8,8 +8,6 @@
     "brand": "Al Nakhlah Al Mubarakah",
     "brandFull": "Al Nakhlah Al Mubarakah — Dattes premium de Médine",
     "tagline": "Les dattes de Médine, un goût inoubliable",
-    "demoPricesBanner": "Boutique en preview — prix et offres confirmés dans la conversation.",
-    "demoBadge": "Démo",
     "skipToContent": "Aller au contenu",
     "loading": "Chargement…",
     "notFoundTitle": "Page introuvable",
@@ -50,7 +48,6 @@
     "titleLine2": "du cœur de Médine",
     "subtitle": "Une sélection choisie des plus belles dattes et des coffrets de luxe du Marché central des dattes de Médine.",
     "heroImageAlt": "Une sélection de dattes premium d'Al Nakhlah Al Mubarakah",
-    "badgeDemo": "Boutique en preview — prix et offres confirmés dans la conversation",
     "ctaOrderAjwaMedina": "Commander l'Ajwa de Médine",
     "ctaOrderAjwaAaliya": "Commander l'Ajwa Aaliya",
     "ctaOrderMedjool": "Commander des dattes Medjool"
@@ -98,7 +95,6 @@
         "label": "Médine"
       }
     },
-    "demoNote": "Les chiffres suivants proviennent de l'ancien site et sont affichés à titre provisoire jusqu'à approbation :",
     "demoPricesCta": "Contactez-nous pour confirmer les spécifications",
     "featuredEyebrow": "Nos coups de cœur",
     "featuredTitle": "Meilleures ventes",
@@ -191,7 +187,6 @@
     "outOfStock": "Indisponible actuellement",
     "preorder": "Précommande",
     "inStock": "En stock",
-    "demoOffer": "Offre démo",
     "fromTheGuide": "Issue du guide des variétés",
     "viewGuide": "Voir les détails dans le guide",
     "details": "Détails",
@@ -230,7 +225,7 @@
   },
   "checkout": {
     "title": "Finaliser la commande",
-    "demoNotice": "Mode d'aperçu — aucun montant n'est débité. Votre commande sera confirmée via WhatsApp.",
+    "orderNotice": "Aucun paiement en ligne — votre commande sera confirmée via WhatsApp.",
     "customerName": "Nom complet",
     "customerPhone": "Numéro de téléphone",
     "customerEmail": "E-mail (facultatif)",
@@ -248,7 +243,7 @@
     "iban": "IBAN",
     "beneficiary": "Titulaire du compte",
     "onlineSoon": "Bientôt disponible",
-    "paymentDemoNote": "En mode d'aperçu, aucun montant n'est débité — un récapitulatif de la commande est envoyé sur WhatsApp.",
+    "paymentNote": "Aucun paiement en ligne — un récapitulatif de la commande est envoyé sur WhatsApp.",
     "cartEmpty": "Votre panier est vide — ajoutez d'abord des produits.",
     "backToCatalog": "Voir les dattes",
     "continue": "Continuer mes achats",
@@ -352,7 +347,6 @@
     "openMap": "Ouvrir la carte",
     "getDirections": "Itinéraire sur Google Maps",
     "rights": "Tous droits réservés",
-    "demoNote": "Boutique en preview — prix et offres confirmés dans la conversation.",
     "madeWith": "Fait avec passion à Médine",
     "faqTitle": "Questions fréquentes",
     "privacy": "Politique de confidentialité",

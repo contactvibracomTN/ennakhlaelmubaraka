@@ -177,7 +177,7 @@ export function DateProductView({
           />
           {product.offerLabel ? (
             <p className="mt-4 rounded-xl bg-gold-light/40 px-4 py-2.5 text-xs text-date-deep">
-              {t("demoOffer")}: {pick(product.offerLabel, locale)}
+              {pick(product.offerLabel, locale)}
             </p>
           ) : null}
         </div>

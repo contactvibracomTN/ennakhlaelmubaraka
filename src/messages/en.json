@@ -8,8 +8,6 @@
     "brand": "Al Nakhlah Al Mubarakah",
     "brandFull": "Al Nakhlah Al Mubarakah — Premium Dates",
     "tagline": "Madinah's dates, an unforgettable taste",
-    "demoPricesBanner": "Preview shop — prices and offers are confirmed in the conversation.",
-    "demoBadge": "Demo",
     "skipToContent": "Skip to content",
     "loading": "Loading…",
     "notFoundTitle": "Page not found",
@@ -50,7 +48,6 @@
     "titleLine2": "from the heart of Madinah",
     "subtitle": "A curated selection of the finest dates and luxury gifts from the Central Dates Market in Madinah.",
     "heroImageAlt": "A selection of premium dates from Al Nakhlah Al Mubarakah",
-    "badgeDemo": "Preview shop — prices and offers are confirmed in the conversation",
     "ctaOrderAjwaMedina": "Order Ajwa Medina",
     "ctaOrderAjwaAaliya": "Order Ajwa Aaliya",
     "ctaOrderMedjool": "Order Medjool Dates"
@@ -98,7 +95,6 @@
         "label": "Madinah"
       }
     },
-    "demoNote": "The following figures come from the previous site and are shown provisionally until approved:",
     "demoPricesCta": "Contact us to confirm specifications",
     "featuredEyebrow": "Our picks",
     "featuredTitle": "Best sellers",
@@ -191,7 +187,6 @@
     "outOfStock": "Currently unavailable",
     "preorder": "Pre-order",
     "inStock": "In stock",
-    "demoOffer": "Demo offer",
     "fromTheGuide": "From the variety guide",
     "viewGuide": "See details in the guide",
     "details": "Details",
@@ -230,7 +225,7 @@
   },
   "checkout": {
     "title": "Checkout",
-    "demoNotice": "Preview mode — no amount is charged. Your order will be confirmed via WhatsApp.",
+    "orderNotice": "No online payment — your order will be confirmed via WhatsApp.",
     "customerName": "Full name",
     "customerPhone": "Phone number",
     "customerEmail": "Email (optional)",
@@ -248,7 +243,7 @@
     "iban": "IBAN",
     "beneficiary": "Account name",
     "onlineSoon": "Coming soon",
-    "paymentDemoNote": "In preview mode no amount is charged — a WhatsApp summary of the order is sent instead.",
+    "paymentNote": "No online payment — an order summary is sent via WhatsApp.",
     "cartEmpty": "Your cart is empty — add products first.",
     "backToCatalog": "Browse dates",
     "continue": "Continue shopping",
@@ -352,7 +347,6 @@
     "openMap": "Open map",
     "getDirections": "Directions on Google Maps",
     "rights": "All rights reserved",
-    "demoNote": "Preview shop — prices and offers are confirmed in the conversation.",
     "madeWith": "Crafted with passion in Madinah",
     "faqTitle": "Frequently Asked Questions",
     "privacy": "Privacy Policy",
