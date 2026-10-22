@@ -252,7 +252,7 @@ export function DateItemEditor({
           />
           <LocalizedInput
             label="Étiquette d'offre"
-            hint="Ex. « عرض تجريبي » — étiquette démo affichée sur les offres."
+            hint="Facultatif — petite étiquette affichée sur la fiche (ex. « عرض خاص » = offre spéciale). Laisser vide sinon."
             record={doc.offerLabel}
             onChange={(r) => patch({ offerLabel: r })}
             statuses={statuses}
