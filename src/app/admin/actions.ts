@@ -200,7 +200,11 @@ export async function translateItemAction(kind: ContentKind, slug: string, item:
       );
       for (let k = 0; k < pairs.length; k++) {
         const ref = refs[pairs[k].idx];
-        setAtPath(doc, ref.path, { ...ref.record, [target]: tr[k] ?? "" });
+        // Mutate the collected record itself, then re-attach it: each target
+        // must build on the previous ones (a fresh spread from the original
+        // record would silently drop the targets translated before it).
+        ref.record[target] = tr[k] ?? "";
+        setAtPath(doc, ref.path, ref.record);
       }
       translatedLocales.push(target);
     } catch (err) {

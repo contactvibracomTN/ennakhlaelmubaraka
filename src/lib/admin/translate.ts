@@ -164,9 +164,21 @@ export async function translateTextsWithGlossary(
 
 export type JsonDoc = Record<string, unknown>;
 
+/** One step in a document path: an object key or an array index. */
+export type PathSegment = string | number;
+export type PathRef = PathSegment[];
+
 export interface LocalizableRef {
-  /** e.g. "name", "teaser", "weightOptions[0].label", "sections[1].blocks[0].text" */
-  path: string;
+  /**
+   * Key/index segments — e.g. ["name"], ["weightOptions", 0, "label"],
+   * ["imageAlts", "/images/dates/ajwa.jpg"].
+   *
+   * Segments (not a dotted string): image-alt keys are file paths that CONTAIN
+   * a dot (".jpg"), so a dotted path would be split in the wrong place and
+   * corrupt the document (the original cause of the "Traduction partielle …
+   * imageAlts … expected string, received object" error).
+   */
+  path: PathRef;
   record: Record<string, string>;
 }
 
@@ -184,9 +196,9 @@ function isLocalizableRecord(x: unknown): x is Record<string, string> {
 /** Depth-first walk collecting every localized (locale→string) record. */
 export function collectLocalizable(item: JsonDoc): LocalizableRef[] {
   const refs: LocalizableRef[] = [];
-  const walk = (node: unknown, path: string): void => {
+  const walk = (node: unknown, path: PathRef): void => {
     if (Array.isArray(node)) {
-      node.forEach((child, idx) => walk(child, `${path}[${idx}]`));
+      node.forEach((child, idx) => walk(child, [...path, idx]));
       return;
     }
     if (isRecord(node)) {
@@ -195,52 +207,64 @@ export function collectLocalizable(item: JsonDoc): LocalizableRef[] {
         return;
       }
       for (const [k, v] of Object.entries(node)) {
-        const childPath = path ? `${path}.${k}` : k;
-        if (isRecord(v) || Array.isArray(v)) walk(v, childPath);
+        if (isRecord(v) || Array.isArray(v)) walk(v, [...path, k]);
       }
     }
   };
-  walk(item, "");
+  walk(item, []);
   return refs;
 }
 
-export function setAtPath(root: JsonDoc, path: string, value: unknown): void {
-  const parts = path.split(/[\.\[\]]+/).filter(Boolean);
-  let node: unknown = root;
-  for (let i = 0; i < parts.length - 1; i++) {
-    const part = parts[i];
-    let next: unknown;
-    if (nextIdx(parts[i + 1]) !== null && Array.isArray(node)) {
-      node = (node as unknown[])[nextIdx(parts[i + 1]) ?? 0];
-    } else {
-      if (!isRecord(node)) return;
-      next = (node as Record<string, unknown>)[part];
-      if (!isRecord(next) && !Array.isArray(next)) {
-        const n = parts[i + 1];
-        (node as Record<string, unknown>)[part] = nextIdx(n) !== null ? [] : {};
-        next = (node as Record<string, unknown>)[part];
-      }
-      node = next;
-    }
-  }
-  if (!isRecord(node)) return;
-  node[parts[parts.length - 1]] = value;
+/** Accept a segment array, or a legacy dotted path ("weightOptions[0].label"). */
+function toPathSegments(path: string | PathRef): PathRef {
+  if (Array.isArray(path)) return path;
+  return path
+    .split(/[\.\[\]]+/)
+    .filter(Boolean)
+    .map((part) => (nextIdx(part) !== null ? Number(part) : part));
 }
 
 function nextIdx(s: string): number | null {
   return /^\d+$/.test(s) ? Number(s) : null;
 }
 
-export function getAtPath(root: JsonDoc, path: string): unknown {
-  const parts = path.split(/[\.\[\]]+/).filter(Boolean);
+/** Write `value` at `path` in an existing document tree. */
+export function setAtPath(root: JsonDoc, path: string | PathRef, value: unknown): void {
+  const parts = toPathSegments(path);
+  if (parts.length === 0) return;
+  let node: unknown = root;
+  for (let i = 0; i < parts.length - 1; i++) {
+    const part = parts[i];
+    if (Array.isArray(node)) {
+      const idx = nextIdx(String(part));
+      if (idx === null) return;
+      node = node[idx];
+    } else if (isRecord(node)) {
+      node = node[String(part)];
+    } else {
+      return;
+    }
+  }
+  const last = parts[parts.length - 1];
+  if (Array.isArray(node)) {
+    const idx = nextIdx(String(last));
+    if (idx === null) return;
+    node[idx] = value;
+  } else if (isRecord(node)) {
+    node[String(last)] = value;
+  }
+}
+
+export function getAtPath(root: JsonDoc, path: string | PathRef): unknown {
+  const parts = toPathSegments(path);
   let node: unknown = root;
   for (const part of parts) {
     if (Array.isArray(node)) {
-      const idx = nextIdx(part);
+      const idx = nextIdx(String(part));
       if (idx === null) return undefined;
       node = node[idx];
     } else if (isRecord(node)) {
-      node = (node as Record<string, unknown>)[part];
+      node = node[String(part)];
     } else {
       return undefined;
     }
