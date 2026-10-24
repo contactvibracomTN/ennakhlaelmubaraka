@@ -87,7 +87,7 @@
         "label": "happy clients"
       },
       "varieties": {
-        "value": "24",
+        "value": "19",
         "label": "varieties in the guide"
       },
       "location": {
@@ -112,7 +112,7 @@
   },
   "guide": {
     "eyebrow": "Variety Guide",
-    "title": "24 date varieties from around the world",
+    "title": "19 date varieties from around the world",
     "subtitle": "Discover each variety: its origins, texture, taste and storage.",
     "readMore": "Read more",
     "backToList": "Back to guide",
@@ -125,7 +125,6 @@
       "maghreb": "Maghreb",
       "mashriq": "Mashriq",
       "gulf": "Gulf",
-      "iran": "Iran",
       "oman": "Oman",
       "egypt": "Egypt"
     },
@@ -134,14 +133,13 @@
     "strengths": "Key characteristics",
     "taste": "Taste",
     "nutrition": "Nutrition (per 100 g)",
-    "prices": "Indicative market prices",
     "resources": "Further reading",
     "buyThis": "Order this variety",
-    "showingPrice": "Indicative price",
     "prev": "Previous variety",
     "next": "Next variety",
     "regionsLabel": "Browse by region",
-    "regionInformational": "Note: the price ranges below are indicative market figures, not a store offer."
+    "whatsappCta": "Order on WhatsApp",
+    "whatsappMessage": "Hello, I would like to order {product} from Al Nakhlah Al Mubarakah."
   },
   "dates": {
     "eyebrow": "Dates",

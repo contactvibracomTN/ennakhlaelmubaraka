@@ -87,7 +87,7 @@
         "label": "pelanggan puas"
       },
       "varieties": {
-        "value": "24",
+        "value": "19",
         "label": "varietas dalam panduan"
       },
       "location": {
@@ -112,7 +112,7 @@
   },
   "guide": {
     "eyebrow": "Panduan Kurma",
-    "title": "24 varietas kurma dari seluruh dunia",
+    "title": "19 varietas kurma dari seluruh dunia",
     "subtitle": "Kenali setiap varietas: asal, tekstur, rasa, dan penyimpanan.",
     "readMore": "Selengkapnya",
     "backToList": "Kembali ke panduan",
@@ -125,7 +125,6 @@
       "maghreb": "Maghrib",
       "mashriq": "Mashriq",
       "gulf": "Teluk",
-      "iran": "Iran",
       "oman": "Oman",
       "egypt": "Mesir"
     },
@@ -134,14 +133,13 @@
     "strengths": "Ciri utama",
     "taste": "Rasa",
     "nutrition": "Nutrisi (per 100 g)",
-    "prices": "Harga indikatif pasar",
     "resources": "Baca lebih lanjut",
     "buyThis": "Pesan varietas ini",
-    "showingPrice": "Harga indikatif",
     "prev": "Varietas sebelumnya",
     "next": "Varietas berikutnya",
     "regionsLabel": "Jelajahi berdasarkan wilayah",
-    "regionInformational": "Catatan: rentang harga di bawah adalah data pasar indikatif, bukan penawaran toko."
+    "whatsappCta": "Pesan via WhatsApp",
+    "whatsappMessage": "Halo, saya ingin memesan {product} dari Al Nakhlah Al Mubarakah."
   },
   "dates": {
     "eyebrow": "Kurma",

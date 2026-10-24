@@ -393,6 +393,7 @@ export function PostItemEditor({
         );
       } else {
         const res = await translateItemAction("post", originalSlug, doc as unknown);
+        if (res.item) setDoc(structuredClone(res.item as BlogPost));
         setBanner(
           res.ok
             ? { ok: true, message: `Traduit automatiquement (${res.translatedLocales.join(", ")}) — versions machine à valider.` }

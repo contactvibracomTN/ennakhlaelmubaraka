@@ -14,7 +14,7 @@ const TEXTURE_KEY: Record<GuideTexture, string> = {
 };
 
 /**
- * Guide teaser (homepage "دليل التمور — 24 صنفًا"), mirroring v2.1's
+ * Guide teaser (homepage "دليل التمور"), mirroring v2.1's
  * six-variety teaser grid. Content is the migrated editorial catalog.
  */
 export async function GuideTeaser() {

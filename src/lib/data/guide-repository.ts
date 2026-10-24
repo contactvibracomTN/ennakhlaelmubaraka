@@ -3,8 +3,9 @@ import type { GuideRepository } from "@/types/commerce";
 import { guideVarieties } from "@/lib/data/datasets/guide";
 
 /**
- * Static GuideRepository (Blueprint §5) — V1 reads the migrated v2.1 guide
- * (24 varieties, AR+EN editorial). All content is contentStatus "demo".
+ * Static GuideRepository (Blueprint §5) — reads the admin-edited guide
+ * (`content/guide.json`): 19 varieties, no prices, CTA only for the varieties
+ * actually sold in the boutique.
  */
 
 const bySlug = new Map(guideVarieties.map((v) => [v.slug, v]));

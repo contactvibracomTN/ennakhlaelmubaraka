@@ -4,12 +4,9 @@ import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getDirection, routing } from "@/i18n/routing";
-import {
-  pick,
-  staticGuideRepository,
-  staticProductRepository,
-} from "@/lib/data";
-import { hasSiteUrl, siteConfig } from "@/lib/config/site.config";
+import { pick, staticGuideRepository, staticProductRepository } from "@/lib/data";
+import { buildWhatsAppUrl, hasSiteUrl, siteConfig } from "@/lib/config/site.config";
+import { WhatsAppLogo } from "@/components/icons/whatsapp-logo";
 import { buildPageMetadata } from "@/lib/seo";
 import type { GuideTexture } from "@/types/guide";
 import type { Locale } from "@/lib/config/locales";
@@ -69,6 +66,12 @@ export default async function GuideVarietyPage({
     ? await staticProductRepository.getProductBySlug(variety.productSlug)
     : null;
 
+  const productName = linkedProduct
+    ? pick(linkedProduct.name, localeTyped)
+    : "";
+  const ctaLabel =
+    (variety.ctaLabel && pick(variety.ctaLabel, localeTyped)) || t("buyThis");
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -127,13 +130,6 @@ export default async function GuideVarietyPage({
             </p>
             <p className="mt-2 text-sm text-muted">
               {pick(variety.origin, localeTyped)}
-            </p>
-
-            <p
-              className="mt-5 inline-flex items-center gap-1.5 rounded-full border border-line bg-ivory-deep/50 px-3 py-1.5 text-xs text-muted"
-              title={t("regionInformational")}
-            >
-              {t("showingPrice")}: {variety.displayPrice}
             </p>
           </div>
         </header>
@@ -242,32 +238,6 @@ export default async function GuideVarietyPage({
           </dl>
         </section>
 
-        {/* Indicative prices — informational only */}
-        <section className="mt-14" aria-labelledby="prices-title">
-          <h2
-            id="prices-title"
-            className="font-arabic-display text-2xl font-bold text-forest"
-          >
-            {t("prices")}
-          </h2>
-          <p className="mt-2 text-xs text-muted">{t("regionInformational")}</p>
-          <dl className="mt-5 max-w-2xl divide-y divide-line rounded-2xl border border-line bg-white">
-            {variety.prices.map((row, i) => (
-              <div
-                key={i}
-                className="flex items-center justify-between gap-4 px-5 py-3.5"
-              >
-                <dt className="text-sm text-muted">
-                  {pick(row.label, localeTyped)}
-                </dt>
-                <dd className="text-sm font-semibold text-forest">
-                  {pick(row.value, localeTyped)}
-                </dd>
-              </div>
-            ))}
-          </dl>
-        </section>
-
         {/* Resources */}
         {variety.resources.length > 0 ? (
           <section className="mt-14" aria-labelledby="resources-title">
@@ -297,30 +267,46 @@ export default async function GuideVarietyPage({
           </section>
         ) : null}
 
-        {/* Linked product CTA */}
+        {/* Linked product CTA — only for varieties sold in the boutique */}
         {linkedProduct ? (
-          <div className="mt-14 flex flex-wrap items-center justify-between gap-4 rounded-3xl bg-forest px-6 py-8 text-ivory sm:px-10">
-            <div>
-              <p className="text-xs font-semibold tracking-wide uppercase text-gold-light">
-                {tp("fromTheGuide")}
-              </p>
-              <h2 className="mt-1 font-arabic-display text-2xl font-bold">
-                {pick(linkedProduct.name, localeTyped)}
-              </h2>
-              <p className="mt-1 max-w-xl text-sm text-ivory/70">
-                {pick(linkedProduct.teaser, localeTyped)}
-              </p>
+          <div className="mt-14 rounded-3xl bg-forest px-6 py-8 text-ivory sm:px-10">
+            <div className="flex flex-wrap items-center justify-between gap-6">
+              <div>
+                <p className="text-xs font-semibold tracking-wide uppercase text-gold-light">
+                  {tp("fromTheGuide")}
+                </p>
+                <h2 className="mt-1 font-arabic-display text-2xl font-bold">
+                  {productName}
+                </h2>
+                <p className="mt-1 max-w-xl text-sm text-ivory/70">
+                  {pick(linkedProduct.teaser, localeTyped)}
+                </p>
+              </div>
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+                <Link
+                  href={
+                    linkedProduct.kind === "date"
+                      ? `/dates/${linkedProduct.slug}`
+                      : `/gifts/${linkedProduct.slug}`
+                  }
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-gold px-6 py-3 text-sm font-bold text-forest-deep transition-colors hover:bg-gold-light"
+                >
+                  {ctaLabel}
+                </Link>
+                <a
+                  href={buildWhatsAppUrl(
+                    t("whatsappMessage", { product: productName }),
+                    localeTyped,
+                  )}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-bold text-forest-deep transition-colors hover:bg-[#1ebe5b]"
+                >
+                  <WhatsAppLogo className="h-4 w-4" />
+                  {t("whatsappCta")}
+                </a>
+              </div>
             </div>
-            <Link
-              href={
-                linkedProduct.kind === "date"
-                  ? `/dates/${linkedProduct.slug}`
-                  : `/gifts/${linkedProduct.slug}`
-              }
-              className="inline-flex items-center gap-2 rounded-full bg-gold px-6 py-3 text-sm font-bold text-forest-deep transition-colors hover:bg-gold-light"
-            >
-              {t("buyThis")}
-            </Link>
           </div>
         ) : null}
 

@@ -19,5 +19,11 @@ export function computeItemStatuses(
   const machine = Object.entries(state.items[itemKey(kind, slug)] ?? {})
     .filter(([, s]) => s.status === "machine")
     .map(([l]) => l);
-  return resolveItemStatus(kind, slug, present, machine);
+  const statuses = resolveItemStatus(kind, slug, present, machine);
+  // Always expose the 8 admin locales so the editor shows every language
+  // (an absent locale must read "absent", never disappear from the strip).
+  for (const locale of ADMIN_LOCALES) {
+    statuses[locale] ??= { status: "missing" };
+  }
+  return statuses;
 }

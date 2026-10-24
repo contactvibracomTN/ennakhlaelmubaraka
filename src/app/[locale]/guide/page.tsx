@@ -11,7 +11,6 @@ const REGION_ORDER: GuideRegion[] = [
   "maghreb",
   "mashriq",
   "gulf",
-  "iran",
   "oman",
   "egypt",
 ];
@@ -37,8 +36,8 @@ export async function generateMetadata({
 }
 
 /**
- * Variety guide listing — all 24 varieties grouped by region (v2.1 "fil d'Ariane"
- * style region browsing). All content is the migrated editorial catalog.
+ * Variety guide listing — all 19 varieties grouped by region (v2.1 "fil
+ * d'Ariane" style region browsing). Editorial content, no prices.
  */
 export default async function GuidePage({
   params,

@@ -1,6 +1,14 @@
 /**
  * migrate-v21.mjs — v2.1 → v3 typed data migration (Phase 0, data layer).
  *
+ * ⛔ ARCHIVED — DO NOT RUN.
+ * The catalog, gifts, categories and date-guide datasets are now admin-edited
+ * JSON stores under `src/lib/data/content/*.json`. Re-running this script would
+ * overwrite the generated TypeScript datasets with the old v2.1 content
+ * (including withdrawn varieties and market-price fields).
+ *
+ * Kept for history only.
+ *
  * Reads the raw v2.1 sources and emits strict, typed datasets under
  * `src/lib/data/datasets/*.ts`:
  *   - dates.ts      (DateProduct[])  — 26 items
@@ -30,6 +38,12 @@ import { readFileSync, mkdirSync, writeFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import prettier from "prettier";
+
+console.error(
+  "\n⛔ migrate-v21.mjs is archived. Content now lives in src/lib/data/content/*.json " +
+    "and is edited through /admin. Refusing to overwrite the datasets.\n",
+);
+process.exit(1);
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
 const RAW = join(ROOT, "resources", "raw");

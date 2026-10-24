@@ -3,15 +3,18 @@ import type { LocalizedText, ContentStatus } from "./localization";
 /**
  * Guide variety model — reshaped to the real v2.1 editorial structure
  * (title / caption / origin / intro / timeline / strengths / taste /
- * nutrition / prices / resources). Region + texture are normalized from the
+ * nutrition / resources). Region + texture are normalized from the
  * v2.1 French source values (golf→gulf, machrek→mashriq, egypte→egypt;
  * molle/semi/seche→soft/semi-soft/dry).
+ *
+ * The guide is purely editorial: it never shows prices. Varieties sold in the
+ * boutique carry a `productSlug` + an optional localized `ctaLabel` so the
+ * article can send visitors to the product page or to WhatsApp.
  */
 export type GuideRegion =
   | "maghreb" // Morocco, Algeria, Tunisia
   | "mashriq" // Iraq, Levant
   | "gulf" // Saudi Arabia, GCC
-  | "iran"
   | "oman"
   | "egypt";
 
@@ -29,15 +32,6 @@ export interface GuideTimelineEvent {
   text: LocalizedText;
 }
 
-/**
- * Market-price row = source region/market + indicative USD range.
- * Informational ONLY — never presented as a store offer.
- */
-export interface GuideMarketPriceRow {
-  label: LocalizedText;
-  value: LocalizedText;
-}
-
 export interface GuideResource {
   label: LocalizedText;
   href: string;
@@ -46,7 +40,7 @@ export interface GuideResource {
 export interface GuideVariety {
   /** Short stable id — mirrors the linked catalog slug. */
   slug: string;
-  /** Display number 01..24. */
+  /** Display number 01..19 (order in the guide). */
   number: string;
   /** Search aliases (e.g. "medjool mejhoul majhoul مجدول"). */
   nameSearch: string;
@@ -64,16 +58,14 @@ export interface GuideVariety {
   region: GuideRegion;
   texture: GuideTexture;
   nutrition: NutritionFact[];
-  /**
-   * Indicative market ranges per region/country (source: v2.1 guide).
-   * Informational, NEVER a store offer.
-   */
-  prices: GuideMarketPriceRow[];
   resources: GuideResource[];
-  /** Short indicative market price (e.g. "3–20 USD/kg") — informational only. */
-  displayPrice: string;
-  /** Linked catalog product slug (v2.1). */
+  /**
+   * Linked catalog product slug — empty when the variety is not sold in the
+   * boutique. Only then does the guide show a shop CTA.
+   */
   productSlug: string;
+  /** Optional localized wording for the shop CTA ("اطلبها الآن"…). */
+  ctaLabel?: LocalizedText;
   /** Local image path under /images/guide. */
   image: string;
   contentStatus: ContentStatus;

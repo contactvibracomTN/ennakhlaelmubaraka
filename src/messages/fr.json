@@ -87,7 +87,7 @@
         "label": "clients satisfaits"
       },
       "varieties": {
-        "value": "24",
+        "value": "19",
         "label": "variétés dans le guide"
       },
       "location": {
@@ -112,7 +112,7 @@
   },
   "guide": {
     "eyebrow": "Guide des dattes",
-    "title": "24 variétés de dattes du monde entier",
+    "title": "19 variétés de dattes du monde entier",
     "subtitle": "Découvrez chaque variété : origines, texture, saveur et conservation.",
     "readMore": "En savoir plus",
     "backToList": "Retour au guide",
@@ -125,7 +125,6 @@
       "maghreb": "Maghreb",
       "mashriq": "Machrek",
       "gulf": "Golfe",
-      "iran": "Iran",
       "oman": "Oman",
       "egypt": "Égypte"
     },
@@ -134,14 +133,13 @@
     "strengths": "Caractéristiques clés",
     "taste": "Saveur",
     "nutrition": "Nutrition (pour 100 g)",
-    "prices": "Prix indicatifs sur les marchés",
     "resources": "Pour aller plus loin",
     "buyThis": "Commander cette variété",
-    "showingPrice": "Prix indicatif",
     "prev": "Variété précédente",
     "next": "Variété suivante",
     "regionsLabel": "Explorer par région",
-    "regionInformational": "Remarque : les fourchettes de prix ci-dessous sont des données de marché indicatives, et non une offre du magasin."
+    "whatsappCta": "Commander sur WhatsApp",
+    "whatsappMessage": "Bonjour, je souhaite commander {product} auprès d’Al Nakhlah Al Mubarakah."
   },
   "dates": {
     "eyebrow": "Dattes",

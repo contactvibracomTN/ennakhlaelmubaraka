@@ -19,6 +19,8 @@ import {
   saveGifts,
   readPosts,
   savePosts,
+  readGuide,
+  saveGuide,
   readMessages,
   saveMessages,
   readCategoriesData,
@@ -37,7 +39,7 @@ import {
   type ContentKind,
   type ItemLocaleStatus,
 } from "@/lib/admin/state";
-import { validateDateProduct, validateGiftProduct, validateBlogPost } from "@/lib/data/content-schema";
+import { validateDateProduct, validateGiftProduct, validateBlogPost, validateGuideVariety } from "@/lib/data/content-schema";
 import {
   collectLocalizable,
   getConfiguredSourceLocale,
@@ -49,7 +51,7 @@ import {
 import { startDeploy, isDeployRunning } from "@/lib/admin/deploy";
 import { checkCompleteness } from "@/lib/admin/completeness";
 import { getAtPath, setAtPath as setPathInTree } from "@/lib/utils/path";
-import { ADMIN_LOCALES as SAFE_LOCALES, type LocalizedRecord } from "@/lib/admin/shared";
+import { ADMIN_LOCALES as SAFE_LOCALES, type AnyLocalized, type LocalizedRecord } from "@/lib/admin/shared";
 import type { DateCategoryInfo, GiftCategoryInfo } from "@/types/product";
 
 /* ------------------------------------------------------------------ */
@@ -125,9 +127,13 @@ async function saveItem(kind: ContentKind, oldSlug: string, rawItem: unknown): P
       const item = validateGiftProduct(rawItem);
       saveGifts(upsert(readGifts(), oldSlug, item));
       ensureItemState(kind, item.slug, presentLocales(item.name), []);
-    } else {
+    } else if (kind === "post") {
       const item = validateBlogPost(rawItem);
       savePosts(upsert(readPosts(), oldSlug, item));
+      ensureItemState(kind, item.slug, presentLocales(item.title), []);
+    } else {
+      const item = validateGuideVariety(rawItem);
+      saveGuide(upsert(readGuide(), oldSlug, item));
       ensureItemState(kind, item.slug, presentLocales(item.title), []);
     }
 
@@ -150,12 +156,16 @@ export async function saveGiftAction(oldSlug: string, item: unknown): Promise<{ 
 export async function savePostAction(oldSlug: string, item: unknown): Promise<{ ok: boolean; message?: string }> {
   return saveItem("post", oldSlug, item);
 }
+export async function saveGuideAction(oldSlug: string, item: unknown): Promise<{ ok: boolean; message?: string }> {
+  return saveItem("guide", oldSlug, item);
+}
 
 export async function deleteItemAction(kind: ContentKind, slug: string): Promise<{ ok: boolean }> {
   await requireAdmin();
   if (kind === "date") saveDates(readDates().filter((p) => p.slug !== slug));
   else if (kind === "gift") saveGifts(readGifts().filter((p) => p.slug !== slug));
-  else savePosts(readPosts().filter((p) => p.slug !== slug));
+  else if (kind === "post") savePosts(readPosts().filter((p) => p.slug !== slug));
+  else saveGuide(readGuide().filter((p) => p.slug !== slug));
   deleteItemState(kind, slug);
   audit("admin", "delete", `${kind}:${slug}`);
   revalidatePath("/admin", "layout");
@@ -176,7 +186,7 @@ export async function setItemLocaleAction(
   return { ok: true };
 }
 
-export type TranslateResult = { ok: boolean; translatedLocales: string[]; errors: string[] };
+export type TranslateResult = { ok: boolean; translatedLocales: string[]; errors: string[]; item?: unknown };
 
 export async function translateItemAction(kind: ContentKind, slug: string, item: unknown): Promise<TranslateResult> {
   await requireAdmin();
@@ -222,7 +232,7 @@ export async function translateItemAction(kind: ContentKind, slug: string, item:
   }
   audit("admin", "translate", `${kind}:${slug}`, { translatedLocales, errors });
   revalidatePath("/admin", "layout");
-  return { ok: errors.length === 0, translatedLocales, errors };
+  return { ok: errors.length === 0, translatedLocales, errors, item: doc };
 }
 
 /* ------------------------------------------------------------------ */
@@ -475,16 +485,19 @@ export async function setSourceLocaleAction(locale: string): Promise<{ ok: boole
 export async function reindexStateAction(): Promise<{ ok: boolean; message?: string }> {
   await requireAdmin();
   try {
-    for (const kind of ["date", "gift", "post"] as ContentKind[]) {
-      const items =
-        kind === "date" ? readDates() : kind === "gift" ? readGifts() : readPosts();
+    const collections: Array<{
+      kind: ContentKind;
+      items: Array<{ slug: string; name?: AnyLocalized; title?: AnyLocalized }>;
+    }> = [
+      { kind: "date", items: readDates() },
+      { kind: "gift", items: readGifts() },
+      { kind: "post", items: readPosts() },
+      { kind: "guide", items: readGuide() },
+    ];
+    for (const { kind, items } of collections) {
       for (const item of items) {
-        const name =
-          kind === "post"
-            ? (item as { title?: LocalizedRecord }).title
-            : (item as { name?: LocalizedRecord }).name;
-        const pres = name ? presentLocales(name) : [];
-        ensureItemState(kind, item.slug, pres, []);
+        const name = item.title ?? item.name;
+        ensureItemState(kind, item.slug, name ? presentLocales(name) : [], []);
       }
     }
     audit("admin", "reindex-state", "all items");

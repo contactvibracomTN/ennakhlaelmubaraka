@@ -24,13 +24,14 @@ export default async function AdminLayout({ children }: { children: React.ReactN
     { href: "/admin/gifts", label: "Cadeaux" },
     { href: "/admin/categories", label: "Catégories" },
     { href: "/admin/posts", label: "Articles" },
+    { href: "/admin/guide", label: "Guide des dattes" },
     { href: "/admin/faq", label: "FAQ" },
     { href: "/admin/copy", label: "Textes" },
     { href: "/admin/images", label: "Images" },
     { href: "/admin/deploy", label: "Déploiement" },
     { href: "/admin/backups", label: "Sauvegardes" },
     { href: "/admin/log", label: "Journal" },
-    { href: "/admin/help", label: "Guide" },
+    { href: "/admin/help", label: "Aide" },
   ];
 
   return (

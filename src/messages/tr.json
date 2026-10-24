@@ -87,7 +87,7 @@
         "label": "memnun müşteri"
       },
       "varieties": {
-        "value": "24",
+        "value": "19",
         "label": "rehberdeki çeşit"
       },
       "location": {
@@ -112,7 +112,7 @@
   },
   "guide": {
     "eyebrow": "Hurma Rehberi",
-    "title": "Dünyadan 24 hurma çeşidi",
+    "title": "Dünyadan 19 hurma çeşidi",
     "subtitle": "Her çeşidi tanıyın: kökenleri, dokusu, tadı ve saklanması.",
     "readMore": "Daha fazla",
     "backToList": "Rehbere dön",
@@ -125,7 +125,6 @@
       "maghreb": "Mağrip",
       "mashriq": "Maşrık",
       "gulf": "Körfez",
-      "iran": "İran",
       "oman": "Umman",
       "egypt": "Mısır"
     },
@@ -134,14 +133,13 @@
     "strengths": "Başlıca özellikler",
     "taste": "Tat",
     "nutrition": "Besin değeri (100 g başına)",
-    "prices": "Piyasada gösterge fiyatlar",
     "resources": "Daha fazla bilgi",
     "buyThis": "Bu çeşidi sipariş et",
-    "showingPrice": "Gösterge fiyat",
     "prev": "Önceki çeşit",
     "next": "Sonraki çeşit",
     "regionsLabel": "Bölgeye göre keşfet",
-    "regionInformational": "Not: Aşağıdaki fiyat aralıkları gösterge niteliğindeki piyasa verileridir; mağaza teklifi değildir."
+    "whatsappCta": "WhatsApp ile sipariş",
+    "whatsappMessage": "Merhaba, Al Nakhlah Al Mubarakah’tan {product} sipariş etmek istiyorum."
   },
   "dates": {
     "eyebrow": "Hurmalar",

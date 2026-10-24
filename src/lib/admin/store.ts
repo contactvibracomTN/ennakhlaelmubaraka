@@ -21,11 +21,13 @@ import {
 import { join } from "node:path";
 import type { DateProduct, GiftProduct, DateCategoryInfo, GiftCategoryInfo } from "@/types/product";
 import type { BlogPost } from "@/types/blog";
+import type { GuideVariety } from "@/types/guide";
 import {
   backupDir,
   categoriesFile,
   datesFile,
   giftsFile,
+  guideFile,
   messagesFile,
   postsFile,
   stateFile,
@@ -104,6 +106,13 @@ export function readPosts(): BlogPost[] {
 }
 export function savePosts(posts: BlogPost[]): void {
   atomicWrite(postsFile(), posts);
+}
+
+export function readGuide(): GuideVariety[] {
+  return readJson<GuideVariety[]>(guideFile());
+}
+export function saveGuide(varieties: GuideVariety[]): void {
+  atomicWrite(guideFile(), varieties);
 }
 
 export function readCategoriesData(): { dates: DateCategoryInfo[]; gifts: GiftCategoryInfo[] } {
@@ -200,6 +209,9 @@ function joinContentTarget(name: string): string | null {
     case "posts":
     case "posts.json":
       return postsFile();
+    case "guide":
+    case "guide.json":
+      return guideFile();
     case "categories":
     case "categories.json":
       return categoriesFile();
@@ -215,7 +227,7 @@ export function snapshotAll(prefix: string): string {
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
   const folder = join(dir, `${prefix}-${stamp}`);
   mkdirSync(folder, { recursive: true });
-  const sources = [datesFile(), giftsFile(), postsFile(), categoriesFile(), stateFile()].concat(
+  const sources = [datesFile(), giftsFile(), postsFile(), guideFile(), categoriesFile(), stateFile()].concat(
     ADMIN_LOCALES.map((l) => messagesFile(l)),
   );
   for (const src of sources) {

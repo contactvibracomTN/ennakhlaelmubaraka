@@ -21,6 +21,7 @@ export const contentDir = () => join(projectRoot(), "src", "lib", "data", "conte
 export const datesFile = () => join(contentDir(), "dates.json");
 export const giftsFile = () => join(contentDir(), "gifts.json");
 export const postsFile = () => join(contentDir(), "posts.json");
+export const guideFile = () => join(contentDir(), "guide.json");
 export const categoriesFile = () => join(contentDir(), "categories.json");
 
 export const messagesDir = () => join(projectRoot(), "src", "messages");

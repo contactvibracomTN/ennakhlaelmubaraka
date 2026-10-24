@@ -39,12 +39,13 @@ export interface ItemLocaleState {
   machine?: boolean;
 }
 
-export type ContentKind = "date" | "gift" | "post";
+export type ContentKind = "date" | "gift" | "post" | "guide";
 
 export const KIND_LABELS: Record<ContentKind, string> = {
   date: "Produit (dates)",
   gift: "Produit (cadeaux)",
   post: "Article de blog",
+  guide: "Fiche du guide des dattes",
 };
 
 /** Localized record used across the datasets. */

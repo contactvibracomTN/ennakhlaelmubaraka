@@ -1,7 +1,7 @@
 /**
  * Runtime content validation (admin-driven JSON store).
  *
- * The catalog/gifts/blog/categories data now lives in `content/*.json`,
+ * The catalog/gifts/blog/categories/guide data now lives in `content/*.json`,
  * edited through the /admin panel. These zod schemas are the guardrail:
  * every dataset module parses its JSON at import time and throws a clear
  * error if an admin save ever produced malformed content — long before a
@@ -11,6 +11,7 @@
 import { z } from "zod";
 import type { DateProduct, GiftProduct } from "@/types/product";
 import type { BlogPost } from "@/types/blog";
+import type { GuideVariety } from "@/types/guide";
 
 export const LOCALES = ["ar", "en", "fr", "tr", "ur", "ms", "bn", "id"] as const;
 
@@ -147,6 +148,43 @@ const blogPostSchema = z
   })
   .passthrough();
 
+const guideRegionSchema = z.enum(["maghreb", "mashriq", "gulf", "oman", "egypt"]);
+
+const guideTimelineEventSchema = z
+  .object({ label: localizableSchema, text: localizableSchema })
+  .passthrough();
+
+const guideNutritionFactSchema = z
+  .object({ label: localizableSchema, value: localizableSchema })
+  .passthrough();
+
+const guideResourceSchema = z
+  .object({ label: localizableSchema, href: z.string() })
+  .passthrough();
+
+const guideVarietySchema = z
+  .object({
+    slug: z.string(),
+    number: z.string(),
+    nameSearch: z.string(),
+    title: localizableSchema,
+    caption: localizableSchema,
+    origin: localizableSchema,
+    intro: localizableSchema,
+    timeline: z.array(guideTimelineEventSchema),
+    strengths: z.array(localizableSchema),
+    taste: localizableSchema,
+    region: guideRegionSchema,
+    texture: textureSchema,
+    nutrition: z.array(guideNutritionFactSchema),
+    resources: z.array(guideResourceSchema),
+    productSlug: z.string(),
+    ctaLabel: localizableSchema.optional(),
+    image: z.string(),
+    contentStatus: contentStatusSchema,
+  })
+  .passthrough();
+
 const categoryInfoSchema = z
   .object({
     slug: z.string(),
@@ -185,6 +223,14 @@ export function parseGiftProducts(input: unknown): GiftProduct[] {
 
 export function parseBlogPosts(input: unknown): BlogPost[] {
   return blogPostSchema.array().parse(input) as unknown as BlogPost[];
+}
+
+export function parseGuideVarieties(input: unknown): GuideVariety[] {
+  return guideVarietySchema.array().parse(input) as unknown as GuideVariety[];
+}
+
+export function validateGuideVariety(input: unknown): GuideVariety {
+  return guideVarietySchema.parse(input) as unknown as GuideVariety;
 }
 
 export function parseCategories(input: unknown): {

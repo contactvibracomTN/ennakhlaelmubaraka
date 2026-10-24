@@ -1,8 +1,9 @@
 # Guide d'utilisation du panneau d'administration
 
 > Document destiné au propriétaire du projet (non technique). Le panneau permet de
-> modifier vous-même les produits, catégories, articles, questions fréquentes et
-> textes du site, de les traduire automatiquement et de les publier.
+> modifier vous-même les produits, catégories, articles, fiches du guide des dattes,
+> questions fréquentes et textes du site, de les traduire automatiquement et de les
+> publier.
 
 ---
 
@@ -25,7 +26,7 @@ Chaque contenu du site suit le même cycle de travail :
 
 | Étape | Action | Où |
 |---|---|---|
-| 1 | **Créer ou modifier** un contenu (produit, article, texte…) | Écrans « Dattes », « Cadeaux », « Catégories », « Articles », « Textes », « FAQ » |
+| 1 | **Créer ou modifier** un contenu (produit, article, fiche du guide, texte…) | Écrans « Dattes », « Cadeaux », « Catégories », « Articles », « Guide des dattes », « Textes », « FAQ » |
 | 2 | **Rédiger en arabe** (langue source) | Onglets de langue dans chaque écran |
 | 3 | **Traduire automatiquement** vers les 7 autres langues | Bouton doré « ✨ Traduire automatiquement » |
 | 4 | **Valider chaque langue** par un humain | Pastilles de validation sous chaque champ |
@@ -56,6 +57,23 @@ Chaque contenu du site suit le même cycle de travail :
   paragraphe, liste, citation, tableau, appel à l'action (CTA WhatsApp).
 - Chaque bloc se traduit et se valide comme le reste.
 - La FAQ d'un article se gère au bas de la page de l'article.
+
+### Guide des dattes
+- Écran « Guide des dattes » : **19 fiches** qui présentent les variétés (histoire,
+  goût, points forts, nutrition, photo). C'est du contenu **éditorial** : le guide
+  n'affiche **aucun prix**.
+- Chaque fiche se remplit comme un article : titre, phrase d'accroche, origine,
+  introduction, goût, points forts, frise historique, nutrition, liens utiles.
+  Écrivez en arabe, cliquez « ✨ Traduire automatiquement », relisez le français et
+  l'anglais, puis validez les langues.
+- Section « 8. Boutique » : si la variété est **vendue sur le site**, choisissez le
+  produit lié. Un bouton vers la boutique et un bouton **WhatsApp** (message déjà
+  pré-rempli avec le nom du produit) apparaissent alors sur la fiche. Laissez
+  « Pas vendu sur le site » pour les variétés qui ne sont pas en vente.
+- Le texte du bouton boutique se personnalise par langue (« اطلبها الآن »,
+  « تذوّقها الآن », « احصل عليها الآن »…). Laissez vide pour le texte par défaut.
+- Les fiches du guide **ne bloquent pas la porte de déploiement** : elles peuvent
+  être complétées progressivement sans empêcher de publier le reste du site.
 
 ### FAQ du site
 - Écran « FAQ » : une question/réponse est ajoutée **pour les 8 langues d'un coup** ;
