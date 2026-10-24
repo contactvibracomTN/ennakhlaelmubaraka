@@ -4,29 +4,71 @@
     "slug": "ajwa",
     "name": {
       "ar": "عجوة المدينة الأصليّة",
-      "en": "Ajwa Medina",
-      "fr": "Ajwa de Médine",
-      "tr": "Medine Ajwa",
-      "ur": "عجوہ مدینہ",
-      "ms": "Ajwa Madinah",
-      "bn": "মদিনা আজওয়া",
+      "en": "Original Madinah Ajwa",
+      "fr": "Ajwa originale de Médine ",
+      "tr": "Orijinal Medine Ajwa",
+      "ur": "اصل مدینہ عجوہ",
+      "ms": "Madinah Ajwa Asli",
+      "bn": "আসল মদিনা আজওয়া",
       "id": "Madinah Ajwa Asli"
     },
     "teaser": {
-      "ar": "تمتّع بأجود أنواع العجوة الأصيلة، من عمق مزارع المدينة المنوّرة. ننتقي لكم أفخم وألذّ عجوة تمنحك تجربة تذوّق مميّزة وفوائد صحّية عظيمة.\nاحصل عليها الآن بأسعار تناسب ميزانيتك!",
-      "en": "Enjoy the finest authentic Ajwa dates, grown in the heart of Madinah's farms. We select for you the most exquisite and delicious Ajwa, offering a distinctive tasting experience and remarkable health benefits.\nGet yours now at a price that suits your budget!",
-      "fr": "Savourez les meilleures dattes Ajwa authentiques, cultivées au cœur des fermes de Médine. Nous sélectionnons pour vous l'Ajwa la plus raffinée et la plus savoureuse, pour une expérience gustative d'exception et de grands bienfaits pour la santé.\nProcurez-vous-la dès maintenant à un prix adapté à votre budget !",
-      "tr": "Medine'nin bağlarının kalbinden gelen en kaliteli özgün Ajwa hurmalarının tadını çıkarın. Size en seçkin ve en lezzetli Ajwa'yı seçiyoruz; size kendine özgü bir tat deneyimi ve olağanüstü sağlık faydaları sunuyor.\nŞimdi bütçenize uygun fiyatlarla edinin!",
-      "ur": "مدینہ کے باغات کی گہرائی سے حاصل ہونے والی بہترین اصل عجوہ کا لطف اٹھائیں۔ ہم آپ کے لیے نہایت اعلیٰ اور لذیذ عجوہ منتخب کرتے ہیں جو آپ کو منفرد ذائقے کا تجربہ اور شاندار صحت بخش فوائد دیتی ہے۔\nاسے ابھی اپنے بجٹ کے مطابق قیمت پر حاصل کریں!",
-      "ms": "Nikmati Ajwa asli terbaik, yang tumbuh dari ladang-ladang Madinah yang subur. Kami memilih untuk anda Ajwa yang paling mewah dan lazat, memberikan pengalaman rasa yang istimewa dan manfaat kesihatan yang hebat.\nDapatkan sekarang pada harga yang sesuai dengan bajet anda!",
-      "bn": "মদিনার খেজুর বাগানের গভীর থেকে আসা সেরা খাঁটি আজওয়া উপভোগ করুন। আমরা আপনার জন্য সবচেয়ে অভিজাত ও সুস্বাদু আজওয়া বেছে নিই, যা আপনাকে দেয় অনন্য স্বাদের অভিজ্ঞতা এবং অসাধারণ স্বাস্থ্য উপকারিতা।\nএখনই আপনার বাজেটের সাথে মানানসই দামে এটি সংগ্রহ করুন!",
-      "id": "Nikmati kurma Ajwa asli terbaik, yang bersumber dari jantung perkebunan Madinah. Kami memilih kurma Ajwa yang paling lezat dan kaya rasa untuk pengalaman rasa yang unik dan manfaat kesehatan yang luar biasa.\n\nDapatkan sekarang juga dengan harga yang sesuai dengan anggaran Anda!"
+      "ar": "تمتّع بأجود أنواع العجوة الأصيلة!",
+      "en": "Enjoy the finest authentic Ajwa dates!",
+      "fr": "Savourez les meilleures dattes Ajwa authentiques !",
+      "tr": "En kaliteli ve otantik Ajwa hurmalarının tadını çıkarın!",
+      "ur": "بہترین مستند عجوہ تاریخوں سے لطف اٹھائیں!",
+      "ms": "Nikmati kurma Ajwa asli yang terbaik!",
+      "bn": "সর্বোৎকৃষ্ট খাঁটি আজওয়া খেজুর উপভোগ করুন!",
+      "id": "Nikmati kurma Ajwa asli terbaik!"
+    },
+    "description": {
+      "ar": "من عمق مزارع المدينة المنوّرة. ننتقي لكم أفخم وألذّ عجوة تمنحك و أحبابك تجربة تذوّق مميّزة وفوائد صحّية عظيمة.\nأحصل عليها الآن بأسعار تناسب ميزانيتك!\n",
+      "en": "From the heart of Medina's farms, we select the finest and most delicious Ajwa dates, offering you and your loved ones a unique tasting experience and great health benefits.\n\nGet them now at prices that suit your budget!",
+      "fr": "Du cœur des exploitations agricoles de Médine, nous sélectionnons les dattes Ajwa les plus fines et les plus savoureuses, pour vous offrir, à vous et à vos bien aimés, une expérience gustative unique et de bienfaits inestimables pour la santé.\n\nProcurez-vous-les dès maintenant à des prix adaptés à votre budget !",
+      "tr": "Medina'nın kalbindeki çiftliklerden en kaliteli ve en lezzetli Ajwa hurmalarını seçiyoruz; size ve sevdiklerinize eşsiz bir lezzet deneyimi ve büyük sağlık faydaları sunuyoruz.\n\nŞimdi bütçenize uygun fiyatlarla sahip olun!",
+      "ur": "مدینہ کے کھیتوں کے مرکز سے، ہم بہترین اور مزیدار عجوہ کھجور کا انتخاب کرتے ہیں، جو آپ کو اور آپ کے پیاروں کو چکھنے کا ایک انوکھا تجربہ اور بہترین صحت کے فوائد فراہم کرتے ہیں۔\n\nانہیں ابھی ان قیمتوں پر حاصل کریں جو آپ کے بجٹ کے مطابق ہوں!",
+      "ms": "Dari tengah-tengah ladang-ladang Madinah, kami memilih kurma Ajwa yang terbaik dan paling lazat, menawarkan anda dan orang tersayang pengalaman merasa yang unik dan manfaat kesihatan yang hebat.\n\nDapatkannya sekarang pada harga yang sesuai dengan bajet anda!",
+      "bn": "মদিনার খামারগুলোর কেন্দ্র থেকে আমরা সেরা ও সবচেয়ে সুস্বাদু আজওয়া খেজুর বাছাই করি, যা আপনাকে ও আপনার প্রিয়জনদের জন্য নিয়ে আসে এক অনন্য স্বাদের অভিজ্ঞতা এবং দারুণ স্বাস্থ্য উপকারিতা।\n\nআপনার সাধ্যের মধ্যে দামে এখনই সংগ্রহ করুন!",
+      "id": "Dari jantung perkebunan Madinah, kami memilih kurma Ajwa terbaik dan terlezat, menawarkan pengalaman rasa yang unik dan manfaat kesehatan yang luar biasa bagi Anda dan orang-orang terkasih.\n\nDapatkan sekarang juga dengan harga yang sesuai dengan anggaran Anda!"
     },
     "images": [
       "/images/dates/ajwa.jpg",
-      "/images/dates/ajwa__2.jpg",
-      "/images/dates/ajwa__3.jpg"
+      "/images/uploads/1792681387809-ajwa-premium-02.webp",
+      "/images/uploads/1792681518555-ajwa-midium-.jpeg"
     ],
+    "imageAlts": {
+      "/images/dates/ajwa.jpg": {
+        "ar": "تمر عجوة المدينة الأصليّة",
+        "en": "Original Medina Ajwa Dates",
+        "fr": "Dattes Ajwa originales de Médine",
+        "tr": "Orijinal Medine Ajwa Hurmaları",
+        "ur": "اصل مدینہ عجوہ تاریخیں۔",
+        "ms": "Kurma Ajwa Madinah Asli",
+        "bn": "আসল মদিনা আজওয়া খেজুর",
+        "id": "Kurma Ajwa Asli Madinah"
+      },
+      "/images/dates/ajwa__2.jpg": {
+        "ar": "تمر عجوة المدينة — عرض المنتج",
+        "en": "Ajwa dates from Madinah — Product display",
+        "fr": "Dattes Ajwa de Médine — Présentation du produit",
+        "tr": "Medine'den Ajwa hurması — Ürün sergisi",
+        "ur": "عجوہ کی تاریخیں مدینہ سے - پروڈکٹ ڈسپلے",
+        "ms": "Kurma Ajwa dari Madinah — Paparan produk",
+        "bn": "মদিনার আজওয়া খেজুর — পণ্যের প্রদর্শন",
+        "id": "Kurma Ajwa dari Madinah — Tampilan Produk"
+      },
+      "/images/dates/ajwa__3.jpg": {
+        "ar": "تمر عجوة المدينة — تقديم المنتج",
+        "en": "Ajwa dates from Madinah — Product presentation",
+        "fr": "Dattes Ajwa de Médine — Présentation du produit",
+        "tr": "Medine'den Ajwa hurması — Ürün tanıtımı",
+        "ur": "عجوہ کی تاریخیں مدینہ سے - پروڈکٹ کی پیشکش",
+        "ms": "Kurma Ajwa dari Madinah — Pembentangan produk",
+        "bn": "মদিনার আজওয়া খেজুর — পণ্য উপস্থাপনা",
+        "id": "Kurma Ajwa dari Madinah — Presentasi Produk"
+      }
+    },
     "price": {
       "amount": 40,
       "currency": "SAR"
@@ -47,82 +89,92 @@
       "id": "Arab Saudi (Madinah)"
     },
     "unit": "kg",
-    "weightOptions": [],
+    "weightOptions": [
+      {
+        "id": "opt-1792681589860",
+        "label": {
+          "ar": "",
+          "en": "",
+          "fr": "",
+          "tr": "",
+          "ur": "",
+          "ms": "",
+          "bn": "",
+          "id": ""
+        },
+        "price": {
+          "amount": 40,
+          "currency": "SAR"
+        }
+      }
+    ],
     "grades": [
       {
         "id": "g-fakhira",
         "label": {
           "ar": "الفاخرة",
-          "en": "Premium",
-          "fr": "Premium"
+          "en": "luxury",
+          "fr": "luxe",
+          "tr": "lüks",
+          "ur": "عیش و آرام",
+          "ms": "kemewahan",
+          "bn": "বিলাসবহুল",
+          "id": "kemewahan"
         },
         "pricePerKg": {
-          "amount": 40,
+          "amount": 55,
           "currency": "SAR"
         },
-        "tier": "premium"
+        "tier": "premium",
+        "images": [
+          "/images/uploads/1792681539709-ajwa-premium-.png"
+        ]
       },
       {
         "id": "g-wusta",
         "label": {
           "ar": "الوسطى",
-          "en": "Medium",
-          "fr": "Moyenne"
+          "en": "Central",
+          "fr": "Central",
+          "tr": "Merkez",
+          "ur": "مرکزی",
+          "ms": "Pusat",
+          "bn": "কেন্দ্রীয়",
+          "id": "Pusat"
         },
         "pricePerKg": {
-          "amount": 25,
+          "amount": 35,
           "currency": "SAR"
         },
-        "tier": "medium"
+        "tier": "medium",
+        "images": [
+          "/images/uploads/1792681547965--ajwa-originelle-m-dine-midium.webp"
+        ]
       },
       {
         "id": "g-saghira",
         "label": {
           "ar": "الصغيرة",
-          "en": "Small",
-          "fr": "Petite"
+          "en": "The small",
+          "fr": "Le petit",
+          "tr": "Küçük",
+          "ur": "چھوٹی",
+          "ms": "Yang kecil",
+          "bn": "ছোট",
+          "id": "Yang kecil"
         },
         "pricePerKg": {
-          "amount": 15,
+          "amount": 23,
           "currency": "SAR"
         },
-        "tier": "economic"
+        "tier": "economic",
+        "images": [
+          "/images/uploads/1792681567335-ajwa-aliyah-02.jpg"
+        ]
       }
     ],
     "defaultGradeId": "g-fakhira",
-    "texture": "soft",
-    "imageAlts": {
-      "/images/dates/ajwa.jpg": {
-        "ar": "تمر عجوة المدينة الأصليّة",
-        "en": "Original Ajwa Medina dates",
-        "fr": "Dattes Ajwa de Médine originales",
-        "tr": "Orijinal Medine Ajwa hurmaları",
-        "ur": "اصلی عجوہ مدینہ کھجوریں",
-        "ms": "Tarikh Ajwa Madinah asli",
-        "bn": "আসল মদিনা আজওয়া খেজুর",
-        "id": "Kurma Ajwa Madinah asli"
-      },
-      "/images/dates/ajwa__2.jpg": {
-        "ar": "تمر عجوة المدينة — عرض المنتج",
-        "en": "Ajwa Medina dates — product view",
-        "fr": "Dattes Ajwa de Médine — vue produit",
-        "tr": "Medine Ajwa hurmaları — ürün görünümü",
-        "ur": "عجوہ مدینہ کھجوریں — پروڈکٹ کی تصویر",
-        "ms": "Tarikh Ajwa Madinah — paparan produk",
-        "bn": "মদিনা আজওয়া খেজুর — পণ্যের দৃশ্য",
-        "id": "Kurma Ajwa Madinah — tampilan produk"
-      },
-      "/images/dates/ajwa__3.jpg": {
-        "ar": "تمر عجوة المدينة — تقديم المنتج",
-        "en": "Ajwa Medina dates — presentation",
-        "fr": "Dattes Ajwa de Médine — présentation",
-        "tr": "Medine Ajwa hurmaları — sunum",
-        "ur": "عجوہ مدینہ کھجوریں — پیشکش",
-        "ms": "Tarikh Ajwa Madinah — pembentangan",
-        "bn": "মদিনা আজওয়া খেজুর — উপস্থাপনা",
-        "id": "Kurma Ajwa Madinah — presentasi"
-      }
-    }
+    "texture": "soft"
   },
   {
     "kind": "date",

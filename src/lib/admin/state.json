@@ -8,45 +8,45 @@
         "at": "2026-09-30T11:38:07.803Z"
       },
       "en": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-10-19T09:44:16.476Z",
-        "machine": true
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-10-22T16:18:45.715Z",
+        "machine": false
       },
       "fr": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-10-19T09:44:16.483Z",
-        "machine": true
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-10-22T16:20:39.477Z",
+        "machine": false
       },
       "tr": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-10-19T09:41:44.112Z",
-        "machine": true
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-10-22T16:31:25.741Z",
+        "machine": false
       },
       "ur": {
-        "status": "machine",
-        "by": "traduction assistée (IA)",
-        "at": "2026-10-19T09:58:02.622Z",
-        "machine": true
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-10-22T16:31:27.943Z",
+        "machine": false
       },
       "ms": {
-        "status": "machine",
-        "by": "traduction assistée (IA)",
-        "at": "2026-10-19T09:58:02.622Z",
-        "machine": true
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-10-22T16:31:26.812Z",
+        "machine": false
       },
       "bn": {
-        "status": "machine",
-        "by": "traduction assistée (IA)",
-        "at": "2026-10-19T09:58:02.622Z",
-        "machine": true
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-10-22T16:31:28.735Z",
+        "machine": false
       },
       "id": {
         "status": "validated",
         "by": "admin",
-        "at": "2026-10-19T09:42:53.009Z",
+        "at": "2026-10-22T16:31:27.097Z",
         "machine": false
       }
     },
@@ -233,6 +233,72 @@
         "status": "validated",
         "by": "catalogue existant",
         "at": "2026-10-14T10:46:22.332Z"
+      }
+    },
+    "guide:medjool": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-10-23T07:54:30.485Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-10-23T07:54:30.485Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-10-23T07:54:30.485Z"
+      }
+    },
+    "gift:royal-stuffed-date-box": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-10-24T08:24:19.098Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-10-24T09:24:32.715Z",
+        "machine": false
+      },
+      "fr": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-10-24T09:11:15.084Z",
+        "machine": false
+      },
+      "tr": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-10-24T09:12:12.377Z",
+        "machine": false
+      },
+      "ur": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-10-24T09:11:12.999Z",
+        "machine": false
+      },
+      "ms": {
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-10-24T08:40:25.011Z",
+        "machine": true
+      },
+      "bn": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-10-24T09:11:06.775Z",
+        "machine": false
+      },
+      "id": {
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-10-24T08:40:25.024Z",
+        "machine": true
       }
     }
   }

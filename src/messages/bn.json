@@ -202,8 +202,8 @@
     "availabilityToConfirm": "উপলব্ধতা অনুরোধে নিশ্চিত করা হয়",
     "gradeLabel": "গ্রেড / ক্যালিবার",
     "ajwaFamilyTitle": "আজওয়া",
-    "bulkOrderText": "বড় অর্ডারের জন্য (২০০ কেজির বেশি)",
-    "bulkOrderLink": "এখানে ক্লিক করুন"
+    "bulkOrderText": "For large orders (over 1,000 SAR) or to request box diagnosis or institutional orders",
+    "bulkOrderLink": "click here"
   },
   "cart": {
     "title": "আপনার কার্ট",
@@ -364,8 +364,8 @@
     "openGraphDescription": "মদিনার সেরা খেজুর ও বিলাসবহুল উপহারের বক্স — হোয়াটসঅ্যাপে সরাসরি অর্ডার করুন।"
   },
   "announcement": {
-    "label": "ডেলিভারির ঘোষণা",
-    "text": "মদিনা শহরের ভেতরে এক বা তার বেশি কার্ডবক্সের অর্ডারে ফ্রি ডেলিভারি"
+    "label": "ডেলিভারি অফারের বিজ্ঞাপন",
+    "text": "২০০ সৌদি রিয়ালের বেশি মূল্যের সকল অর্ডারে শহরের মধ্যে ফ্রি ডেলিভারি।"
   },
   "ajwa": {
     "eyebrow": "সংগ্রহের তারকা",
@@ -487,9 +487,42 @@
     "varietyPh": "যেমন: আজওয়া, সুক্কারি, মেডজুল",
     "gradePh": "যেমন: প্রিমিয়াম, মাঝারি",
     "submitWhatsApp": "হোয়াটসঅ্যাপে পাঠান",
-    "submitEmail": "ইমেইলে একটি কপি পাঠান",
-    "emailNote": "অনুসরণ ও সংরক্ষণের জন্য একটি কপি আমাদের ইমেইলে (nakhla.mubaraka26@gmail.com) পাঠানো হয়।",
     "message": "পাইকারি অর্ডার অনুরোধ — আল নাখলা আল মুবারাকাহ:\nপূর্ণ নাম: {name}\nশহর: {city}\nফোন / হোয়াটসঅ্যাপ: {phone}\nপ্রয়োজনীয় পরিমাণ: {quantity}\nকাঙ্ক্ষিত ধরন: {variety}\nগ্রেড: {grade}",
     "emailSubject": "পাইকারি অর্ডার অনুরোধ — {name}"
+  },
+  "giftRequest": {
+    "eyebrow": "Gift Requests",
+    "title": "Large Orders / Box Diagnosis / Institutions",
+    "intro": "Use this form for large gift orders, box diagnosis, or institutional orders.",
+    "greeting": "Welcome to Al Nakhlah Al Mubarakah",
+    "fullName": "Full Name",
+    "city": "City",
+    "phone": "Phone / WhatsApp",
+    "object": "Purpose",
+    "objectPh": "Select purpose",
+    "objectOptions": {
+      "large-order": "Large order",
+      "box-diagnosis": "Box diagnosis request",
+      "institutions": "Institutional orders"
+    },
+    "quantity": "Requested quantity",
+    "productType": "Product / Box type",
+    "organization": "Organization / Entity",
+    "occasion": "Occasion",
+    "budget": "Estimated budget",
+    "deliveryDate": "Requested delivery date",
+    "details": "Additional details",
+    "fullNamePh": "Enter your full name",
+    "cityPh": "Enter city",
+    "phonePh": "e.g. 05XXXXXXXX",
+    "quantityPh": "e.g. 50 boxes or more",
+    "productTypePh": "e.g. gifts, custom boxes",
+    "organizationPh": "Company / Institution name",
+    "occasionPh": "e.g. wedding, Eid, corporate",
+    "budgetPh": "e.g. 1000 SAR",
+    "deliveryDatePh": "e.g. 2026-12-01",
+    "detailsPh": "Add details or requirements",
+    "submitWhatsApp": "Send via WhatsApp",
+    "message": "Gift/Institutional Request — Al Nakhlah Al Mubarakah:\nFull Name: {name}\nCity: {city}\nPhone/WhatsApp: {phone}\nPurpose: {object}\nQuantity: {quantity}\nProduct/Box: {productType}\nOrganization: {organization}\nOccasion: {occasion}\nBudget: {budget}\nDelivery date: {deliveryDate}\nDetails: {details}"
   }
 }

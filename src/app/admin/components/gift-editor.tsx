@@ -84,6 +84,11 @@ export function GiftItemEditor({
             ? { ok: true, message: `Traduit automatiquement (${res.translatedLocales.join(", ")}) — versions machine à valider.` }
             : { ok: false, message: `Traduction partielle : ${res.errors.join(" · ")}` },
         );
+        if (res.ok && res.item) {
+          const translated = res.item as GiftProduct;
+          setDoc(translated);
+          setContents(contentsToLines(translated.contents));
+        }
       }
       router.refresh();
     } finally {

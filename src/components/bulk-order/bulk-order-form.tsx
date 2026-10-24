@@ -1,10 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { useLocale, useTranslations } from "next-intl";
-import { Mail } from "lucide-react";
-import { buildWhatsAppUrl, siteConfig } from "@/lib/config/site.config";
-import { WhatsAppLogo } from "@/components/icons/whatsapp-logo";
+import {  } from "@/lib/config/site.config";
 import type { Locale } from "@/lib/config/locales";
 
 interface BulkOrderFields {
@@ -25,12 +21,6 @@ const EMPTY: BulkOrderFields = {
   grade: "",
 };
 
-/**
- * Bulk-order form (PO 13/10/2026) — الإسم الكامل · المدينة · رقم الهاتف/الواتس ·
- * الكمّية المطلوبة · النّوع المرغوب فيه · الصّنف. Sends a pre-filled WhatsApp
- * message (fast reply) and opens the mail client with a copy for follow-up and
- * archiving. Nothing is stored on the server.
- */
 export function BulkOrderForm() {
   const t = useTranslations("bulkOrder");
   const locale = useLocale() as Locale;
@@ -58,19 +48,21 @@ export function BulkOrderForm() {
     grade: fallback(values.grade),
   });
 
-  const openWhatsApp = () => {
+  const openWhatsApp = async () => {
     if (!ready) return;
-    window.open(
-      buildWhatsAppUrl(message, locale),
-      "_blank",
-      "noopener,noreferrer",
-    );
-  };
-
-  const sendEmail = () => {
-    if (!ready) return;
-    const subject = t("emailSubject", { name: fallback(values.fullName) });
-    window.location.href = `mailto:${siteConfig.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+    try {
+      fetch("/api/orders/notify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          type: "bulk-order",
+          ...values,
+          message,
+        }),
+        keepalive: true,
+      }).catch(() => {});
+    } catch {}
+    window.open(buildWhatsAppUrl(message, locale), "_blank", "noopener,noreferrer");
   };
 
   const inputClass =
@@ -200,17 +192,7 @@ export function BulkOrderForm() {
             <WhatsAppLogo className="h-5 w-5" aria-hidden="true" />
             {t("submitWhatsApp")}
           </button>
-          <button
-            type="button"
-            onClick={sendEmail}
-            disabled={!ready}
-            className="inline-flex flex-1 items-center justify-center gap-2 rounded-full border border-forest/25 px-6 py-3.5 text-sm font-semibold text-forest transition-colors hover:bg-forest hover:text-ivory focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:cursor-not-allowed disabled:opacity-45 sm:flex-none"
-          >
-            <Mail className="h-4 w-4" aria-hidden="true" />
-            {t("submitEmail")}
-          </button>
         </div>
-        <p className="text-xs leading-relaxed text-muted">{t("emailNote")}</p>
       </div>
     </form>
   );

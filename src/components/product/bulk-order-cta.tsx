@@ -7,9 +7,13 @@ import { PackageSearch } from "lucide-react";
  * "للطّلبيات الكبيرة (أكثر من 200 كغ) أنقر هنا" — the link opens the dedicated
  * /bulk-order page (warm greeting + form → WhatsApp + e-mail for records).
  */
-export async function BulkOrderCta() {
-  const t = await getTranslations("product");
+export async function BulkOrderCta({ variant = "dates" }: { variant?: "dates" | "gifts" } = {}) {
+  const t = await getTranslations(variant === "gifts" ? "product" : "product");
   const tb = await getTranslations("bulkOrder");
+
+  const href = variant === "gifts" ? "/gift-request" : "/bulk-order";
+  const text = t("bulkOrderText");
+  const linkLabel = t("bulkOrderLink");
 
   return (
     <section
@@ -21,12 +25,12 @@ export async function BulkOrderCta() {
           <PackageSearch className="h-5 w-5" aria-hidden="true" />
         </span>
         <p className="max-w-2xl text-base leading-relaxed text-charcoal/90">
-          {t("bulkOrderText")}{" "}
+          {text}{" "}
           <Link
-            href="/bulk-order"
+            href={href}
             className="font-bold text-bordeaux underline decoration-bordeaux/40 underline-offset-4 transition-colors hover:text-forest hover:decoration-forest/40"
           >
-            {t("bulkOrderLink")}
+            {linkLabel}
           </Link>
         </p>
       </div>

@@ -132,7 +132,7 @@ export default async function GiftDetailPage({
 
             {size ? (
               <p className="mt-3 text-sm text-muted">
-                <span className="font-semibold text-forest">{t("size")}: </span>
+                <span className="font-semibold text-forest">{localeTyped === "ar" ? "مكوّنات العلبة:" : t("size") + ":"} </span>
                 {size}
               </p>
             ) : null}
@@ -223,7 +223,7 @@ export default async function GiftDetailPage({
           </section>
         ) : null}
 
-        <BulkOrderCta />
+        <BulkOrderCta variant="gifts" />
       </div>
 
       <script

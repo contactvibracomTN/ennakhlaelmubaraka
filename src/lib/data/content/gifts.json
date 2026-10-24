@@ -195,7 +195,6 @@
     "occasion": "visit"
   },
   {
-    "kind": "gift",
     "id": "gift-royal-stuffed-date-box",
     "slug": "royal-stuffed-date-box",
     "name": {
@@ -209,54 +208,80 @@
       "id": "Kotak Kurma Isi Royal"
     },
     "teaser": {
-      "ar": "تمور مختارة بحشوات فستق ولوز وطحينة وشوكولاتة، مهيأة للتقديم والهدايا.",
+      "ar": "تمور مختارة بحشوات الفستق، اللّوز، البندق، الطّحينة و الكاجو، مناسبة للهدايا و الزّيارات العائليّة  و المناسبات ",
       "en": "Selected dates with pistachio, almond, tahini and chocolate fillings, ready for refined gifting.",
       "fr": "Dattes sélectionnées aux farces pistache, amande, tahini et chocolat, prêtes pour un cadeau raffiné.",
-      "tr": "Antep fıstığı, badem, tahin ve çikolata dolgulu seçme hurmalar; şık hediye için hazır.",
-      "ur": "پستہ، بادام، طحینہ اور چاکلیٹ بھرائی والی منتخب کھجوریں، نفیس تحفے کے لیے تیار۔",
-      "ms": "Kurma pilihan dengan inti pistachio, badam, tahini dan coklat, sedia untuk hadiah yang halus.",
-      "bn": "পেস্তা, বাদাম, তাহিনি ও চকলেট ভরাসহ নির্বাচিত খেজুর — অভিজাত উপহারের জন্য প্রস্তুত।",
+      "tr": "İçi fıstık, badem, fındık, tahin ve kaju fıstığı ile doldurulmuş çeşitli hurmalar; hediye olarak, aile ziyaretleri ve özel günler için uygundur.",
+      "ur": "پستہ، بادام، ہیزلنٹ، تاہینی اور کاجو بھرنے والی کھجوریں، تحائف، خاندانی ملاقاتوں اور مواقع کے لیے موزوں",
+      "ms": "Kurma terpilih dengan inti pistachio, badam, hazelnut, tahini dan gajus, sesuai untuk hadiah, kunjungan keluarga dan majlis-majlis",
+      "bn": "পেস্তা, বাদাম, হ্যাজেলনাট, তাহিনি এবং কাজু দিয়ে ভরা বাছাই করা খেজুর, যা উপহার, পারিবারিক মিলন এবং বিভিন্ন অনুষ্ঠানের জন্য আদর্শ।",
       "id": "Kurma pilihan dengan isian pistachio, almond, tahini, dan cokelat, siap untuk hadiah istimewa."
     },
     "images": [
-      "/images/gifts/royal-stuffed-date-box.jpg",
-      "/images/gifts/royal-stuffed-date-box__2.jpg",
-      "/images/gifts/royal-stuffed-date-box__3.jpg"
+      "/images/uploads/1792830031116--24-.jpeg",
+      "/images/uploads/1792830244264--24-02.jpeg"
     ],
     "price": {
-      "amount": 159,
+      "amount": 229,
       "currency": "SAR"
     },
     "compareAtPrice": {
-      "amount": 189,
+      "amount": 269,
       "currency": "SAR"
     },
-    "availability": "in-stock",
+    "availability": "preorder",
     "contentStatus": "demo",
-    "category": "personal",
+    "kind": "gift",
+    "category": "occasions",
     "contents": [
       {
-        "ar": "فستق",
-        "en": "Pistachio"
+        "ar": "24 حبّة تمر فاخرمحشيّة بأجود أنواع المُكسّرات المُحمّصة و الشكلاطة اللّذيذة.",
+        "en": "Pistachio",
+        "fr": "",
+        "tr": "",
+        "ur": "",
+        "ms": "",
+        "bn": "",
+        "id": ""
       },
       {
-        "ar": "لوز",
-        "en": "Almond"
+        "ar": "متوفّر بحشوة الفستق، اللّوز، البندق، الطّحينة و الكاجو.",
+        "en": "Almond",
+        "fr": "",
+        "tr": "",
+        "ur": "",
+        "ms": "",
+        "bn": "",
+        "id": ""
       },
       {
-        "ar": "طحينة",
-        "en": "Tahini"
+        "ar": "",
+        "en": "Tahini",
+        "fr": "",
+        "tr": "",
+        "ur": "",
+        "ms": "",
+        "bn": "",
+        "id": ""
       },
       {
-        "ar": "شوكولاتة",
-        "en": "Chocolate"
+        "ar": "",
+        "en": "Chocolate",
+        "fr": "",
+        "tr": "",
+        "ur": "",
+        "ms": "",
+        "bn": "",
+        "id": ""
       }
     ],
     "sizeLabel": {
-      "ar": "18 قطعة فاخرة",
-      "en": "18 luxury pieces"
+      "ar": "24 قطعة فاخرة",
+      "en": "24 luxury pieces",
+      "fr": "24 pièces de luxe"
     },
-    "occasion": "visit"
+    "occasion": "visit",
+    "isConceptual": true
   },
   {
     "kind": "gift",
