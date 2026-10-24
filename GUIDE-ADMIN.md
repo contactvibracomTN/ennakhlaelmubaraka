@@ -161,7 +161,8 @@ restaurations. Il est enregistré dans `logs/admin-audit.jsonl`.
 ## 9. Les images
 
 L'écran « Images » :
-- **Importer** une nouvelle image (dossier « uploads ») → « copier le chemin » ;
+- **Importer** une nouvelle image (dossier « uploads », **10 Mo max** : JPG, PNG,
+  WebP, GIF ou SVG) → « copier le chemin » ;
 - Coller ce chemin dans un produit, un cadeau ou un article (champ d'image).
 - Les photos existantes des dattes, cadeaux et articles y sont visibles et leur
   chemin prêt à copier.

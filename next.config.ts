@@ -23,6 +23,17 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     /**
+     * The admin uploads original photos through a Server Action. Next.js caps
+     * Server Action bodies at 1 MB by default, which rejected normal phone
+     * photos (a 1.26 MB JPEG failed before reaching `uploadImageAction`).
+     * Raise it above the 10 MB per-file limit enforced by the action, and
+     * above the 10 MB default proxy/middleware body cap as well.
+     */
+    serverActions: {
+      bodySizeLimit: "12mb",
+    },
+    proxyClientMaxBodySize: "12mb",
+    /**
      * `next build` fans static generation out over
      * `min(experimental.cpus, ceil(pages / staticGenerationMinPagesPerWorker))`
      * workers. This build renders 649 pages, so the default of 25 pages per

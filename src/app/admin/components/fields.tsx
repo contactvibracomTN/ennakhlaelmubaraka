@@ -392,6 +392,8 @@ export function ImageListEditor({
       } else {
         setError(res.error);
       }
+    } catch {
+      setError("Téléversement impossible — vérifiez la taille (10 Mo max) et réessayez.");
     } finally {
       setBusy(false);
       if (fileRef.current) fileRef.current.value = "";
@@ -431,6 +433,10 @@ export function ImageListEditor({
         </Button>
         {error ? <span className="text-xs text-red-600">{error}</span> : null}
       </div>
+      <p className="mt-1 text-[11px] text-neutral-500">
+        JPG, PNG, WebP, GIF ou SVG — 10 Mo max par image. L’originale est conservée ;
+        le site l’optimise automatiquement à l’affichage.
+      </p>
     </Field>
   );
 }
