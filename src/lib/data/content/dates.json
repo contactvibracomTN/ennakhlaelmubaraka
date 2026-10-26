@@ -870,7 +870,6 @@
       "id": "Ajwa dari kebun Al-Aliya di Madinah — tekstur lembut, rasa manis seimbang."
     },
     "images": [
-      "/images/dates/ajwa-aaliya.jpg",
       "/images/dates/ajwa-aaliya__2.jpg",
       "/images/dates/ajwa-aaliya__3.jpg",
       "/images/dates/ajwa-aaliya__4.jpg",
@@ -914,16 +913,6 @@
     "defaultGradeId": "g-45",
     "texture": "soft",
     "imageAlts": {
-      "/images/dates/ajwa-aaliya.jpg": {
-        "ar": "تمر عجوة العالية الفاخر من المدينة المنوّرة",
-        "en": "Premium Ajwa Aaliya dates from Madinah",
-        "fr": "Dattes Ajwa Aaliya premium de Médine",
-        "tr": "Madinah'dan premium Ajwa Aaliya hurmaları",
-        "ur": "مدینہ منورہ سے پریمیم عجوہ عالیہ کھجوریں",
-        "ms": "Kurma Ajwa Aaliya premium dari Madinah",
-        "bn": "মদিনা থেকে প্রিমিয়াম আজওয়া আলিয়া খেজুর",
-        "id": "Kurma Ajwa Aaliya premium dari Madinah"
-      },
       "/images/dates/ajwa-aaliya__2.jpg": {
         "ar": "تمر عجوة العالية — تفاصيل الحبّات",
         "en": "Ajwa Aaliya dates — close-up of the dates",
