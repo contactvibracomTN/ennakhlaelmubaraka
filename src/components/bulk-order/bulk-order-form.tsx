@@ -1,6 +1,9 @@
 "use client";
 
-import {  } from "@/lib/config/site.config";
+import { useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
+import { buildWhatsAppUrl } from "@/lib/config/site.config";
+import { WhatsAppLogo } from "@/components/icons/whatsapp-logo";
 import type { Locale } from "@/lib/config/locales";
 
 interface BulkOrderFields {

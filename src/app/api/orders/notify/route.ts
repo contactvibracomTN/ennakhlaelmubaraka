@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { appendFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
+import nodemailer from "nodemailer";
 
 const ORDER_EMAIL = process.env.ORDER_EMAIL || "commandes@ennakhlaelmubaraka.com";
 
