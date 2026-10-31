@@ -48,5 +48,6 @@ Production : https://ennakhlaelmubaraka.com (et `www` → redirection vers l'ape
 
 ## Analytics
 
-GTM `GTM-TWZ3M2WB` (GA4 `G-PPQCN5D354` configuré **dans** le conteneur) +
-Meta Pixel `4588962788006820` injecté directement par l'application.
+GTM `GTM-P2TBRPKB` comme point d'entrée unique : GA4 `G-PPQCN5D354` et
+Meta Pixel `2369842980424778` sont à piloter depuis le conteneur, sans injection
+directe par l'application.

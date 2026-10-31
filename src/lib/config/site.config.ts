@@ -69,9 +69,9 @@ export const siteConfig = {
   analytics: {
     /** Real tags approved by the owner (PO 13/10/2026). */
     ga4Id: "G-PPQCN5D354",
-    gtmId: "GTM-TWZ3M2WB",
+    gtmId: "GTM-P2TBRPKB",
     clarityId: "",
-    metaPixelId: "4588962788006820",
+    metaPixelId: "2369842980424778",
     tiktokPixelId: "",
     /**
      * When true, Google Tag Manager is the SINGLE source of truth for GA4: the
@@ -85,7 +85,7 @@ export const siteConfig = {
      * `managedByGtm` (GA4 stays inside GTM). Set to false to let GTM own the
      * Meta Pixel instead — never enable both, to avoid double counting.
      */
-    metaPixelDirect: true,
+    metaPixelDirect: false,
     /** Consent banner — disabled while no consent framework is required. */
     consentRequired: false,
   },
