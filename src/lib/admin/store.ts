@@ -74,13 +74,34 @@ function rmQuiet(file: string): void {
   rmSync(file, { force: true });
 }
 
+function isReadOnlyFsError(err: unknown): boolean {
+  if (!err || typeof err !== "object") return false;
+  const code = (err as { code?: string }).code;
+  return code === "EROFS" || code === "EACCES" || code === "EPERM" || code === "ENOTSUP";
+}
+
+function readOnlyAdminError(cause?: unknown): Error {
+  const detail = cause instanceof Error ? cause.message : cause ? String(cause) : "";
+  return new Error(
+    "Enregistrement impossible : l'environnement d'exécution est en lecture seule (ex. Vercel/serverless). " +
+      "Le panneau admin de ce projet modifie des fichiers JSON locaux. " +
+      "Modifie le contenu en local (http://localhost:3000/admin), puis commit + push sur la branche de production pour déclencher un déploiement. " +
+      (detail ? `Détail technique : ${detail}` : ""),
+  );
+}
+
 /** Atomic writer: tmp + rename (keeps the previous file until replace). */
 function atomicWrite(file: string, data: unknown): void {
-  mkdirFor(file);
-  const tmp = `${file}.tmp`;
-  writeFileSync(tmp, JSON.stringify(data, null, 2) + "\n", "utf8");
-  backupFile(file);
-  renameSync(tmp, file);
+  try {
+    mkdirFor(file);
+    const tmp = `${file}.tmp`;
+    writeFileSync(tmp, JSON.stringify(data, null, 2) + "\n", "utf8");
+    backupFile(file);
+    renameSync(tmp, file);
+  } catch (err) {
+    if (isReadOnlyFsError(err)) throw readOnlyAdminError(err);
+    throw err;
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -177,18 +198,23 @@ export function listBackupFiles(): string[] {
 }
 
 export function restoreBackupFiles(names: string[]): number {
-  let restored = 0;
-  const dir = backupDir();
-  for (const name of names) {
-    const target = joinContentTarget(name);
-    if (!target) continue;
-    const src = join(dir, name);
-    if (existsSync(src)) {
-      copyFileSync(src, target);
-      restored += 1;
+  try {
+    let restored = 0;
+    const dir = backupDir();
+    for (const name of names) {
+      const target = joinContentTarget(name);
+      if (!target) continue;
+      const src = join(dir, name);
+      if (existsSync(src)) {
+        copyFileSync(src, target);
+        restored += 1;
+      }
     }
+    return restored;
+  } catch (err) {
+    if (isReadOnlyFsError(err)) throw readOnlyAdminError(err);
+    throw err;
   }
-  return restored;
 }
 
 /** Map a backup basename back to its source file. */
@@ -222,21 +248,26 @@ function joinContentTarget(name: string): string | null {
 }
 
 export function snapshotAll(prefix: string): string {
-  const dir = backupDir();
-  mkdirSync(dir, { recursive: true });
-  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
-  const folder = join(dir, `${prefix}-${stamp}`);
-  mkdirSync(folder, { recursive: true });
-  const sources = [datesFile(), giftsFile(), postsFile(), guideFile(), categoriesFile(), stateFile()].concat(
-    ADMIN_LOCALES.map((l) => messagesFile(l)),
-  );
-  for (const src of sources) {
-    if (existsSync(src)) {
-      const name = src.split(/[\\/]/).pop();
-      copyFileSync(src, join(folder, name ?? "unknown"));
+  try {
+    const dir = backupDir();
+    mkdirSync(dir, { recursive: true });
+    const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+    const folder = join(dir, `${prefix}-${stamp}`);
+    mkdirSync(folder, { recursive: true });
+    const sources = [datesFile(), giftsFile(), postsFile(), guideFile(), categoriesFile(), stateFile()].concat(
+      ADMIN_LOCALES.map((l) => messagesFile(l)),
+    );
+    for (const src of sources) {
+      if (existsSync(src)) {
+        const name = src.split(/[\\/]/).pop();
+        copyFileSync(src, join(folder, name ?? "unknown"));
+      }
     }
+    return folder;
+  } catch (err) {
+    if (isReadOnlyFsError(err)) throw readOnlyAdminError(err);
+    throw err;
   }
-  return folder;
 }
 
 export function fileSize(file: string): number {

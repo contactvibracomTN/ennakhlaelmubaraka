@@ -328,9 +328,10 @@
         "at": "2026-11-07T11:49:05.912Z"
       },
       "ms": {
-        "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-11-07T11:49:05.912Z"
+        "status": "machine",
+        "by": "admin",
+        "at": "2026-11-07T15:00:26.114Z",
+        "machine": true
       },
       "bn": {
         "status": "validated",
@@ -351,38 +352,45 @@
       },
       "en": {
         "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-11-07T11:50:11.345Z"
+        "by": "admin",
+        "at": "2026-11-07T15:27:25.201Z",
+        "machine": false
       },
       "fr": {
         "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-11-07T11:50:11.345Z"
+        "by": "admin",
+        "at": "2026-11-07T15:27:28.416Z",
+        "machine": false
       },
       "tr": {
         "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-11-07T11:50:11.345Z"
+        "by": "admin",
+        "at": "2026-11-07T15:27:30.077Z",
+        "machine": false
       },
       "ur": {
         "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-11-07T11:50:11.345Z"
+        "by": "admin",
+        "at": "2026-11-07T15:27:32.589Z",
+        "machine": false
       },
       "ms": {
         "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-11-07T11:50:11.345Z"
+        "by": "admin",
+        "at": "2026-11-07T15:27:31.734Z",
+        "machine": false
       },
       "bn": {
         "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-11-07T11:50:11.345Z"
+        "by": "admin",
+        "at": "2026-11-07T15:27:34.341Z",
+        "machine": false
       },
       "id": {
         "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-11-07T11:50:11.345Z"
+        "by": "admin",
+        "at": "2026-11-07T15:27:35.317Z",
+        "machine": false
       }
     },
     "date:anbara": {

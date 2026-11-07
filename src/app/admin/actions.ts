@@ -160,16 +160,20 @@ export async function saveGuideAction(oldSlug: string, item: unknown): Promise<{
   return saveItem("guide", oldSlug, item);
 }
 
-export async function deleteItemAction(kind: ContentKind, slug: string): Promise<{ ok: boolean }> {
+export async function deleteItemAction(kind: ContentKind, slug: string): Promise<{ ok: boolean; message?: string }> {
   await requireAdmin();
-  if (kind === "date") saveDates(readDates().filter((p) => p.slug !== slug));
-  else if (kind === "gift") saveGifts(readGifts().filter((p) => p.slug !== slug));
-  else if (kind === "post") savePosts(readPosts().filter((p) => p.slug !== slug));
-  else saveGuide(readGuide().filter((p) => p.slug !== slug));
-  deleteItemState(kind, slug);
-  audit("admin", "delete", `${kind}:${slug}`);
-  revalidatePath("/admin", "layout");
-  return { ok: true };
+  try {
+    if (kind === "date") saveDates(readDates().filter((p) => p.slug !== slug));
+    else if (kind === "gift") saveGifts(readGifts().filter((p) => p.slug !== slug));
+    else if (kind === "post") savePosts(readPosts().filter((p) => p.slug !== slug));
+    else saveGuide(readGuide().filter((p) => p.slug !== slug));
+    deleteItemState(kind, slug);
+    audit("admin", "delete", `${kind}:${slug}`);
+    revalidatePath("/admin", "layout");
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, message: err instanceof Error ? err.message : "Erreur lors de la suppression." };
+  }
 }
 
 export async function setItemLocaleAction(
@@ -178,12 +182,16 @@ export async function setItemLocaleAction(
   locale: string,
   status: ItemLocaleStatus,
   by: string,
-): Promise<{ ok: boolean }> {
+): Promise<{ ok: boolean; message?: string }> {
   await requireAdmin();
-  setItemLocaleState(kind, slug, locale, status, by || "admin");
-  audit("admin", "validate-locale", `${kind}:${slug}`, { locale, status, by });
-  revalidatePath("/admin", "layout");
-  return { ok: true };
+  try {
+    setItemLocaleState(kind, slug, locale, status, by || "admin");
+    audit("admin", "validate-locale", `${kind}:${slug}`, { locale, status, by });
+    revalidatePath("/admin", "layout");
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, message: err instanceof Error ? err.message : "Erreur d'enregistrement." };
+  }
 }
 
 export type TranslateResult = { ok: boolean; translatedLocales: string[]; errors: string[]; item?: unknown };
@@ -255,24 +263,32 @@ export async function saveDateCategoriesAction(raw: unknown): Promise<{ ok: bool
   await requireAdmin();
   const guard = await validateCategoryList(raw);
   if (!guard) return { ok: false, message: "Liste de catégories invalide." };
-  const data = readCategoriesData();
-  data.dates = raw as DateCategoryInfo[];
-  saveCategoriesData(data);
-  audit("admin", "save", "categories:dates");
-  revalidatePath("/admin", "layout");
-  return { ok: true };
+  try {
+    const data = readCategoriesData();
+    data.dates = raw as DateCategoryInfo[];
+    saveCategoriesData(data);
+    audit("admin", "save", "categories:dates");
+    revalidatePath("/admin", "layout");
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, message: err instanceof Error ? err.message : "Erreur d'enregistrement." };
+  }
 }
 
 export async function saveGiftCategoriesAction(raw: unknown): Promise<{ ok: boolean; message?: string }> {
   await requireAdmin();
   const guard = await validateCategoryList(raw);
   if (!guard) return { ok: false, message: "Liste de catégories invalide." };
-  const data = readCategoriesData();
-  data.gifts = raw as GiftCategoryInfo[];
-  saveCategoriesData(data);
-  audit("admin", "save", "categories:gifts");
-  revalidatePath("/admin", "layout");
-  return { ok: true };
+  try {
+    const data = readCategoriesData();
+    data.gifts = raw as GiftCategoryInfo[];
+    saveCategoriesData(data);
+    audit("admin", "save", "categories:gifts");
+    revalidatePath("/admin", "layout");
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, message: err instanceof Error ? err.message : "Erreur d'enregistrement." };
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -422,17 +438,29 @@ export async function uploadImageAction(formData: FormData): Promise<{ ok: true;
   if (!(file instanceof File) || file.size === 0) return { ok: false, error: "Aucun fichier sélectionné." };
   const MAX = 10 * 1024 * 1024;
   if (file.size > MAX) return { ok: false, error: "Image trop lourde (10 Mo max)." };
-  const clean = file.name.toLowerCase().replace(/[^a-z0-9._-]/g, "-").replace(/-+/g, "-");
-  const extMatch = /\.(jpe?g|png|webp|gif|svg)$/i.exec(clean);
-  const ext = extMatch ? extMatch[1] : "jpg";
-  const base = clean.replace(/\.(jpe?g|png|webp|gif|svg)$/i, "").slice(0, 60) || "image";
-  const name = `${Date.now()}-${base}.${ext}`;
-  mkdirSync(uploadsDir(), { recursive: true });
-  writeFileSync(join(uploadsDir(), name), Buffer.from(await file.arrayBuffer()));
-  const publicPath = `/images/uploads/${name}`;
-  audit("admin", "upload", publicPath, { bytes: file.size });
-  revalidatePath("/admin", "layout");
-  return { ok: true, path: publicPath };
+  try {
+    const clean = file.name.toLowerCase().replace(/[^a-z0-9._-]/g, "-").replace(/-+/g, "-");
+    const extMatch = /\.(jpe?g|png|webp|gif|svg)$/i.exec(clean);
+    const ext = extMatch ? extMatch[1] : "jpg";
+    const base = clean.replace(/\.(jpe?g|png|webp|gif|svg)$/i, "").slice(0, 60) || "image";
+    const name = `${Date.now()}-${base}.${ext}`;
+    mkdirSync(uploadsDir(), { recursive: true });
+    writeFileSync(join(uploadsDir(), name), Buffer.from(await file.arrayBuffer()));
+    const publicPath = `/images/uploads/${name}`;
+    audit("admin", "upload", publicPath, { bytes: file.size });
+    revalidatePath("/admin", "layout");
+    return { ok: true, path: publicPath };
+  } catch (err) {
+    const code = err && typeof err === "object" ? (err as { code?: string }).code : "";
+    if (code === "EROFS" || code === "EACCES" || code === "EPERM") {
+      return {
+        ok: false,
+        error:
+          "Upload impossible : environnement en lecture seule (ex. Vercel). Ajoute l'image en local dans public/images/, commit + push, puis sélectionne-la depuis l'admin.",
+      };
+    }
+    return { ok: false, error: err instanceof Error ? err.message : "Erreur lors de l'upload." };
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -446,40 +474,56 @@ export async function startDeployAction(force = false): Promise<{ ok: boolean; m
     return { ok: false, message: "Complétude incomplète — déploiement bloqué.", report };
   }
   if (isDeployRunning()) return { ok: false, message: "Un déploiement est déjà en cours." };
-  const backfill = snapshotAll("before-deploy");
-  const res = startDeploy();
-  audit("admin", "deploy-start", "site", { force, snapshot: backfill, reportOk: report.ok });
-  return { ok: res.ok, message: res.message };
+  try {
+    const backfill = snapshotAll("before-deploy");
+    const res = startDeploy();
+    audit("admin", "deploy-start", "site", { force, snapshot: backfill, reportOk: report.ok });
+    return { ok: res.ok, message: res.message };
+  } catch (err) {
+    return { ok: false, message: err instanceof Error ? err.message : "Erreur lors du lancement du déploiement." };
+  }
 }
 
 export async function restoreBackupAction(names: string[]): Promise<{ ok: boolean; message?: string }> {
   await requireAdmin();
   if (!Array.isArray(names) || names.length === 0) return { ok: false, message: "Aucun fichier de sauvegarde sélectionné." };
-  const n = restoreBackupFiles(names);
-  audit("admin", "restore-backup", n.toString(), { names });
-  revalidatePath("/admin", "layout");
-  return { ok: n > 0, message: n > 0 ? `${n} fichier(s) restauré(s). Redéployez pour appliquer.` : "Aucun fichier restauré." };
+  try {
+    const n = restoreBackupFiles(names);
+    audit("admin", "restore-backup", n.toString(), { names });
+    revalidatePath("/admin", "layout");
+    return { ok: n > 0, message: n > 0 ? `${n} fichier(s) restauré(s). Redéployez pour appliquer.` : "Aucun fichier restauré." };
+  } catch (err) {
+    return { ok: false, message: err instanceof Error ? err.message : "Erreur lors de la restauration." };
+  }
 }
 
-export async function resetItemLanguagesAction(kind: ContentKind, slug: string): Promise<{ ok: boolean }> {
+export async function resetItemLanguagesAction(kind: ContentKind, slug: string): Promise<{ ok: boolean; message?: string }> {
   await requireAdmin();
-  const state = readAdminState();
-  delete state.items[itemKey(kind, slug)];
-  saveAdminState(state);
-  audit("admin", "reset-languages", `${kind}:${slug}`);
-  revalidatePath("/admin", "layout");
-  return { ok: true };
+  try {
+    const state = readAdminState();
+    delete state.items[itemKey(kind, slug)];
+    saveAdminState(state);
+    audit("admin", "reset-languages", `${kind}:${slug}`);
+    revalidatePath("/admin", "layout");
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, message: err instanceof Error ? err.message : "Erreur d'enregistrement." };
+  }
 }
 
-export async function setSourceLocaleAction(locale: string): Promise<{ ok: boolean }> {
+export async function setSourceLocaleAction(locale: string): Promise<{ ok: boolean; message?: string }> {
   await requireAdmin();
-  if (!(SAFE_LOCALES as readonly string[]).includes(locale)) return { ok: false };
-  const state = readAdminState();
-  state.sourceLocale = locale;
-  saveAdminState(state);
-  audit("admin", "set-source-locale", locale);
-  revalidatePath("/admin", "layout");
-  return { ok: true };
+  if (!(SAFE_LOCALES as readonly string[]).includes(locale)) return { ok: false, message: "Locale invalide." };
+  try {
+    const state = readAdminState();
+    state.sourceLocale = locale;
+    saveAdminState(state);
+    audit("admin", "set-source-locale", locale);
+    revalidatePath("/admin", "layout");
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, message: err instanceof Error ? err.message : "Erreur d'enregistrement." };
+  }
 }
 
 export async function reindexStateAction(): Promise<{ ok: boolean; message?: string }> {

@@ -231,7 +231,7 @@
       }
     },
     "price": {
-      "amount": 34,
+      "amount": 40,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -305,24 +305,33 @@
     "id": "date-sukkari",
     "slug": "sukkari",
     "name": {
-      "ar": "سكري",
-      "en": "Sukkari",
-      "fr": "Sukkari",
-      "tr": "Sukkari",
-      "ur": "سکری",
-      "ms": "Sukkari",
-      "bn": "সুক্কারি",
+      "ar": "سكري رطب (كرتون 3كغ)",
+      "en": "Sukkari dates (3 kg carton)",
+      "fr": "Dattes Sukkari (carton de 3 kg)",
+      "tr": "Sukkari hurmaları (3 kg karton)",
+      "ur": "सुक्करी खजूर (3 kg कार्टन)",
+      "ms": "Kurma Sukkari, segar dan manis, dengan sejarah yang kaya.",
+      "bn": "সুক্কারি খেজুর (৩ কেজি শক্ত কাগজ)",
       "id": "Sukkari"
     },
     "teaser": {
-      "ar": "صنف شديد الحلاوة بطابع كراميلي وقوام طبيعي طري.",
-      "en": "A very sweet variety with caramelised notes and a naturally soft texture.",
-      "fr": "Une variété très sucrée aux notes caramélisées et à la texture naturellement molle.",
-      "tr": "Karamel notaları ve doğal yumuşak dokusuyla çok tatlı bir çeşit.",
-      "ur": "بہت میٹھی قسم جس میں کیریمل کی جھلک اور قدرتی نرم ساخت ہے۔",
+      "ar": "تمر السكّري الرّطب، حلاوة المذاق و عراقة الأصل",
+      "en": "Sukkari dates, fresh and sweet, with a rich history.",
+      "fr": "Dattes Sukkari, fraîches et sucrées, chargées d'histoire.",
+      "tr": "Sukkari hurmaları, taze ve tatlı olmalarının yanı sıra zengin bir tarihe sahiptir.",
+      "ur": "سکھیری کھجوریں، تازہ اور میٹھی، ایک بھرپور تاریخ کے ساتھ۔",
       "ms": "Varieti sangat manis dengan aroma karamel dan tekstur semula jadi yang lembut.",
-      "bn": "ক্যারামেল ইঙ্গিত ও প্রাকৃতিক কোমল গঠনের খুব মিষ্টি জাত।",
-      "id": "Varietas sangat manis dengan aroma karamel dan tekstur alami yang empuk."
+      "bn": "সুক্কারি খেজুর, তাজা ও মিষ্টি, যার রয়েছে এক সমৃদ্ধ ইতিহাস।",
+      "id": "Kurma Sukkari, segar dan manis, dengan sejarah yang kaya."
+    },
+    "description": {
+      "ar": "تمر غني بالفركتوز والغلوكوز والسكروز مما يمنح الجسم نشاطاً فورياً، يحتوي على نسبة جيدة من الألياف التي تحسن عملية الهضم.",
+      "ur": "کھجور فرکٹوز، گلوکوز اور سوکروز سے بھرپور ہوتی ہے جس سے جسم کو فوری توانائی ملتی ہے۔ ان میں فائبر کی بھی اچھی مقدار ہوتی ہے، جو ہاضمہ کو بہتر بناتا ہے۔",
+      "id": "Kurma kaya akan fruktosa, glukosa, dan sukrosa, yang memberikan tubuh dorongan energi secara instan. Kurma juga mengandung serat dalam jumlah yang baik, yang meningkatkan pencernaan.",
+      "en": "Dates are rich in fructose, glucose and sucrose, which gives the body an immediate energy boost. They also contain a good amount of fiber, which improves digestion.",
+      "fr": "Les dattes sont riches en fructose, en glucose et en saccharose, ce qui procure à l'organisme un regain d'énergie immédiat. Elles contiennent également une bonne quantité de fibres, favorisant ainsi la digestion.",
+      "tr": "Hurma, vücuda anında enerji artışı sağlayan fruktoz, glikoz ve sakaroz açısından zengindir. Ayrıca sindirimi iyileştiren iyi miktarda lif içerir.",
+      "bn": "খেজুরে প্রচুর পরিমাণে ফ্রুক্টোজ, গ্লুকোজ এবং সুক্রোজ থাকে, যা শরীরকে তাৎক্ষণিক শক্তি জোগায়। এতে ভালো পরিমাণে ফাইবারও থাকে, যা হজমশক্তি উন্নত করে।"
     },
     "images": [
       "/images/dates/sukkari.jpg",
@@ -387,6 +396,10 @@
         "price": {
           "amount": 50,
           "currency": "SAR"
+        },
+        "pricePerKg": {
+          "amount": 17,
+          "currency": "SAR"
         }
       }
     ],
@@ -399,7 +412,7 @@
           "fr": "Sukkari Mufattal"
         },
         "pricePerKg": {
-          "amount": 16,
+          "amount": 17,
           "currency": "SAR"
         },
         "tier": "medium",
@@ -447,9 +460,9 @@
     "id": "date-sagai",
     "slug": "sagai",
     "name": {
-      "ar": "صقعي",
-      "en": "Sagai",
-      "fr": "Sagai",
+      "ar": "تمر الصّقعي",
+      "en": "Sagai dates",
+      "fr": "Dattes Sagai",
       "tr": "Sagai",
       "ur": "سگائی",
       "ms": "Sagai",
@@ -457,7 +470,7 @@
       "id": "Sagai"
     },
     "teaser": {
-      "ar": "صقعي — طرف أشقر وقاعدة عنبرية",
+      "ar": " تمر الصّقعي — طرف أشقر وقاعدة عنبرية ",
       "en": "Sagai — blonde tip, amber base",
       "fr": "Sagai — pointe blonde, base ambrée",
       "tr": "Sagai — sarışın uç, kehribar taban",
@@ -465,6 +478,16 @@
       "ms": "Sagai — hujung perang muda, pangkal ambar",
       "bn": "সাগাই — স্বর্ণাভ অগ্রভাগ, অ্যাম্বার গোড়া",
       "id": "Sagai — ujung pirang, pangkal ambar"
+    },
+    "description": {
+      "ar": "تمر الصقعي هو أحد أشهر وأجود أصناف التمور السعودية الأصيلة،\n ميزاته الفريدة تجعل منه الإختيار المفضل للضيافة والمناسبات السّعوديّة",
+      "bn": "সাগাই খেজুর খাঁটি সৌদি খেজুরের সবচেয়ে বিখ্যাত ও উৎকৃষ্ট জাতগুলোর মধ্যে অন্যতম।\n\nএর অনন্য বৈশিষ্ট্যের কারণে এটি সৌদি আতিথেয়তা ও বিভিন্ন অনুষ্ঠানের জন্য একটি পছন্দের ফল।",
+      "tr": "Sagai hurmaları, otantik Suudi hurmalarının en ünlü ve en kaliteli çeşitleri arasındadır.\n\nEşsiz özellikleri, onları Suudi misafirperverliği ve etkinlikleri için tercih edilen bir seçenek haline getirir.",
+      "en": "Sagai dates are among the most famous and finest varieties of authentic Saudi dates.\n\nTheir unique characteristics make them a preferred choice for Saudi hospitality and events.",
+      "fr": "Les dattes Sagai comptent parmi les variétés de dattes saoudiennes authentiques les plus réputées et les plus raffinées.\n\nLeurs caractéristiques uniques en font un choix privilégié pour l'hospitalité et les événements saoudiens.",
+      "ur": "سگائی کھجور مستند سعودی کھجوروں کی سب سے مشہور اور بہترین اقسام میں سے ہیں۔\n\nان کی منفرد خصوصیات انہیں سعودی مہمان نوازی اور تقریبات کے لیے ایک ترجیحی انتخاب بناتی ہیں۔",
+      "id": "Kurma Sagai termasuk salah satu varietas kurma Saudi asli yang paling terkenal dan berkualitas terbaik.\n\nKarakteristik uniknya menjadikan kurma ini pilihan utama untuk acara-acara dan jamuan makan di Arab Saudi.",
+      "ms": "Kurma Sagai adalah antara jenis kurma asli Saudi yang paling terkenal dan terbaik.\n\nCiri-ciri uniknya menjadikannya pilihan utama untuk layanan dan acara di Saudi."
     },
     "images": [
       "/images/dates/sagai.jpg",
@@ -546,7 +569,7 @@
           "fr": "25 SAR/kg"
         },
         "pricePerKg": {
-          "amount": 32,
+          "amount": 30,
           "currency": "SAR"
         },
         "tier": "medium"
