@@ -60,7 +60,7 @@
       }
     },
     "price": {
-      "amount": 50,
+      "amount": 45,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -93,11 +93,11 @@
           "id": ""
         },
         "price": {
-          "amount": 50,
+          "amount": 45,
           "currency": "SAR"
         },
         "pricePerKg": {
-          "amount": 43,
+          "amount": 45,
           "currency": "SAR"
         }
       }
@@ -116,7 +116,7 @@
           "id": "kemewahan"
         },
         "pricePerKg": {
-          "amount": 50,
+          "amount": 45,
           "currency": "SAR"
         },
         "tier": "premium",
