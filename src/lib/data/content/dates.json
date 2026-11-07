@@ -988,7 +988,7 @@
       "/images/dates/ajwa-aaliya__5.jpg"
     ],
     "price": {
-      "amount": 45,
+      "amount": 50,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -1009,20 +1009,64 @@
     "weightOptions": [],
     "grades": [
       {
-        "id": "g-45",
+        "id": "g-fakhira",
         "label": {
-          "ar": "45 ريال/كجم",
-          "en": "SAR 45/kg",
-          "fr": "45 SAR/kg"
+          "ar": "الفاخرة",
+          "en": "Premium",
+          "fr": "Premium",
+          "tr": "Premium",
+          "ur": "پریمیم",
+          "ms": "Premium",
+          "bn": "প্রিমিয়াম",
+          "id": "Premium"
         },
         "pricePerKg": {
-          "amount": 45,
+          "amount": 50,
           "currency": "SAR"
         },
-        "tier": "premium"
+        "tier": "premium",
+        "images": []
+      },
+      {
+        "id": "g-wusta",
+        "label": {
+          "ar": "الوسطى",
+          "en": "Medium",
+          "fr": "Moyenne",
+          "tr": "Orta",
+          "ur": "درمیانہ",
+          "ms": "Sederhana",
+          "bn": "মাঝারি",
+          "id": "Sedang"
+        },
+        "pricePerKg": {
+          "amount": 35,
+          "currency": "SAR"
+        },
+        "tier": "medium",
+        "images": []
+      },
+      {
+        "id": "g-saghira",
+        "label": {
+          "ar": "الصغيرة",
+          "en": "Small",
+          "fr": "Petite",
+          "tr": "Küçük",
+          "ur": "چھوٹی",
+          "ms": "Kecil",
+          "bn": "ছোট",
+          "id": "Kecil"
+        },
+        "pricePerKg": {
+          "amount": 25,
+          "currency": "SAR"
+        },
+        "tier": "economic",
+        "images": []
       }
     ],
-    "defaultGradeId": "g-45",
+    "defaultGradeId": "g-fakhira",
     "texture": "soft",
     "imageAlts": {
       "/images/dates/ajwa-aaliya__2.jpg": {
