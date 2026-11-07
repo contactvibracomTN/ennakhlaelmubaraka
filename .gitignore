@@ -28,3 +28,5 @@ Thumbs.db
 .idea/
 # TypeScript incremental build info
 tsconfig.tsbuildinfo
+.vercel
+.env*

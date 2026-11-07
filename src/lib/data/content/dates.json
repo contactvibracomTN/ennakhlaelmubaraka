@@ -60,7 +60,7 @@
       }
     },
     "price": {
-      "amount": 40,
+      "amount": 45,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -93,7 +93,11 @@
           "id": ""
         },
         "price": {
-          "amount": 40,
+          "amount": 50,
+          "currency": "SAR"
+        },
+        "pricePerKg": {
+          "amount": 45,
           "currency": "SAR"
         }
       }
@@ -112,7 +116,7 @@
           "id": "kemewahan"
         },
         "pricePerKg": {
-          "amount": 55,
+          "amount": 45,
           "currency": "SAR"
         },
         "tier": "premium",
@@ -154,7 +158,7 @@
           "id": "Yang kecil"
         },
         "pricePerKg": {
-          "amount": 23,
+          "amount": 25,
           "currency": "SAR"
         },
         "tier": "economic",
@@ -167,7 +171,6 @@
     "texture": "soft"
   },
   {
-    "kind": "date",
     "id": "date-safawi",
     "slug": "safawi",
     "name": {
@@ -195,56 +198,6 @@
       "/images/dates/safawi__2.jpg",
       "/images/dates/safawi__3.jpg"
     ],
-    "price": {
-      "amount": 20,
-      "currency": "SAR"
-    },
-    "availability": "in-stock",
-    "contentStatus": "published",
-    "category": "medina",
-    "varietySlug": "safawi",
-    "origin": {
-      "ar": "السعودية / منطقة المدينة بحسب الدليل",
-      "en": "Saudi Arabia / Medina region as documented in the guide",
-      "fr": "Arabie saoudite / région de Médine (documenté dans le guide)",
-      "tr": "Suudi Arabistan / Medine bölgesi (rehberde belgelenmiştir)",
-      "ur": "سعودی عرب / مدینہ علاقہ (گائیڈ میں درج)",
-      "ms": "Arab Saudi / wilayah Madinah (didokumentasikan dalam panduan)",
-      "bn": "সৌদি আরব / মদিনা অঞ্চল (গাইডে নথিভুক্ত)",
-      "id": "Arab Saudi / wilayah Madinah (terdokumentasi di panduan)"
-    },
-    "unit": "kg",
-    "weightOptions": [],
-    "grades": [
-      {
-        "id": "g-20",
-        "label": {
-          "ar": "20 ريال/كجم",
-          "en": "SAR 20/kg",
-          "fr": "20 SAR/kg"
-        },
-        "pricePerKg": {
-          "amount": 20,
-          "currency": "SAR"
-        },
-        "tier": "premium"
-      },
-      {
-        "id": "g-15",
-        "label": {
-          "ar": "15 ريال/كجم",
-          "en": "SAR 15/kg",
-          "fr": "15 SAR/kg"
-        },
-        "pricePerKg": {
-          "amount": 15,
-          "currency": "SAR"
-        },
-        "tier": "medium"
-      }
-    ],
-    "defaultGradeId": "g-20",
-    "texture": "soft",
     "imageAlts": {
       "/images/dates/safawi.jpg": {
         "ar": "تمر الصفاوي المميّز الأصلي من المدينة المنوّرة",
@@ -276,10 +229,79 @@
         "bn": "আসল সাফাউই খেজুর — পণ্যের দৃশ্য",
         "id": "Kurma Safawi asli — tampilan produk"
       }
-    }
+    },
+    "price": {
+      "amount": 34,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "published",
+    "kind": "date",
+    "category": "medina",
+    "varietySlug": "safawi",
+    "origin": {
+      "ar": "السعودية / منطقة المدينة بحسب الدليل",
+      "en": "Saudi Arabia / Medina region as documented in the guide",
+      "fr": "Arabie saoudite / région de Médine (documenté dans le guide)",
+      "tr": "Suudi Arabistan / Medine bölgesi (rehberde belgelenmiştir)",
+      "ur": "سعودی عرب / مدینہ علاقہ (گائیڈ میں درج)",
+      "ms": "Arab Saudi / wilayah Madinah (didokumentasikan dalam panduan)",
+      "bn": "সৌদি আরব / মদিনা অঞ্চল (গাইডে নথিভুক্ত)",
+      "id": "Arab Saudi / wilayah Madinah (terdokumentasi di panduan)"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-20",
+        "label": {
+          "ar": "20 ريال/كجم",
+          "en": "SAR 20/kg",
+          "fr": "20 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 35,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      },
+      {
+        "id": "g-15",
+        "label": {
+          "ar": "15 ريال/كجم",
+          "en": "SAR 15/kg",
+          "fr": "15 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 25,
+          "currency": "SAR"
+        },
+        "tier": "medium"
+      },
+      {
+        "id": "g-1794056814360",
+        "label": {
+          "ar": "",
+          "en": "",
+          "fr": "",
+          "tr": "",
+          "ur": "",
+          "ms": "",
+          "bn": "",
+          "id": ""
+        },
+        "pricePerKg": {
+          "amount": 20,
+          "currency": "SAR"
+        },
+        "tier": "economic",
+        "images": []
+      }
+    ],
+    "defaultGradeId": "g-20",
+    "texture": "soft"
   },
   {
-    "kind": "date",
     "id": "date-sukkari",
     "slug": "sukkari",
     "name": {
@@ -304,14 +326,38 @@
     },
     "images": [
       "/images/dates/sukkari.jpg",
-      "/images/dates/sukkari__2.jpg"
+      "/images/dates/sukkari__2.jpg",
+      "/images/uploads/1794052087956--03-.webp"
     ],
+    "imageAlts": {
+      "/images/dates/sukkari.jpg": {
+        "ar": "تمر السكري الأصلي الممتاز من المدينة المنوّرة",
+        "en": "Original premium Sukkari dates from Madinah",
+        "fr": "Dattes Sukkari premium originales de Médine",
+        "tr": "Medine'den orijinal premium Sukkari hurmaları",
+        "ur": "مدینہ منورہ سے اصلی پریمیم سکری کھجوریں",
+        "ms": "Tarikh Sukkari premium asli dari Madinah",
+        "bn": "মদিনা থেকে আসল প্রিমিয়াম সুকারি খেজুর",
+        "id": "Kurma Sukkari premium asli dari Madinah"
+      },
+      "/images/dates/sukkari__2.jpg": {
+        "ar": "تمر السكري الفاخر — حبّات مختارة",
+        "en": "Premium Sukkari dates — selected dates",
+        "fr": "Dattes Sukkari premium — sélection",
+        "tr": "Premium Sukkari hurmaları — seçilmiş hurmalar",
+        "ur": "پریمیم سکری کھجوریں — منتخب کھجوریں",
+        "ms": "Tarikh Sukkari premium — pilihan tarikh",
+        "bn": "প্রিমিয়াম সুকারি খেজুর — নির্বাচিত খেজুর",
+        "id": "Kurma Sukkari premium — kurma pilihan"
+      }
+    },
     "price": {
-      "amount": 27,
+      "amount": 50,
       "currency": "SAR"
     },
     "availability": "in-stock",
     "contentStatus": "published",
+    "kind": "date",
     "category": "kingdom",
     "varietySlug": "sukkari",
     "origin": {
@@ -325,7 +371,25 @@
       "id": "Arab Saudi (Qassim)"
     },
     "unit": "kg",
-    "weightOptions": [],
+    "weightOptions": [
+      {
+        "id": "opt-1794052104527",
+        "label": {
+          "ar": "",
+          "en": "",
+          "fr": "",
+          "tr": "",
+          "ur": "",
+          "ms": "",
+          "bn": "",
+          "id": ""
+        },
+        "price": {
+          "amount": 50,
+          "currency": "SAR"
+        }
+      }
+    ],
     "grades": [
       {
         "id": "g-mufattal",
@@ -335,7 +399,7 @@
           "fr": "Sukkari Mufattal"
         },
         "pricePerKg": {
-          "amount": 27,
+          "amount": 16,
           "currency": "SAR"
         },
         "tier": "medium",
@@ -370,39 +434,16 @@
           "fr": "Sukkari Rutab"
         },
         "pricePerKg": {
-          "amount": 40,
+          "amount": 50,
           "currency": "SAR"
         },
         "tier": "premium"
       }
     ],
     "defaultGradeId": "g-mufattal",
-    "texture": "soft",
-    "imageAlts": {
-      "/images/dates/sukkari.jpg": {
-        "ar": "تمر السكري الأصلي الممتاز من المدينة المنوّرة",
-        "en": "Original premium Sukkari dates from Madinah",
-        "fr": "Dattes Sukkari premium originales de Médine",
-        "tr": "Medine'den orijinal premium Sukkari hurmaları",
-        "ur": "مدینہ منورہ سے اصلی پریمیم سکری کھجوریں",
-        "ms": "Tarikh Sukkari premium asli dari Madinah",
-        "bn": "মদিনা থেকে আসল প্রিমিয়াম সুকারি খেজুর",
-        "id": "Kurma Sukkari premium asli dari Madinah"
-      },
-      "/images/dates/sukkari__2.jpg": {
-        "ar": "تمر السكري الفاخر — حبّات مختارة",
-        "en": "Premium Sukkari dates — selected dates",
-        "fr": "Dattes Sukkari premium — sélection",
-        "tr": "Premium Sukkari hurmaları — seçilmiş hurmalar",
-        "ur": "پریمیم سکری کھجوریں — منتخب کھجوریں",
-        "ms": "Tarikh Sukkari premium — pilihan tarikh",
-        "bn": "প্রিমিয়াম সুকারি খেজুর — নির্বাচিত খেজুর",
-        "id": "Kurma Sukkari premium — kurma pilihan"
-      }
-    }
+    "texture": "soft"
   },
   {
-    "kind": "date",
     "id": "date-sagai",
     "slug": "sagai",
     "name": {
@@ -430,56 +471,6 @@
       "/images/dates/sagai__2.jpg",
       "/images/dates/sagai__3.jpg"
     ],
-    "price": {
-      "amount": 30,
-      "currency": "SAR"
-    },
-    "availability": "in-stock",
-    "contentStatus": "published",
-    "category": "kingdom",
-    "varietySlug": "sagai",
-    "origin": {
-      "ar": "السعودية",
-      "en": "Saudi Arabia",
-      "fr": "Arabie saoudite",
-      "tr": "Suudi Arabistan",
-      "ur": "سعودی عرب",
-      "ms": "Arab Saudi",
-      "bn": "সৌদি আরব",
-      "id": "Arab Saudi"
-    },
-    "unit": "kg",
-    "weightOptions": [],
-    "grades": [
-      {
-        "id": "g-30",
-        "label": {
-          "ar": "30 ريال/كجم",
-          "en": "SAR 30/kg",
-          "fr": "30 SAR/kg"
-        },
-        "pricePerKg": {
-          "amount": 30,
-          "currency": "SAR"
-        },
-        "tier": "premium"
-      },
-      {
-        "id": "g-25",
-        "label": {
-          "ar": "25 ريال/كجم",
-          "en": "SAR 25/kg",
-          "fr": "25 SAR/kg"
-        },
-        "pricePerKg": {
-          "amount": 25,
-          "currency": "SAR"
-        },
-        "tier": "medium"
-      }
-    ],
-    "defaultGradeId": "g-30",
-    "texture": "semi-soft",
     "imageAlts": {
       "/images/dates/sagai.jpg": {
         "ar": "تمر الصقعي الممتاز من المدينة المنوّرة — صورة حقيقية من متجرنا",
@@ -511,10 +502,60 @@
         "bn": "প্রিমিয়াম সাগাই খেজুর — পণ্যের দৃশ্য",
         "id": "Kurma Sagai premium — tampilan produk"
       }
-    }
+    },
+    "price": {
+      "amount": 40,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "published",
+    "kind": "date",
+    "category": "kingdom",
+    "varietySlug": "sagai",
+    "origin": {
+      "ar": "السعودية",
+      "en": "Saudi Arabia",
+      "fr": "Arabie saoudite",
+      "tr": "Suudi Arabistan",
+      "ur": "سعودی عرب",
+      "ms": "Arab Saudi",
+      "bn": "সৌদি আরব",
+      "id": "Arab Saudi"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-30",
+        "label": {
+          "ar": "30 ريال/كجم",
+          "en": "SAR 30/kg",
+          "fr": "30 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 40,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      },
+      {
+        "id": "g-25",
+        "label": {
+          "ar": "25 ريال/كجم",
+          "en": "SAR 25/kg",
+          "fr": "25 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 32,
+          "currency": "SAR"
+        },
+        "tier": "medium"
+      }
+    ],
+    "defaultGradeId": "g-30",
+    "texture": "semi-soft"
   },
   {
-    "kind": "date",
     "id": "date-anbara",
     "slug": "anbara",
     "name": {
@@ -542,43 +583,6 @@
       "/images/dates/anbara__2.jpg",
       "/images/dates/anbara__3.jpg"
     ],
-    "price": {
-      "amount": 35,
-      "currency": "SAR"
-    },
-    "availability": "in-stock",
-    "contentStatus": "published",
-    "category": "medina",
-    "varietySlug": "anbara",
-    "origin": {
-      "ar": "السعودية (المدينة)",
-      "en": "Saudi Arabia (Medina)",
-      "fr": "Arabie saoudite (Médine)",
-      "tr": "Suudi Arabistan (Medine)",
-      "ur": "سعودی عرب (مدینہ)",
-      "ms": "Arab Saudi (Madinah)",
-      "bn": "সৌদি আরব (মদিনা)",
-      "id": "Arab Saudi (Madinah)"
-    },
-    "unit": "kg",
-    "weightOptions": [],
-    "grades": [
-      {
-        "id": "g-35",
-        "label": {
-          "ar": "35 ريال/كجم",
-          "en": "SAR 35/kg",
-          "fr": "35 SAR/kg"
-        },
-        "pricePerKg": {
-          "amount": 35,
-          "currency": "SAR"
-        },
-        "tier": "premium"
-      }
-    ],
-    "defaultGradeId": "g-35",
-    "texture": "soft",
     "imageAlts": {
       "/images/dates/anbara.jpg": {
         "ar": "تمر العنبرة",
@@ -610,10 +614,85 @@
         "bn": "আনবারা খেজুর — উপস্থাপনা",
         "id": "Kurma Anbara — presentasi"
       }
-    }
+    },
+    "price": {
+      "amount": 45,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "published",
+    "kind": "date",
+    "category": "medina",
+    "varietySlug": "anbara",
+    "origin": {
+      "ar": "السعودية (المدينة)",
+      "en": "Saudi Arabia (Medina)",
+      "fr": "Arabie saoudite (Médine)",
+      "tr": "Suudi Arabistan (Medine)",
+      "ur": "سعودی عرب (مدینہ)",
+      "ms": "Arab Saudi (Madinah)",
+      "bn": "সৌদি আরব (মদিনা)",
+      "id": "Arab Saudi (Madinah)"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-35",
+        "label": {
+          "ar": "35 ريال/كجم",
+          "en": "SAR 35/kg",
+          "fr": "35 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 45,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      },
+      {
+        "id": "g-1794052269591",
+        "label": {
+          "ar": "",
+          "en": "",
+          "fr": "",
+          "tr": "",
+          "ur": "",
+          "ms": "",
+          "bn": "",
+          "id": ""
+        },
+        "pricePerKg": {
+          "amount": 40,
+          "currency": "SAR"
+        },
+        "tier": "medium",
+        "images": []
+      },
+      {
+        "id": "g-1794052335303",
+        "label": {
+          "ar": "",
+          "en": "",
+          "fr": "",
+          "tr": "",
+          "ur": "",
+          "ms": "",
+          "bn": "",
+          "id": ""
+        },
+        "pricePerKg": {
+          "amount": 30,
+          "currency": "SAR"
+        },
+        "tier": "economic",
+        "images": []
+      }
+    ],
+    "defaultGradeId": "g-35",
+    "texture": "soft"
   },
   {
-    "kind": "date",
     "id": "date-medjool",
     "slug": "medjool",
     "name": {
@@ -641,56 +720,6 @@
       "/images/dates/medjool__2.jpg",
       "/images/dates/medjool__3.jpg"
     ],
-    "price": {
-      "amount": 35,
-      "currency": "SAR"
-    },
-    "availability": "in-stock",
-    "contentStatus": "published",
-    "category": "kingdom",
-    "varietySlug": "medjool",
-    "origin": {
-      "ar": "السعودية",
-      "en": "Saudi Arabia",
-      "fr": "Arabie saoudite",
-      "tr": "Suudi Arabistan",
-      "ur": "سعودی عرب",
-      "ms": "Arab Saudi",
-      "bn": "সৌদি আরব",
-      "id": "Arab Saudi"
-    },
-    "unit": "kg",
-    "weightOptions": [],
-    "grades": [
-      {
-        "id": "g-35",
-        "label": {
-          "ar": "35 ريال/كجم",
-          "en": "SAR 35/kg",
-          "fr": "35 SAR/kg"
-        },
-        "pricePerKg": {
-          "amount": 35,
-          "currency": "SAR"
-        },
-        "tier": "premium"
-      },
-      {
-        "id": "g-25",
-        "label": {
-          "ar": "25 ريال/كجم",
-          "en": "SAR 25/kg",
-          "fr": "25 SAR/kg"
-        },
-        "pricePerKg": {
-          "amount": 25,
-          "currency": "SAR"
-        },
-        "tier": "medium"
-      }
-    ],
-    "defaultGradeId": "g-35",
-    "texture": "soft",
     "imageAlts": {
       "/images/dates/medjool.jpg": {
         "ar": "تمر المجدول الملكي المميّز",
@@ -722,7 +751,77 @@
         "bn": "প্রিমিয়াম মেদজুল খেজুর — নির্বাচিত খেজুর",
         "id": "Kurma Medjool premium — kurma pilihan"
       }
-    }
+    },
+    "price": {
+      "amount": 45,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "published",
+    "kind": "date",
+    "category": "kingdom",
+    "varietySlug": "medjool",
+    "origin": {
+      "ar": "السعودية",
+      "en": "Saudi Arabia",
+      "fr": "Arabie saoudite",
+      "tr": "Suudi Arabistan",
+      "ur": "سعودی عرب",
+      "ms": "Arab Saudi",
+      "bn": "সৌদি আরব",
+      "id": "Arab Saudi"
+    },
+    "unit": "kg",
+    "weightOptions": [],
+    "grades": [
+      {
+        "id": "g-35",
+        "label": {
+          "ar": "35 ريال/كجم",
+          "en": "SAR 35/kg",
+          "fr": "35 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 45,
+          "currency": "SAR"
+        },
+        "tier": "premium"
+      },
+      {
+        "id": "g-25",
+        "label": {
+          "ar": "25 ريال/كجم",
+          "en": "SAR 25/kg",
+          "fr": "25 SAR/kg"
+        },
+        "pricePerKg": {
+          "amount": 35,
+          "currency": "SAR"
+        },
+        "tier": "medium"
+      },
+      {
+        "id": "g-1794056458840",
+        "label": {
+          "ar": "",
+          "en": "",
+          "fr": "",
+          "tr": "",
+          "ur": "",
+          "ms": "",
+          "bn": "",
+          "id": ""
+        },
+        "pricePerKg": {
+          "amount": 25,
+          "currency": "SAR"
+        },
+        "tier": "economic",
+        "images": []
+      }
+    ],
+    "defaultGradeId": "g-35",
+    "texture": "soft"
   },
   {
     "kind": "date",

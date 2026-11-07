@@ -154,22 +154,15 @@ export default async function LocaleLayout({
     >
       {/* Google Tag Manager — load the shared tracking container early. */}
       <head>
-        {/* Keep the GTM loader and dataLayer initialization together so the
-            container remains the single entry point for tracking. */}
+        {/* Initialize the data layer and emit GTM's startup event before loading
+            the container, as required by the standard GTM bootstrap. */}
         {siteConfig.analytics.gtmId ? (
-          <>
-            <script
-              async
-              src={`https://www.googletagmanager.com/gtm.js?id=${siteConfig.analytics.gtmId}`}
-            />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());`,
-              }}
-            />
-          </>
+          /* eslint-disable-next-line @next/next/next-script-for-ga */
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${siteConfig.analytics.gtmId}');`,
+            }}
+          />
         ) : null}
       </head>
       <body className="flex min-h-dvh flex-col bg-ivory text-foreground antialiased">

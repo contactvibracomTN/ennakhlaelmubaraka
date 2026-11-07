@@ -300,6 +300,216 @@
         "at": "2026-10-24T08:40:25.024Z",
         "machine": true
       }
+    },
+    "date:sukkari": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-07T11:49:05.912Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:49:05.912Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:49:05.912Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:49:05.912Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:49:05.912Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:49:05.912Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:49:05.912Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:49:05.912Z"
+      }
+    },
+    "date:sagai": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-07T11:50:11.345Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:50:11.345Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:50:11.345Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:50:11.345Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:50:11.345Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:50:11.345Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:50:11.345Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:50:11.345Z"
+      }
+    },
+    "date:anbara": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-07T11:52:31.722Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:52:31.722Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:52:31.722Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:52:31.722Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:52:31.722Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:52:31.722Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:52:31.722Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T11:52:31.722Z"
+      }
+    },
+    "date:medjool": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-07T13:01:16.496Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:01:16.496Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:01:16.496Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:01:16.496Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:01:16.496Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:01:16.496Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:01:16.496Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:01:16.496Z"
+      }
+    },
+    "date:safawi": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-07T13:12:01.632Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:12:01.632Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:12:01.632Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:12:01.632Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:12:01.632Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:12:01.632Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:12:01.632Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-07T13:12:01.632Z"
+      }
     }
   }
 }
