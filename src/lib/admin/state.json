@@ -598,6 +598,36 @@
         "status": "validated",
         "by": "catalogue existant",
         "at": "2026-11-10T15:34:44.145Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-10T17:39:39.951Z",
+        "machine": false
+      },
+      "ms": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-10T17:39:40.929Z",
+        "machine": false
+      },
+      "id": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-10T17:39:41.720Z",
+        "machine": false
+      },
+      "bn": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-10T17:39:42.975Z",
+        "machine": false
+      },
+      "ur": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-10T17:39:43.719Z",
+        "machine": false
       }
     },
     "guide:khadrawi-24": {

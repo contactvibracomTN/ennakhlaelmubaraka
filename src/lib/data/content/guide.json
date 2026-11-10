@@ -2526,14 +2526,24 @@
     "number": "16",
     "nameSearch": "khidri khudri خضري",
     "title": {
-      "ar": "خضري — أرجوانية البيوت الملكية",
-      "en": "Khidri — the purple of royal houses",
-      "fr": "Khidri — la pourpre des maisons royales"
+      "ar": "خضري — السّعودي الأصيل ",
+      "en": "Khodari — The authentic Saudi",
+      "fr": "Khodari — L'authentique Saoudien",
+      "ms": "Khodari — Saudi yang tulen",
+      "id": "Khodari - Saudi yang asli",
+      "ur": "خودی - مستند سعودی",
+      "bn": "খোদারী - খাঁটি সৌদি",
+      "tr": "Khodari — Otantik Suudi"
     },
     "caption": {
-      "ar": "خضري محشوة — بوردوزي عميق ومضغ نبيل",
-      "en": "Stuffed Khidri — deep bordeaux, noble chew",
-      "fr": "Khidri farcie — bordeaux profond, mâche noble"
+      "ar": "خضري — تمر سعودي بمذاق عالمي",
+      "en": "Khodari — Saudi dates with a global taste",
+      "fr": "Khodari — Dattes saoudiennes au goût international",
+      "tr": "Khodari — Dünya çapında bir lezzet sunan Suudi hurmaları",
+      "ur": "خداری - عالمی ذائقہ کے ساتھ سعودی کھجوریں۔",
+      "bn": "খোদারি — সৌদি খেজুর, যার স্বাদ বিশ্বজুড়ে সমাদৃত",
+      "ms": "Khodari — Kurma Saudi dengan citarasa global",
+      "id": "Khodari — Kurma Saudi dengan cita rasa dunia"
     },
     "origin": {
       "ar": "السعودية · مصر",
