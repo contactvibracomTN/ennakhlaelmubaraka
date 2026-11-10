@@ -603,8 +603,7 @@
     },
     "images": [
       "/images/dates/anbara.jpg",
-      "/images/dates/anbara__2.jpg",
-      "/images/dates/anbara__3.jpg"
+      "/images/dates/anbara__2.jpg"
     ],
     "imageAlts": {
       "/images/dates/anbara.jpg": {
@@ -626,16 +625,6 @@
         "ms": "Tarikh Anbara — paparan produk",
         "bn": "আনবারা খেজুর — পণ্যের দৃশ্য",
         "id": "Kurma Anbara — tampilan produk"
-      },
-      "/images/dates/anbara__3.jpg": {
-        "ar": "تمر العنبرة — تقديم المنتج",
-        "en": "Anbara dates — presentation",
-        "fr": "Dattes Anbara — présentation",
-        "tr": "Anbara hurmaları — sunum",
-        "ur": "عنبرہ کھجوریں — پیشکش",
-        "ms": "Tarikh Anbara — pembentangan",
-        "bn": "আনবারা খেজুর — উপস্থাপনা",
-        "id": "Kurma Anbara — presentasi"
       }
     },
     "price": {
@@ -984,8 +973,7 @@
     "images": [
       "/images/dates/ajwa-aaliya__2.jpg",
       "/images/dates/ajwa-aaliya__3.jpg",
-      "/images/dates/ajwa-aaliya__4.jpg",
-      "/images/dates/ajwa-aaliya__5.jpg"
+      "/images/dates/ajwa-aaliya__4.jpg"
     ],
     "price": {
       "amount": 50,
@@ -1098,16 +1086,6 @@
         "ms": "Pembentangan mewah kurma Ajwa Aaliya",
         "bn": "আজওয়া আলিয়া খেজুরের বিলাসবহুল উপস্থাপনা",
         "id": "Presentasi mewah kurma Ajwa Aaliya"
-      },
-      "/images/dates/ajwa-aaliya__5.jpg": {
-        "ar": "تمر عجوة العالية — من متجرنا",
-        "en": "Ajwa Aaliya dates — from our shop",
-        "fr": "Dattes Ajwa Aaliya — de notre boutique",
-        "tr": "Ajwa Aaliya hurmaları — mağazamızdan",
-        "ur": "عجوہ عالیہ کھجوریں — ہماری دکان سے",
-        "ms": "Kurma Ajwa Aaliya — dari kedai kami",
-        "bn": "আজওয়া আলিয়া খেজুর — আমাদের দোকান থেকে",
-        "id": "Kurma Ajwa Aaliya — dari toko kami"
       }
     }
   }
