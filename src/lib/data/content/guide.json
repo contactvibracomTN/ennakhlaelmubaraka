@@ -179,7 +179,7 @@
       "bn": "এখনই চেখে দেখুন",
       "id": "Cicipi sekarang"
     },
-    "image": "/images/guide/medjool.jpg",
+    "image": "/images/uploads/1794321494917.webp",
     "contentStatus": "demo"
   },
   {
@@ -537,7 +537,11 @@
     "title": {
       "ar": "صفاوي — كنز الحجاز الأسود",
       "en": "Safawi — the black treasure of Hejaz",
-      "fr": "Safawi — le trésor noir du Hedjaz"
+      "fr": "Safawi — le trésor noir du Hedjaz",
+      "tr": "Safavi — Hicaz'ın Kara Hazinesi",
+      "ur": "صفوی - حجاز کا سیاہ خزانہ",
+      "bn": "সাফাওয়ি — হেজাজের কালো গুপ্তধন",
+      "id": "Safawi — Harta Karun Hitam Hejaz"
     },
     "caption": {
       "ar": "صفاوي — لون داكن ولمعان مطلي",
@@ -545,9 +549,14 @@
       "fr": "Safawi — robe sombre, brillance laquée"
     },
     "origin": {
-      "ar": "السعودية",
+      "ar": "المملكة العربيّة السّعوديّة",
       "en": "Saudi Arabia",
-      "fr": "Arabie saoudite"
+      "fr": "Arabie saoudite",
+      "id": "Kerajaan Arab Saudi",
+      "ur": "مملکت سعودی عرب",
+      "bn": "সৌদি আরব রাজ্য",
+      "tr": "Suudi Arabistan Krallığı",
+      "ms": "كراجأن عرب سعودي"
     },
     "intro": {
       "ar": "رفيقة العجوة التاريخية في مزارع المدينة والحجاز، سُميت الصفاوي نسبة إلى صفاء لحمها. تناولتها قوافل الحج قرونًا، وتُصدَّر اليوم كبديل نبيل للعجوة.",
@@ -685,14 +694,14 @@
     "ctaLabel": {
       "ar": "احصل عليها الآن",
       "en": "Get it now",
-      "fr": "Se la procurer maintenant",
+      "fr": "S'en procurer maintenant",
       "tr": "Şimdi edinin",
       "ur": "ابھی حاصل کریں",
       "ms": "Dapatkan sekarang",
       "bn": "এখনই নিন",
       "id": "Dapatkan sekarang"
     },
-    "image": "/images/guide/safawi.jpg",
+    "image": "/images/uploads/1794315384688--.webp",
     "contentStatus": "demo"
   },
   {

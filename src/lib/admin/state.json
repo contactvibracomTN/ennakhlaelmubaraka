@@ -518,6 +518,53 @@
         "by": "catalogue existant",
         "at": "2026-11-07T13:12:01.632Z"
       }
+    },
+    "guide:safawi": {
+      "ur": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-10T12:57:38.111Z",
+        "machine": false
+      },
+      "tr": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-10T12:57:39.980Z",
+        "machine": false
+      },
+      "bn": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-10T12:59:20.285Z",
+        "machine": false
+      },
+      "id": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-10T12:59:23.596Z",
+        "machine": false
+      },
+      "ms": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-10T13:02:22.812Z",
+        "machine": false
+      },
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-10T13:06:59.333Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-10T13:06:59.333Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-10T13:06:59.333Z"
+      }
     }
   }
 }
