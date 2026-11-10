@@ -565,6 +565,57 @@
         "by": "catalogue existant",
         "at": "2026-11-10T13:06:59.333Z"
       }
+    },
+    "guide:deglet-noor": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-10T15:33:50.675Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-10T15:33:50.675Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-10T15:33:50.675Z"
+      }
+    },
+    "guide:khidri": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-10T15:34:44.145Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-10T15:34:44.145Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-10T15:34:44.145Z"
+      }
+    },
+    "guide:khadrawi-24": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-10T15:35:07.468Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-10T15:35:07.468Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-10T15:35:07.468Z"
+      }
     }
   }
 }
