@@ -1,0 +1,15 @@
+# Keep Vercel CLI uploads lean.
+# (Git-based deployments only send tracked files; this file matters when the
+# project is deployed with the Vercel CLI.)
+.git
+.next
+node_modules
+.backup
+logs
+.admin
+.vercel
+.env
+.env.*
+*.log
+tsconfig.tsbuildinfo
+tmp-*
