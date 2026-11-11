@@ -524,5 +524,52 @@
     "detailsPh": "Add details or requirements",
     "submitWhatsApp": "Send via WhatsApp",
     "message": "Gift/Institutional Request — Al Nakhlah Al Mubarakah:\nFull Name: {name}\nCity: {city}\nPhone/WhatsApp: {phone}\nPurpose: {object}\nQuantity: {quantity}\nProduct/Box: {productType}\nOrganization: {organization}\nOccasion: {occasion}\nBudget: {budget}\nDelivery date: {deliveryDate}\nDetails: {details}"
+  },
+  "testimonials": {
+    "eyebrow": "گاہکوں کی رائے",
+    "title": "ہمارے گاہک کیا کہتے ہیں",
+    "subtitle": "مدینہ میں ہمارے اسٹور اور آن لائن آرڈر کرنے والے گاہکوں کے حقیقی تجربات۔",
+    "average": "اوسط درجہ",
+    "countLabel": "{count, plural, one {# رائے} other {# رائے}}",
+    "emptyTitle": "اپنا تجربہ شیئر کرنے والے پہلے شخص بنیں",
+    "emptyText": "ابھی کوئی رائے شائع نہیں ہوئی۔ النخلہ المبارکہ کی کھجوروں کے ساتھ اپنا تجربہ بتائیں — جائزے کے بعد ہم اسے شائع کر سکتے ہیں۔",
+    "ctaAdd": "رائے شامل کریں",
+    "ctaClose": "فارم بند کریں",
+    "formTitle": "اپنا تجربہ شیئر کریں",
+    "formHint": "آپ کی رائے دوسرے زائرین کو انتخاب میں مدد دیتی ہے۔ ہر رائے اشاعت سے پہلے جائزے سے گزرتی ہے۔",
+    "name": "نام",
+    "namePlaceholder": "آپ کا نام",
+    "whatsapp": "واٹس ایپ نمبر",
+    "whatsappPlaceholder": "+966 5X XXX XXXX",
+    "whatsappHint": "آپ کا نمبر کبھی عوامی طور پر نہیں دکھایا جاتا — صرف رابطے اور تصدیق کے لیے۔",
+    "job": "کام / پیشہ",
+    "jobPlaceholder": "مثلاً: استاد، تاجر، ملازم",
+    "nationality": "قومیت",
+    "nationalityPlaceholder": "مثلاً: سعودی",
+    "message": "آپ کا پیغام",
+    "messagePlaceholder": "اپنا تجربہ لکھیں...",
+    "rating": "ہمارے اسٹور کو آپ کی درجہ بندی",
+    "ratingHint": "1 = کمزور · 5 = بہترین",
+    "ratingLabels": {
+      "1": "کمزور",
+      "2": "درمیانہ",
+      "3": "اچھا",
+      "4": "بہت اچھا",
+      "5": "بہترین"
+    },
+    "submit": "بھیجیں",
+    "submitting": "بھیجا جا رہا ہے...",
+    "successTitle": "شکریہ!",
+    "successText": "آپ کی رائے ہمیں مل گئی ہے۔ اشاعت سے پہلے اس کا جائزہ لیا جائے گا۔",
+    "addAnother": "ایک اور رائے بھیجیں",
+    "errors": {
+      "invalid": "براہ کرم خانے چیک کریں: نام، واٹس ایپ نمبر، پیغام اور درجہ بندی لازمی ہیں۔",
+      "rateLimit": "آپ نے حال ہی میں کئی رائے بھیجی ہیں۔ براہ کرم تھوڑی دیر بعد دوبارہ کوشش کریں۔",
+      "error": "آپ کی رائے نہیں بھیجی جا سکی۔ دوبارہ کوشش کریں یا واٹس ایپ پر ہم سے رابطہ کریں۔"
+    },
+    "privacy": "رائے بھیج کر آپ اس بات سے اتفاق کرتے ہیں کہ جائزے کے بعد اسے آپ کے نام، پیشے اور قومیت کے ساتھ شائع کیا جا سکتا ہے۔ آپ کا واٹس ایپ نمبر نجی رہے گا۔",
+    "verified": "تصدیق شدہ گاہک",
+    "publishedOn": "{date} کو شائع ہوا",
+    "starLabel": "5 میں سے {value}"
   }
 }

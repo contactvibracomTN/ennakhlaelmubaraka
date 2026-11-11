@@ -524,5 +524,52 @@
     "detailsPh": "Add details or requirements",
     "submitWhatsApp": "Send via WhatsApp",
     "message": "Gift/Institutional Request — Al Nakhlah Al Mubarakah:\nFull Name: {name}\nCity: {city}\nPhone/WhatsApp: {phone}\nPurpose: {object}\nQuantity: {quantity}\nProduct/Box: {productType}\nOrganization: {organization}\nOccasion: {occasion}\nBudget: {budget}\nDelivery date: {deliveryDate}\nDetails: {details}"
+  },
+  "testimonials": {
+    "eyebrow": "Ulasan pelanggan",
+    "title": "Apa kata pelanggan kami",
+    "subtitle": "Pengalaman nyata dari toko kami di Madinah dan dari pelanggan yang memesan online.",
+    "average": "Rata-rata penilaian",
+    "countLabel": "{count, plural, other {# ulasan}}",
+    "emptyTitle": "Jadilah yang pertama membagikan pengalaman Anda",
+    "emptyText": "Belum ada ulasan yang diterbitkan. Ceritakan pengalaman Anda dengan kurma Al Nakhlah Al Mubarakah — kami mungkin menerbitkannya setelah moderasi.",
+    "ctaAdd": "Tambah ulasan",
+    "ctaClose": "Tutup formulir",
+    "formTitle": "Bagikan pengalaman Anda",
+    "formHint": "Masukan Anda membantu pengunjung lain memilih. Setiap ulasan dimoderasi sebelum diterbitkan.",
+    "name": "Nama",
+    "namePlaceholder": "Nama Anda",
+    "whatsapp": "Nomor WhatsApp",
+    "whatsappPlaceholder": "+966 5X XXX XXXX",
+    "whatsappHint": "Nomor Anda tidak pernah ditampilkan secara publik — hanya untuk kontak dan verifikasi.",
+    "job": "Pekerjaan",
+    "jobPlaceholder": "mis. guru, pedagang, karyawan",
+    "nationality": "Kewarganegaraan",
+    "nationalityPlaceholder": "mis. Saudi",
+    "message": "Pesan Anda",
+    "messagePlaceholder": "Ceritakan pengalaman Anda...",
+    "rating": "Penilaian Anda untuk toko kami",
+    "ratingHint": "1 = buruk · 5 = luar biasa",
+    "ratingLabels": {
+      "1": "Buruk",
+      "2": "Cukup",
+      "3": "Baik",
+      "4": "Sangat baik",
+      "5": "Luar biasa"
+    },
+    "submit": "Kirim",
+    "submitting": "Mengirim...",
+    "successTitle": "Terima kasih!",
+    "successText": "Ulasan Anda telah kami terima. Ulasan akan dimoderasi sebelum diterbitkan.",
+    "addAnother": "Kirim ulasan lain",
+    "errors": {
+      "invalid": "Periksa kolom berikut: nama, nomor WhatsApp, pesan, dan penilaian wajib diisi.",
+      "rateLimit": "Anda telah mengirim beberapa ulasan belakangan ini. Silakan coba lagi nanti.",
+      "error": "Ulasan Anda tidak dapat dikirim. Coba lagi atau hubungi kami di WhatsApp."
+    },
+    "privacy": "Dengan mengirim ulasan, Anda setuju ulasan diterbitkan dengan nama, pekerjaan, dan kewarganegaraan Anda setelah moderasi. Nomor WhatsApp Anda tetap privat.",
+    "verified": "Pelanggan terverifikasi",
+    "publishedOn": "Diterbitkan pada {date}",
+    "starLabel": "{value} dari 5"
   }
 }

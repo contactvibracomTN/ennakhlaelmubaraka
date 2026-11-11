@@ -8,12 +8,13 @@ import { Featured } from "@/components/home/featured";
 import { Reassurance } from "@/components/home/reassurance";
 import { Stats } from "@/components/home/stats";
 import { GuideTeaser } from "@/components/home/guide-teaser";
+import { Testimonials } from "@/components/home/testimonials";
 import { StoryBand } from "@/components/home/story-band";
 
 /**
  * Homepage (Phase 2) — assembles the data-driven sections:
  * Hero · Categories · Ajwa flagship · Featured · Reassurance · Stats(demo) ·
- * Guide teaser · Story band. All catalog content comes from the
+ * Guide teaser · Testimonials · Story band. All catalog content comes from the
  * repositories (v2.1 migration), stay "demo" flagged.
  */
 export default async function HomePage({
@@ -33,6 +34,7 @@ export default async function HomePage({
       <Reassurance />
       <Stats />
       <GuideTeaser />
+      <Testimonials />
       <StoryBand />
     </>
   );

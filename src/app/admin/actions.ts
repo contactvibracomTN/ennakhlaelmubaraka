@@ -7,6 +7,7 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
+import { randomUUID } from "node:crypto";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { ADMIN_COOKIE, createSessionToken, verifySessionToken } from "@/lib/admin/auth";
@@ -25,6 +26,8 @@ import {
   saveMessages,
   readCategoriesData,
   saveCategoriesData,
+  readTestimonials,
+  saveTestimonials,
   snapshotAll,
   restoreBackupFiles,
 } from "@/lib/admin/store";
@@ -39,7 +42,7 @@ import {
   type ContentKind,
   type ItemLocaleStatus,
 } from "@/lib/admin/state";
-import { validateDateProduct, validateGiftProduct, validateBlogPost, validateGuideVariety } from "@/lib/data/content-schema";
+import { validateDateProduct, validateGiftProduct, validateBlogPost, validateGuideVariety, validateTestimonial } from "@/lib/data/content-schema";
 import {
   collectLocalizable,
   getConfiguredSourceLocale,
@@ -53,6 +56,13 @@ import { checkCompleteness } from "@/lib/admin/completeness";
 import { getAtPath, setAtPath as setPathInTree } from "@/lib/utils/path";
 import { ADMIN_LOCALES as SAFE_LOCALES, type AnyLocalized, type LocalizedRecord } from "@/lib/admin/shared";
 import type { DateCategoryInfo, GiftCategoryInfo } from "@/types/product";
+import type {
+  Testimonial,
+  TestimonialAdminInput,
+  TestimonialRating,
+  TestimonialSource,
+  TestimonialStatus,
+} from "@/types/testimonial";
 
 /* ------------------------------------------------------------------ */
 /* guards + helpers                                                   */
@@ -548,5 +558,124 @@ export async function reindexStateAction(): Promise<{ ok: boolean; message?: str
     return { ok: true, message: "État de validation recalculé à partir du contenu existant." };
   } catch (err) {
     return { ok: false, message: err instanceof Error ? err.message : String(err) };
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* testimonials                                                       */
+/* ------------------------------------------------------------------ */
+
+function cleanPublishedText(raw: Record<string, string> | undefined): Record<string, string> | undefined {
+  if (!raw) return undefined;
+  const out: Record<string, string> = {};
+  for (const [locale, value] of Object.entries(raw)) {
+    if (typeof value === "string" && value.trim().length > 0) out[locale] = value.trim();
+  }
+  return Object.keys(out).length > 0 ? out : undefined;
+}
+
+function clampRating(value: number): TestimonialRating {
+  const rounded = Math.round(Number(value));
+  if (!Number.isFinite(rounded) || rounded < 1) return 1;
+  if (rounded > 5) return 5;
+  return rounded as TestimonialRating;
+}
+
+/**
+ * Create or update a testimonial from the admin editor. Used both for
+ * moderation edits and for manually entering an in-store customer's review.
+ */
+export async function saveTestimonialAction(
+  input: TestimonialAdminInput,
+): Promise<{ ok: boolean; message?: string; id?: string }> {
+  await requireAdmin();
+  try {
+    const list = readTestimonials();
+    const index = input.id ? list.findIndex((item) => item.id === input.id) : -1;
+    const existing = index >= 0 ? list[index] : null;
+    const now = new Date().toISOString();
+    const status: TestimonialStatus = input.status ?? existing?.status ?? "pending";
+    const source: TestimonialSource = input.source ?? existing?.source ?? "in-store";
+
+    const record: Testimonial = {
+      id: existing?.id ?? randomUUID(),
+      name: input.name.trim(),
+      whatsapp: input.whatsapp.trim(),
+      job: input.job?.trim() || undefined,
+      nationality: input.nationality?.trim() || undefined,
+      message: input.message.trim(),
+      rating: clampRating(input.rating),
+      locale: input.locale || existing?.locale || "ar",
+      status,
+      source,
+      createdAt: existing?.createdAt ?? now,
+      updatedAt: now,
+      publishedAt:
+        status === "published" ? existing?.publishedAt ?? now : existing?.publishedAt,
+      publishedText: cleanPublishedText(input.publishedText),
+      adminNote: input.adminNote?.trim() || undefined,
+      order: typeof input.order === "number" && Number.isFinite(input.order) ? input.order : existing?.order,
+    };
+
+    const validated = validateTestimonial(record);
+    const next =
+      index >= 0 ? list.map((item, i) => (i === index ? validated : item)) : [...list, validated];
+    saveTestimonials(next);
+
+    audit("admin", existing ? "testimonial-update" : "testimonial-create", validated.id);
+    revalidatePath("/admin", "layout");
+    revalidatePath("/", "layout");
+    return { ok: true, id: validated.id };
+  } catch (err) {
+    return { ok: false, message: err instanceof Error ? err.message : "Témoignage invalide." };
+  }
+}
+
+/** Publish, unpublish (back to pending) or archive one or many records. */
+export async function setTestimonialStatusAction(
+  ids: string[],
+  status: TestimonialStatus,
+): Promise<{ ok: boolean; message?: string }> {
+  await requireAdmin();
+  if (!Array.isArray(ids) || ids.length === 0) {
+    return { ok: false, message: "Aucun témoignage sélectionné." };
+  }
+  try {
+    const now = new Date().toISOString();
+    const next = readTestimonials().map((item) => {
+      if (!ids.includes(item.id)) return item;
+      return {
+        ...item,
+        status,
+        updatedAt: now,
+        publishedAt: status === "published" ? item.publishedAt ?? now : item.publishedAt,
+      };
+    });
+    saveTestimonials(next);
+    audit("admin", `testimonial-${status}`, ids.join(","));
+    revalidatePath("/admin", "layout");
+    revalidatePath("/", "layout");
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, message: err instanceof Error ? err.message : "Erreur lors de la mise à jour." };
+  }
+}
+
+/** Delete one or many records (irreversible; backups are kept by the store). */
+export async function deleteTestimonialsAction(ids: string[]): Promise<{ ok: boolean; message?: string }> {
+  await requireAdmin();
+  if (!Array.isArray(ids) || ids.length === 0) {
+    return { ok: false, message: "Aucun témoignage sélectionné." };
+  }
+  try {
+    const before = readTestimonials();
+    const next = before.filter((item) => !ids.includes(item.id));
+    saveTestimonials(next);
+    audit("admin", "testimonial-delete", ids.join(","), { deleted: before.length - next.length });
+    revalidatePath("/admin", "layout");
+    revalidatePath("/", "layout");
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, message: err instanceof Error ? err.message : "Erreur lors de la suppression." };
   }
 }

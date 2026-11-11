@@ -22,6 +22,7 @@ import { join } from "node:path";
 import type { DateProduct, GiftProduct, DateCategoryInfo, GiftCategoryInfo } from "@/types/product";
 import type { BlogPost } from "@/types/blog";
 import type { GuideVariety } from "@/types/guide";
+import type { Testimonial } from "@/types/testimonial";
 import {
   backupDir,
   categoriesFile,
@@ -31,6 +32,7 @@ import {
   messagesFile,
   postsFile,
   stateFile,
+  testimonialsFile,
 } from "./paths";
 
 /* ------------------------------------------------------------------ */
@@ -144,6 +146,19 @@ export function saveCategoriesData(data: { dates: DateCategoryInfo[]; gifts: Gif
 }
 
 /* ------------------------------------------------------------------ */
+/* testimonials (customer reviews)                                    */
+/* ------------------------------------------------------------------ */
+
+export function readTestimonials(): Testimonial[] {
+  if (!existsSync(testimonialsFile())) return [];
+  return readJson<Testimonial[]>(testimonialsFile());
+}
+
+export function saveTestimonials(items: Testimonial[]): void {
+  atomicWrite(testimonialsFile(), items);
+}
+
+/* ------------------------------------------------------------------ */
 /* messages (per locale)                                              */
 /* ------------------------------------------------------------------ */
 
@@ -241,6 +256,9 @@ function joinContentTarget(name: string): string | null {
     case "categories":
     case "categories.json":
       return categoriesFile();
+    case "testimonials":
+    case "testimonials.json":
+      return testimonialsFile();
     default:
       if (ADMIN_LOCALES.some((l) => base === l)) return messagesFile(base as string);
       return null;
@@ -254,7 +272,7 @@ export function snapshotAll(prefix: string): string {
     const stamp = new Date().toISOString().replace(/[:.]/g, "-");
     const folder = join(dir, `${prefix}-${stamp}`);
     mkdirSync(folder, { recursive: true });
-    const sources = [datesFile(), giftsFile(), postsFile(), guideFile(), categoriesFile(), stateFile()].concat(
+    const sources = [datesFile(), giftsFile(), postsFile(), guideFile(), categoriesFile(), testimonialsFile(), stateFile()].concat(
       ADMIN_LOCALES.map((l) => messagesFile(l)),
     );
     for (const src of sources) {

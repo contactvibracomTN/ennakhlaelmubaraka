@@ -524,5 +524,52 @@
     "detailsPh": "Add details or requirements",
     "submitWhatsApp": "Send via WhatsApp",
     "message": "Gift/Institutional Request — Al Nakhlah Al Mubarakah:\nFull Name: {name}\nCity: {city}\nPhone/WhatsApp: {phone}\nPurpose: {object}\nQuantity: {quantity}\nProduct/Box: {productType}\nOrganization: {organization}\nOccasion: {occasion}\nBudget: {budget}\nDelivery date: {deliveryDate}\nDetails: {details}"
+  },
+  "testimonials": {
+    "eyebrow": "গ্রাহক পর্যালোচনা",
+    "title": "আমাদের গ্রাহকরা যা বলেন",
+    "subtitle": "মদিনায় আমাদের দোকান এবং অনলাইনে অর্ডার করা গ্রাহকদের বাস্তব অভিজ্ঞতা।",
+    "average": "গড় রেটিং",
+    "countLabel": "{count, plural, one {#টি পর্যালোচনা} other {#টি পর্যালোচনা}}",
+    "emptyTitle": "আপনার অভিজ্ঞতা শেয়ার করা প্রথম ব্যক্তি হোন",
+    "emptyText": "এখনও কোনো পর্যালোচনা প্রকাশিত হয়নি। আল নাখলাহ আল মুবারাকাহ খেজুর নিয়ে আপনার অভিজ্ঞতা জানান — পর্যালোচনার পর আমরা এটি প্রকাশ করতে পারি।",
+    "ctaAdd": "পর্যালোচনা যোগ করুন",
+    "ctaClose": "ফর্ম বন্ধ করুন",
+    "formTitle": "আপনার অভিজ্ঞতা শেয়ার করুন",
+    "formHint": "আপনার মতামত অন্য দর্শনার্থীদের বেছে নিতে সাহায্য করে। প্রকাশের আগে প্রতিটি পর্যালোচনা যাচাই করা হয়।",
+    "name": "নাম",
+    "namePlaceholder": "আপনার নাম",
+    "whatsapp": "হোয়াটসঅ্যাপ নম্বর",
+    "whatsappPlaceholder": "+966 5X XXX XXXX",
+    "whatsappHint": "আপনার নম্বর কখনও প্রকাশ্যে দেখানো হয় না — শুধুমাত্র যোগাযোগ ও যাচাইয়ের জন্য।",
+    "job": "কাজ / পেশা",
+    "jobPlaceholder": "যেমন: শিক্ষক, ব্যবসায়ী, কর্মচারী",
+    "nationality": "জাতীয়তা",
+    "nationalityPlaceholder": "যেমন: সৌদি",
+    "message": "আপনার বার্তা",
+    "messagePlaceholder": "আপনার অভিজ্ঞতা লিখুন...",
+    "rating": "আমাদের দোকানের প্রতি আপনার রেটিং",
+    "ratingHint": "1 = দুর্বল · 5 = চমৎকার",
+    "ratingLabels": {
+      "1": "দুর্বল",
+      "2": "মাঝারি",
+      "3": "ভালো",
+      "4": "খুব ভালো",
+      "5": "চমৎকার"
+    },
+    "submit": "পাঠান",
+    "submitting": "পাঠানো হচ্ছে...",
+    "successTitle": "ধন্যবাদ!",
+    "successText": "আপনার পর্যালোচনা আমাদের কাছে পৌঁছেছে। প্রকাশের আগে এটি যাচাই করা হবে।",
+    "addAnother": "আরেকটি পর্যালোচনা পাঠান",
+    "errors": {
+      "invalid": "অনুগ্রহ করে ঘরগুলো যাচাই করুন: নাম, হোয়াটসঅ্যাপ নম্বর, বার্তা এবং রেটিং আবশ্যক।",
+      "rateLimit": "আপনি সম্প্রতি কয়েকটি পর্যালোচনা পাঠিয়েছেন। অনুগ্রহ করে কিছুক্ষণ পরে আবার চেষ্টা করুন।",
+      "error": "আপনার পর্যালোচনা পাঠানো যায়নি। আবার চেষ্টা করুন বা হোয়াটসঅ্যাপে আমাদের সাথে যোগাযোগ করুন।"
+    },
+    "privacy": "পর্যালোচনা পাঠিয়ে আপনি সম্মত হচ্ছেন যে যাচাইয়ের পরে এটি আপনার নাম, পেশা ও জাতীয়তাসহ প্রকাশ করা হতে পারে। আপনার হোয়াটসঅ্যাপ নম্বর গোপন থাকবে।",
+    "verified": "যাচাইকৃত গ্রাহক",
+    "publishedOn": "{date} তারিখে প্রকাশিত",
+    "starLabel": "5-এর মধ্যে {value}"
   }
 }

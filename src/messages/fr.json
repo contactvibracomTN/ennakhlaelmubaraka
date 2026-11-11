@@ -524,5 +524,52 @@
     "detailsPh": "Add details or requirements",
     "submitWhatsApp": "Send via WhatsApp",
     "message": "Gift/Institutional Request — Al Nakhlah Al Mubarakah:\nFull Name: {name}\nCity: {city}\nPhone/WhatsApp: {phone}\nPurpose: {object}\nQuantity: {quantity}\nProduct/Box: {productType}\nOrganization: {organization}\nOccasion: {occasion}\nBudget: {budget}\nDelivery date: {deliveryDate}\nDetails: {details}"
+  },
+  "testimonials": {
+    "eyebrow": "Avis clients",
+    "title": "Ce que disent nos clients",
+    "subtitle": "Des expériences réelles à la boutique de Médine et auprès de nos clients en ligne.",
+    "average": "Note moyenne",
+    "countLabel": "{count, plural, one {# avis} other {# avis}}",
+    "emptyTitle": "Soyez le premier à partager votre expérience",
+    "emptyText": "Aucun avis n'a encore été publié. Racontez-nous votre expérience avec les dattes Al Nakhlah Al Mubarakah — nous pourrons le publier après modération.",
+    "ctaAdd": "Ajouter un avis",
+    "ctaClose": "Fermer le formulaire",
+    "formTitle": "Partagez votre expérience",
+    "formHint": "Votre avis aide les autres visiteurs à choisir. Chaque avis est modéré avant publication.",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "whatsapp": "Numéro WhatsApp",
+    "whatsappPlaceholder": "+966 5X XXX XXXX",
+    "whatsappHint": "Votre numéro n'est jamais affiché publiquement — il sert uniquement au contact et à la vérification.",
+    "job": "Profession",
+    "jobPlaceholder": "ex. enseignant, commerçant, employé",
+    "nationality": "Nationalité",
+    "nationalityPlaceholder": "ex. Saoudienne",
+    "message": "Votre message",
+    "messagePlaceholder": "Racontez-nous votre expérience...",
+    "rating": "Votre note pour notre boutique",
+    "ratingHint": "1 = faible · 5 = excellent",
+    "ratingLabels": {
+      "1": "Faible",
+      "2": "Passable",
+      "3": "Bien",
+      "4": "Très bien",
+      "5": "Excellent"
+    },
+    "submit": "Envoyer",
+    "submitting": "Envoi…",
+    "successTitle": "Merci !",
+    "successText": "Nous avons bien reçu votre avis. Il sera modéré avant publication.",
+    "addAnother": "Envoyer un autre avis",
+    "errors": {
+      "invalid": "Vérifiez les champs : le nom, le numéro WhatsApp, le message et la note sont obligatoires.",
+      "rateLimit": "Vous avez envoyé plusieurs avis récemment. Réessayez plus tard.",
+      "error": "Impossible d'envoyer votre avis. Réessayez ou contactez-nous sur WhatsApp."
+    },
+    "privacy": "En envoyant votre avis, vous acceptez sa publication avec votre nom, votre profession et votre nationalité après modération. Votre numéro WhatsApp reste privé.",
+    "verified": "Client vérifié",
+    "publishedOn": "Publié le {date}",
+    "starLabel": "{value} sur 5"
   }
 }

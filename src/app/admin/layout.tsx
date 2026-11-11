@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { isAdmin } from "@/lib/admin/auth";
+import { readTestimonials } from "@/lib/admin/store";
 import { logoutAction } from "./actions";
 import "../globals.css";
 
@@ -17,6 +18,9 @@ export const metadata: Metadata = {
  */
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   const admin = await isAdmin();
+  const pendingTestimonials = admin
+    ? readTestimonials().filter((item) => item.status === "pending").length
+    : 0;
 
   const nav = [
     { href: "/admin", label: "Accueil" },
@@ -24,6 +28,10 @@ export default async function AdminLayout({ children }: { children: React.ReactN
     { href: "/admin/gifts", label: "Cadeaux" },
     { href: "/admin/categories", label: "Catégories" },
     { href: "/admin/posts", label: "Articles" },
+    {
+      href: "/admin/testimonials",
+      label: pendingTestimonials > 0 ? `Témoignages (${pendingTestimonials})` : "Témoignages",
+    },
     { href: "/admin/guide", label: "Guide des dattes" },
     { href: "/admin/faq", label: "FAQ" },
     { href: "/admin/copy", label: "Textes" },

@@ -12,6 +12,7 @@ import { z } from "zod";
 import type { DateProduct, GiftProduct } from "@/types/product";
 import type { BlogPost } from "@/types/blog";
 import type { GuideVariety } from "@/types/guide";
+import type { Testimonial } from "@/types/testimonial";
 
 export const LOCALES = ["ar", "en", "fr", "tr", "ur", "ms", "bn", "id"] as const;
 
@@ -200,6 +201,59 @@ const categoriesSchema = z.object({
 });
 
 /* ------------------------------------------------------------------ */
+/* testimonials                                                       */
+/* ------------------------------------------------------------------ */
+
+const testimonialStatusSchema = z.enum(["pending", "published", "archived"]);
+const testimonialSourceSchema = z.enum(["website", "in-store", "import"]);
+
+/**
+ * Stored record — validated when the public site reads the JSON store and when
+ * the admin saves. `.passthrough()` keeps forward-compatible fields.
+ */
+const testimonialSchema = z
+  .object({
+    id: z.string().min(1),
+    name: z.string().min(1).max(120),
+    whatsapp: z.string().max(40),
+    job: z.string().max(120).optional(),
+    nationality: z.string().max(80).optional(),
+    message: z.string().min(1).max(2000),
+    rating: z.number().int().min(1).max(5),
+    locale: z.string().min(2).max(8),
+    status: testimonialStatusSchema,
+    source: testimonialSourceSchema,
+    createdAt: z.string(),
+    updatedAt: z.string().optional(),
+    publishedAt: z.string().optional(),
+    publishedText: z.record(z.string(), z.string()).optional(),
+    adminNote: z.string().max(2000).optional(),
+    order: z.number().optional(),
+  })
+  .passthrough();
+
+/**
+ * Public submission payload. Kept deliberately strict: this is the only
+ * unauthenticated write path in the app.
+ */
+export const testimonialSubmissionSchema = z.object({
+  name: z.string().trim().min(2).max(80),
+  whatsapp: z
+    .string()
+    .trim()
+    .min(8)
+    .max(20)
+    .regex(/^[+\d\s().-]+$/),
+  job: z.string().trim().max(80).optional().default(""),
+  nationality: z.string().trim().max(60).optional().default(""),
+  message: z.string().trim().min(10).max(1000),
+  rating: z.coerce.number().int().min(1).max(5),
+  locale: z.string().min(2).max(8).optional().default("ar"),
+});
+
+export type TestimonialSubmission = z.infer<typeof testimonialSubmissionSchema>;
+
+/* ------------------------------------------------------------------ */
 
 export function parseDateProducts(input: unknown): DateProduct[] {
   return dateProductSchema.array().parse(input) as unknown as DateProduct[];
@@ -238,4 +292,12 @@ export function parseCategories(input: unknown): {
   gifts: Array<{ slug: string; name: Record<string, string>; description?: Record<string, string>; image?: string }>;
 } {
   return categoriesSchema.parse(input) as never;
+}
+
+export function parseTestimonials(input: unknown): Testimonial[] {
+  return testimonialSchema.array().parse(input) as unknown as Testimonial[];
+}
+
+export function validateTestimonial(input: unknown): Testimonial {
+  return testimonialSchema.parse(input) as unknown as Testimonial;
 }

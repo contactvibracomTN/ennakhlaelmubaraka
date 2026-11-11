@@ -524,5 +524,52 @@
     "detailsPh": "Add details or requirements",
     "submitWhatsApp": "Send via WhatsApp",
     "message": "Gift/Institutional Request — Al Nakhlah Al Mubarakah:\nFull Name: {name}\nCity: {city}\nPhone/WhatsApp: {phone}\nPurpose: {object}\nQuantity: {quantity}\nProduct/Box: {productType}\nOrganization: {organization}\nOccasion: {occasion}\nBudget: {budget}\nDelivery date: {deliveryDate}\nDetails: {details}"
+  },
+  "testimonials": {
+    "eyebrow": "Müşteri yorumları",
+    "title": "Müşterilerimiz ne diyor?",
+    "subtitle": "Medine'deki mağazamızdan ve online sipariş veren müşterilerimizden gerçek deneyimler.",
+    "average": "Ortalama puan",
+    "countLabel": "{count, plural, one {# yorum} other {# yorum}}",
+    "emptyTitle": "Deneyiminizi paylaşan ilk kişi olun",
+    "emptyText": "Henüz yayınlanmış bir yorum yok. Al Nakhlah Al Mubarakah hurmalarıyla ilgili deneyiminizi anlatın — incelemeden sonra yayınlayabiliriz.",
+    "ctaAdd": "Yorum ekle",
+    "ctaClose": "Formu kapat",
+    "formTitle": "Deneyiminizi paylaşın",
+    "formHint": "Görüşünüz diğer ziyaretçilerin seçim yapmasına yardımcı olur. Her yorum yayınlanmadan önce incelenir.",
+    "name": "Ad",
+    "namePlaceholder": "Adınız",
+    "whatsapp": "WhatsApp numarası",
+    "whatsappPlaceholder": "+966 5X XXX XXXX",
+    "whatsappHint": "Numaranız asla herkese açık gösterilmez — yalnızca iletişim ve doğrulama için kullanılır.",
+    "job": "Meslek",
+    "jobPlaceholder": "örn. öğretmen, tüccar, memur",
+    "nationality": "Uyruk",
+    "nationalityPlaceholder": "örn. Suudi",
+    "message": "Mesajınız",
+    "messagePlaceholder": "Deneyiminizi anlatın...",
+    "rating": "Mağazamıza verdiğiniz puan",
+    "ratingHint": "1 = zayıf · 5 = mükemmel",
+    "ratingLabels": {
+      "1": "Zayıf",
+      "2": "Orta",
+      "3": "İyi",
+      "4": "Çok iyi",
+      "5": "Mükemmel"
+    },
+    "submit": "Gönder",
+    "submitting": "Gönderiliyor...",
+    "successTitle": "Teşekkürler!",
+    "successText": "Yorumunuz bize ulaştı. Yayınlanmadan önce incelenecek.",
+    "addAnother": "Başka bir yorum gönder",
+    "errors": {
+      "invalid": "Lütfen alanları kontrol edin: ad, WhatsApp numarası, mesaj ve puan zorunludur.",
+      "rateLimit": "Son zamanlarda birkaç yorum gönderdiniz. Lütfen daha sonra tekrar deneyin.",
+      "error": "Yorumunuz gönderilemedi. Tekrar deneyin veya WhatsApp'tan bize ulaşın."
+    },
+    "privacy": "Yorumunuzu göndererek, incelemeden sonra adınız, mesleğiniz ve uyruğunuzla yayınlanmasını kabul edersiniz. WhatsApp numaranız gizli kalır.",
+    "verified": "Doğrulanmış müşteri",
+    "publishedOn": "{date} tarihinde yayınlandı",
+    "starLabel": "5 üzerinden {value}"
   }
 }

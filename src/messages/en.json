@@ -524,5 +524,52 @@
     "detailsPh": "Add details or requirements",
     "submitWhatsApp": "Send via WhatsApp",
     "message": "Gift/Institutional Request — Al Nakhlah Al Mubarakah:\nFull Name: {name}\nCity: {city}\nPhone/WhatsApp: {phone}\nPurpose: {object}\nQuantity: {quantity}\nProduct/Box: {productType}\nOrganization: {organization}\nOccasion: {occasion}\nBudget: {budget}\nDelivery date: {deliveryDate}\nDetails: {details}"
+  },
+  "testimonials": {
+    "eyebrow": "Customer reviews",
+    "title": "What our customers say",
+    "subtitle": "Real experiences from our shop in Madinah and from customers ordering online.",
+    "average": "Average rating",
+    "countLabel": "{count, plural, one {# review} other {# reviews}}",
+    "emptyTitle": "Be the first to share your experience",
+    "emptyText": "No review has been published yet. Tell us about your experience with Al Nakhlah Al Mubarakah dates — we may publish it after moderation.",
+    "ctaAdd": "Add a review",
+    "ctaClose": "Close the form",
+    "formTitle": "Share your experience",
+    "formHint": "Your feedback helps other visitors choose. Every review is moderated before publication.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "whatsapp": "WhatsApp number",
+    "whatsappPlaceholder": "+966 5X XXX XXXX",
+    "whatsappHint": "Your number is never shown publicly — it is only used to contact you and verify the review.",
+    "job": "Job / profession",
+    "jobPlaceholder": "e.g. teacher, merchant, employee",
+    "nationality": "Nationality",
+    "nationalityPlaceholder": "e.g. Saudi",
+    "message": "Your message",
+    "messagePlaceholder": "Tell us about your experience...",
+    "rating": "Your rating of our shop",
+    "ratingHint": "1 = poor · 5 = excellent",
+    "ratingLabels": {
+      "1": "Poor",
+      "2": "Fair",
+      "3": "Good",
+      "4": "Very good",
+      "5": "Excellent"
+    },
+    "submit": "Send",
+    "submitting": "Sending...",
+    "successTitle": "Thank you!",
+    "successText": "We received your review. It will be moderated before publication.",
+    "addAnother": "Send another review",
+    "errors": {
+      "invalid": "Please check the fields: name, WhatsApp number, message and rating are required.",
+      "rateLimit": "You have sent several reviews recently. Please try again later.",
+      "error": "We could not send your review. Please try again or contact us on WhatsApp."
+    },
+    "privacy": "By sending your review you agree that it may be published with your name, job and nationality after moderation. Your WhatsApp number stays private.",
+    "verified": "Verified customer",
+    "publishedOn": "Published on {date}",
+    "starLabel": "{value} out of 5"
   }
 }

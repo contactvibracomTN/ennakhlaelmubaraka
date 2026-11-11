@@ -9,6 +9,7 @@ export { giftProducts } from "@/lib/data/datasets/gifts";
 export { guideVarieties } from "@/lib/data/datasets/guide";
 export { blogPosts } from "@/lib/data/datasets/blog";
 export { dateCategories, giftCategories } from "@/lib/data/datasets/categories";
+export { testimonials } from "@/lib/data/datasets/testimonials";
 
 export { staticProductRepository } from "@/lib/data/product-repository";
 export { staticGuideRepository } from "@/lib/data/guide-repository";
