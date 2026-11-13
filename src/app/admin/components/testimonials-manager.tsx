@@ -15,6 +15,7 @@ import {
   X,
 } from "lucide-react";
 import { ADMIN_LOCALES, LANGUAGE_FLAGS, LANGUAGE_LABELS } from "@/lib/admin/shared";
+import { COUNTRY_CODES, countryName } from "@/lib/config/countries";
 import {
   deleteTestimonialsAction,
   saveTestimonialAction,
@@ -69,12 +70,18 @@ const RATING_OPTIONS = [
   { value: "5", label: "5 — Excellent" },
 ];
 
+const COUNTRY_OPTIONS = [
+  { value: "", label: "— Aucun —" },
+  ...COUNTRY_CODES.map((code) => ({ value: code, label: countryName(code, "fr") ?? code })),
+];
+
 function emptyInput(): TestimonialAdminInput {
   return {
     name: "",
     whatsapp: "",
     job: "",
     nationality: "",
+    countryCode: "",
     message: "",
     rating: 5,
     locale: "ar",
@@ -145,7 +152,14 @@ export function TestimonialsManager({ items }: { items: Testimonial[] }) {
       .filter((item) => (filter === "all" ? true : item.status === filter))
       .filter((item) => {
         if (!needle) return true;
-        return [item.name, item.job, item.nationality, item.message, item.whatsapp]
+        return [
+          item.name,
+          item.job,
+          item.nationality,
+          item.countryCode,
+          item.message,
+          item.whatsapp,
+        ]
           .filter(Boolean)
           .some((value) => String(value).toLowerCase().includes(needle));
       })
@@ -335,7 +349,13 @@ export function TestimonialsManager({ items }: { items: Testimonial[] }) {
                   <p className="mt-2 text-sm font-semibold text-emerald-950">
                     {item.name}{" "}
                     <span className="font-normal text-neutral-500">
-                      {[item.job, item.nationality].filter(Boolean).join(" · ")}
+                      {[
+                        item.job,
+                        item.nationality ||
+                          (item.countryCode ? countryName(item.countryCode, "fr") : null),
+                      ]
+                        .filter(Boolean)
+                        .join(" · ")}
                     </span>
                   </p>
                   <p className="mt-1 whitespace-pre-wrap text-sm leading-relaxed text-neutral-700">
@@ -491,6 +511,7 @@ function TestimonialEditor({
           whatsapp: initial.whatsapp,
           job: initial.job ?? "",
           nationality: initial.nationality ?? "",
+          countryCode: initial.countryCode ?? "",
           message: initial.message,
           rating: initial.rating,
           locale: initial.locale,
@@ -577,10 +598,17 @@ function TestimonialEditor({
             <Field label="Profession">
               <TextInput value={form.job ?? ""} onChange={(value) => set({ job: value })} />
             </Field>
-            <Field label="Nationalité">
+            <Field label="Nationalité" hint="Texte libre affiché sur la carte (ex. Française).">
               <TextInput
                 value={form.nationality ?? ""}
                 onChange={(value) => set({ nationality: value })}
+              />
+            </Field>
+            <Field label="Pays (drapeau)" hint="Affiche le drapeau et le nom du pays si la nationalité est vide.">
+              <Select
+                value={form.countryCode ?? ""}
+                onChange={(value) => set({ countryCode: value })}
+                options={COUNTRY_OPTIONS}
               />
             </Field>
           </div>

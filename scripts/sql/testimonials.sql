@@ -9,6 +9,7 @@ create table if not exists public.testimonials (
   whatsapp text not null,
   job text,
   nationality text,
+  country_code text,
   message text not null,
   rating smallint not null check (rating between 1 and 5),
   locale text not null default 'ar',
@@ -21,6 +22,12 @@ create table if not exists public.testimonials (
   admin_note text,
   sort_order integer
 );
+
+-- Existing installations: add the flag column without dropping data.
+-- (Safe to run repeatedly; `create table if not exists` above is a no-op once
+-- the table exists, so this statement is what upgrades an older database.)
+alter table public.testimonials
+  add column if not exists country_code text;
 
 create index if not exists testimonials_status_published_at_idx
   on public.testimonials (status, published_at desc nulls last);

@@ -4,6 +4,7 @@
  * "nouveau témoignage" form.
  */
 import { randomUUID } from "node:crypto";
+import { isSupportedCountry, normalizeCountryCode } from "@/lib/config/countries";
 import type { TestimonialSubmission } from "@/lib/data/content-schema";
 import type { Testimonial, TestimonialRating, TestimonialSource } from "@/types/testimonial";
 
@@ -22,6 +23,9 @@ export function buildTestimonial(input: TestimonialSubmission, options: BuildOpt
     whatsapp: input.whatsapp.trim(),
     job: input.job?.trim() || undefined,
     nationality: input.nationality?.trim() || undefined,
+    countryCode: isSupportedCountry(input.countryCode)
+      ? normalizeCountryCode(input.countryCode)
+      : undefined,
     message: input.message.trim(),
     rating: input.rating as TestimonialRating,
     locale: options.locale || input.locale || "ar",

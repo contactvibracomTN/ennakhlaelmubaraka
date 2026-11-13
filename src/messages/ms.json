@@ -546,6 +546,8 @@
     "jobPlaceholder": "cth. guru, peniaga, kakitangan",
     "nationality": "Kewarganegaraan",
     "nationalityPlaceholder": "cth. Saudi",
+    "country": "Negara",
+    "countryPlaceholder": "Pilih negara anda",
     "message": "Mesej anda",
     "messagePlaceholder": "Ceritakan pengalaman anda...",
     "rating": "Penilaian anda untuk kedai kami",

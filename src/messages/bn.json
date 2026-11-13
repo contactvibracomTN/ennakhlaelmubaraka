@@ -546,6 +546,8 @@
     "jobPlaceholder": "যেমন: শিক্ষক, ব্যবসায়ী, কর্মচারী",
     "nationality": "জাতীয়তা",
     "nationalityPlaceholder": "যেমন: সৌদি",
+    "country": "দেশ",
+    "countryPlaceholder": "আপনার দেশ নির্বাচন করুন",
     "message": "আপনার বার্তা",
     "messagePlaceholder": "আপনার অভিজ্ঞতা লিখুন...",
     "rating": "আমাদের দোকানের প্রতি আপনার রেটিং",

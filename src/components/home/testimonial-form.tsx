@@ -5,6 +5,11 @@ import { CheckCircle2, ChevronDown, Loader2, Send, Star } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { submitTestimonialAction, type TestimonialFormResult } from "@/lib/actions/testimonials";
 
+export interface CountryOption {
+  code: string;
+  label: string;
+}
+
 const RATINGS = [1, 2, 3, 4, 5] as const;
 
 const INPUT_CLASS =
@@ -16,7 +21,7 @@ const LABEL_CLASS = "text-sm font-semibold text-forest";
  * Public "add a review" accordion. The CTA at the bottom of the section toggles
  * the panel; the form posts to the `submitTestimonialAction` server action.
  */
-export function TestimonialForm() {
+export function TestimonialForm({ countries }: { countries: CountryOption[] }) {
   const t = useTranslations("testimonials");
   const locale = useLocale();
 
@@ -176,15 +181,20 @@ export function TestimonialForm() {
                   </label>
 
                   <label className="block">
-                    <span className={LABEL_CLASS}>{t("nationality")}</span>
-                    <input
-                      type="text"
-                      name="nationality"
-                      maxLength={60}
-                      autoComplete="country-name"
-                      placeholder={t("nationalityPlaceholder")}
+                    <span className={LABEL_CLASS}>{t("country")}</span>
+                    <select
+                      name="countryCode"
+                      defaultValue=""
+                      autoComplete="country"
                       className={INPUT_CLASS}
-                    />
+                    >
+                      <option value="">{t("countryPlaceholder")}</option>
+                      {countries.map((country) => (
+                        <option key={country.code} value={country.code}>
+                          {country.label}
+                        </option>
+                      ))}
+                    </select>
                   </label>
                 </div>
 

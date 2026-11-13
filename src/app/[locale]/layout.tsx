@@ -22,6 +22,9 @@ import { ConsentBanner } from "@/components/layout/consent-banner";
 import { WhatsAppFloat } from "@/components/layout/whatsapp-float";
 import { CartProvider } from "@/context/cart-context";
 import { CartDrawer } from "@/components/cart/cart-drawer";
+// Local SVG flag assets (no external request, no emoji dependency).
+// Imported before globals so Tailwind utilities can size the flags.
+import "flag-icons/css/flag-icons.min.css";
 import "../globals.css";
 
 /* ---------------------------------------------------------------------------

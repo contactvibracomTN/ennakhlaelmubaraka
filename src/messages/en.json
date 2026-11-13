@@ -546,6 +546,8 @@
     "jobPlaceholder": "e.g. teacher, merchant, employee",
     "nationality": "Nationality",
     "nationalityPlaceholder": "e.g. Saudi",
+    "country": "Country",
+    "countryPlaceholder": "Select your country",
     "message": "Your message",
     "messagePlaceholder": "Tell us about your experience...",
     "rating": "Your rating of our shop",

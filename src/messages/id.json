@@ -546,6 +546,8 @@
     "jobPlaceholder": "mis. guru, pedagang, karyawan",
     "nationality": "Kewarganegaraan",
     "nationalityPlaceholder": "mis. Saudi",
+    "country": "Negara",
+    "countryPlaceholder": "Pilih negara Anda",
     "message": "Pesan Anda",
     "messagePlaceholder": "Ceritakan pengalaman Anda...",
     "rating": "Penilaian Anda untuk toko kami",

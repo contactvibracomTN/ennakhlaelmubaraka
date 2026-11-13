@@ -1,6 +1,7 @@
 import { getLocale, getTranslations } from "next-intl/server";
 import { Quote, Star } from "lucide-react";
 import { siteConfig } from "@/lib/config/site.config";
+import { COUNTRY_CODES, countryName, flagClass } from "@/lib/config/countries";
 import { getLocaleMeta } from "@/lib/config/locales";
 import { readPublishedTestimonials } from "@/lib/testimonials/store";
 import { resolveTestimonialText, type PublicTestimonial } from "@/types/testimonial";
@@ -34,6 +35,25 @@ function initials(name: string): string {
     .join("");
 }
 
+/**
+ * Country flag from the local `flag-icons` stylesheet. Rendering an SVG-backed
+ * CSS class (instead of an emoji) keeps the flag visible on Windows, which does
+ * not render regional-indicator emoji.
+ */
+function CountryFlag({ code, label }: { code?: string; label?: string }) {
+  const className = flagClass(code);
+  if (!className) return null;
+  // Decorative: the country/nationality label sits right next to it.
+  const text = label ?? code ?? "";
+  return (
+    <span
+      aria-hidden="true"
+      title={text}
+      className={`${className} inline-block h-3.5 w-5 shrink-0 rounded-[2px] shadow-[0_0_0_1px_rgba(0,0,0,0.06)]`}
+    />
+  );
+}
+
 function formatDate(value: string, bcp47: string): string | null {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return null;
@@ -63,6 +83,14 @@ export async function Testimonials() {
   const locale = (await getLocale()) as Locale;
   const bcp47 = getLocaleMeta(locale)?.bcp47 ?? locale;
 
+  // Resolved on the server: Node's ICU and the browser's disagree on a few
+  // country names (e.g. PS), which would break hydration if the client
+  // recomputed them. The client receives the exact labels rendered by the SSR.
+  const countries = COUNTRY_CODES.map((code) => ({
+    code,
+    label: countryName(code, locale) ?? code,
+  }));
+
   const published = sortPublished(await readPublishedTestimonials());
   const visible = published.slice(0, MAX_CARDS);
   const average =
@@ -74,7 +102,10 @@ export async function Testimonials() {
     id: item.id,
     name: item.name,
     job: item.job,
-    nationality: item.nationality,
+    countryCode: item.countryCode,
+    // The admin's free-text nationality wins; otherwise the country name is
+    // translated for the current locale (Arabic, French, Bengali…).
+    place: item.nationality?.trim() || countryName(item.countryCode, locale),
     rating: item.rating,
     text: resolveTestimonialText(item, locale),
     date: formatDate(item.publishedAt ?? item.createdAt, bcp47),
@@ -177,9 +208,16 @@ export async function Testimonials() {
                     </span>
                     <div className="min-w-0">
                       <p className="truncate text-sm font-bold text-forest">{item.name}</p>
-                      {item.job || item.nationality ? (
-                        <p className="truncate text-xs text-muted">
-                          {[item.job, item.nationality].filter(Boolean).join(" · ")}
+                      {item.job || item.place ? (
+                        <p className="flex min-w-0 flex-wrap items-center gap-x-1.5 text-xs text-muted">
+                          {item.job ? <span className="truncate">{item.job}</span> : null}
+                          {item.job && item.place ? <span aria-hidden="true">·</span> : null}
+                          {item.place ? (
+                            <span className="inline-flex min-w-0 items-center gap-1">
+                              <CountryFlag code={item.countryCode} label={item.place} />
+                              <span className="truncate">{item.place}</span>
+                            </span>
+                          ) : null}
                         </p>
                       ) : null}
                       {item.date ? (
@@ -205,7 +243,7 @@ export async function Testimonials() {
           </div>
         )}
 
-        <TestimonialForm />
+        <TestimonialForm countries={countries} />
 
         {jsonLd ? (
           <script

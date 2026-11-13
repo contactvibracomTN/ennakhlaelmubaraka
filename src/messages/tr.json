@@ -546,6 +546,8 @@
     "jobPlaceholder": "örn. öğretmen, tüccar, memur",
     "nationality": "Uyruk",
     "nationalityPlaceholder": "örn. Suudi",
+    "country": "Ülke",
+    "countryPlaceholder": "Ülkenizi seçin",
     "message": "Mesajınız",
     "messagePlaceholder": "Deneyiminizi anlatın...",
     "rating": "Mağazamıza verdiğiniz puan",

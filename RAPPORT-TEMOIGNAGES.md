@@ -59,11 +59,12 @@ Champs demandés, tous présents :
 
 Type `Testimonial` (`src/types/testimonial.ts`) :
 
-- `id`, `name`, `whatsapp`, `job`, `nationality`, `message`, `rating` (1–5), `locale`, `status` (`pending` / `published` / `archived`), `source` (`website` / `in-store` / `import`), `createdAt`, `updatedAt`, `publishedAt`, `publishedText` (par locale), `adminNote`, `order`.
+- `id`, `name`, `whatsapp`, `job`, `nationality`, `countryCode`, `message`, `rating` (1–5), `locale`, `status` (`pending` / `published` / `archived`), `source` (`website` / `in-store` / `import`), `createdAt`, `updatedAt`, `publishedAt`, `publishedText` (par locale), `adminNote`, `order`.
+- `countryCode` est un code ISO 3166-1 alpha-2 (`SA`, `FR`, `ID`…). Il alimente le drapeau affiché sur la carte publique. Le nom du pays est traduit à l'affichage avec `Intl.DisplayNames`, dans les 8 langues du site ; `nationality` reste un texte libre facultatif qui, s'il est renseigné, est affiché à la place du nom du pays.
 
 Règles de confidentialité :
 
-- **Le numéro WhatsApp et la note interne ne quittent jamais l'admin.** La requête publique ne sélectionne que les colonnes publiques (`id`, `name`, `job`, `nationality`, `message`, `rating`, `locale`, `created_at`, `published_at`, `published_text`, `sort_order`) ; `whatsapp` et `admin_note` ne sont jamais lus par la page d'accueil.
+- **Le numéro WhatsApp et la note interne ne quittent jamais l'admin.** La requête publique ne sélectionne que les colonnes publiques (`id`, `name`, `job`, `nationality`, `country_code`, `message`, `rating`, `locale`, `created_at`, `published_at`, `published_text`, `sort_order`) ; `whatsapp` et `admin_note` ne sont jamais lus par la page d'accueil.
 - Le composant public ne reçoit qu'un view-model (`PublicTestimonial`) sans ces champs.
 - Aucune donnée personnelle n'est committée : le dépôt est **public**. Le fichier `testimonials.json` livré est vide (`[]`) et ne contient aucun avis réel ; la production utilise Neon.
 - Le JSON-LD n'expose que le nom de l'auteur, la note, le texte public et la date de publication (pas de WhatsApp, pas de note interne).
@@ -72,7 +73,7 @@ Règles de confidentialité :
 
 La persistance de production est **Neon Postgres** (intégration Vercel Marketplace, région `eu-central-1`, base `ennakhla-testimonials`). L'application utilise la chaîne **poolée** `DATABASE_URL` et le pilote `@neondatabase/serverless`.
 
-La table `public.testimonials` est créée par `scripts/sql/testimonials.sql`. Elle contient les colonnes du type `Testimonial` : `id`, `name`, `whatsapp`, `job`, `nationality`, `message`, `rating`, `locale`, `status`, `source`, `created_at`, `updated_at`, `published_at`, `published_text` (jsonb), `admin_note`, `sort_order`.
+La table `public.testimonials` est créée par `scripts/sql/testimonials.sql`. Elle contient les colonnes du type `Testimonial` : `id`, `name`, `whatsapp`, `job`, `nationality`, `country_code`, `message`, `rating`, `locale`, `status`, `source`, `created_at`, `updated_at`, `published_at`, `published_text` (jsonb), `admin_note`, `sort_order`. Le script inclut un `alter table … add column if not exists country_code` idempotent pour les bases déjà créées.
 
 Comportement implémenté :
 

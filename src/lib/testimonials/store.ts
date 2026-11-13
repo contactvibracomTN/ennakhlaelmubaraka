@@ -47,6 +47,7 @@ interface TestimonialRow {
   whatsapp: string;
   job: string | null;
   nationality: string | null;
+  country_code: string | null;
   message: string;
   rating: number;
   locale: string;
@@ -65,6 +66,7 @@ interface PublicTestimonialRow {
   name: string;
   job: string | null;
   nationality: string | null;
+  country_code: string | null;
   message: string;
   rating: number;
   locale: string;
@@ -87,6 +89,7 @@ function mapRow(row: TestimonialRow): Testimonial {
     whatsapp: row.whatsapp,
     job: row.job ?? undefined,
     nationality: row.nationality ?? undefined,
+    countryCode: row.country_code ?? undefined,
     message: row.message,
     rating: row.rating as Testimonial["rating"],
     locale: row.locale,
@@ -107,6 +110,7 @@ function mapPublicRow(row: PublicTestimonialRow): PublicTestimonial {
     name: row.name,
     job: row.job ?? undefined,
     nationality: row.nationality ?? undefined,
+    countryCode: row.country_code ?? undefined,
     message: row.message,
     rating: row.rating as PublicTestimonial["rating"],
     locale: row.locale,
@@ -129,7 +133,7 @@ export async function readTestimonials(): Promise<Testimonial[]> {
   if (!sql) return readFileTestimonials();
 
   const rows = (await sql`
-    select id, name, whatsapp, job, nationality, message, rating, locale,
+    select id, name, whatsapp, job, nationality, country_code, message, rating, locale,
            status, source, created_at, updated_at, published_at,
            published_text, admin_note, sort_order
     from public.testimonials
@@ -146,7 +150,7 @@ export async function readPublishedTestimonials(): Promise<PublicTestimonial[]> 
 
   try {
     const rows = (await sql`
-      select id, name, job, nationality, message, rating, locale,
+      select id, name, job, nationality, country_code, message, rating, locale,
              created_at, published_at, published_text, sort_order
       from public.testimonials
       where status = 'published'
@@ -165,7 +169,7 @@ export async function getTestimonialById(id: string): Promise<Testimonial | null
   if (!sql) return readFileTestimonials().find((item) => item.id === id) ?? null;
 
   const rows = (await sql`
-    select id, name, whatsapp, job, nationality, message, rating, locale,
+    select id, name, whatsapp, job, nationality, country_code, message, rating, locale,
            status, source, created_at, updated_at, published_at,
            published_text, admin_note, sort_order
     from public.testimonials
@@ -222,12 +226,12 @@ export async function upsertTestimonial(t: Testimonial): Promise<void> {
 
   await sql`
     insert into public.testimonials (
-      id, name, whatsapp, job, nationality, message, rating, locale,
+      id, name, whatsapp, job, nationality, country_code, message, rating, locale,
       status, source, created_at, updated_at, published_at, published_text,
       admin_note, sort_order
     ) values (
       ${t.id}, ${t.name}, ${t.whatsapp}, ${t.job ?? null}, ${t.nationality ?? null},
-      ${t.message}, ${t.rating}, ${t.locale}, ${t.status}, ${t.source},
+      ${t.countryCode ?? null}, ${t.message}, ${t.rating}, ${t.locale}, ${t.status}, ${t.source},
       ${t.createdAt}, ${t.updatedAt ?? null}, ${t.publishedAt ?? null},
       ${JSON.stringify(t.publishedText ?? {})}::jsonb,
       ${t.adminNote ?? null}, ${t.order ?? null}
@@ -237,6 +241,7 @@ export async function upsertTestimonial(t: Testimonial): Promise<void> {
       whatsapp = excluded.whatsapp,
       job = excluded.job,
       nationality = excluded.nationality,
+      country_code = excluded.country_code,
       message = excluded.message,
       rating = excluded.rating,
       locale = excluded.locale,

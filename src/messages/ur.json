@@ -546,6 +546,8 @@
     "jobPlaceholder": "مثلاً: استاد، تاجر، ملازم",
     "nationality": "قومیت",
     "nationalityPlaceholder": "مثلاً: سعودی",
+    "country": "ملک",
+    "countryPlaceholder": "اپنا ملک منتخب کریں",
     "message": "آپ کا پیغام",
     "messagePlaceholder": "اپنا تجربہ لکھیں...",
     "rating": "ہمارے اسٹور کو آپ کی درجہ بندی",

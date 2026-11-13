@@ -546,6 +546,8 @@
     "jobPlaceholder": "مثال: معلّم، تاجر، موظف",
     "nationality": "الجنسية",
     "nationalityPlaceholder": "مثال: سعودي",
+    "country": "الدولة",
+    "countryPlaceholder": "اختر دولتك",
     "message": "رسالتك",
     "messagePlaceholder": "اكتب تجربتك معنا...",
     "rating": "تقييمك لمتجرنا",

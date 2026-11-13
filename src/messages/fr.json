@@ -546,6 +546,8 @@
     "jobPlaceholder": "ex. enseignant, commerçant, employé",
     "nationality": "Nationalité",
     "nationalityPlaceholder": "ex. Saoudienne",
+    "country": "Pays",
+    "countryPlaceholder": "Sélectionnez votre pays",
     "message": "Votre message",
     "messagePlaceholder": "Racontez-nous votre expérience...",
     "rating": "Votre note pour notre boutique",

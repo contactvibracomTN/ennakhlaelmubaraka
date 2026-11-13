@@ -47,6 +47,7 @@ import {
   type ItemLocaleStatus,
 } from "@/lib/admin/state";
 import { validateDateProduct, validateGiftProduct, validateBlogPost, validateGuideVariety, validateTestimonial } from "@/lib/data/content-schema";
+import { isSupportedCountry, normalizeCountryCode } from "@/lib/config/countries";
 import {
   collectLocalizable,
   getConfiguredSourceLocale,
@@ -605,6 +606,9 @@ export async function saveTestimonialAction(
       whatsapp: input.whatsapp.trim(),
       job: input.job?.trim() || undefined,
       nationality: input.nationality?.trim() || undefined,
+      countryCode: isSupportedCountry(input.countryCode)
+        ? normalizeCountryCode(input.countryCode)
+        : undefined,
       message: input.message.trim(),
       rating: clampRating(input.rating),
       locale: input.locale || existing?.locale || "ar",

@@ -26,8 +26,10 @@ export interface Testimonial {
   whatsapp: string;
   /** Public job / profession (optional). */
   job?: string;
-  /** Public nationality (optional). */
+  /** Public nationality (optional, free text override). */
   nationality?: string;
+  /** Public country, ISO 3166-1 alpha-2 (drives the flag). */
+  countryCode?: string;
   /** Original message, as written by the visitor. */
   message: string;
   rating: TestimonialRating;
@@ -53,6 +55,7 @@ export interface TestimonialAdminInput {
   whatsapp: string;
   job?: string;
   nationality?: string;
+  countryCode?: string;
   message: string;
   rating: number;
   locale?: string;
@@ -69,6 +72,7 @@ export interface PublicTestimonial {
   name: string;
   job?: string;
   nationality?: string;
+  countryCode?: string;
   message: string;
   rating: TestimonialRating;
   locale: string;
@@ -86,6 +90,7 @@ export function toPublicTestimonial(t: Testimonial): PublicTestimonial {
     name: t.name,
     job: t.job,
     nationality: t.nationality,
+    countryCode: t.countryCode,
     message: t.message,
     rating: t.rating,
     locale: t.locale,
