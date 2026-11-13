@@ -20,7 +20,6 @@ import {
   saveTestimonialAction,
   setTestimonialStatusAction,
 } from "@/app/admin/actions";
-import { siteConfig } from "@/lib/config/site.config";
 import { Button, Field, Select, StatusBanner, TextArea, TextInput, inputCls } from "./fields";
 import type {
   Testimonial,
@@ -196,11 +195,9 @@ export function TestimonialsManager({ items }: { items: Testimonial[] }) {
         </Button>
       </div>
 
-      <div className="rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-[12px] leading-relaxed text-amber-900">
-        <strong>Hébergement Vercel :</strong> le système de fichiers est en lecture seule. Les avis
-        envoyés depuis le site arrivent par e-mail à <strong>{siteConfig.email}</strong> ; saisissez-les
-        ici avec « Nouveau témoignage ». En local ou sur un serveur inscriptible, ils sont créés
-        automatiquement dans la liste ci-dessous.
+      <div className="rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-2 text-[12px] leading-relaxed text-emerald-900">
+        <strong>Stockage Neon :</strong> les avis envoyés depuis le formulaire du site arrivent
+        directement ici. Publiez-les pour les afficher sur la page d&apos;accueil.
       </div>
 
       {banner ? <StatusBanner ok={banner.ok} message={banner.message} /> : null}

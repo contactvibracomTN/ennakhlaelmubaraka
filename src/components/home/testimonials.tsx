@@ -1,9 +1,9 @@
 import { getLocale, getTranslations } from "next-intl/server";
 import { Quote, Star } from "lucide-react";
-import { testimonials } from "@/lib/data";
 import { siteConfig } from "@/lib/config/site.config";
 import { getLocaleMeta } from "@/lib/config/locales";
-import { resolveTestimonialText, type Testimonial } from "@/types/testimonial";
+import { readPublishedTestimonials } from "@/lib/testimonials/store";
+import { resolveTestimonialText, type PublicTestimonial } from "@/types/testimonial";
 import type { Locale } from "@/lib/config/locales";
 import { TestimonialForm } from "./testimonial-form";
 
@@ -40,17 +40,16 @@ function formatDate(value: string, bcp47: string): string | null {
   return new Intl.DateTimeFormat(bcp47, { year: "numeric", month: "short" }).format(date);
 }
 
-function sortPublished(list: Testimonial[]): Testimonial[] {
-  return list
-    .filter((item) => item.status === "published")
-    .sort((a, b) => {
-      const byOrder = (a.order ?? 0) - (b.order ?? 0);
-      if (byOrder !== 0) return byOrder;
-      return (
-        new Date(b.publishedAt ?? b.createdAt).getTime() -
-        new Date(a.publishedAt ?? a.createdAt).getTime()
-      );
-    });
+function sortPublished(list: PublicTestimonial[]): PublicTestimonial[] {
+  const last = Number.MAX_SAFE_INTEGER;
+  return list.sort((a, b) => {
+    const byOrder = (a.order ?? last) - (b.order ?? last);
+    if (byOrder !== 0) return byOrder;
+    return (
+      new Date(b.publishedAt ?? b.createdAt).getTime() -
+      new Date(a.publishedAt ?? a.createdAt).getTime()
+    );
+  });
 }
 
 /**
@@ -64,7 +63,7 @@ export async function Testimonials() {
   const locale = (await getLocale()) as Locale;
   const bcp47 = getLocaleMeta(locale)?.bcp47 ?? locale;
 
-  const published = sortPublished(testimonials);
+  const published = sortPublished(await readPublishedTestimonials());
   const visible = published.slice(0, MAX_CARDS);
   const average =
     published.length > 0

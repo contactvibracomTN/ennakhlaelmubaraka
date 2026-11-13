@@ -72,7 +72,12 @@ export interface PublicTestimonial {
   message: string;
   rating: TestimonialRating;
   locale: string;
+  createdAt: string;
   publishedAt?: string;
+  /** Optional admin-edited / translated public quote per locale. */
+  publishedText?: Partial<Record<Locale, string>>;
+  /** Manual ordering among published testimonials (ascending). */
+  order?: number;
 }
 
 export function toPublicTestimonial(t: Testimonial): PublicTestimonial {
@@ -84,7 +89,10 @@ export function toPublicTestimonial(t: Testimonial): PublicTestimonial {
     message: t.message,
     rating: t.rating,
     locale: t.locale,
+    createdAt: t.createdAt,
     publishedAt: t.publishedAt,
+    publishedText: t.publishedText,
+    order: t.order,
   };
 }
 
@@ -92,7 +100,10 @@ export function toPublicTestimonial(t: Testimonial): PublicTestimonial {
  * Resolve the public quote for a locale:
  * requested locale → original author locale → Arabic → English → any filled value.
  */
-export function resolveTestimonialText(t: Testimonial, locale: string): string {
+export function resolveTestimonialText(
+  t: Pick<Testimonial, "message" | "locale" | "publishedText">,
+  locale: string,
+): string {
   const text = t.publishedText ?? {};
   const candidates = [locale, t.locale, "ar", "en"];
   for (const code of candidates) {

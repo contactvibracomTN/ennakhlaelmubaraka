@@ -1,10 +1,10 @@
 /**
  * Testimonial notification e-mail.
  *
- * This is the durable channel on serverless hosts (Vercel): the runtime
- * filesystem is read-only there, so a visitor submission cannot be written to
- * `content/testimonials.json`. The e-mail always carries the full record so the
- * owner can re-create it from /admin/testimonials if needed.
+ * Neon Postgres is the durable store in production. This e-mail is a backup
+ * notification (and the local fallback when SMTP is configured but the
+ * database is not). It always carries the full record so the owner can
+ * re-create it from /admin/testimonials if needed.
  *
  * SMTP is the same integration already used by /api/orders/notify.
  */
@@ -66,7 +66,7 @@ function buildText(t: Testimonial): string {
     "",
     "—",
     "Le numéro WhatsApp est confidentiel : ne jamais le publier sur le site.",
-    "Gérer les témoignages : /admin/testimonials (en local ou sur un serveur inscriptible).",
+    "Gérer les témoignages : /admin/testimonials.",
   ].join("\n");
 }
 

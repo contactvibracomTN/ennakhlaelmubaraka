@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { isAdmin } from "@/lib/admin/auth";
-import { readTestimonials } from "@/lib/admin/store";
+import { countPendingTestimonials } from "@/lib/testimonials/store";
 import { logoutAction } from "./actions";
 import "../globals.css";
 
@@ -18,9 +18,7 @@ export const metadata: Metadata = {
  */
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   const admin = await isAdmin();
-  const pendingTestimonials = admin
-    ? readTestimonials().filter((item) => item.status === "pending").length
-    : 0;
+  const pendingTestimonials = admin ? await countPendingTestimonials() : 0;
 
   const nav = [
     { href: "/admin", label: "Accueil" },

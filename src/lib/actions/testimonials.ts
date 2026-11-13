@@ -4,14 +4,15 @@
  * Public testimonial submission (the only unauthenticated write path).
  *
  * Pipeline: honeypot → timing → best-effort throttle → zod validation →
- * JSON store (when writable) → e-mail to the owner (always).
+ * Neon Postgres (or the local JSON fallback) → e-mail to the owner.
  *
- * On Vercel the JSON write fails with EROFS; the e-mail is then the durable
- * record and the submission still succeeds. See RAPPORT-TEMOIGNAGES.md.
+ * The database is the durable record in production; the e-mail is a backup
+ * notification. See RAPPORT-TEMOIGNAGES.md.
  */
 import { headers } from "next/headers";
 import { testimonialSubmissionSchema } from "@/lib/data/content-schema";
-import { allowSubmission, appendTestimonial, buildTestimonial } from "@/lib/testimonials/service";
+import { allowSubmission, buildTestimonial } from "@/lib/testimonials/service";
+import { appendTestimonial } from "@/lib/testimonials/store";
 import { sendTestimonialNotification } from "@/lib/testimonials/email";
 
 export type TestimonialFormResult =
@@ -59,7 +60,7 @@ export async function submitTestimonialAction(formData: FormData): Promise<Testi
   });
 
   // 5. Persist + notify. At least one must succeed, otherwise the data is lost.
-  const stored = appendTestimonial(testimonial);
+  const stored = await appendTestimonial(testimonial);
   const email = await sendTestimonialNotification(testimonial);
   const emailed = email.ok || Boolean(email.logged);
 

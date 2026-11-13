@@ -4,7 +4,6 @@
  * "nouveau témoignage" form.
  */
 import { randomUUID } from "node:crypto";
-import { readTestimonials, saveTestimonials } from "@/lib/admin/store";
 import type { TestimonialSubmission } from "@/lib/data/content-schema";
 import type { Testimonial, TestimonialRating, TestimonialSource } from "@/types/testimonial";
 
@@ -32,23 +31,6 @@ export function buildTestimonial(input: TestimonialSubmission, options: BuildOpt
     ...(options.status === "published" ? { publishedAt: now } : {}),
     ...(typeof options.order === "number" ? { order: options.order } : {}),
   };
-}
-
-export interface AppendResult {
-  ok: boolean;
-  error?: string;
-}
-
-/** Append a record to the JSON store. Never throws: returns a readable error. */
-export function appendTestimonial(testimonial: Testimonial): AppendResult {
-  try {
-    const all = readTestimonials();
-    all.push(testimonial);
-    saveTestimonials(all);
-    return { ok: true };
-  } catch (err) {
-    return { ok: false, error: err instanceof Error ? err.message : String(err) };
-  }
 }
 
 /* ------------------------------------------------------------------ */

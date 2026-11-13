@@ -26,11 +26,15 @@ import {
   saveMessages,
   readCategoriesData,
   saveCategoriesData,
-  readTestimonials,
-  saveTestimonials,
   snapshotAll,
   restoreBackupFiles,
 } from "@/lib/admin/store";
+import {
+  deleteTestimonials,
+  getTestimonialById,
+  setTestimonialStatus,
+  upsertTestimonial,
+} from "@/lib/testimonials/store";
 import { uploadsDir } from "@/lib/admin/paths";
 import {
   ensureItemState,
@@ -590,9 +594,7 @@ export async function saveTestimonialAction(
 ): Promise<{ ok: boolean; message?: string; id?: string }> {
   await requireAdmin();
   try {
-    const list = readTestimonials();
-    const index = input.id ? list.findIndex((item) => item.id === input.id) : -1;
-    const existing = index >= 0 ? list[index] : null;
+    const existing = input.id ? await getTestimonialById(input.id) : null;
     const now = new Date().toISOString();
     const status: TestimonialStatus = input.status ?? existing?.status ?? "pending";
     const source: TestimonialSource = input.source ?? existing?.source ?? "in-store";
@@ -618,13 +620,12 @@ export async function saveTestimonialAction(
     };
 
     const validated = validateTestimonial(record);
-    const next =
-      index >= 0 ? list.map((item, i) => (i === index ? validated : item)) : [...list, validated];
-    saveTestimonials(next);
+    await upsertTestimonial(validated);
 
     audit("admin", existing ? "testimonial-update" : "testimonial-create", validated.id);
     revalidatePath("/admin", "layout");
     revalidatePath("/", "layout");
+    revalidatePath("/[locale]", "page");
     return { ok: true, id: validated.id };
   } catch (err) {
     return { ok: false, message: err instanceof Error ? err.message : "Témoignage invalide." };
@@ -641,20 +642,11 @@ export async function setTestimonialStatusAction(
     return { ok: false, message: "Aucun témoignage sélectionné." };
   }
   try {
-    const now = new Date().toISOString();
-    const next = readTestimonials().map((item) => {
-      if (!ids.includes(item.id)) return item;
-      return {
-        ...item,
-        status,
-        updatedAt: now,
-        publishedAt: status === "published" ? item.publishedAt ?? now : item.publishedAt,
-      };
-    });
-    saveTestimonials(next);
+    await setTestimonialStatus(ids, status);
     audit("admin", `testimonial-${status}`, ids.join(","));
     revalidatePath("/admin", "layout");
     revalidatePath("/", "layout");
+    revalidatePath("/[locale]", "page");
     return { ok: true };
   } catch (err) {
     return { ok: false, message: err instanceof Error ? err.message : "Erreur lors de la mise à jour." };
@@ -668,12 +660,11 @@ export async function deleteTestimonialsAction(ids: string[]): Promise<{ ok: boo
     return { ok: false, message: "Aucun témoignage sélectionné." };
   }
   try {
-    const before = readTestimonials();
-    const next = before.filter((item) => !ids.includes(item.id));
-    saveTestimonials(next);
-    audit("admin", "testimonial-delete", ids.join(","), { deleted: before.length - next.length });
+    await deleteTestimonials(ids);
+    audit("admin", "testimonial-delete", ids.join(","), { deleted: ids.length });
     revalidatePath("/admin", "layout");
     revalidatePath("/", "layout");
+    revalidatePath("/[locale]", "page");
     return { ok: true };
   } catch (err) {
     return { ok: false, message: err instanceof Error ? err.message : "Erreur lors de la suppression." };

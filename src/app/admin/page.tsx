@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { guardAdmin } from "./guard";
-import { readDates, readGifts, readPosts, readGuide, readTestimonials } from "@/lib/admin/store";
+import { readDates, readGifts, readPosts, readGuide } from "@/lib/admin/store";
+import { countTestimonials } from "@/lib/testimonials/store";
 import { readAudit } from "@/lib/admin/audit";
 import { checkCompleteness } from "@/lib/admin/completeness";
 import { isTranslationConfigured, getConfiguredSourceLocale } from "@/lib/admin/translate";
@@ -14,7 +15,7 @@ export default async function AdminDashboard() {
   const gifts = readGifts();
   const posts = readPosts();
   const guide = readGuide();
-  const testimonials = readTestimonials();
+  const testimonialsCount = await countTestimonials();
   const report = checkCompleteness();
   const audit = readAudit(12);
   const source = getConfiguredSourceLocale();
@@ -25,7 +26,7 @@ export default async function AdminDashboard() {
     { label: "Produits — cadeaux", count: gifts.length, href: "/admin/gifts" },
     { label: "Articles de blog", count: posts.length, href: "/admin/posts" },
     { label: "Fiches du guide", count: guide.length, href: "/admin/guide" },
-    { label: "Témoignages clients", count: testimonials.length, href: "/admin/testimonials" },
+    { label: "Témoignages clients", count: testimonialsCount, href: "/admin/testimonials" },
     { label: "Langues", count: 8, href: "/admin/copy" },
   ];
 

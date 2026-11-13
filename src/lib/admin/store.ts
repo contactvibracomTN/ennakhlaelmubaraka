@@ -149,6 +149,10 @@ export function saveCategoriesData(data: { dates: DateCategoryInfo[]; gifts: Gif
 /* testimonials (customer reviews)                                    */
 /* ------------------------------------------------------------------ */
 
+/**
+ * Local JSON fallback used by `@/lib/testimonials/store` when `DATABASE_URL`
+ * is absent. Production reads and writes go to Neon.
+ */
 export function readTestimonials(): Testimonial[] {
   if (!existsSync(testimonialsFile())) return [];
   return readJson<Testimonial[]>(testimonialsFile());
