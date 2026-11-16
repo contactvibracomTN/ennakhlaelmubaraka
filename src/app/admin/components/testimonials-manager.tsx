@@ -335,6 +335,14 @@ export function TestimonialsManager({ items }: { items: Testimonial[] }) {
                     <span className="rounded-full bg-neutral-100 px-2 py-0.5 text-[11px] text-neutral-600">
                       {SOURCE_LABEL[item.source]}
                     </span>
+                    {item.status === "published" && !item.countryCode && !item.nationality ? (
+                      <span
+                        className="rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-semibold text-amber-800"
+                        title="Publié sans pays : aucun drapeau ne s'affiche sur le site. Modifiez le témoignage et choisissez un pays."
+                      >
+                        ⚠ Pays manquant
+                      </span>
+                    ) : null}
                     <Stars value={item.rating} />
                     <span className="text-[11px] text-neutral-400">
                       Créé le {formatDate(item.createdAt)}

@@ -185,7 +185,9 @@ export function TestimonialForm({ countries }: { countries: CountryOption[] }) {
                     <select
                       name="countryCode"
                       defaultValue=""
+                      required
                       autoComplete="country"
+                      aria-describedby="testimonial-country-hint"
                       className={INPUT_CLASS}
                     >
                       <option value="">{t("countryPlaceholder")}</option>
@@ -195,6 +197,9 @@ export function TestimonialForm({ countries }: { countries: CountryOption[] }) {
                         </option>
                       ))}
                     </select>
+                    <span id="testimonial-country-hint" className="mt-1 block text-xs text-muted">
+                      {t("countryHint")}
+                    </span>
                   </label>
                 </div>
 

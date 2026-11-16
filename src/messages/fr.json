@@ -548,6 +548,7 @@
     "nationalityPlaceholder": "ex. Saoudienne",
     "country": "Pays",
     "countryPlaceholder": "Sélectionnez votre pays",
+    "countryHint": "Le drapeau de votre pays s'affichera à côté de votre nom.",
     "message": "Votre message",
     "messagePlaceholder": "Racontez-nous votre expérience...",
     "rating": "Votre note pour notre boutique",

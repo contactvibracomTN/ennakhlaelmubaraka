@@ -548,6 +548,7 @@
     "nationalityPlaceholder": "mis. Saudi",
     "country": "Negara",
     "countryPlaceholder": "Pilih negara Anda",
+    "countryHint": "Bendera negara Anda akan muncul di samping nama Anda.",
     "message": "Pesan Anda",
     "messagePlaceholder": "Ceritakan pengalaman Anda...",
     "rating": "Penilaian Anda untuk toko kami",

@@ -61,6 +61,7 @@ Type `Testimonial` (`src/types/testimonial.ts`) :
 
 - `id`, `name`, `whatsapp`, `job`, `nationality`, `countryCode`, `message`, `rating` (1–5), `locale`, `status` (`pending` / `published` / `archived`), `source` (`website` / `in-store` / `import`), `createdAt`, `updatedAt`, `publishedAt`, `publishedText` (par locale), `adminNote`, `order`.
 - `countryCode` est un code ISO 3166-1 alpha-2 (`SA`, `FR`, `ID`…). Il alimente le drapeau affiché sur la carte publique. Le nom du pays est traduit à l'affichage avec `Intl.DisplayNames`, dans les 8 langues du site ; `nationality` reste un texte libre facultatif qui, s'il est renseigné, est affiché à la place du nom du pays.
+- Le pays est **obligatoire dans le formulaire public** (le serveur reste tolérant pour ne pas perdre un avis envoyé depuis un formulaire en cache). L'admin signale les avis publiés sans pays par un badge « ⚠ Pays manquant ».
 
 Règles de confidentialité :
 

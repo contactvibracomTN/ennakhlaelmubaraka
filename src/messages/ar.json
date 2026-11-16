@@ -548,6 +548,7 @@
     "nationalityPlaceholder": "مثال: سعودي",
     "country": "الدولة",
     "countryPlaceholder": "اختر دولتك",
+    "countryHint": "سيظهر علم بلدك بجانب اسمك.",
     "message": "رسالتك",
     "messagePlaceholder": "اكتب تجربتك معنا...",
     "rating": "تقييمك لمتجرنا",

@@ -548,6 +548,7 @@
     "nationalityPlaceholder": "যেমন: সৌদি",
     "country": "দেশ",
     "countryPlaceholder": "আপনার দেশ নির্বাচন করুন",
+    "countryHint": "আপনার দেশের পতাকা আপনার নামের পাশে দেখা যাবে।",
     "message": "আপনার বার্তা",
     "messagePlaceholder": "আপনার অভিজ্ঞতা লিখুন...",
     "rating": "আমাদের দোকানের প্রতি আপনার রেটিং",

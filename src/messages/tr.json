@@ -548,6 +548,7 @@
     "nationalityPlaceholder": "örn. Suudi",
     "country": "Ülke",
     "countryPlaceholder": "Ülkenizi seçin",
+    "countryHint": "Ülkenizin bayrağı adınızın yanında görünecektir.",
     "message": "Mesajınız",
     "messagePlaceholder": "Deneyiminizi anlatın...",
     "rating": "Mağazamıza verdiğiniz puan",
