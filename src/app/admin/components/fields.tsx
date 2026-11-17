@@ -361,6 +361,48 @@ export function LocalizedLinesInput({
 /* image list + upload                                                */
 /* ------------------------------------------------------------------ */
 
+/**
+ * Legacy uploads are stored as `/images/uploads/...`, but `next start` only
+ * serves public files known at build time. The dynamic `/media/uploads/...`
+ * route reads the same folder from disk, so both new and legacy uploads get an
+ * immediate preview in the admin.
+ */
+function previewSrc(path: string): string {
+  if (path.startsWith("/images/uploads/")) {
+    return `/media/uploads/${path.slice("/images/uploads/".length)}`;
+  }
+  return path;
+}
+
+function ImagePreview({ src, className }: { src: string; className: string }) {
+  const [failed, setFailed] = useState(false);
+
+  if (failed) {
+    return (
+      <div
+        className={`${className} flex flex-col items-center justify-center gap-1 bg-neutral-50 p-4 text-center text-[11px] text-neutral-500`}
+      >
+        <span aria-hidden="true" className="text-2xl">
+          🖼️
+        </span>
+        <span>Aperçu indisponible</span>
+        <span className="break-all font-mono text-[10px] text-neutral-400">{src}</span>
+      </div>
+    );
+  }
+
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={src}
+      alt=""
+      className={className}
+      loading="lazy"
+      onError={() => setFailed(true)}
+    />
+  );
+}
+
 export function ImageListEditor({
   label,
   images,
@@ -375,12 +417,16 @@ export function ImageListEditor({
   const router = useRouter();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
+  const [pending, setPending] = useState<{ url: string; name: string } | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
   const list = single ? images.slice(0, 1) : images;
 
   const upload = async (file: File) => {
     setError("");
     setBusy(true);
+    // Show the selected file immediately, before the server round-trip.
+    const objectUrl = URL.createObjectURL(file);
+    setPending({ url: objectUrl, name: file.name });
     try {
       const fd = new FormData();
       fd.append("file", file);
@@ -396,32 +442,77 @@ export function ImageListEditor({
       setError("Téléversement impossible — vérifiez la taille (10 Mo max) et réessayez.");
     } finally {
       setBusy(false);
+      setPending(null);
+      URL.revokeObjectURL(objectUrl);
       if (fileRef.current) fileRef.current.value = "";
     }
   };
 
+  const previewHeight = single ? "h-96" : "h-80";
+
   return (
     <Field label={label}>
-      <ul className="space-y-2">
-        {list.map((p, i) => (
-          <li key={`${p}-${i}`} className="flex items-center gap-2">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={p} alt="" className="h-12 w-12 rounded border border-neutral-200 bg-white object-cover" />
-            <input className={inputCls} value={p} onChange={(e) => onChange(list.map((x, j) => (j === i ? e.target.value : x)))} />
-            <Button
-              kind="danger"
-              onClick={() => onChange(list.filter((_, j) => j !== i))}
+      <ul className="grid gap-3 sm:grid-cols-2">
+        {pending ? (
+          <li className="rounded-xl border border-emerald-200 bg-emerald-50/40 p-3">
+            <div
+              className={`${previewHeight} w-full overflow-hidden rounded-lg border border-emerald-100 bg-white`}
             >
-              ✕
-            </Button>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={pending.url} alt="" className="h-full w-full object-contain" />
+            </div>
+            <p className="mt-2 text-xs font-semibold text-emerald-800">Envoi en cours…</p>
+            <p className="truncate text-[11px] text-neutral-500" title={pending.name}>
+              {pending.name}
+            </p>
+          </li>
+        ) : null}
+        {list.map((p, i) => (
+          <li key={`${p}-${i}`} className="rounded-xl border border-neutral-200 bg-white p-3">
+            <a
+              href={previewSrc(p)}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Ouvrir l’aperçu en grand"
+              className="block overflow-hidden rounded-lg border border-neutral-100 bg-neutral-50"
+              title="Ouvrir l’aperçu en grand"
+            >
+              <ImagePreview
+                key={previewSrc(p)}
+                src={previewSrc(p)}
+                className={`${previewHeight} w-full object-contain`}
+              />
+            </a>
+            <div className="mt-2 flex items-center gap-2">
+              <div className="min-w-0 flex-1">
+                <input
+                  className={inputCls}
+                  value={p}
+                  onChange={(e) =>
+                    onChange(list.map((x, j) => (j === i ? e.target.value : x)))
+                  }
+                />
+              </div>
+              <Button kind="danger" onClick={() => onChange(list.filter((_, j) => j !== i))}>
+                ✕
+              </Button>
+            </div>
+            <p className="mt-1 text-[11px] text-neutral-500">
+              Cliquez sur l’aperçu pour l’ouvrir en grand.
+            </p>
           </li>
         ))}
       </ul>
+      {list.length === 0 && !pending ? (
+        <p className="mt-2 rounded-lg border border-dashed border-neutral-300 bg-neutral-50 p-4 text-center text-xs text-neutral-500">
+          Aucune image pour le moment. Téléversez une photo pour voir son aperçu ici.
+        </p>
+      ) : null}
       <div className="mt-2 flex items-center gap-2">
         <input
           ref={fileRef}
           type="file"
-          accept="image/*"
+          accept="image/jpeg,image/png,image/webp,image/gif,image/svg+xml"
           className="hidden"
           onChange={(e) => {
             const f = e.target.files?.[0];

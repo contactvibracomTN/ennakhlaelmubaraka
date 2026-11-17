@@ -36,7 +36,7 @@ export default async function AdminImagesPage() {
       title: "Uploads (nouveaux fichiers)",
       hint: "Images ajoutées depuis le panneau — utilisez « copier le chemin » dans les produits/articles.",
       uploadable: false,
-      images: listImages(uploadsDir(), "/images/uploads"),
+      images: listImages(uploadsDir(), "/media/uploads"),
     },
     {
       title: "Dattes",

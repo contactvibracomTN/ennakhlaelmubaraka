@@ -456,12 +456,21 @@ export async function uploadImageAction(formData: FormData): Promise<{ ok: true;
   try {
     const clean = file.name.toLowerCase().replace(/[^a-z0-9._-]/g, "-").replace(/-+/g, "-");
     const extMatch = /\.(jpe?g|png|webp|gif|svg)$/i.exec(clean);
-    const ext = extMatch ? extMatch[1] : "jpg";
+    if (!extMatch) {
+      return {
+        ok: false,
+        error: "Format non pris en charge. Utilisez JPG, PNG, WebP, GIF ou SVG.",
+      };
+    }
+    const ext = extMatch[1];
     const base = clean.replace(/\.(jpe?g|png|webp|gif|svg)$/i, "").slice(0, 60) || "image";
     const name = `${Date.now()}-${base}.${ext}`;
     mkdirSync(uploadsDir(), { recursive: true });
     writeFileSync(join(uploadsDir(), name), Buffer.from(await file.arrayBuffer()));
-    const publicPath = `/images/uploads/${name}`;
+    // Served by `src/app/media/uploads/[name]/route.ts`, which reads the file
+    // from disk. `/images/uploads/...` would 404 until the next build because
+    // `next start` only serves the public files known at build time.
+    const publicPath = `/media/uploads/${name}`;
     audit("admin", "upload", publicPath, { bytes: file.size });
     revalidatePath("/admin", "layout");
     return { ok: true, path: publicPath };

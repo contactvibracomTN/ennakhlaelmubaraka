@@ -25,6 +25,19 @@ const missing = new Map();
 
 function walk(value, file) {
   if (typeof value === "string") {
+    // New uploads are served dynamically from public/images/uploads through
+    // /media/uploads/<name>; legacy content keeps /images/uploads/<name>.
+    const uploadName = value.startsWith("/media/uploads/")
+      ? value.slice("/media/uploads/".length)
+      : value.startsWith("/images/uploads/")
+        ? value.slice("/images/uploads/".length)
+        : null;
+    if (uploadName !== null) {
+      if (existsSync(join(publicDir, "images", "uploads", uploadName))) return;
+      if (!missing.has(value)) missing.set(value, new Set());
+      missing.get(value).add(file);
+      return;
+    }
     if (!value.startsWith("/images/")) return;
     if (existsSync(join(publicDir, value))) return;
     if (!missing.has(value)) missing.set(value, new Set());

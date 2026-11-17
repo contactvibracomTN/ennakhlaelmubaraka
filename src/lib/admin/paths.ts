@@ -48,4 +48,10 @@ export const datesImagesDir = () => join(projectRoot(), "public", "images", "dat
 export const giftsImagesDir = () => join(projectRoot(), "public", "images", "gifts");
 export const blogImagesDir = () => join(projectRoot(), "public", "images", "blog");
 
-export const PUBLIC_IMAGE_ROOTS = ["/images/dates", "/images/gifts", "/images/blog", "/images/uploads"];
+export const PUBLIC_IMAGE_ROOTS = [
+  "/images/dates",
+  "/images/gifts",
+  "/images/blog",
+  "/images/uploads",
+  "/media/uploads",
+];
