@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getDirection } from "@/i18n/routing";
 import { imageAlt, pick, staticProductRepository } from "@/lib/data";
@@ -22,6 +23,7 @@ export async function ProductCta({
   heading: string;
   button: string;
 }) {
+  const tc = await getTranslations("common");
   const products: Product[] = [];
   for (const slug of productSlugs) {
     const product = await staticProductRepository.getProductBySlug(slug);
@@ -51,18 +53,24 @@ export async function ProductCta({
               className="group flex h-full flex-col overflow-hidden rounded-2xl border border-line bg-white transition-all hover:-translate-y-0.5 hover:border-gold-deep hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
             >
               <div className="relative aspect-[16/10] overflow-hidden bg-ivory-deep">
-                <Image
-                  src={product.images[0]}
-                  alt={imageAlt(
-                    product.imageAlts,
-                    product.images[0],
-                    pick(product.name, locale),
-                    locale,
-                  )}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+                {product.images[0] ? (
+                  <Image
+                    src={product.images[0]}
+                    alt={imageAlt(
+                      product.imageAlts,
+                      product.images[0],
+                      pick(product.name, locale),
+                      locale,
+                    )}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <div className="flex h-full w-full items-center justify-center p-4 text-center text-[0.65rem] leading-relaxed text-muted">
+                    {tc("photoToConfirm")}
+                  </div>
+                )}
               </div>
               <div className="flex flex-1 flex-col p-4">
                 <h3 className="font-arabic-display text-lg font-bold leading-snug text-forest">

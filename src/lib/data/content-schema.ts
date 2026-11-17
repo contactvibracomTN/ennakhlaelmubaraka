@@ -82,7 +82,7 @@ const dateProductSchema = productBaseSchema.extend({
 
 const giftProductSchema = productBaseSchema.extend({
   kind: z.literal("gift"),
-  category: z.enum(["personal", "occasions", "date-products"]),
+  category: z.enum(["sweets", "nuts", "coffee", "oils"]),
   contents: z.array(localizableSchema).optional(),
   bundleOf: z.array(z.string()).optional(),
   sizeLabel: localizableSchema.optional(),

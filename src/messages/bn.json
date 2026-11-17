@@ -30,7 +30,7 @@
   "nav": {
     "home": "হোম",
     "dates": "আমাদের খেজুর",
-    "gifts": "উপহারের বক্স",
+    "gifts": "বিবিধ পণ্য",
     "guide": "খেজুর গাইড",
     "blog": "ব্লগ",
     "story": "আমাদের গল্প",
@@ -102,13 +102,12 @@
     "viewAll": "সব দেখুন",
     "explore": "ঘুরে দেখুন",
     "countDates": "{count}টি জাত",
-    "countGifts": "{count}টি উপহারের আইডিয়া",
+    "countGifts": "{count}টি পণ্য",
     "aboutEyebrow": "আমাদের গল্প",
     "aboutTitle": "মদিনার খেজুর বাজারের হৃদয়ে",
     "aboutText": "প্রজন্মের পর প্রজন্ম ধরে প্রিমিয়াম খেজুরের ব্যবসায় নিয়োজিত মদিনার একটি খেজুরের দোকান। হাতে নির্বাচন, নিশ্চিত মান এবং সৎ সেবা — আমরা প্রতিটি জাত নিজেরাই কেন্দ্রীয় খেজুর বাজারে বেছে নিই।",
     "aboutCta": "আমাদের গল্প জানুন",
-    "dateSweetsTitle": "খেজুরের মিষ্টি ও পণ্য",
-    "countDateSweets": "{count} মিষ্টি ও খেজুর পণ্য"
+    "sweetsTitle": "মিষ্টি"
   },
   "guide": {
     "eyebrow": "খেজুর গাইড",
@@ -155,14 +154,15 @@
     "otherVarietiesTitle": "অন্যান্য খেজুরের জাত"
   },
   "gifts": {
-    "eyebrow": "উপহার",
-    "title": "উপহারের বক্স সংগ্রহ",
-    "subtitle": "প্রতিটি উপলক্ষের জন্য উপহারের বক্স ও সংগ্রহ।",
-    "categoriesLabel": "উপহারের বক্সের বিভাগসমূহ",
+    "eyebrow": "বিবিধ পণ্য",
+    "title": "বিবিধ পণ্য",
+    "subtitle": "মিষ্টি, বাদাম, কফি ও তেল — যত্নে নির্বাচিত।",
+    "categoriesLabel": "পণ্যের বিভাগসমূহ",
     "categories": {
-      "personal": "ব্যক্তিগত উপহার",
-      "occasions": "উপলক্ষের উপহার",
-      "date-products": "খেজুর পণ্য"
+      "sweets": "মিষ্টি",
+      "nuts": "বাদাম",
+      "coffee": "কফি",
+      "oils": "তেল"
     },
     "occasions": {
       "visit": "সাক্ষাৎ",
@@ -203,7 +203,8 @@
     "gradeLabel": "গ্রেড / ক্যালিবার",
     "ajwaFamilyTitle": "আজওয়া",
     "bulkOrderText": "For large orders (over 1,000 SAR) or to request box diagnosis or institutional orders",
-    "bulkOrderLink": "click here"
+    "bulkOrderLink": "click here",
+    "priceOnRequest": "মূল্য অনুরোধে"
   },
   "cart": {
     "title": "আপনার কার্ট",
@@ -337,7 +338,7 @@
     "quickLinks": "দ্রুত লিংক",
     "categories": "সংগ্রহ",
     "categoriesDates": "খেজুর",
-    "categoriesGifts": "উপহারের বক্স",
+    "categoriesGifts": "বিবিধ পণ্য",
     "categoriesGuide": "খেজুর গাইড",
     "contactTitle": "যোগাযোগ",
     "socialsTitle": "আমাদের অনুসরণ করুন",

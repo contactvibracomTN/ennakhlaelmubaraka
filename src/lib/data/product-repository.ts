@@ -25,13 +25,7 @@ const searchable = (p: Product) =>
  * product carries the flag, these explicit placeholders keep the homepage
  * section populated until the owner confirms the actual best sellers.
  */
-const DEMO_FEATURED_SLUGS = [
-  "ajwa",
-  "safawi",
-  "sukkari",
-  "signature-box",
-  "royal-stuffed-date-box",
-] as const;
+const DEMO_FEATURED_SLUGS = ["ajwa", "safawi", "sukkari"] as const;
 
 export class StaticProductRepository implements ProductRepository {
   async getDateProducts(): Promise<Product[]> {

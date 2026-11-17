@@ -20,8 +20,8 @@ export async function generateMetadata({
 }
 
 /**
- * Gifts listing — grouped by the real v2.1 categories
- * (personal / occasions / date-products).
+ * « منتوجات مختلفة » listing — grouped by the four product families
+ * (sweets / nuts / coffee / oils, PO 2026-11).
  */
 export default async function GiftsPage({
   params,

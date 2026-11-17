@@ -51,72 +51,95 @@
   ],
   "gifts": [
     {
-      "slug": "personal",
+      "slug": "sweets",
       "name": {
-        "ar": "الهدايا الشخصية",
-        "en": "Personal Gifts",
-        "fr": "Cadeaux personnels",
-        "tr": "Kişisel Hediyeler",
-        "ur": "ذاتی تحائف",
-        "ms": "Hadiah Peribadi",
-        "bn": "ব্যক্তিগত উপহার",
-        "id": "Hadiah Pribadi"
+        "ar": "الحلويات",
+        "en": "Sweets",
+        "fr": "Douceurs",
+        "tr": "Tatlılar",
+        "ur": "مٹھائیاں",
+        "ms": "Manisan",
+        "bn": "মিষ্টি",
+        "id": "Manisan"
       },
       "description": {
-        "ar": "اختيارات هدايا بمستويات سعر مختلفة، من الهدية البسيطة إلى الاختيار الأكثر فخامة.",
-        "en": "Gift choices across price levels, from simple gestures to more luxurious selections.",
-        "fr": "Des choix cadeaux à tous les niveaux de prix, du geste simple aux sélections les plus luxueuses.",
-        "tr": "Basit jestlerden en lüks seçimlere kadar her fiyat seviyesinde hediye seçenekleri.",
-        "ur": "سادہ اشاروں سے لے کر انتہائی پرتعیش انتخاب تک، ہر قیمت کی سطح پر تحفے۔",
-        "ms": "Pilihan hadiah merentas tahap harga, daripada gerak isyarat ringkas kepada pilihan paling mewah.",
-        "bn": "সাধারণ ইঙ্গিত থেকে সবচেয়ে বিলাসবহুল নির্বাচন — প্রতিটি মূল্য স্তরে উপহার।",
-        "id": "Pilihan hadiah di berbagai tingkat harga, dari gestur sederhana hingga pilihan paling mewah."
+        "ar": "حلويات ومصنوعات حلوة مختارة، تُعدّ وتُعرض حسب التوفر.",
+        "en": "Selected sweets and sweet creations, prepared and presented according to availability.",
+        "fr": "Douceurs et créations sucrées sélectionnées, préparées selon la disponibilité.",
+        "tr": "Özenle seçilmiş tatlılar ve tatlı kreasyonlar, mevcudiyete göre hazırlanır.",
+        "ur": "منتخب مٹھائیاں اور میٹھی تخلیقات، دستیابی کے مطابق تیار کی جاتی ہیں۔",
+        "ms": "Manisan dan kreasi manis terpilih, disediakan mengikut ketersediaan.",
+        "bn": "নির্বাচিত মিষ্টি ও মিষ্টি তৈরি পণ্য, প্রাপ্যতা অনুযায়ী প্রস্তুত।",
+        "id": "Manisan dan kreasi manis pilihan, disiapkan sesuai ketersediaan."
       }
     },
     {
-      "slug": "occasions",
+      "slug": "nuts",
       "name": {
-        "ar": "هدايا المناسبات",
-        "en": "Occasion Gifts",
-        "fr": "Cadeaux d'occasion",
-        "tr": "Özel Gün Hediyeleri",
-        "ur": "موقع کے تحائف",
-        "ms": "Hadiah Majlis",
-        "bn": "অনুষ্ঠানের উপহার",
-        "id": "Hadiah Acara"
+        "ar": "المكسّرات",
+        "en": "Nuts",
+        "fr": "Fruits secs",
+        "tr": "Kuruyemiş",
+        "ur": "خشک میوہ جات",
+        "ms": "Kacang",
+        "bn": "বাদাম",
+        "id": "Kacang"
       },
       "description": {
-        "ar": "اختيارات تتغير حسب المناسبة: رمضان، العيد، الزواج، الزيارات وغيرها.",
-        "en": "Selections organised around Ramadan, Eid, weddings, visits and other occasions.",
-        "fr": "Des coffrets conçus pour le Ramadan, l'Aïd, les mariages et les visites.",
-        "tr": "Ramazan, bayram, düğün ve ziyaretler için tasarlanmış kutular.",
-        "ur": "رمضان، عید، شادیوں اور ملاقاتوں کے لیے بنائے گئے ڈبے۔",
-        "ms": "Kotak direka untuk Ramadan, Aidilfitri, perkahwinan dan kunjungan.",
-        "bn": "রমজান, ঈদ, বিয়ে ও সাক্ষাতের জন্য নকশা করা বাক্স।",
-        "id": "Kotak yang dirancang untuk Ramadan, Idul Fitri, pernikahan, dan kunjungan."
+        "ar": "مكسّرات مشكّلة ومحمّصة بعناية، مناسبة للضيافة والهدايا.",
+        "en": "Assorted roasted nuts, carefully selected for hospitality and gifting.",
+        "fr": "Fruits secs assortis et torréfiés avec soin, pour la réception et les cadeaux.",
+        "tr": "Misafirlik ve hediye için özenle seçilmiş karışık kavrulmuş kuruyemişler.",
+        "ur": "مہمان نوازی اور تحائف کے لیے احتیاط سے منتخب مشترک بھنے ہوئے خشک میوہ جات۔",
+        "ms": "Kacang panggang campuran, dipilih dengan teliti untuk jamuan dan hadiah.",
+        "bn": "আপ্যায়ন ও উপহারের জন্য যত্নে নির্বাচিত মিশ্র ভাজা বাদাম।",
+        "id": "Aneka kacang panggang pilihan, cocok untuk jamuan dan hadiah."
       }
     },
     {
-      "slug": "date-products",
+      "slug": "coffee",
       "name": {
-        "ar": "منتجات التمور",
-        "en": "Date Products",
-        "fr": "Produits de dattes",
-        "tr": "Hurma Ürünleri",
-        "ur": "کھجور کی مصنوعات",
-        "ms": "Produk Kurma",
-        "bn": "খেজুরের পণ্য",
-        "id": "Produk Kurma"
+        "ar": "قهوة",
+        "en": "Coffee",
+        "fr": "Café",
+        "tr": "Kahve",
+        "ur": "قہوہ",
+        "ms": "Kopi",
+        "bn": "কফি",
+        "id": "Kopi"
       },
       "description": {
-        "ar": "حلويات ومنتجات مرتبطة بالتمر، مع إمكانية إضافة منتجات مكملة تدريجياً.",
-        "en": "Date-based sweets and related products, with room to expand gradually.",
-        "fr": "Sirops, confitures, pâtes et douceurs élaborés à base de dattes.",
-        "tr": "Hurma esaslı şuruplar, reçeller, ezmeler ve tatlılar.",
-        "ur": "کھجور سے بنے شربت، جام، پیسٹ اور مٹھائیاں۔",
-        "ms": "Sirap, jem, pes dan manisan yang dibuat daripada kurma.",
-        "bn": "খেজুর থেকে তৈরি সিরাপ, জ্যাম, পেস্ট ও মিষ্টি।",
-        "id": "Sirup, selai, pasta, dan manisan berbahan dasar kurma."
+        "ar": "قهوة مختارة بدرجات تحميص ونكهات مختلفة.",
+        "en": "Selected coffee with different roast levels and flavours.",
+        "fr": "Café sélectionné, avec différents degrés de torréfaction et arômes.",
+        "tr": "Farklı kavurma dereceleri ve aromalarla seçkin kahve.",
+        "ur": "مختلف بھننے کی سطح اور ذائقوں کے ساتھ منتخب قہوہ۔",
+        "ms": "Kopi pilihan dengan pelbagai tahap panggang dan rasa.",
+        "bn": "বিভিন্ন রোস্ট মাত্রা ও স্বাদে নির্বাচিত কফি।",
+        "id": "Kopi pilihan dengan berbagai tingkat sangrai dan rasa."
+      }
+    },
+    {
+      "slug": "oils",
+      "name": {
+        "ar": "زيوت",
+        "en": "Oils",
+        "fr": "Huiles",
+        "tr": "Yağlar",
+        "ur": "تیل",
+        "ms": "Minyak",
+        "bn": "তেল",
+        "id": "Minyak"
+      },
+      "description": {
+        "ar": "زيوت طبيعية مختارة، تُعرض حسب التوفر.",
+        "en": "Selected natural oils, offered according to availability.",
+        "fr": "Huiles naturelles sélectionnées, proposées selon la disponibilité.",
+        "tr": "Mevcudiyete göre sunulan seçkin doğal yağlar.",
+        "ur": "منتخب قدرتی تیل، دستیابی کے مطابق پیش کیے جاتے ہیں۔",
+        "ms": "Minyak semula jadi terpilih, ditawarkan mengikut ketersediaan.",
+        "bn": "নির্বাচিত প্রাকৃতিক তেল, প্রাপ্যতা অনুযায়ী প্রদান করা হয়।",
+        "id": "Minyak alami pilihan, ditawarkan sesuai ketersediaan."
       }
     }
   ]

@@ -26,12 +26,12 @@ export default async function AdminGiftsPage() {
 
   return (
     <ItemList
-      title="Produits — cadeaux"
-      description="Corbeilles et boîtes (visite, ramadan, aïd, mariage)."
+      title="Produits divers"
+      description="Familles : douceurs, fruits secs, café et huiles."
       items={rows}
       newHref="/admin/gifts/new"
-      newLabel="+ Nouveau cadeau"
-      emptyText="Aucun cadeau pour l'instant."
+      newLabel="+ Nouveau produit"
+      emptyText="Aucun produit pour l'instant."
     />
   );
 }

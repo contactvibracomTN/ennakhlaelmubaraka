@@ -30,7 +30,7 @@
   "nav": {
     "home": "Home",
     "dates": "Dates",
-    "gifts": "Gifts",
+    "gifts": "Miscellaneous Products",
     "guide": "Variety Guide",
     "blog": "Journal",
     "story": "Our Story",
@@ -102,13 +102,12 @@
     "viewAll": "View all",
     "explore": "Explore",
     "countDates": "{count} varieties",
-    "countGifts": "{count} gift ideas",
+    "countGifts": "{count} products",
     "aboutEyebrow": "Our story",
     "aboutTitle": "From the heart of Madinah's date market",
     "aboutText": "A Madinah date boutique trading premium dates for generations. Hand-selected, quality-guaranteed and served with honest care — we choose every variety ourselves at the Central Dates Market.",
     "aboutCta": "Read our story",
-    "dateSweetsTitle": "Date Sweets & Products",
-    "countDateSweets": "{count} sweets & date products"
+    "sweetsTitle": "Sweets"
   },
   "guide": {
     "eyebrow": "Variety Guide",
@@ -155,14 +154,15 @@
     "otherVarietiesTitle": "Other date varieties"
   },
   "gifts": {
-    "eyebrow": "Gifts",
-    "title": "Gifts collection",
-    "subtitle": "Gift boxes and collections for every occasion.",
-    "categoriesLabel": "Gift categories",
+    "eyebrow": "Miscellaneous Products",
+    "title": "Miscellaneous Products",
+    "subtitle": "Sweets, nuts, coffee and oils, carefully selected.",
+    "categoriesLabel": "Product categories",
     "categories": {
-      "personal": "Personal Gifts",
-      "occasions": "Occasion Gifts",
-      "date-products": "Date Products"
+      "sweets": "Sweets",
+      "nuts": "Nuts",
+      "coffee": "Coffee",
+      "oils": "Oils"
     },
     "occasions": {
       "visit": "Visit",
@@ -203,7 +203,8 @@
     "gradeLabel": "Grade / calibre",
     "ajwaFamilyTitle": "Ajwa",
     "bulkOrderText": "For large orders (over 1,000 SAR) or to request box diagnosis or institutional orders",
-    "bulkOrderLink": "click here"
+    "bulkOrderLink": "click here",
+    "priceOnRequest": "Price on request"
   },
   "cart": {
     "title": "Shopping cart",
@@ -337,7 +338,7 @@
     "quickLinks": "Quick links",
     "categories": "Collections",
     "categoriesDates": "Dates",
-    "categoriesGifts": "Gifts",
+    "categoriesGifts": "Miscellaneous Products",
     "categoriesGuide": "Variety Guide",
     "contactTitle": "Contact us",
     "socialsTitle": "Follow us",

@@ -27,6 +27,7 @@ export async function ProductCard({
 }) {
   const t = await getTranslations("common");
   const td = await getTranslations("dates");
+  const tp = await getTranslations("product");
   const locale = (await getLocale()) as Locale;
 
   const name = pick(product.name, locale);
@@ -65,6 +66,7 @@ export async function ProductCard({
    */
   const showCompareAt =
     !isDateProduct(product) &&
+    shownPrice > 0 &&
     product.compareAtPrice != null &&
     product.compareAtPrice.amount > shownPrice &&
     !isDemo;
@@ -83,7 +85,9 @@ export async function ProductCard({
       : gradePrices
         ? `${formatMoney[locale](gradePrices[0])}/${t("perKg")}`
         : `${formatMoney[locale](shownPrice)}/${t("perKg")}`
-    : formatMoney[locale](shownPrice);
+    : shownPrice > 0
+      ? formatMoney[locale](shownPrice)
+      : tp("priceOnRequest");
 
   const grades = isDateProduct(product) ? product.grades ?? [] : [];
   const dateData = isDateProduct(product) ? product : null;

@@ -30,7 +30,7 @@
   "nav": {
     "home": "مرکزی صفحہ",
     "dates": "ہماری کھجوریں",
-    "gifts": "تحائف کے ڈبے",
+    "gifts": "مختلف مصنوعات",
     "guide": "کھجوروں کا رہنما",
     "blog": "بلاگ",
     "story": "ہماری کہانی",
@@ -102,13 +102,12 @@
     "viewAll": "سب دیکھیں",
     "explore": "دریافت کریں",
     "countDates": "{count} اقسام",
-    "countGifts": "{count} تحفہ تجاویز",
+    "countGifts": "{count} مصنوعات",
     "aboutEyebrow": "ہماری کہانی",
     "aboutTitle": "مدینہ کے کھجور بازار کے دل میں",
     "aboutText": "نسلوں سے پریمیم کھجور کی تجارت سے وابستہ مدینہ کی ایک کھجور کی دکان۔ دستی انتخاب، ضمانت شدہ معیار اور دیانت دار سروس — ہم ہر قسم خود مرکزی کھجور بازار میں چنتے ہیں۔",
     "aboutCta": "ہماری کہانی جانیں",
-    "dateSweetsTitle": "کھجور کی مٹھائیاں و مصنوعات",
-    "countDateSweets": "{count} مٹھائیاں و مصنوعات"
+    "sweetsTitle": "مٹھائیاں"
   },
   "guide": {
     "eyebrow": "کھجوروں کا رہنما",
@@ -155,14 +154,15 @@
     "otherVarietiesTitle": "کھجور کی دیگر اقسام"
   },
   "gifts": {
-    "eyebrow": "تحائف",
-    "title": "تحائف کے ڈبوں کا مجموعہ",
-    "subtitle": "ہر موقع کے لیے تحائف کے ڈبے اور مجموعے۔",
-    "categoriesLabel": "تحائف کے زمرے",
+    "eyebrow": "مختلف مصنوعات",
+    "title": "مختلف مصنوعات",
+    "subtitle": "مٹھائیاں، خشک میوہ جات، قہوہ اور تیل — احتیاط سے منتخب۔",
+    "categoriesLabel": "مصنوعات کے زمرے",
     "categories": {
-      "personal": "ذاتی تحائف",
-      "occasions": "موقعوں کے تحائف",
-      "date-products": "کھجور کی مصنوعات"
+      "sweets": "مٹھائیاں",
+      "nuts": "خشک میوہ جات",
+      "coffee": "قہوہ",
+      "oils": "تیل"
     },
     "occasions": {
       "visit": "ملاقات",
@@ -203,7 +203,8 @@
     "gradeLabel": "گریڈ / کیلبر",
     "ajwaFamilyTitle": "عجوہ",
     "bulkOrderText": "For large orders (over 1,000 SAR) or to request box diagnosis or institutional orders",
-    "bulkOrderLink": "click here"
+    "bulkOrderLink": "click here",
+    "priceOnRequest": "قیمت درخواست پر"
   },
   "cart": {
     "title": "آپ کا کارٹ",
@@ -337,7 +338,7 @@
     "quickLinks": "فوری روابط",
     "categories": "مجموعے",
     "categoriesDates": "کھجوریں",
-    "categoriesGifts": "تحائف کے ڈبے",
+    "categoriesGifts": "مختلف مصنوعات",
     "categoriesGuide": "کھجوروں کا رہنما",
     "contactTitle": "رابطہ",
     "socialsTitle": "ہمیں فالو کریں",

@@ -12,24 +12,24 @@ import {
 import type { Locale } from "@/lib/config/locales";
 
 /**
- * Homepage category cards — Dates / Gifts / Date sweets & products.
+ * Homepage category cards — Dates / Miscellaneous products / Sweets.
  * Images and counts are real data-layer values — nothing invented
- * (Blueprint §11). The "guide" card was replaced by the date-sweets & date
- * products card (PO 13/10/2026), pointing at the منتجات التمور subsection of
- * the gifts catalogue.
+ * (Blueprint §11). The third card is a shortcut to the الحلويات family inside
+ * the « منتوجات مختلفة » section (PO 2026-11). When a product has no photo
+ * yet, the card renders the same honest "photo to confirm" placeholder as the
+ * product cards instead of a fake image.
  */
 export async function Categories() {
   const t = await getTranslations("home");
   const th = await getTranslations("dates");
   const tg = await getTranslations("gifts");
+  const tc = await getTranslations("common");
   const locale = (await getLocale()) as Locale;
   const forward = getDirection(locale) === "rtl" ? "\u2190" : "\u2192";
 
-  // حلويّات و منتجات التمور — the date-products gifts category (real data).
-  const sweets = giftProducts.filter((p) => p.category === "date-products");
-  const sweetsCategory = giftCategories.find(
-    (c) => c.slug === "date-products",
-  );
+  // الحلويات — the sweets family of the « منتوجات مختلفة » section.
+  const sweets = giftProducts.filter((p) => p.category === "sweets");
+  const sweetsCategory = giftCategories.find((c) => c.slug === "sweets");
 
   const cards = [
     {
@@ -46,16 +46,16 @@ export async function Categories() {
       title: tg("title"),
       subtitle: tg("subtitle"),
       countText: t("countGifts", { count: giftProducts.length }),
-      image: giftProducts[0]?.images[0] ?? "/images/gifts/signature-box.jpg",
+      image: giftProducts[0]?.images[0] ?? null,
     },
     {
-      href: "/gifts#date-products",
-      title: t("dateSweetsTitle"),
+      href: "/gifts#sweets",
+      title: t("sweetsTitle"),
       subtitle: sweetsCategory?.description
         ? pick(sweetsCategory.description, locale)
         : tg("subtitle"),
-      countText: t("countDateSweets", { count: sweets.length }),
-      image: sweets[0]?.images[0] ?? "/images/gifts/date-sweets.jpg",
+      countText: t("countGifts", { count: sweets.length }),
+      image: sweets[0]?.images[0] ?? null,
     },
   ];
 
@@ -85,13 +85,19 @@ export async function Categories() {
               className="group relative block overflow-hidden rounded-3xl border border-line shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
             >
               <div className="relative aspect-[4/5] w-full">
-                <Image
-                  src={card.image}
-                  alt={card.title}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
+                {card.image ? (
+                  <Image
+                    src={card.image}
+                    alt={card.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                ) : (
+                  <div className="flex h-full w-full items-center justify-center bg-ivory-deep p-6 text-center text-xs leading-relaxed text-muted">
+                    {tc("photoToConfirm")}
+                  </div>
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-forest-deep/90 via-forest-deep/30 to-transparent" />
               </div>
               <div className="absolute inset-x-0 bottom-0 p-6">

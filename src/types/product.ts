@@ -7,8 +7,8 @@ import type { GuideTexture } from "./guide";
  * `kind` discriminates `DateProduct` (dates catalog) from `GiftProduct`
  * (gifting universe). Shared fields live in `ProductBase`.
  *
- * Category slugs are the REAL v2.1 slugs (medina|world|premium and
- * personal|occasions|date-products) — never invented.
+ * Date category slugs are medina|kingdom. The « منتوجات مختلفة » section
+ * (PO 2026-11) uses four product families: sweets|nuts|coffee|oils.
  * ------------------------------------------------------------------------- */
 
 export type ProductAvailability = "in-stock" | "out-of-stock" | "preorder";
@@ -18,9 +18,10 @@ export type DateCategory =
   | "kingdom"; // تمور المملكة (variétés saoudiennes, V3 2026-09)
 
 export type GiftCategory =
-  | "personal" // الهدايا الشخصية
-  | "occasions" // هدايا المناسبات
-  | "date-products"; // منتجات التمور
+  | "sweets" // الحلويات
+  | "nuts" // المكسّرات
+  | "coffee" // قهوة
+  | "oils"; // زيوت
 
 export interface ProductBase {
   id: string;

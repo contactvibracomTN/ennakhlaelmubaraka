@@ -30,7 +30,7 @@
   "nav": {
     "home": "Beranda",
     "dates": "Kurma Kami",
-    "gifts": "Kotak Hadiah",
+    "gifts": "Aneka Produk",
     "guide": "Panduan Kurma",
     "blog": "Blog",
     "story": "Kisah Kami",
@@ -102,13 +102,12 @@
     "viewAll": "Lihat semua",
     "explore": "Jelajahi",
     "countDates": "{count} varietas",
-    "countGifts": "{count} ide hadiah",
+    "countGifts": "{count} produk",
     "aboutEyebrow": "Kisah kami",
     "aboutTitle": "Di jantung pasar kurma Madinah",
     "aboutText": "Toko kurma Madinah yang bergerak di perdagangan kurma premium selama bergenerasi. Seleksi manual, kualitas terjamin, dan layanan jujur — kami memilih sendiri setiap varietas di Pasar Kurma Sentral.",
     "aboutCta": "Temukan kisah kami",
-    "dateSweetsTitle": "Manisan & Produk Kurma",
-    "countDateSweets": "{count} manisan & produk kurma"
+    "sweetsTitle": "Manisan"
   },
   "guide": {
     "eyebrow": "Panduan Kurma",
@@ -155,14 +154,15 @@
     "otherVarietiesTitle": "Varietas kurma lainnya"
   },
   "gifts": {
-    "eyebrow": "Hadiah",
-    "title": "Koleksi kotak hadiah",
-    "subtitle": "Kotak hadiah dan koleksi untuk setiap momen.",
-    "categoriesLabel": "Kategori kotak hadiah",
+    "eyebrow": "Aneka Produk",
+    "title": "Aneka Produk",
+    "subtitle": "Manisan, kacang, kopi, dan minyak, dipilih dengan cermat.",
+    "categoriesLabel": "Kategori produk",
     "categories": {
-      "personal": "Hadiah Pribadi",
-      "occasions": "Hadiah Momen",
-      "date-products": "Produk Kurma"
+      "sweets": "Manisan",
+      "nuts": "Kacang",
+      "coffee": "Kopi",
+      "oils": "Minyak"
     },
     "occasions": {
       "visit": "Kunjungan",
@@ -203,7 +203,8 @@
     "gradeLabel": "Kelas / kaliber",
     "ajwaFamilyTitle": "Ajwa",
     "bulkOrderText": "For large orders (over 1,000 SAR) or to request box diagnosis or institutional orders",
-    "bulkOrderLink": "click here"
+    "bulkOrderLink": "click here",
+    "priceOnRequest": "Harga sesuai permintaan"
   },
   "cart": {
     "title": "Keranjang Anda",
@@ -337,7 +338,7 @@
     "quickLinks": "Tautan cepat",
     "categories": "Koleksi",
     "categoriesDates": "Kurma",
-    "categoriesGifts": "Kotak Hadiah",
+    "categoriesGifts": "Aneka Produk",
     "categoriesGuide": "Panduan Kurma",
     "contactTitle": "Kontak",
     "socialsTitle": "Ikuti kami",

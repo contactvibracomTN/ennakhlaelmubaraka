@@ -30,7 +30,7 @@
   "nav": {
     "home": "Ana Sayfa",
     "dates": "Hurmalarımız",
-    "gifts": "Hediyelik Kutular",
+    "gifts": "Çeşitli Ürünler",
     "guide": "Hurma Rehberi",
     "blog": "Blog",
     "story": "Hikayemiz",
@@ -102,13 +102,12 @@
     "viewAll": "Tümünü gör",
     "explore": "Keşfet",
     "countDates": "{count} çeşit",
-    "countGifts": "{count} hediye fikri",
+    "countGifts": "{count} ürün",
     "aboutEyebrow": "Hikayemiz",
     "aboutTitle": "Medine hurma pazarının kalbinde",
     "aboutText": "Nesillerdir premium hurma ticaretiyle uğraşan bir Medine hurma dükkanı. Elle seçim, garantili kalite ve dürüst hizmet — her çeşidi Merkezi Hurma Pazarı'nda kendimiz seçiyoruz.",
     "aboutCta": "Hikayemizi keşfedin",
-    "dateSweetsTitle": "Hurma Tatlıları ve Ürünleri",
-    "countDateSweets": "{count} tatlı & hurma ürünü"
+    "sweetsTitle": "Tatlılar"
   },
   "guide": {
     "eyebrow": "Hurma Rehberi",
@@ -155,14 +154,15 @@
     "otherVarietiesTitle": "Diğer hurma çeşitleri"
   },
   "gifts": {
-    "eyebrow": "Hediyelik Kutular",
-    "title": "Hediyelik kutu koleksiyonu",
-    "subtitle": "Her durum için hediyelik kutular ve koleksiyonlar.",
-    "categoriesLabel": "Hediyelik kutu kategorileri",
+    "eyebrow": "Çeşitli Ürünler",
+    "title": "Çeşitli Ürünler",
+    "subtitle": "Tatlılar, kuruyemişler, kahve ve yağlar özenle seçildi.",
+    "categoriesLabel": "Ürün kategorileri",
     "categories": {
-      "personal": "Kişisel Hediyeler",
-      "occasions": "Özel Gün Hediyeleri",
-      "date-products": "Hurma Ürünleri"
+      "sweets": "Tatlılar",
+      "nuts": "Kuruyemiş",
+      "coffee": "Kahve",
+      "oils": "Yağlar"
     },
     "occasions": {
       "visit": "Ziyaret",
@@ -203,7 +203,8 @@
     "gradeLabel": "Sınıf / kalibre",
     "ajwaFamilyTitle": "Ajwa",
     "bulkOrderText": "For large orders (over 1,000 SAR) or to request box diagnosis or institutional orders",
-    "bulkOrderLink": "click here"
+    "bulkOrderLink": "click here",
+    "priceOnRequest": "Fiyat talep üzerine"
   },
   "cart": {
     "title": "Sepetiniz",
@@ -337,7 +338,7 @@
     "quickLinks": "Hızlı bağlantılar",
     "categories": "Koleksiyonlar",
     "categoriesDates": "Hurmalar",
-    "categoriesGifts": "Hediyelik Kutular",
+    "categoriesGifts": "Çeşitli Ürünler",
     "categoriesGuide": "Hurma Rehberi",
     "contactTitle": "İletişim",
     "socialsTitle": "Bizi takip edin",

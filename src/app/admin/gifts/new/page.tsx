@@ -13,7 +13,7 @@ function emptyGift(): GiftProduct {
     id: `gift-${Date.now().toString(36)}`,
     slug: "",
     kind: "gift",
-    category: "occasions",
+    category: "sweets",
     name: makeLocalized(),
     teaser: makeLocalized(),
     images: [],
@@ -33,9 +33,9 @@ export default async function AdminNewGiftPage() {
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-2">
         <Link href="/admin/gifts" className="text-xs text-emerald-700 underline">
-          ← Retour aux cadeaux
+          ← Retour aux produits
         </Link>
-        <h1 className="text-xl font-bold text-emerald-950">Nouveau cadeau</h1>
+        <h1 className="text-xl font-bold text-emerald-950">Nouveau produit</h1>
       </div>
       <GiftItemEditor
         item={item}

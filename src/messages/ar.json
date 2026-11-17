@@ -30,7 +30,7 @@
   "nav": {
     "home": "الرئيسية",
     "dates": "التمور",
-    "gifts": "الهدايا",
+    "gifts": "منتوجات مختلفة",
     "guide": "دليل الأصناف",
     "blog": "المدوّنة",
     "story": "قصّتنا",
@@ -102,13 +102,12 @@
     "viewAll": "عرض الكل",
     "explore": "استكشف",
     "countDates": "{count} صنفًا",
-    "countGifts": "{count} فكرة هدية",
+    "countGifts": "{count} منتجًا",
     "aboutEyebrow": "قصّتنا",
     "aboutTitle": "من قلب سوق المدينة المنورة",
     "aboutText": "بوتيك نخيل المدينة المنورة لتجارة التمور الفاخرة منذ أجيال. انتقاء يدويّ وجودة مضمونة وخدمة صادقة — نختار كل صنف بأنفسنا من سوق التمور المركزي ليكون في متناولكم.",
     "aboutCta": "تعرّف على قصّتنا",
-    "dateSweetsTitle": "حلويّات و منتجات التمور",
-    "countDateSweets": "{count} منتجات وحلويّات"
+    "sweetsTitle": "الحلويات"
   },
   "guide": {
     "eyebrow": "دليل الأصناف",
@@ -155,14 +154,15 @@
     "otherVarietiesTitle": "أصناف أخرى من التمور"
   },
   "gifts": {
-    "eyebrow": "الهدايا",
-    "title": "تشكيلة الهدايا",
-    "subtitle": "علب هدايا وتشكيلات مناسبة لكل مناسبة.",
-    "categoriesLabel": "تصنيفات الهدايا",
+    "eyebrow": "منتوجات مختلفة",
+    "title": "منتوجات مختلفة",
+    "subtitle": "حلويات، مكسّرات، قهوة وزيوت مختارة بعناية.",
+    "categoriesLabel": "تصنيفات المنتوجات",
     "categories": {
-      "personal": "الهدايا الشخصية",
-      "occasions": "هدايا المناسبات",
-      "date-products": "منتجات التمور"
+      "sweets": "الحلويات",
+      "nuts": "المكسّرات",
+      "coffee": "قهوة",
+      "oils": "زيوت"
     },
     "occasions": {
       "visit": "زيارة",
@@ -203,7 +203,8 @@
     "gradeLabel": "الدرجة / العيار",
     "ajwaFamilyTitle": "العجوة",
     "bulkOrderText": "للطّلبيات الكبيرة (أكثر من 1000 ر.س) أو لطلب تشخيص البوكسات أو للطلبات للمؤسّسات",
-    "bulkOrderLink": "أنقر هنا"
+    "bulkOrderLink": "أنقر هنا",
+    "priceOnRequest": "السعر عند الطلب"
   },
   "cart": {
     "title": "سلة التسوق",
@@ -337,7 +338,7 @@
     "quickLinks": "روابط سريعة",
     "categories": "التشكيلات",
     "categoriesDates": "التمور",
-    "categoriesGifts": "الهدايا",
+    "categoriesGifts": "منتوجات مختلفة",
     "categoriesGuide": "دليل الأصناف",
     "contactTitle": "تواصل معنا",
     "socialsTitle": "تابعونا",

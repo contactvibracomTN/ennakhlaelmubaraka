@@ -30,7 +30,7 @@
   "nav": {
     "home": "Accueil",
     "dates": "Nos dattes",
-    "gifts": "Coffrets cadeaux",
+    "gifts": "Produits divers",
     "guide": "Guide des dattes",
     "blog": "Journal",
     "story": "Notre histoire",
@@ -102,13 +102,12 @@
     "viewAll": "Tout voir",
     "explore": "Explorer",
     "countDates": "{count} variétés",
-    "countGifts": "{count} idées cadeaux",
+    "countGifts": "{count} produits",
     "aboutEyebrow": "Notre histoire",
     "aboutTitle": "Au cœur du marché des dattes de Médine",
     "aboutText": "Une boutique de dattes de Médine, acteur du commerce des dattes premium depuis des générations. Sélection manuelle, qualité garantie et service honnête — nous choisissons chaque variété nous-mêmes au Marché central des dattes.",
     "aboutCta": "Découvrir notre histoire",
-    "dateSweetsTitle": "Douceurs & produits de dattes",
-    "countDateSweets": "{count} douceurs & produits de dattes"
+    "sweetsTitle": "Douceurs"
   },
   "guide": {
     "eyebrow": "Guide des dattes",
@@ -155,14 +154,15 @@
     "otherVarietiesTitle": "Autres variétés de dattes"
   },
   "gifts": {
-    "eyebrow": "Coffrets",
-    "title": "Collection de coffrets cadeaux",
-    "subtitle": "Coffrets et collections pour chaque occasion.",
-    "categoriesLabel": "Catégories de coffrets",
+    "eyebrow": "Produits divers",
+    "title": "Produits divers",
+    "subtitle": "Douceurs, fruits secs, café et huiles sélectionnés avec soin.",
+    "categoriesLabel": "Catégories de produits",
     "categories": {
-      "personal": "Cadeaux personnels",
-      "occasions": "Cadeaux d'occasion",
-      "date-products": "Produits de dattes"
+      "sweets": "Douceurs",
+      "nuts": "Fruits secs",
+      "coffee": "Café",
+      "oils": "Huiles"
     },
     "occasions": {
       "visit": "Visite",
@@ -203,7 +203,8 @@
     "gradeLabel": "Grade / calibre",
     "ajwaFamilyTitle": "Ajwa",
     "bulkOrderText": "Pour les commandes importantes (plus de 1 000 SAR) ou pour demander un diagnostic de coffret ou des commandes institutionnelles",
-    "bulkOrderLink": "click here"
+    "bulkOrderLink": "click here",
+    "priceOnRequest": "Prix sur demande"
   },
   "cart": {
     "title": "Votre panier",
@@ -337,7 +338,7 @@
     "quickLinks": "Liens rapides",
     "categories": "Collections",
     "categoriesDates": "Dattes",
-    "categoriesGifts": "Coffrets",
+    "categoriesGifts": "Produits divers",
     "categoriesGuide": "Guide des dattes",
     "contactTitle": "Nous contacter",
     "socialsTitle": "Suivez-nous",

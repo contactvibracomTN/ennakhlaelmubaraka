@@ -55,6 +55,7 @@ export default async function GiftDetailPage({
   const t = await getTranslations("product");
   const tg = await getTranslations("gifts");
   const tw = await getTranslations("whatsapp");
+  const tc = await getTranslations("common");
   const localeTyped = locale as Locale;
 
   const product = await staticProductRepository.getProductBySlug(slug);
@@ -77,6 +78,7 @@ export default async function GiftDetailPage({
 
   const isDemo = product.contentStatus === "demo";
   const showCompareAt =
+    product.price.amount > 0 &&
     product.compareAtPrice != null &&
     product.compareAtPrice.amount > product.price.amount &&
     !isDemo;
@@ -106,11 +108,18 @@ export default async function GiftDetailPage({
         </Link>
 
         <div className="mt-6 grid gap-10 lg:grid-cols-2 lg:gap-14">
-          <ProductGallery
-            images={product.images}
-            alt={name}
-            alts={product.imageAlts}
-          />
+          {product.images.length > 0 ? (
+            <ProductGallery
+              images={product.images}
+              alt={name}
+              alts={product.imageAlts}
+            />
+          ) : (
+            /* Photo not uploaded yet — honest placeholder, never a fake image. */
+            <div className="flex aspect-square items-center justify-center rounded-3xl border border-line bg-ivory-deep p-8 text-center text-sm leading-relaxed text-muted">
+              {tc("photoToConfirm")}
+            </div>
+          )}
 
           <div>
             <div className="flex flex-wrap items-center gap-2">
@@ -144,7 +153,9 @@ export default async function GiftDetailPage({
             <div className="mt-8 rounded-2xl border border-line bg-white p-5 sm:p-6">
               <div className="flex flex-wrap items-baseline justify-between gap-3">
                 <p className="font-arabic-display text-3xl font-bold text-forest">
-                  {formatMoney[localeTyped](product.price.amount)}
+                  {product.price.amount > 0
+                    ? formatMoney[localeTyped](product.price.amount)
+                    : t("priceOnRequest")}
                 </p>
                 {/* A crossed-out price states a fact — "this was SAR X" — and no promotion
                     has ever run at that figure, so it stays hidden while the

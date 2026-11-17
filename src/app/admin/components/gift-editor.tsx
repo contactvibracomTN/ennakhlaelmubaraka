@@ -157,9 +157,10 @@ export function GiftItemEditor({
               value={doc.category}
               onChange={(v) => patch({ category: v as GiftProduct["category"] })}
               options={[
-                { value: "personal", label: "Personnel (personal)" },
-                { value: "occasions", label: "Occasions (occasions)" },
-                { value: "date-products", label: "Produits de dattes (date-products)" },
+                { value: "sweets", label: "Douceurs (sweets)" },
+                { value: "nuts", label: "Fruits secs (nuts)" },
+                { value: "coffee", label: "Café (coffee)" },
+                { value: "oils", label: "Huiles (oils)" },
               ]}
             />
           </Field>
