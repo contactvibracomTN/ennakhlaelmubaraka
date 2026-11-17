@@ -294,24 +294,24 @@
     "cta": "Tidak menemukan jawaban? Hubungi kami langsung di WhatsApp.",
     "items": [
       {
-        "q": "Ke mana Anda mengirim?",
-        "a": "Pengiriman di Madinah gratis untuk faktur di atas SAR 200; di bawah itu, biaya (~SAR 20) disepakati dalam percakapan. Di luar Madinah, pengiriman diatur dengan Anda melalui WhatsApp tergantung tujuan. Detail dan waktunya disepakati dalam percakapan."
+        "q": "Anda akan mengirimkan ke mana?",
+        "a": "Pengiriman di dalam Madinah gratis untuk pesanan di atas 200 SAR; untuk pesanan di bawah itu, biaya (sekitar 20 SAR) akan disepakati melalui obrolan. Untuk pesanan di luar Madinah, kami akan mengatur pengiriman dengan Anda melalui WhatsApp tergantung pada tujuan. Detail dan waktu akan dibahas melalui obrolan."
       },
       {
-        "q": "Bagaimana cara memesan?",
-        "a": "Tambahkan yang Anda inginkan ke keranjang, lalu selesaikan pesanan: pilih cara Anda menerima pesanan dan cara pembayaran, lalu kirimkan kepada kami. Pesanan menjadi pesan WhatsApp siap yang langsung sampai kepada kami."
+        "q": "Bagaimana cara memesan melalui WhatsApp?",
+        "a": "Tambahkan barang yang Anda inginkan ke keranjang belanja, lalu selesaikan pesanan Anda: pilih metode pengiriman dan pembayaran, dan kirim pesanan Anda kepada kami. Pesanan akan dikirimkan kepada kami melalui pesan WhatsApp."
       },
       {
-        "q": "Apakah harga Anda final?",
-        "a": "Harga yang ditampilkan adalah harga toko terkini per kilogram. Pesanan Anda menjadi final setelah dikonfirmasi dengan Anda dalam percakapan (WhatsApp). Untuk harga pasti sesuai jumlah, berat, dan kelas, tanyakan melalui WhatsApp atau kunjungi toko."
+        "q": "Apakah harga yang Anda cantumkan sudah final?",
+        "a": "Harga yang tertera adalah harga toko saat ini per kilogram. Pesanan Anda akan menjadi final setelah dikonfirmasi melalui WhatsApp. Untuk harga pasti berdasarkan jumlah, berat, dan kualitas, silakan tanyakan melalui WhatsApp atau kunjungi toko."
       },
       {
-        "q": "Apakah Anda menyediakan kemasan hadiah?",
-        "a": "Kami mengemas pesanan dengan kemasan praktis yang melindungi kurma selama pengiriman, disesuaikan dengan jenis, jumlah, dan acara pesanan."
+        "q": "Apakah Anda menyediakan layanan pembungkus kado?",
+        "a": "Kami mengemas pesanan dengan kemasan praktis yang tahan terhadap transportasi dan dapat menjaga kesegaran buah, serta kami menyesuaikan pengemasan sesuai dengan jenis, jumlah, dan kesesuaian pesanan."
       },
       {
-        "q": "Apa perbedaan antara varietas kurma?",
-        "a": "Setiap varietas memiliki rasa dan tekstur yang unik. Kenali masing-masing: asal, sejarah, rasa, dan nilai gizi — dijelaskan dalam « Panduan Kurma »."
+        "q": "Apa saja perbedaan antara berbagai jenis kurma?",
+        "a": "Setiap varietas memiliki rasa dan tekstur yang khas. Jelajahi \"Panduan Kurma\" untuk mempelajari setiap varietas: asal-usulnya, kisahnya, rasanya, dan nilai gizinya."
       }
     ]
   },

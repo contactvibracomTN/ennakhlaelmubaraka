@@ -294,24 +294,24 @@
     "cta": "Tiada jawapan? Hubungi kami terus di WhatsApp.",
     "items": [
       {
-        "q": "Ke mana anda menghantar?",
-        "a": "Penghantaran di Madinah adalah percuma untuk invois melebihi SAR 200; di bawah itu, caj (~SAR 20) dipersetujui dalam perbualan. Di luar Madinah, penghantaran diatur dengan anda melalui WhatsApp mengikut destinasi. Butiran dan masa dipersetujui dalam perbualan."
+        "q": "Ke mana anda membuat penghantaran?",
+        "a": "Penghantaran di Medina adalah percuma untuk pesanan melebihi 200 SAR; untuk pesanan di bawah itu, bayaran (kira-kira 20 SAR) akan dipersetujui dalam sembang. Untuk pesanan di luar Medina, kami akan mengatur penghantaran dengan anda melalui WhatsApp bergantung pada destinasi. Butiran dan masa akan dibincangkan dalam sembang."
       },
       {
-        "q": "Bagaimana cara.tempah?",
-        "a": "Tambah apa yang anda mahu ke dalam troli, kemudian lengkapkan pesanan: pilih cara anda menerima pesanan dan cara pembayaran, lalu hantarkan kepada kami. Pesanan menjadi mesej WhatsApp yang sedia dan terus sampai kepada kami."
+        "q": "Bagaimana saya boleh membuat pesanan melalui WhatsApp?",
+        "a": "Tambahkan barang yang anda inginkan ke dalam troli anda, kemudian lengkapkan pesanan anda: pilih kaedah penghantaran dan pembayaran anda, dan hantarkan pesanan anda kepada kami. Ia akan dihantar kepada kami sebagai mesej WhatsApp."
       },
       {
         "q": "Adakah harga anda muktamad?",
-        "a": "Harga yang dipaparkan ialah harga semasa kedai per kilogram. Pesanan anda menjadi muktamad setelah disahkan dengan anda dalam perbualan (WhatsApp). Untuk harga tepat mengikut kuantiti, berat dan gred, tanya melalui WhatsApp atau lawati kedai."
+        "a": "Harga yang dipaparkan adalah harga kedai semasa setiap kilogram. Pesanan anda menjadi muktamad setelah disahkan melalui WhatsApp. Untuk harga yang tepat berdasarkan kuantiti, berat dan gred, sila bertanya melalui WhatsApp atau kunjungi kedai."
       },
       {
-        "q": "Adakah anda menyediakan pembungkusan hadiah?",
-        "a": "Kami membungkus pesanan dengan pembungkusan praktikal yang melindungi kurma semasa penghantaran, disesuaikan dengan jenis, kuantiti dan majlis pesanan."
+        "q": "Adakah anda menawarkan perkhidmatan pembalut hadiah?",
+        "a": "Kami membungkus pesanan dengan pembungkusan praktikal yang boleh menahan pengangkutan dan mengawet buah, dan kami menyelaras pembungkusan mengikut jenis, kuantiti dan kesesuaian pesanan."
       },
       {
-        "q": "Apakah perbezaan antara varieti kurma?",
-        "a": "Setiap varieti mempunyai rasa dan tekstur yang unik. Kenali setiap satu: asal, sejarah, rasa dan nilai nutrisi — diterangkan dalam « Panduan Kurma »."
+        "q": "Apakah perbezaan antara pelbagai jenis kurma?",
+        "a": "Setiap varieti mempunyai rasa dan tekstur yang tersendiri. Layari \"Panduan Kurma\" untuk mengetahui tentang setiap varieti: asal usul, kisah, rasanya dan nilai pemakanannya."
       }
     ]
   },

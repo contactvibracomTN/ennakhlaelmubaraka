@@ -294,24 +294,24 @@
     "cta": "Didn't find your answer? Contact us directly on WhatsApp.",
     "items": [
       {
-        "q": "Where do you deliver?",
-        "a": "Delivery within Madinah is free for invoices above 200 SAR; below that the fee (~SAR 20) is agreed in the conversation. Outside Madinah, delivery is arranged with you on WhatsApp depending on the destination. The details and the timing are agreed in the conversation."
+        "q": "Where are you delivering to?",
+        "a": "Delivery within Medina is free for orders over 200 SAR; for orders below that, a fee (approximately 20 SAR) will be agreed upon in a chat. For orders outside Medina, we will arrange delivery with you via WhatsApp depending on the destination. Details and times will be discussed in a chat."
       },
       {
-        "q": "How do I order?",
-        "a": "Add what you want to the cart, then check out: choose how you would like to receive the order and how to pay, and send it to us. It becomes a ready WhatsApp message that reaches us directly."
+        "q": "How do I order via WhatsApp?",
+        "a": "Add the items you want to your cart, then complete your order: choose your delivery and payment methods, and send us your order. It will be sent to us as a WhatsApp message."
       },
       {
         "q": "Are your prices final?",
-        "a": "The prices shown are the current shop prices per kilogram. Your order becomes final once it is confirmed with you in conversation (WhatsApp). For exact pricing by quantity, weight and grade, ask on WhatsApp or visit the store."
+        "a": "The prices shown are the current store prices per kilogram. Your order becomes final once confirmed via WhatsApp. For the exact price based on quantity, weight, and grade, please inquire via WhatsApp or visit the store."
       },
       {
-        "q": "Do you offer gift packaging?",
-        "a": "We pack orders in practical packaging that protects the dates during transport, adapted to the type, the quantity and the occasion of the order."
+        "q": "Do you offer gift wrapping?",
+        "a": "We pack orders with practical packaging that can withstand transport and preserve the fruit, and we coordinate the packaging according to the type, quantity, and suitability of the order."
       },
       {
-        "q": "What is the difference between date varieties?",
-        "a": "Each variety has a unique taste and texture. Browse the “Dates Guide” to learn about each one: origin, story, flavour and nutritional value."
+        "q": "What are the differences between varieties of dates?",
+        "a": "Each variety has a distinctive taste and texture. Browse the \"Dates Guide\" to learn about each variety: its origin, story, flavor, and nutritional value."
       }
     ]
   },

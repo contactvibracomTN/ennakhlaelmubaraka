@@ -294,24 +294,24 @@
     "cta": "Sorunuzun yanıtını bulamadınız mı? WhatsApp üzerinden doğrudan bize ulaşın.",
     "items": [
       {
-        "q": "Nereye teslimat yapıyorsunuz?",
-        "a": "Medine içinde 200 SAR üzeri faturalarda teslimat ücretsizdir; altında ücret (~20 SAR) sohbette kararlaştırılır. Medine dışında teslimat, varış noktasına göre WhatsApp üzerinden sizinle ayarlanır. Detaylar ve zamanlama sohbette kararlaştırılır."
+        "q": "Teslimat adresiniz neresi?",
+        "a": "Medine içi teslimat, 200 SAR üzeri siparişlerde ücretsizdir; bu tutarın altındaki siparişler için ise yaklaşık 20 SAR tutarında bir ücret, sohbet üzerinden kararlaştırılacaktır. Medine dışı siparişler için, varış noktasına bağlı olarak WhatsApp üzerinden sizinle teslimatı ayarlayacağız. Detaylar ve teslimat saatleri sohbet üzerinden görüşülecektir."
       },
       {
-        "q": "Nasıl sipariş veririm?",
-        "a": "İstediklerinizi sepete ekleyin, ardından siparişi tamamlayın: teslim ve ödeme yönteminizi seçip bize gönderin. Sipariş bize doğrudan ulaşan hazır bir WhatsApp mesajına dönüşür."
+        "q": "WhatsApp üzerinden nasıl sipariş verebilirim?",
+        "a": "Sepetinize istediğiniz ürünleri ekleyin, ardından siparişinizi tamamlayın: teslimat ve ödeme yöntemlerinizi seçin ve siparişinizi bize gönderin. Siparişiniz bize WhatsApp mesajı olarak iletilecektir."
       },
       {
         "q": "Fiyatlarınız kesin mi?",
-        "a": "Gösterilen fiyatlar mağazanın kilo başına güncel fiyatlarıdır. Siparişiniz, sohbette (WhatsApp) sizinle onaylandığında kesinleşir. Miktar, ağırlık ve sınıfa göre tam fiyat için WhatsApp'tan sorun veya mağazayı ziyaret edin."
+        "a": "Gösterilen fiyatlar, mağazanın kilogram başına geçerli fiyatlarıdır. Siparişiniz WhatsApp üzerinden onaylandıktan sonra kesinleşir. Miktar, ağırlık ve kaliteye göre kesin fiyat için lütfen WhatsApp üzerinden iletişime geçin veya mağazayı ziyaret edin."
       },
       {
-        "q": "Hediye paketi sunuyor musunuz?",
-        "a": "Siparişleri, taşınma sırasında hurmayı koruyan ve siparişin türüne, miktarına ve vesilesine göre uyarlanan pratik bir ambalajda hazırlarız."
+        "q": "Hediye paketleme hizmeti sunuyor musunuz?",
+        "a": "Siparişleri, taşımaya dayanıklı ve meyveleri koruyan pratik ambalajlarla paketliyoruz ve ambalajı siparişin türüne, miktarına ve uygunluğuna göre koordine ediyoruz."
       },
       {
-        "q": "Hurma çeşitleri arasındaki fark nedir?",
-        "a": "Her çeşidin benzersiz bir tadı ve dokusu vardır. Her birini tanıyın: köken, tarih, tat ve besin değeri — « Hurma Rehberi »nde açıklanmaktadır."
+        "q": "Hurma çeşitleri arasındaki farklar nelerdir?",
+        "a": "Her çeşidin kendine özgü bir tadı ve dokusu vardır. Her çeşidin kökeni, hikayesi, lezzeti ve besin değeri hakkında bilgi edinmek için \"Hurma Rehberi\"ne göz atın."
       }
     ]
   },

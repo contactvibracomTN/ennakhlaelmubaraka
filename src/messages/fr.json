@@ -294,24 +294,24 @@
     "cta": "Vous n'avez pas trouvé votre réponse ? Contactez-nous directement sur WhatsApp.",
     "items": [
       {
-        "q": "Où livrez-vous ?",
-        "a": "La livraison à Médine est gratuite pour les commandes supérieures à 200 SAR ; en dessous, les frais (~20 SAR) sont convenus dans la conversation. Hors de Médine, la livraison est organisée avec vous sur WhatsApp selon la destination. Les détails et les délais sont convenus dans la conversation."
+        "q": "Où effectuez-vous vos livraisons ?",
+        "a": "La livraison est gratuite à Médine pour toute commande supérieure à 200 SAR. Pour les commandes inférieures à ce montant, des frais (environ 20 SAR) seront convenus par message. Pour les commandes hors de Médine, nous organiserons la livraison avec vous via WhatsApp en fonction de la destination. Les détails et les horaires seront discutés par message."
       },
       {
-        "q": "Comment commander ?",
-        "a": "Ajoutez ce que vous souhaitez au panier, puis finalisez : choisissez le mode de réception et le mode de paiement, et envoyez-nous la commande. Elle devient un message WhatsApp prêt qui nous parvient directement."
+        "q": "Comment commander via WhatsApp ?",
+        "a": "Ajoutez les articles souhaités à votre panier, puis finalisez votre commande : choisissez votre mode de livraison et de paiement, et envoyez-nous votre commande par message WhatsApp."
       },
       {
         "q": "Vos prix sont-ils définitifs ?",
-        "a": "Les prix affichés sont les prix actuels de la boutique au kilo. Votre commande ne devient définitive qu'après confirmation avec vous dans la conversation (WhatsApp). Pour un prix exact selon la quantité, le poids et le calibre, demandez via WhatsApp ou en boutique."
+        "a": "Les prix affichés sont les prix en vigueur en magasin, au kilogramme. Votre commande est définitive une fois confirmée via WhatsApp. Pour connaître le prix exact en fonction de la quantité, du poids et de la qualité, veuillez nous contacter via WhatsApp ou vous rendre en magasin."
       },
       {
-        "q": "Proposez-vous un emballage cadeau ?",
-        "a": "Nous emballons les commandes dans un emballage pratique qui protège les dattes pendant le transport, adapté au type, à la quantité et à l'occasion de la commande."
+        "q": "Proposez-vous un service d'emballage cadeau ?",
+        "a": "Nous emballons les commandes avec des emballages pratiques, capables de résister au transport et de préserver les fruits, et nous adaptons l'emballage au type, à la quantité et à l'adéquation de la commande."
       },
       {
-        "q": "Quelle est la différence entre les variétés de dattes ?",
-        "a": "Chaque variété a une saveur et une texture uniques. Parcourez le « Guide des dattes » pour découvrir chacune : origine, histoire, saveur et valeur nutritionnelle."
+        "q": "Quelles sont les différences entre les variétés de dattes ?",
+        "a": "Chaque variété possède un goût et une texture uniques. Consultez le « Guide des dattes » pour en savoir plus sur chaque variété : son origine, son histoire, sa saveur et sa valeur nutritionnelle."
       }
     ]
   },

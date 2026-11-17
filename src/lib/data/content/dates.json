@@ -530,6 +530,10 @@
       "amount": 40,
       "currency": "SAR"
     },
+    "compareAtPrice": {
+      "amount": 45,
+      "currency": "SAR"
+    },
     "availability": "in-stock",
     "contentStatus": "published",
     "kind": "date",
@@ -549,11 +553,11 @@
     "weightOptions": [],
     "grades": [
       {
-        "id": "g-30",
+        "id": "g-40",
         "label": {
-          "ar": "30 ريال/كجم",
-          "en": "SAR 30/kg",
-          "fr": "30 SAR/kg"
+          "ar": "40 ريال/كجم",
+          "en": "SAR 40/kg",
+          "fr": "40 SAR/kg"
         },
         "pricePerKg": {
           "amount": 40,
@@ -562,11 +566,11 @@
         "tier": "premium"
       },
       {
-        "id": "g-25",
+        "id": "g-30",
         "label": {
-          "ar": "25 ريال/كجم",
-          "en": "SAR 25/kg",
-          "fr": "25 SAR/kg"
+          "ar": "30 ريال/كجم",
+          "en": "SAR 30/kg",
+          "fr": "30 SAR/kg"
         },
         "pricePerKg": {
           "amount": 30,
@@ -575,7 +579,7 @@
         "tier": "medium"
       }
     ],
-    "defaultGradeId": "g-30",
+    "defaultGradeId": "g-40",
     "texture": "semi-soft"
   },
   {
@@ -718,14 +722,24 @@
       "id": "Medjool"
     },
     "teaser": {
-      "ar": "تمر عالي العيار بلحم سميك طري ذائب ونكهة كراميل-عسل غنية — من إنتاج مزارع المملكة.",
-      "en": "A large-calibre date with thick, melting flesh and rich caramel-honey notes — grown in the Kingdom.",
-      "fr": "Une datte de gros calibre à la chair épaisse et fondante, aux notes de caramel et de miel — issue des fermes du Royaume.",
-      "tr": "Kalın ve eriyen etli, zengin karamel-bal notalı iri kalibre hurma — Krallık çiftliklerinden.",
-      "ur": "بڑے سائز کی کھجور — موٹا، پگھلنے والا گوشت اور کیریمل-شہد کا بھرپور ذائقہ، مملکت کے فارموں سے۔",
-      "ms": "Kurma kaliber besar dengan isi tebal yang lembut meleleh dan rasa karamel-madu yang kaya — dari ladang Kerajaan.",
-      "bn": "বড় সাইজের খেজুর — পুরু, গলে যাওয়া শাঁস ও সমৃদ্ধ ক্যারামেল-মধু স্বাদ — রাজ্যের খামার থেকে।",
-      "id": "Kurma kaliber besar dengan daging tebal yang lembut meleleh dan rasa karamel-madu yang kaya — dari perkebunan Kerajaan."
+      "ar": "تمر المجدول الملكي الفاخر - سعودي أصلي 100%",
+      "en": "Premium Royal Medjool Dates – 100% Authentic Saudi Product",
+      "fr": "Dattes Medjool royales de luxe – 100 % authentiques, d'origine saoudienne",
+      "tr": "Premium Royal Medjool Hurmaları - %100 Orijinal Suudi Arabistan",
+      "ur": "پریمیم رائل میڈجول تاریخیں - 100% مستند سعودی",
+      "ms": "كورما ڤريميوم رويل ميدجول - 100% اصلي سعودي",
+      "bn": "প্রিমিয়াম রয়্যাল মেডজুল খেজুর - ১০০% খাঁটি সৌদি",
+      "id": "Kurma Medjool Royal Premium - 100% Asli Saudi"
+    },
+    "description": {
+      "ar": "إرتقِ بضيافتك إلى مستوى ملكي مع تمر المجدول الفاخر و الأصلي \nمن أجود مزارع المملكة.\nيتميز بحبته الكبيرة عالية العيار، ولحمه السّميك الطّريّ الذي يذوب في الفم، مع نكهة غنيّة و فاخرة تمزج بين حلاوة الكراميل والعسل الطّبيعي.\nتمر المجدول الملكي الفاخر هو خيار النّخبة الأول للإهداء الفاخر والضّيافة الإستثنائية.",
+      "en": "Elevate your hospitality to a royal standard with premium, authentic Medjool dates—sourced from the finest farms in the Kingdom.\nThese dates are distinguished by their large, high-grade size and thick, tender flesh that melts in your mouth, offering a rich, luxurious flavor that blends the sweetness of caramel with natural honey.\nPremium Royal Medjool dates are the top choice for the elite—perfect for sophisticated gifting and exceptional hospitality.",
+      "fr": "Élevez votre hospitalité à un niveau royal grâce aux dattes Medjool authentiques et de qualité supérieure, issues des meilleures plantations du Royaume.\nElles se distinguent par leur gros calibre et leur chair épaisse et onctueuse qui fond en bouche, offrant une saveur riche et raffinée, mêlant la douceur du caramel à celle du miel naturel.\nLes dattes Medjool royales constituent le choix privilégié de l'élite pour des cadeaux prestigieux et une hospitalité exceptionnelle.",
+      "tr": "Krallığın en iyi çiftliklerinden gelen birinci sınıf, otantik Medjool hurmalarıyla misafirperverliğinizi kraliyet seviyesine yükseltin.\n\nBüyük, yüksek kaliteli meyveleri, ağızda eriyen kalın, yumuşak eti ve karamelin tatlılığı ile doğal balın harmanlandığı zengin, lüks lezzetiyle öne çıkan bu hurmalar, lüks hediyeler ve olağanüstü misafirperverlik için en ideal seçimdir.\nBirinci sınıf kraliyet Medjool hurmaları, lüks hediyeler ve olağanüstü misafirperverlik için mükemmel bir tercihtir.",
+      "ur": "بادشاہی کے بہترین فارموں سے پریمیم، مستند میڈجول تاریخوں کے ساتھ اپنی مہمان نوازی کو شاہی سطح تک بلند کریں۔\n\nان کے بڑے، اعلیٰ قسم کے پھل، موٹا، نرم گوشت جو آپ کے منہ میں پگھلتا ہے، اور ایک بھرپور، پرتعیش ذائقہ جو قدرتی شہد کے ساتھ کیریمل کی مٹھاس کو ملا دیتا ہے۔\nپریمیم شاہی میڈجول تاریخیں پرتعیش تحائف اور غیر معمولی مہمان نوازی کے لیے حتمی انتخاب ہیں۔",
+      "bn": "রাজ্যের সেরা খামারগুলো থেকে আসা উৎকৃষ্ট ও খাঁটি মেজুল খেজুর দিয়ে আপনার আতিথেয়তাকে রাজকীয় পর্যায়ে উন্নীত করুন।\n\nএর বিশেষত্ব হলো এর বড়, উচ্চ মানের ফল, মুখে দিলেই গলে যাওয়া পুরু ও নরম শাঁস এবং ক্যারামেলের মিষ্টির সাথে প্রাকৃতিক মধুর মিশ্রণে তৈরি এক সমৃদ্ধ ও বিলাসবহুল স্বাদ। বিলাসবহুল উপহার এবং অসাধারণ আতিথেয়তার জন্য উৎকৃষ্ট রাজকীয় মেজুল খেজুরই হলো সর্বোত্তম পছন্দ।",
+      "ms": "تيڠڬيكن رامه تامو اندا ك تاهڤ دراج دڠن كورما Medjool ڤريميوم دان اوتام دري لادڠ-لادڠ ترباءيق د كراجأن.\n\nدبيذاكن دڠن بواه يڠ بسر دان بركواليتي تيڠڬي، داڬيڠ يڠ تبل دان لمبوت يڠ منچايركن د دالم مولوت اندا، دان راس يڠ كاي دان ميواه يڠ مڠڬابوڠكن كمانيسن كراميل دڠن مادو سمولا جادي.\nتاريخ ميدجول دراج ڤريميوم اداله ڤيليهن تراخير اونتوق هديه ميواه دان رامه تامو يڠ لوار بياسا.",
+      "id": "Tingkatkan keramahan Anda ke tingkat kerajaan dengan kurma Medjool premium dan otentik dari perkebunan terbaik di Kerajaan.\n\nKurma ini terkenal dengan buahnya yang besar dan berkualitas tinggi, daging buah yang tebal dan lembut yang meleleh di mulut, serta rasa yang kaya dan mewah yang memadukan manisnya karamel dengan madu alami.\nKurma Medjool premium kerajaan adalah pilihan terbaik untuk hadiah mewah dan keramahan yang luar biasa."
     },
     "images": [
       "/images/dates/medjool.jpg",
@@ -768,30 +782,34 @@
       "amount": 45,
       "currency": "SAR"
     },
+    "compareAtPrice": {
+      "amount": 50,
+      "currency": "SAR"
+    },
     "availability": "in-stock",
     "contentStatus": "published",
     "kind": "date",
     "category": "kingdom",
     "varietySlug": "medjool",
     "origin": {
-      "ar": "السعودية",
-      "en": "Saudi Arabia",
-      "fr": "Arabie saoudite",
-      "tr": "Suudi Arabistan",
-      "ur": "سعودی عرب",
-      "ms": "Arab Saudi",
+      "ar": "السّعوديّة - المدينة المنوّرة - القصيم",
+      "en": "Saudi Arabia - Medina - Qassim",
+      "fr": "Arabie saoudite - Médine - Al-Qassim",
+      "tr": "Suudi Arabistan - Medine - El Kasım",
+      "ur": "سعودی عرب - مدینہ - القاسم",
+      "ms": "عرب سعودي - مدينه - القاسم",
       "bn": "সৌদি আরব",
-      "id": "Arab Saudi"
+      "id": "Arab Saudi - Madinah - Al-Qassim"
     },
     "unit": "kg",
     "weightOptions": [],
     "grades": [
       {
-        "id": "g-35",
+        "id": "g-45",
         "label": {
-          "ar": "35 ريال/كجم",
-          "en": "SAR 35/kg",
-          "fr": "35 SAR/kg"
+          "ar": "45 ريال/كجم",
+          "en": "SAR 45/kg",
+          "fr": "45 SAR/kg"
         },
         "pricePerKg": {
           "amount": 45,
@@ -800,11 +818,11 @@
         "tier": "premium"
       },
       {
-        "id": "g-25",
+        "id": "g-35",
         "label": {
-          "ar": "25 ريال/كجم",
-          "en": "SAR 25/kg",
-          "fr": "25 SAR/kg"
+          "ar": "35 ريال/كجم",
+          "en": "SAR 35/kg",
+          "fr": "35 SAR/kg"
         },
         "pricePerKg": {
           "amount": 35,
@@ -832,8 +850,18 @@
         "images": []
       }
     ],
-    "defaultGradeId": "g-35",
-    "texture": "soft"
+    "defaultGradeId": "g-45",
+    "texture": "soft",
+    "offerLabel": {
+      "ar": "أصلي 100%",
+      "en": "100% authentic",
+      "fr": "100 % authentique",
+      "ur": "100% اصل",
+      "tr": "%100 Orijinal",
+      "bn": "১০০% আসল",
+      "ms": "100% اصلي",
+      "id": "100% Asli"
+    }
   },
   {
     "kind": "date",
