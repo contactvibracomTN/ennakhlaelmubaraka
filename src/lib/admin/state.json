@@ -647,6 +647,55 @@
         "by": "catalogue existant",
         "at": "2026-11-10T15:35:07.468Z"
       }
+    },
+    "gift:belgian-pistachio-chocolate-20g": {
+      "tr": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-17T09:49:11.081Z",
+        "machine": false
+      },
+      "ms": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-17T09:49:13.357Z",
+        "machine": false
+      },
+      "fr": {
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-17T09:47:45.616Z",
+        "machine": true
+      },
+      "ur": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-17T09:48:26.088Z",
+        "machine": false
+      },
+      "bn": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-17T09:48:18.641Z",
+        "machine": false
+      },
+      "id": {
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-17T09:47:45.648Z",
+        "machine": true
+      },
+      "en": {
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-17T09:49:12.261Z",
+        "machine": false
+      },
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-17T09:47:45.601Z"
+      }
     }
   }
 }

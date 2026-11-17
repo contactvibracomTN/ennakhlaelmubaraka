@@ -64,6 +64,9 @@ export default async function GiftDetailPage({
   const name = pick(product.name, localeTyped);
   const category = giftCategories.find((c) => c.slug === product.category);
   const size = product.sizeLabel ? pick(product.sizeLabel, localeTyped) : null;
+  const description = product.description
+    ? pick(product.description, localeTyped)
+    : null;
   const contents = product.contents?.map((c) => pick(c, localeTyped)) ?? [];
 
   const related = (await staticProductRepository.getGiftProducts())
@@ -141,7 +144,7 @@ export default async function GiftDetailPage({
 
             {size ? (
               <p className="mt-3 text-sm text-muted">
-                <span className="font-semibold text-forest">{localeTyped === "ar" ? "مكوّنات العلبة:" : t("size") + ":"} </span>
+                <span className="font-semibold text-forest">{t("size")}:</span>{" "}
                 {size}
               </p>
             ) : null}
@@ -196,6 +199,17 @@ export default async function GiftDetailPage({
                 </div>
               ) : null}
             </div>
+
+            {description ? (
+              <div className="mt-8 rounded-2xl border border-line bg-white p-6">
+                <h2 className="text-sm font-semibold text-forest">
+                  {t("details")}
+                </h2>
+                <p className="mt-3 text-sm leading-relaxed text-charcoal/80">
+                  {description}
+                </p>
+              </div>
+            ) : null}
 
             {contents.length > 0 ? (
               <div className="mt-8 rounded-2xl border border-line bg-ivory-deep/40 p-6">

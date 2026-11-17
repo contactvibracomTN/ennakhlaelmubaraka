@@ -238,7 +238,19 @@ export function GiftItemEditor({
             multiline
           />
           <LocalizedInput
+            label="Description longue"
+            hint="Texte affiché dans la section « Détails » de la fiche produit."
+            record={doc.description}
+            onChange={(r) => patch({ description: r })}
+            statuses={statuses}
+            kind="gift"
+            slug={originalSlug}
+            source={sourceLocale}
+            multiline
+          />
+          <LocalizedInput
             label="Ligne de taille (sizeLabel)"
+            hint="Format court, ex. « 20 جم » / « 20 g »."
             record={doc.sizeLabel}
             onChange={(r) => patch({ sizeLabel: r })}
             statuses={statuses}

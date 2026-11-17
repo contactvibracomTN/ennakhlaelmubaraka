@@ -1,37 +1,63 @@
 [
   {
     "id": "misc-sweets",
-    "slug": "sweets-selection",
-    "kind": "gift",
-    "category": "sweets",
+    "slug": "belgian-pistachio-chocolate-20g",
     "name": {
-      "ar": "حلويات مشكّلة",
-      "en": "Assorted Sweets",
-      "fr": "Douceurs assorties",
-      "tr": "Karışık Tatlılar",
-      "ur": "مشترک مٹھائیاں",
-      "ms": "Manisan Campuran",
-      "bn": "মিশ্র মিষ্টি",
-      "id": "Aneka Manisan"
+      "ar": "شوكولاتة بالفستق البلجيكية – BS – 20 جم",
+      "en": "Belgium Chocolate chocosticks - BS - Pistachio",
+      "fr": "Bâtonnets de chocolat belge – BS – Pistache",
+      "tr": "Belçika çikolatası çubukları - BS - Antep fıstıklı",
+      "ur": "بیلجیئم چاکلیٹ چوکو اسٹکس - بی ایس - پستہ",
+      "ms": "Stik Cokelat Belgia - BS - Pistachio",
+      "bn": "বেলজিয়ান চকলেট চকোস্টিকস - বিএস - পেস্তা",
+      "id": "Stik Cokelat Belgia - BS - Pistachio"
     },
     "teaser": {
-      "ar": "بطاقة منتج قيد الإعداد — ستُضاف التفاصيل قريبًا.",
-      "en": "Product sheet in preparation — details coming soon.",
-      "fr": "Fiche produit en préparation — les détails arrivent bientôt.",
-      "tr": "Ürün sayfası hazırlanıyor — ayrıntılar yakında eklenecek.",
-      "ur": "مصنوعات کا صفحہ تیاری میں ہے — تفصیلات جلد شامل کی جائیں گی۔",
-      "ms": "Helaian produk sedang disediakan — butiran akan menyusul.",
-      "bn": "পণ্য পাতা প্রস্তুত হচ্ছে — বিবরণ শীঘ্রই যোগ করা হবে।",
-      "id": "Lembar produk sedang disiapkan — detail akan segera ditambahkan."
+      "ar": "متعة الشكلاطة البلجيكيّة الأصليّة ممزوجة بنكهة الفستق الرّائعة",
+      "en": "The delight of authentic Belgian chocolate blended with the exquisite flavor of pistachio",
+      "fr": "Le plaisir du véritable chocolat belge, allié à la saveur exquise de la pistache.",
+      "tr": "Hakiki Belçika çikolatasının hazzı, antep fıstığının enfes lezzetiyle buluşuyor",
+      "ur": "خالص بیلجیئن چاکلیٹ کی لذت، پستے کے عمدہ ذائقے کے ساتھ",
+      "ms": "كڬمبيراان چوكلت بيلڬيا يڠ اوتام دچمڤور دڠن راس ڤيسڠ يڠ اينده",
+      "bn": "খাঁটি বেলজিয়ান চকোলেটের আনন্দ আর পেস্তা বাদামের চমৎকার স্বাদের এক অপূর্ব সংমিশ্রণ।",
+      "id": "Kenikmatan cokelat Belgia autentik yang berpadu dengan cita rasa pistachio yang istimewa"
     },
-    "images": [],
+    "images": [
+      "/images/uploads/1794905981181-download.png",
+      "/images/uploads/1794906039927--20-5.jpeg"
+    ],
     "price": {
-      "amount": 0,
+      "amount": 40,
+      "currency": "SAR"
+    },
+    "compareAtPrice": {
+      "amount": 45,
       "currency": "SAR"
     },
     "availability": "preorder",
     "contentStatus": "draft",
-    "isConceptual": true
+    "kind": "gift",
+    "category": "sweets",
+    "sizeLabel": {
+      "ar": "20 جم",
+      "en": "20 g",
+      "fr": "20 g",
+      "tr": "20 g",
+      "ur": "20 گرام",
+      "ms": "20 g",
+      "bn": "২০ গ্রাম",
+      "id": "20 g"
+    },
+    "description": {
+      "ar": "مزيج رائع و جدّ شهيّ مكوّن من الشكلاطة و الفستق من إنتاج بي-إس للشكولاطة.. خيار مميّز للضيافات الرّاقية و الجلسات و المناسبات العائليّة و التّجمّعات",
+      "bn": "চকোলেট ও ​​পেস্তা বাদামের এক চমৎকার এবং অত্যন্ত সুস্বাদু মিশ্রণ, যা তৈরি করেছে ‘বি.এস. চকোলেট’ (B.S. Chocolate)—এটি আভিজাত্যপূর্ণ আতিথেয়তা, সামাজিক অনুষ্ঠান, পারিবারিক আয়োজন কিংবা যেকোনো ঘরোয়া আড্ডার জন্য একটি দারুণ পছন্দ।",
+      "ur": "چاکلیٹ اور پستے کا ایک شاندار اور انتہائی لذیذ امتزاج، جسے ’بی ایس چاکلیٹ‘ (B.S. Chocolate) نے تیار کیا ہے۔ یہ نفیس مہمان نوازی، سماجی تقریبات، خاندانی مواقع اور میل ملاپ کے اجتماعات کے لیے ایک بہترین انتخاب ہے۔",
+      "tr": "B.S. Chocolate tarafından hazırlanan, çikolata ve Antep fıstığının harika ve gerçekten lezzetli bir karışımı; şık ikramlar, sosyal buluşmalar, aile toplantıları ve bir araya gelinen tüm özel anlar için mükemmel bir seçim.",
+      "ms": "ڬابوڠن چوكلت دان ڤيسڠ يڠ اينده دان بنر-بنر لاذات، دبوات اوليه B.S. چوكلت—ڤيليهن يڠ چمرلڠ اونتوق هوسڤيتليتي ايليڬن، ڤرهيمڤونن سوسيال، مجليس كلوارڬ، دان ڤرتموان.",
+      "id": "Perpaduan cokelat dan kacang pistasi yang luar biasa dan sungguh lezat, kreasi dari B.S. Chocolate—pilihan sempurna untuk menjamu tamu dengan elegan, acara sosial, momen keluarga, maupun berbagai kesempatan berkumpul lainnya.",
+      "en": "A wonderful and truly delicious blend of chocolate and pistachios, crafted by B.S. Chocolate—an excellent choice for elegant hospitality, social gatherings, family occasions, and get-togethers.",
+      "fr": "Une alliance merveilleuse et particulièrement savoureuse de chocolat et de pistache, signée B.S. Chocolate. Un choix raffiné pour vos réceptions, moments de convivialité, réunions de famille et autres rassemblements."
+    }
   },
   {
     "id": "misc-nuts",

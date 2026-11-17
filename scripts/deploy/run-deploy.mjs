@@ -47,8 +47,18 @@ setStatus("starting", { startedAt });
 /* ---------- 1. npm run check ---------- */
 log("→ phase check: npm run check");
 setStatus("check", { startedAt });
-const check = spawnSync("npm.cmd", ["run", "check"], { cwd: ROOT, encoding: "utf8", timeout: 300_000, maxBuffer: 64 * 1024 * 1024 });
+// `shell: true` is required on Windows: Node 24 refuses to spawn `npm.cmd`
+// directly (EINVAL), which made every admin deploy fail in ~3 ms with an empty
+// log even when `npm run check` passed in a terminal.
+const check = spawnSync("npm", ["run", "check"], {
+  cwd: ROOT,
+  encoding: "utf8",
+  shell: true,
+  timeout: 300_000,
+  maxBuffer: 64 * 1024 * 1024,
+});
 if (check.error || check.status !== 0) {
+  log("check error: " + (check.error ? check.error.message : "none"));
   log((check.stdout || "") + "\n" + (check.stderr || ""));
   fail("npm run check a échoué — rien n'a été déployé. Corrigez les erreurs puis redéployez.", startedAt);
 }
@@ -107,13 +117,15 @@ try {
   rmSync(join(ROOT, ".next"), { recursive: true, force: true });
 } catch {}
 
-const build = spawnSync("npm.cmd", ["run", "build"], {
+const build = spawnSync("npm", ["run", "build"], {
   cwd: ROOT,
   encoding: "utf8",
+  shell: true,
   timeout: 1_800_000,
   maxBuffer: 64 * 1024 * 1024,
 });
 if (build.error || build.status !== 0) {
+  log("build error: " + (build.error ? build.error.message : "none"));
   log((build.stdout || "") + "\n" + (build.stderr || ""));
   fail("npm run build a échoué — le site reste sur la version précédente. Voir logs/deploy.log.", startedAt);
 }
