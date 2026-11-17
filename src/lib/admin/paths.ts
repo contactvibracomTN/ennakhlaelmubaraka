@@ -11,10 +11,14 @@ const FALLBACK_ROOT = "C:\\Users\\BY 4\\Desktop\\nakhla-v3";
 
 export function projectRoot(): string {
   const cwd = process.cwd();
-  if (existsSync(join(cwd, "package.json")) && existsSync(join(cwd, "src", "messages"))) {
-    return cwd;
-  }
-  return FALLBACK_ROOT;
+  // `src/messages` proves we are at the project root on the shop machine.
+  // On Vercel the uploads route only traces `public/images/uploads`, so accept
+  // that folder as the second proof (otherwise the Windows fallback would be
+  // used inside the serverless function and `/media/uploads/...` would 404).
+  const looksLikeRoot =
+    existsSync(join(cwd, "package.json")) &&
+    (existsSync(join(cwd, "src", "messages")) || existsSync(join(cwd, "public", "images")));
+  return looksLikeRoot ? cwd : FALLBACK_ROOT;
 }
 
 export const contentDir = () => join(projectRoot(), "src", "lib", "data", "content");

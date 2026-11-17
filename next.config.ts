@@ -21,6 +21,16 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: __dirname,
   },
+  /**
+   * The `/media/uploads/[name]` route reads the uploads folder at request time
+   * (see the route's comment). Vercel's file tracing cannot see that dynamic
+   * `readFile`, so include the folder explicitly in the route's function
+   * bundle. Without it the local admin works but the Vercel preview cannot
+   * serve the same files through the route.
+   */
+  outputFileTracingIncludes: {
+    "/media/uploads/*": ["./public/images/uploads/**/*"],
+  },
   experimental: {
     /**
      * The admin uploads original photos through a Server Action. Next.js caps
