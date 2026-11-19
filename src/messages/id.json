@@ -350,7 +350,8 @@
     "faqTitle": "Pertanyaan Umum",
     "privacy": "Kebijakan Privasi",
     "terms": "Syarat Penggunaan",
-    "legal": "Legal"
+    "legal": "Legal",
+    "cookieSettings": "Pengaturan cookie"
   },
   "whatsapp": {
     "greeting": "Halo Al Nakhlah Al Mubarakah 👋 Saya ingin bertanya tentang produk Anda.",
@@ -412,35 +413,9 @@
   },
   "privacy": {
     "title": "Kebijakan Privasi",
-    "intro": "Ringkasan singkat dan jelas tentang data yang kami kumpulkan saat memesan, alasannya, dan yang tidak pernah kami kumpulkan.",
     "metaTitle": "Kebijakan Privasi — Al Nakhlah Al Mubarakah",
-    "metaDescription": "Apa yang dikumpulkan checkout kami dan mengapa, serta yang tidak pernah kami lakukan: tanpa pembayaran online, tanpa berbagi data, tanpa analitik.",
-    "sections": [
-      {
-        "heading": "Data saat pemesanan",
-        "body": "Saat memesan kami mengumpulkan nama, nomor ponsel, email, dan alamat (untuk ambil atau kirim). Tidak ada data kartu karena situs tidak menerima pembayaran online."
-      },
-      {
-        "heading": "Mengapa",
-        "body": "Menyiapkan pesanan, menghubungi Anda di WhatsApp (bukti transfer), mengatur pengambilan/pengiriman, dan menjawab pertanyaan lewat email."
-      },
-      {
-        "heading": "Yang tidak kami lakukan",
-        "body": "Kami tidak menjual atau membagikan data ke pihak ketiga, tidak mengirimnya ke layanan iklan/analitik, dan tidak menyimpannya di luar percakapan toko (WhatsApp dan email)."
-      },
-      {
-        "heading": "Penyimpanan",
-        "body": "Percakapan pesanan disimpan toko dan dihapus atas permintaan Anda. Tidak ada database pelanggan umum."
-      },
-      {
-        "heading": "Kontak",
-        "body": "Untuk permintaan apa pun tentang data Anda: WhatsApp +966 59 610 1097 atau nakhla.mubaraka26@gmail.com"
-      },
-      {
-        "heading": "Badan hukum",
-        "body": "مؤسسة النخلة المباركة للتجارة — Registrasi Komersial 7043497630, Madinah."
-      }
-    ]
+    "metaDescription": "Apa yang dikumpulkan formulir pemesanan, kontak, hadiah, dan ulasan, mengapa, siapa yang menerimanya, dan berapa lama disimpan.",
+    "contentsLabel": "Daftar isi kebijakan"
   },
   "terms": {
     "title": "Syarat Penggunaan",
@@ -574,6 +549,14 @@
     "privacy": "Dengan mengirim ulasan, Anda setuju ulasan diterbitkan dengan nama, pekerjaan, dan kewarganegaraan Anda setelah moderasi. Nomor WhatsApp Anda tetap privat.",
     "verified": "Pelanggan terverifikasi",
     "publishedOn": "Diterbitkan pada {date}",
-    "starLabel": "{value} dari 5"
+    "starLabel": "{value} dari 5",
+    "publishConsent": "Saya setuju nama, pekerjaan, dan negara saya diterbitkan bersama ulasan saya."
+  },
+  "consent": {
+    "title": "Preferensi privasi Anda",
+    "body": "Kami menggunakan Google Tag Manager dan alat analitik hanya jika Anda menerimanya. Anda dapat mengubah pilihan kapan saja dari footer.",
+    "privacyLink": "Kebijakan privasi",
+    "accept": "Terima",
+    "reject": "Tolak"
   }
 }

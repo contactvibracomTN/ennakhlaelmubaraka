@@ -86,8 +86,8 @@ export const siteConfig = {
      * Meta Pixel instead — never enable both, to avoid double counting.
      */
     metaPixelDirect: false,
-    /** Consent banner — disabled while no consent framework is required. */
-    consentRequired: false,
+    /** Non-essential tracking must never load before an explicit choice. */
+    consentRequired: true,
   },
 
   /** Optional order webhook (Make/Zapier/n8n). Empty → WhatsApp only. */

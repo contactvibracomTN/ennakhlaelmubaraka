@@ -51,6 +51,7 @@ export async function submitTestimonialAction(formData: FormData): Promise<Testi
     message: str(formData, "message"),
     rating: str(formData, "rating"),
     locale: str(formData, "locale") || "ar",
+    publishConsent: str(formData, "publishConsent"),
   });
   if (!parsed.success) return { ok: false, code: "invalid" };
 

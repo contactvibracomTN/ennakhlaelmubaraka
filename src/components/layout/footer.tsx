@@ -3,6 +3,7 @@ import { MapPin, Mail, ExternalLink } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { SocialLinks } from "@/components/layout/social-links";
 import { FooterFaqAccordion } from "@/components/layout/footer-faq-accordion";
+import { ConsentSettings } from "@/components/layout/consent-settings";
 import { WhatsAppLogo } from "@/components/icons/whatsapp-logo";
 import {
   buildWhatsAppUrl,
@@ -187,6 +188,7 @@ export async function Footer() {
             <Link href="/terms" className="transition-colors hover:text-gold">
               {t("terms")}
             </Link>
+            <ConsentSettings />
           </nav>
           <p>{t("madeWith")}</p>
         </div>

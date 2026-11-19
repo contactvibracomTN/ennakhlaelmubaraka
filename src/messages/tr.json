@@ -350,7 +350,8 @@
     "faqTitle": "Sıkça Sorulan Sorular",
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Koşulları",
-    "legal": "Yasal"
+    "legal": "Yasal",
+    "cookieSettings": "Çerez ayarları"
   },
   "whatsapp": {
     "greeting": "Merhaba Al Nakhlah Al Mubarakah 👋 Ürünleriniz hakkında bilgi almak istiyorum.",
@@ -412,35 +413,9 @@
   },
   "privacy": {
     "title": "Gizlilik Politikası",
-    "intro": "Sipariş sırasında ne topladığımızın, nedeninin ve asla toplamadıklarımızın kısa ve açık özeti — gizli koşul yok.",
     "metaTitle": "Gizlilik Politikası — Al Nakhlah Al Mubarakah",
-    "metaDescription": "Checkout işlemimiz ne toplar ve neden; asla yapmadıklarımız: çevrimiçi ödeme yok, veri paylaşımı yok, analitik yok.",
-    "sections": [
-      {
-        "heading": "Siparişte toplananlar",
-        "body": "Sipariş verildiğinde ad, cep telefonu, e-posta ve adres (teslim alma veya kargo için) toplanır. Sitede çevrimiçi ödeme olmadığından kart bilgisi alınmaz."
-      },
-      {
-        "heading": "Neden",
-        "body": "Siparişi hazırlamak, WhatsApp'tan havale dekontu istemek, teslim almayı/kargoyu ayarlamak ve soruları e-postayla yanıtlamak için."
-      },
-      {
-        "heading": "Asla yapmadıklarımız",
-        "body": "Verilerinizi satmayız, üçüncü taraflarla paylaşmayız, reklam/analiz hizmetlerine göndermeyiz ve mağazanın kendi yazışmaları (WhatsApp/e-posta) dışında saklamayız."
-      },
-      {
-        "heading": "Saklama",
-        "body": "Sipariş yazışmaları mağazada tutulur ve isteğiniz üzerine silinir. Genel bir müşteri veritabanı yoktur."
-      },
-      {
-        "heading": "İletişim",
-        "body": "Verilerinizle ilgili her talepte: WhatsApp +966 59 610 1097 veya nakhla.mubaraka26@gmail.com"
-      },
-      {
-        "heading": "Tüzel kişilik",
-        "body": "مؤسسة النخلة المباركة للتجارة — Ticari Sicil 7043497630, Medine."
-      }
-    ]
+    "metaDescription": "Sipariş, iletişim, hediye ve yorum formlarının ne topladığı, neden, kimin aldığı ve ne kadar saklandığı.",
+    "contentsLabel": "Politika içindekiler"
   },
   "terms": {
     "title": "Kullanım Koşulları",
@@ -574,6 +549,14 @@
     "privacy": "Yorumunuzu göndererek, incelemeden sonra adınız, mesleğiniz ve uyruğunuzla yayınlanmasını kabul edersiniz. WhatsApp numaranız gizli kalır.",
     "verified": "Doğrulanmış müşteri",
     "publishedOn": "{date} tarihinde yayınlandı",
-    "starLabel": "5 üzerinden {value}"
+    "starLabel": "5 üzerinden {value}",
+    "publishConsent": "Yorumumla birlikte adımın, mesleğimin ve ülkemin yayımlanmasını kabul ediyorum."
+  },
+  "consent": {
+    "title": "Gizlilik tercihleriniz",
+    "body": "Google Tag Manager ve analitik araçlarını yalnızca kabul ederseniz kullanırız. Kararınızı altbilgiden istediğiniz zaman değiştirebilirsiniz.",
+    "privacyLink": "Gizlilik politikası",
+    "accept": "Kabul et",
+    "reject": "Reddet"
   }
 }

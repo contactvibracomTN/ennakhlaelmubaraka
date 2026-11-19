@@ -1,7 +1,6 @@
 import type { PropsWithChildren } from "react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import {
   Amiri,
   IBM_Plex_Sans_Arabic,
@@ -155,34 +154,7 @@ export default async function LocaleLayout({
       dir={meta?.dir ?? "rtl"}
       className={`${amiri.variable} ${plexArabic.variable} ${marcellus.variable} ${inter.variable} ${notoNastaliqUrdu.variable} ${notoSansBengali.variable} h-full`}
     >
-      {/* Google Tag Manager — load the shared tracking container early. */}
-      <head>
-        {/* Initialize the data layer and emit GTM's startup event before loading
-            the container, as required by the standard GTM bootstrap. */}
-        {siteConfig.analytics.gtmId ? (
-          /* eslint-disable-next-line @next/next/next-script-for-ga */
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${siteConfig.analytics.gtmId}');`,
-            }}
-          />
-        ) : null}
-      </head>
       <body className="flex min-h-dvh flex-col bg-ivory text-foreground antialiased">
-        {/* Google Tag Manager (noscript) — right after <body> (Google's
-            requirement). Rendered only when a GTM id is configured. */}
-        {siteConfig.analytics.gtmId ? (
-          <noscript>
-            <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=${siteConfig.analytics.gtmId}`}
-              height="0"
-              width="0"
-              style={{ display: "none", visibility: "hidden" }}
-              title="Google Tag Manager"
-            />
-          </noscript>
-        ) : null}
-
         <NextIntlClientProvider>
           <CartProvider>
             <a href="#main" className="skip-link">
@@ -197,56 +169,6 @@ export default async function LocaleLayout({
             <WhatsAppFloat />
             <ConsentBanner />
             <CartDrawer />
-
-            {/* Analytics — GA4 lives INSIDE GTM when `managedByGtm` is true
-                (single source of truth → no double counting); otherwise GA4 is
-                injected directly (legacy behaviour). The Meta Pixel is injected
-                directly whenever `metaPixelDirect` is true, regardless of GTM. */}
-            {siteConfig.analytics.ga4Id && !siteConfig.analytics.managedByGtm ? (
-              <>
-                <Script
-                  src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.analytics.ga4Id}`}
-                  strategy="afterInteractive"
-                />
-                <Script id="ga4-init" strategy="afterInteractive">
-                  {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', '${siteConfig.analytics.ga4Id}');`}
-                </Script>
-              </>
-            ) : null}
-            {siteConfig.analytics.metaPixelId &&
-            (siteConfig.analytics.metaPixelDirect ||
-              !siteConfig.analytics.managedByGtm) ? (
-              <>
-                <Script id="meta-pixel" strategy="afterInteractive">
-                  {`!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '${siteConfig.analytics.metaPixelId}');
-fbq('track', 'PageView');`}
-                </Script>
-                <noscript>
-                  {/* The Meta Pixel fallback must stay a plain tracking pixel —
-                      next/image would rewrite its src. */}
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    height="1"
-                    width="1"
-                    style={{ display: "none" }}
-                    src={`https://www.facebook.com/tr?id=${siteConfig.analytics.metaPixelId}&ev=PageView&noscript=1`}
-                    alt=""
-                  />
-                </noscript>
-              </>
-            ) : null}
           </CartProvider>
         </NextIntlClientProvider>
       </body>

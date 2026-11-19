@@ -251,6 +251,7 @@ export const testimonialSubmissionSchema = z.object({
   message: z.string().trim().min(10).max(1000),
   rating: z.coerce.number().int().min(1).max(5),
   locale: z.string().min(2).max(8).optional().default("ar"),
+  publishConsent: z.literal("yes"),
 });
 
 export type TestimonialSubmission = z.infer<typeof testimonialSubmissionSchema>;

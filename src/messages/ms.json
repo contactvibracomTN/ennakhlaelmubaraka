@@ -350,7 +350,8 @@
     "faqTitle": "Soalan Lazim",
     "privacy": "Dasar Privasi",
     "terms": "Syarat Penggunaan",
-    "legal": "Perundangan"
+    "legal": "Perundangan",
+    "cookieSettings": "Tetapan kuki"
   },
   "whatsapp": {
     "greeting": "Assalamualaikum Al Nakhlah Al Mubarakah 👋 Saya ingin bertanya tentang produk anda.",
@@ -412,35 +413,9 @@
   },
   "privacy": {
     "title": "Dasar Privasi",
-    "intro": "Ringkasan ringkas yang jelas tentang data yang kami kumpul semasa pesanan, sebabnya, dan yang tidak pernah kami kumpul.",
     "metaTitle": "Dasar Privasi — Al Nakhlah Al Mubarakah",
-    "metaDescription": "Apa yang dikumpul oleh checkout kami dan mengapa, serta yang tidak pernah kami lakukan: tiada bayaran dalam talian, tiada perkongsian data, tiada analitik.",
-    "sections": [
-      {
-        "heading": "Data semasa pesanan",
-        "body": "Apabila pesanan dibuat kami mengumpul nama, nombor telefon, e-mel dan alamat (untuk ambil atau hantar). Tiada data kad kerana laman tidak menerima bayaran dalam talian."
-      },
-      {
-        "heading": "Sebabnya",
-        "body": "Menyediakan pesanan, menghubungi anda di WhatsApp (resit pindahan), mengatur ambilan/penghantaran dan membalas pertanyaan melalui e-mel."
-      },
-      {
-        "heading": "Yang tidak kami lakukan",
-        "body": "Kami tidak menjual atau berkongsi data dengan pihak ketiga, tidak menghantarnya ke perkhidmatan iklan/analitik, dan tidak menyimpannya di luar perbualan kedai (WhatsApp dan e-mel)."
-      },
-      {
-        "heading": "Penyimpanan",
-        "body": "Perbualan pesanan disimpan oleh kedai dan dipadam atas permintaan anda. Tiada pangkalan data pelanggan umum."
-      },
-      {
-        "heading": "Hubungi",
-        "body": "Untuk sebarang permintaan tentang data anda: WhatsApp +966 59 610 1097 atau nakhla.mubaraka26@gmail.com"
-      },
-      {
-        "heading": "Entiti sah",
-        "body": "مؤسسة النخلة المباركة للتجارة — Pendaftaran Komersial 7043497630, Madinah."
-      }
-    ]
+    "metaDescription": "Apa yang dikumpul oleh borang pesanan, hubungan, hadiah dan ulasan, mengapa, siapa menerimanya dan berapa lama disimpan.",
+    "contentsLabel": "Kandungan dasar"
   },
   "terms": {
     "title": "Syarat Penggunaan",
@@ -574,6 +549,14 @@
     "privacy": "Dengan menghantar ulasan, anda bersetuju ia diterbitkan bersama nama, pekerjaan dan kewarganegaraan anda selepas semakan. Nombor WhatsApp anda kekal peribadi.",
     "verified": "Pelanggan disahkan",
     "publishedOn": "Diterbitkan pada {date}",
-    "starLabel": "{value} daripada 5"
+    "starLabel": "{value} daripada 5",
+    "publishConsent": "Saya bersetuju nama, pekerjaan dan negara saya diterbitkan bersama ulasan saya."
+  },
+  "consent": {
+    "title": "Keutamaan privasi anda",
+    "body": "Kami menggunakan Google Tag Manager dan alat analitik hanya jika anda menerimanya. Anda boleh menukar pilihan bila-bila masa dari kaki laman.",
+    "privacyLink": "Dasar privasi",
+    "accept": "Terima",
+    "reject": "Tolak"
   }
 }

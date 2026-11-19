@@ -350,7 +350,8 @@
     "faqTitle": "Questions fréquentes",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
-    "legal": "Mentions légales"
+    "legal": "Mentions légales",
+    "cookieSettings": "Paramètres des témoins"
   },
   "whatsapp": {
     "greeting": "Bonjour Al Nakhlah Al Mubarakah 👋 Je souhaite me renseigner sur vos produits.",
@@ -412,35 +413,9 @@
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "intro": "Un résumé court et direct de ce que le paiement collecte, pourquoi, et de ce que nous ne collectons jamais.",
     "metaTitle": "Politique de confidentialité — Al Nakhlah Al Mubarakah",
-    "metaDescription": "Ce que notre paiement collecte et pourquoi, et ce que nous ne faisons jamais : pas de paiement en ligne, pas de partage, pas d'analytique.",
-    "sections": [
-      {
-        "heading": "Ce que nous collectons lors d'une commande",
-        "body": "Lorsqu'une commande est passée, nous collectons le nom, le numéro mobile, l'e-mail et l'adresse (retrait ou livraison). Aucune donnée de carte bancaire n'est collectée : le site n'accepte pas le paiement en ligne."
-      },
-      {
-        "heading": "Pourquoi",
-        "body": "Préparer la commande, vous écrire sur WhatsApp (reçu du virement), organiser le retrait ou la livraison, et répondre à toute question par e-mail."
-      },
-      {
-        "heading": "Ce que nous ne faisons jamais",
-        "body": "Nous ne vendons ni ne partageons vos données avec des tiers, ne les envoyons à aucun service publicitaire ou d'analyse, et ne les stockons pas hors des conversations propres de la boutique (WhatsApp et e-mail)."
-      },
-      {
-        "heading": "Conservation",
-        "body": "Les conversations de commande sont conservées par la boutique et supprimées sur demande. Pas de base clients générale."
-      },
-      {
-        "heading": "Contact",
-        "body": "Pour toute demande concernant vos données : WhatsApp +966 59 610 1097 ou nakhla.mubaraka26@gmail.com"
-      },
-      {
-        "heading": "Entité légale",
-        "body": "مؤسسة النخلة المباركة للتجارة — Registre commercial 7043497630, Médine."
-      }
-    ]
+    "metaDescription": "Ce que collectent la commande, le contact, les demandes de cadeaux et les avis, pourquoi, qui le reçoit et combien de temps il est conservé.",
+    "contentsLabel": "Sommaire de la politique"
   },
   "terms": {
     "title": "Conditions d'utilisation",
@@ -574,6 +549,14 @@
     "privacy": "En envoyant votre avis, vous acceptez sa publication avec votre nom, votre profession et votre nationalité après modération. Votre numéro WhatsApp reste privé.",
     "verified": "Client vérifié",
     "publishedOn": "Publié le {date}",
-    "starLabel": "{value} sur 5"
+    "starLabel": "{value} sur 5",
+    "publishConsent": "J’autorise la publication de mon nom, de ma fonction et de mon pays avec mon avis."
+  },
+  "consent": {
+    "title": "Vos préférences de confidentialité",
+    "body": "Nous utilisons Google Tag Manager et des outils de mesure d’audience uniquement si vous les acceptez. Vous pouvez changer votre choix à tout moment depuis le pied de page.",
+    "privacyLink": "Politique de confidentialité",
+    "accept": "Accepter",
+    "reject": "Refuser"
   }
 }

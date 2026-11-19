@@ -15,7 +15,7 @@ export const isPaymentsLive = paymentsMode === "live";
 /** Order automation: webhook configured? (WhatsApp remains the primary channel.) */
 export const hasOrderWebhook = siteConfig.orderWebhookUrl.length > 0;
 
-/** Consent banner enabled? Only when real analytics identifiers exist. */
+/** Consent banner is always shown when non-essential tracking is configured. */
 export const isConsentRequired = siteConfig.analytics.consentRequired;
 
 export const hasAnalyticsIds =

@@ -350,7 +350,8 @@
     "faqTitle": "Frequently Asked Questions",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
-    "legal": "Legal"
+    "legal": "Legal",
+    "cookieSettings": "Cookie settings"
   },
   "whatsapp": {
     "greeting": "Hello Al Nakhlah Al Mubarakah 👋 I'd like to ask about your products.",
@@ -412,35 +413,9 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "intro": "A short, plain summary of what the checkout collects, why, and what we never collect.",
     "metaTitle": "Privacy Policy — Al Nakhlah Al Mubarakah",
-    "metaDescription": "What our checkout collects and why, and what we never do: no online payment, no data sharing, no analytics.",
-    "sections": [
-      {
-        "heading": "What we collect when you order",
-        "body": "When you place an order we collect your name, mobile number, email and address (for pickup or delivery). No card or bank-account details are collected, because the site has no online payment."
-      },
-      {
-        "heading": "Why we collect it",
-        "body": "To prepare your order, to message you on WhatsApp (bank-transfer receipt), to arrange pickup or delivery, and to answer any question by email."
-      },
-      {
-        "heading": "What we never do",
-        "body": "We never sell or share your data with third parties, never send it to advertising or analytics services, and never store it outside the shop's own conversations (WhatsApp and email)."
-      },
-      {
-        "heading": "Retention",
-        "body": "Order conversations are kept by the shop and deleted on your request. There is no general customer database."
-      },
-      {
-        "heading": "Contact",
-        "body": "For any request about your data: WhatsApp +966 59 610 1097 or nakhla.mubaraka26@gmail.com"
-      },
-      {
-        "heading": "Legal entity",
-        "body": "مؤسسة النخلة المباركة للتجارة — Commercial Registration 7043497630, Madinah."
-      }
-    ]
+    "metaDescription": "What checkout, contact, gift and review forms collect, why, who receives it, and how long it is kept.",
+    "contentsLabel": "Policy contents"
   },
   "terms": {
     "title": "Terms of Use",
@@ -574,6 +549,14 @@
     "privacy": "By sending your review you agree that it may be published with your name, job and nationality after moderation. Your WhatsApp number stays private.",
     "verified": "Verified customer",
     "publishedOn": "Published on {date}",
-    "starLabel": "{value} out of 5"
+    "starLabel": "{value} out of 5",
+    "publishConsent": "I agree to my name, job and country being published with my review."
+  },
+  "consent": {
+    "title": "Your privacy preferences",
+    "body": "We use Google Tag Manager and analytics tools only if you accept them. You can change your choice at any time from the footer.",
+    "privacyLink": "Privacy policy",
+    "accept": "Accept",
+    "reject": "Reject"
   }
 }

@@ -260,6 +260,17 @@ export function TestimonialForm({ countries }: { countries: CountryOption[] }) {
                   </div>
                 </fieldset>
 
+                <label className="mt-5 flex items-start gap-2.5 rounded-xl border border-line bg-white/60 p-3 text-xs leading-relaxed text-muted">
+                  <input
+                    type="checkbox"
+                    name="publishConsent"
+                    value="yes"
+                    required
+                    className="mt-0.5 h-4 w-4 shrink-0 accent-forest"
+                  />
+                  <span>{t("publishConsent")}</span>
+                </label>
+
                 {/* Honeypot — hidden from humans, irresistible to bots. */}
                 <div className="hidden" aria-hidden="true">
                   <label>
