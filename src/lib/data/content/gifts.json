@@ -96,54 +96,17 @@
   {
     "id": "misc-coffee",
     "slug": "coffee-selection",
-    "name": {
-      "ar": "قهوة بيشة الذهبية",
-      "en": "Golden Bisha Coffee",
-      "fr": "Café Bisha Doré",
-      "tr": "Altın Bisha Kahvesi",
-      "ur": " بیشہ گولڈن کافی",
-      "ms": "Kopi Emas Bisha",
-      "bn": "বিশা গোল্ডেন কফি",
-      "id": "Kopi Emas Bisha"
-    },
-    "teaser": {
-      "ar": "استمتعوا بتجربة قهوة مميزة مع قهوة بيشة الذهبية، عنوان الذوق الرفيع والتميز. كل فنجان يحمل لكم لحظات من المتعة، ورائحة تأسر الحواس ومذاق يضيف لمسة من الدفء والضيافة لأوقاتكم\nاطلبوها الآن واستمتعوا بسحر القهوة",
-      "en": "Experience an exceptional coffee journey with Bisha Golden Coffee—the hallmark of refined taste and excellence. Every cup brings you moments of pure pleasure, an aroma that captivates the senses, and a flavor that adds a touch of warmth and hospitality to your time.\nOrder now and enjoy the magic of coffee.",
-      "fr": "Vivez un voyage café exceptionnel avec Bisha Golden Coffee, symbole du goût raffiné et de l’excellence. Chaque tasse vous offre des moments de pur plaisir, un arôme qui captive les sens et une saveur qui apporte une touche de chaleur et de convivialité à vos instants.\nCommandez dès maintenant et profitez de la magie du café ",
-      "tr": "isha Golden Coffee ile eşsiz bir kahve yolculuğu yaşayın. Zarif lezzetin ve mükemmelliğin simgesi olan her fincan, size saf bir keyif, duyularınızı büyüleyen bir aroma ve anlarınıza sıcaklık ve misafirperverlik katan özel bir tat sunar.\nHemen sipariş verin ve kahvenin büyüsünün tadını çıkarın",
-      "ur": "بیشہ گولڈن کافی کے ساتھ کافی کے ایک منفرد سفر کا تجربہ کریں۔ نفیس ذائقے اور عمدگی کی علامت، ہر کپ آپ کو خالص لطف، حواس کو مسحور کرنے والی خوشبو اور آپ کے لمحات میں گرمجوشی اور مہمان نوازی کا احساس بخشتا ہے۔\n\nابھی آرڈر کریں اور کافی کے جادو سے لطف اندوز ہوں",
-      "ms": "Nikmati pengalaman kopi yang luar biasa bersama Bisha Golden Coffee, lambang cita rasa yang istimewa dan kecemerlangan. Setiap cawan memberikan detik kenikmatan, aroma yang memikat deria serta rasa yang membawa kehangatan dan kemesraan dalam setiap saat.",
-      "bn": "বিশা গোল্ডেন কফি-এর সঙ্গে উপভোগ করুন এক অসাধারণ কফির অভিজ্ঞতা। উন্নত স্বাদ ও উৎকর্ষের প্রতীক প্রতিটি কাপ আপনাকে দেবে নির্মল আনন্দ, ইন্দ্রিয়কে মুগ্ধ করা সুবাস এবং আপনার মুহূর্তগুলোতে উষ্ণতা ও আতিথেয়তার ছোঁয়া।\nএখনই অর্ডার করুন এবং কফির জাদু উপভোগ করুন",
-      "id": "Nikmati pengalaman kopi yang istimewa bersama Bisha Golden Coffee, simbol cita rasa elegan dan kualitas unggul. Setiap cangkir menghadirkan kenikmatan, aroma yang memikat indra, serta cita rasa yang memberikan kehangatan dan keramahan di setiap momen.\nPesan sekarang dan nikmati keajaiban kopi"
-    },
-    "images": [
-      "/media/uploads/1795528917482--.webp",
-      "/media/uploads/1795528934782--.webp"
-    ],
-    "price": {
-      "amount": 0,
-      "currency": "SAR"
-    },
-    "availability": "preorder",
-    "contentStatus": "draft",
     "kind": "gift",
     "category": "coffee",
-    "isConceptual": true
-  },
-  {
-    "id": "misc-oils",
-    "slug": "oils-selection",
-    "kind": "gift",
-    "category": "oils",
     "name": {
-      "ar": "زيوت طبيعية",
-      "en": "Natural Oils",
-      "fr": "Huiles naturelles",
-      "tr": "Doğal Yağlar",
-      "ur": "قدرتی تیل",
-      "ms": "Minyak Semula Jadi",
-      "bn": "প্রাকৃতিক তেল",
-      "id": "Minyak Alami"
+      "ar": "قهوة مختارة",
+      "en": "Selected Coffee",
+      "fr": "Café sélectionné",
+      "tr": "Seçkin Kahve",
+      "ur": "منتخب قہوہ",
+      "ms": "Kopi Pilihan",
+      "bn": "নির্বাচিত কফি",
+      "id": "Kopi Pilihan"
     },
     "teaser": {
       "ar": "بطاقة منتج قيد الإعداد — ستُضاف التفاصيل قريبًا.",
@@ -162,6 +125,44 @@
     },
     "availability": "preorder",
     "contentStatus": "draft",
+    "isConceptual": true
+  },
+  {
+    "id": "misc-oils",
+    "slug": "oils-selection",
+    "name": {
+      "ar": "زيت الحبة السوداء",
+      "en": "Black Seed Oil",
+      "fr": "Huile de nigelle",
+      "tr": "Çörek otu yağı",
+      "ur": "کلونجی کا تیل",
+      "ms": "Minyak Habbatus Sauda",
+      "bn": "কালোজিরার তেল",
+      "id": "Minyak Jintan Hitam"
+    },
+    "teaser": {
+      "ar": "اكتشفوا روعة زيت الحبة السوداء، المستخلص من حبوب البركة، والمعروف بلونه المميز ورائحته الطبيعية وقيمته في العناية اليومية. منتج يجمع بين أصالة الطبيعة وجودة الاختيار، ليكون إضافة مميزة لروتينكم اليومي.",
+      "en": "Discover the wonders of black seed oil—extracted from the \"seeds of blessing\"—renowned for its distinctive color, natural aroma, and value in daily personal care. This product combines the authenticity of nature with the quality of careful selection, making it an exceptional addition to your daily routine.",
+      "fr": "Découvrez les bienfaits de l’huile de nigelle, extraite des graines de cumin noir, reconnue pour sa couleur distinctive, son parfum naturel et sa place dans les soins quotidiens. Un produit qui allie authenticité de la nature et qualité, pour enrichir votre routine quotidienne.",
+      "tr": "Çörek otu tohumlarından elde edilen çörek otu yağının güzelliğini keşfedin. Kendine özgü rengi, doğal kokusu ve günlük bakım rutinindeki yeriyle öne çıkar. Doğallığın özünü ve kaliteyi bir araya getiren özel bir ürün.",
+      "ur": "کلونجی کے بیجوں سے حاصل ہونے والے کلونجی کے تیل کی خوبیاں دریافت کریں۔ اپنی منفرد رنگت، قدرتی خوشبو اور روزمرہ کی دیکھ بھال میں اپنی اہمیت کے باعث یہ ایک خاص مصنوعات ہے، جو قدرتی خوبصورتی اور معیار کو یکجا کرتی ہے۔",
+      "ms": "Temui keistimewaan minyak habbatus sauda yang diekstrak daripada biji jintan hitam. Dikenali dengan warna yang tersendiri, aroma semula jadi dan kegunaannya dalam penjagaan harian. Produk istimewa yang menggabungkan keaslian alam semula jadi dan kualiti.",
+      "bn": "কালোজিরার বীজ থেকে তৈরি কালোজিরার তেলের বিশেষত্ব আবিষ্কার করুন। এর স্বতন্ত্র রং, প্রাকৃতিক সুবাস এবং দৈনন্দিন যত্নে ব্যবহারের জন্য এটি পরিচিত। প্রাকৃতিক বিশুদ্ধতা ও গুণমানের এক অনন্য সমন্বয়।",
+      "id": "Temukan keistimewaan minyak jintan hitam yang diekstrak dari biji jintan hitam. Dikenal dengan warna khas, aroma alami, dan manfaatnya dalam perawatan sehari-hari. Produk istimewa yang memadukan keaslian alam dan kualitas."
+    },
+    "images": [
+      "/media/uploads/1795534118627-2-.webp",
+      "/media/uploads/1795534125453--125-.webp",
+      "/media/uploads/1795534132763--.jpg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "preorder",
+    "contentStatus": "draft",
+    "kind": "gift",
+    "category": "oils",
     "isConceptual": true
   },
   {
