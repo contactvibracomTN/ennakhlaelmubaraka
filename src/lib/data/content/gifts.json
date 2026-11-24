@@ -131,29 +131,27 @@
     "id": "misc-oils",
     "slug": "oils-selection",
     "name": {
-      "ar": "زيت الحبة السوداء",
-      "en": "Black Seed Oil",
-      "fr": "Huile de nigelle",
-      "tr": "Çörek otu yağı",
-      "ur": "کلونجی کا تیل",
-      "ms": "Minyak Habbatus Sauda",
-      "bn": "কালোজিরার তেল",
-      "id": "Minyak Jintan Hitam"
+      "ar": "زيت زيتون تونسي",
+      "en": "Tunisian olive oil",
+      "fr": "Huile d'olive tunisienne",
+      "tr": "Tunus zeytinyağı",
+      "ur": "تیونس کا زیتون کا تیل",
+      "ms": "Minyak Zaitun Tunisia",
+      "bn": "তিউনিসিয়ার জলপাই তেল",
+      "id": "Minyak Zaitun Tunisia"
     },
     "teaser": {
-      "ar": "اكتشفوا روعة زيت الحبة السوداء، المستخلص من حبوب البركة، والمعروف بلونه المميز ورائحته الطبيعية وقيمته في العناية اليومية. منتج يجمع بين أصالة الطبيعة وجودة الاختيار، ليكون إضافة مميزة لروتينكم اليومي.",
-      "en": "Discover the wonders of black seed oil—extracted from the \"seeds of blessing\"—renowned for its distinctive color, natural aroma, and value in daily personal care. This product combines the authenticity of nature with the quality of careful selection, making it an exceptional addition to your daily routine.",
-      "fr": "Découvrez les bienfaits de l’huile de nigelle, extraite des graines de cumin noir, reconnue pour sa couleur distinctive, son parfum naturel et sa place dans les soins quotidiens. Un produit qui allie authenticité de la nature et qualité, pour enrichir votre routine quotidienne.",
-      "tr": "Çörek otu tohumlarından elde edilen çörek otu yağının güzelliğini keşfedin. Kendine özgü rengi, doğal kokusu ve günlük bakım rutinindeki yeriyle öne çıkar. Doğallığın özünü ve kaliteyi bir araya getiren özel bir ürün.",
-      "ur": "کلونجی کے بیجوں سے حاصل ہونے والے کلونجی کے تیل کی خوبیاں دریافت کریں۔ اپنی منفرد رنگت، قدرتی خوشبو اور روزمرہ کی دیکھ بھال میں اپنی اہمیت کے باعث یہ ایک خاص مصنوعات ہے، جو قدرتی خوبصورتی اور معیار کو یکجا کرتی ہے۔",
-      "ms": "Temui keistimewaan minyak habbatus sauda yang diekstrak daripada biji jintan hitam. Dikenali dengan warna yang tersendiri, aroma semula jadi dan kegunaannya dalam penjagaan harian. Produk istimewa yang menggabungkan keaslian alam semula jadi dan kualiti.",
-      "bn": "কালোজিরার বীজ থেকে তৈরি কালোজিরার তেলের বিশেষত্ব আবিষ্কার করুন। এর স্বতন্ত্র রং, প্রাকৃতিক সুবাস এবং দৈনন্দিন যত্নে ব্যবহারের জন্য এটি পরিচিত। প্রাকৃতিক বিশুদ্ধতা ও গুণমানের এক অনন্য সমন্বয়।",
-      "id": "Temukan keistimewaan minyak jintan hitam yang diekstrak dari biji jintan hitam. Dikenal dengan warna khas, aroma alami, dan manfaatnya dalam perawatan sehari-hari. Produk istimewa yang memadukan keaslian alam dan kualitas."
+      "ar": "من أرض تونس المباركة إلى مائدتكم، نقدم لكم زيت زيتون يجمع بين عراقة التقاليد وجمال المذاق، ليكون الخيار المثالي لعشاق المنتجات الطبيعية والأصيلة.",
+      "en": "From the blessed land of Tunisia to your table, we bring you an olive oil that blends time-honored tradition with exquisite flavor—the perfect choice for those who cherish natural, authentic products.",
+      "fr": "Des terres bénies de Tunisie jusqu’à votre table, nous vous proposons une huile d’olive qui allie la richesse des traditions ancestrales à la finesse du goût, pour satisfaire les amateurs de produits naturels et authentiques.",
+      "tr": "Tunus’un bereketli topraklarından sofralarınıza, köklü gelenekleri eşsiz lezzetle buluşturan zeytinyağımızı sunuyoruz. Doğal ve otantik ürünleri sevenler için ideal bir seçim.",
+      "ur": "تیونس کی بابرکت سرزمین سے آپ کے دسترخوان تک، ہم آپ کے لیے ایسا زیتون کا تیل پیش کرتے ہیں جو قدیم روایات اور منفرد ذائقے کا حسین امتزاج ہے، اور قدرتی و خالص مصنوعات کے شوقین افراد کے لیے بہترین انتخاب ہے۔",
+      "ms": "Dari bumi Tunisia yang penuh keberkatan ke meja hidangan anda, kami mempersembahkan minyak zaitun yang menggabungkan keindahan tradisi turun-temurun dengan cita rasa yang istimewa, pilihan sempurna bagi pencinta produk semula jadi dan asli.",
+      "bn": "তিউনিসিয়ার আশীর্বাদপুষ্ট ভূমি থেকে আপনার খাবার টেবিলে, আমরা নিয়ে এসেছি এমন জলপাই তেল, যা প্রাচীন ঐতিহ্য ও অনন্য স্বাদের সমন্বয়ে তৈরি। প্রাকৃতিক ও খাঁটি পণ্যের প্রেমীদের জন্য এটি একটি আদর্শ পছন্দ।",
+      "id": "Dari tanah Tunisia yang penuh berkah hingga ke meja Anda, kami menghadirkan minyak zaitun yang memadukan kekayaan tradisi turun-temurun dengan cita rasa istimewa, menjadi pilihan sempurna bagi pencinta produk alami dan autentik."
     },
     "images": [
-      "/media/uploads/1795534118627-2-.webp",
-      "/media/uploads/1795534125453--125-.webp",
-      "/media/uploads/1795534132763--.jpg"
+      "/media/uploads/1795534748364--3.jpg"
     ],
     "price": {
       "amount": 0,
