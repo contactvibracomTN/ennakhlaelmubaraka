@@ -680,10 +680,10 @@
         "machine": false
       },
       "id": {
-        "status": "validated",
-        "by": "admin",
-        "at": "2026-11-24T11:52:49.201Z",
-        "machine": false
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-17T09:47:45.648Z",
+        "machine": true
       },
       "en": {
         "status": "validated",
