@@ -62,39 +62,35 @@
   {
     "id": "misc-nuts",
     "slug": "nuts-selection",
+    "kind": "gift",
+    "category": "nuts",
     "name": {
-      "ar": "شوكو بيرل",
-      "en": "Choco Pearl",
-      "fr": "Choco Pearle",
-      "tr": "Çikolata İncisi",
-      "ur": "چاکو پرل",
-      "ms": "Choco Pearl",
-      "bn": "চকো পার্ল",
-      "id": "Choco Pearl"
+      "ar": "مكسّرات مشكّلة",
+      "en": "Assorted Nuts",
+      "fr": "Fruits secs assortis",
+      "tr": "Karışık Kuruyemiş",
+      "ur": "مشترک خشک میوہ جات",
+      "ms": "Kacang Campuran",
+      "bn": "মিশ্র বাদাম",
+      "id": "Aneka Kacang"
     },
     "teaser": {
-      "ar": "استمتعوا بتجربة مذاق استثنائية مع شوكو بيرل، حيث تلتقي حلاوة التمر الطبيعية مع قرمشة اللوز الغنية، في تناغم شهي يكتمل بلمسة الكاكاو وفخامة الشوكولاتة\nسواء كنتم تبحثون عن لحظة من الدلال والاستمتاع، أو عن ضيافة أنيقة لمشاركتها مع الأحباب، فإن شوكو بيرل هو الخيار المثالي لعشاق الحلويات الراقية والنكهات المميزة.",
-      "en": "Enjoy an exceptional taste experience with Choco Pearl, where the natural sweetness of dates meets the rich crunch of almonds, in a delightful combination enhanced by a touch of cocoa and the richness of chocolate.\nWhether you're looking for a moment of indulgence or an elegant treat to share with your loved ones, Choco Pearl is the perfect choice for lovers of fine sweets and distinctive flavors.",
-      "fr": "Savourez une expérience gustative exceptionnelle avec Choco Pearl, où la douceur naturelle des dattes rencontre le croquant des amandes, dans une délicieuse harmonie sublimée par une touche de cacao et la richesse du chocolat.\nQue vous recherchiez un instant de plaisir et de gourmandise ou une délicieuse attention à partager avec vos proches, Choco Pearl est le choix idéal pour les amateurs de douceurs raffinées et de saveurs uniques.",
-      "tr": "Choco Pearl ile eşsiz bir lezzet deneyiminin tadını çıkarın! Hurmanın doğal tatlılığı, bademin enfes çıtırlığıyla buluşuyor; kakao dokunuşu ve çikolatanın zengin lezzetiyle mükemmel bir uyum yakalıyor.\n\nİster kendinizi şımartmak için tatlı bir an arayın, ister sevdiklerinizle paylaşabileceğiniz şık bir ikram tercih edin, Choco Pearl özel tatlardan hoşlananlar için ideal bir seçimdir.",
-      "ur": "Choco Pearl کے ساتھ ایک منفرد ذائقے کا لطف اٹھائیں، جہاں کھجور کی قدرتی مٹھاس بادام کی خستہ لذت سے ملتی ہے، اور کوکو اور چاکلیٹ کا بھرپور ذائقہ اسے مزید خاص بناتا ہے۔\n\nچاہے آپ اپنے لیے خوشگوار لمحہ چاہتے ہوں یا اپنے پیاروں کے ساتھ بانٹنے کے لیے کوئی خاص تحفہ، Choco Pearl نفیس مٹھاس اور منفرد ذائقوں کے شوقین افراد کے لیے بہترین انتخاب ہے۔",
-      "ms": "Nikmati pengalaman rasa yang luar biasa bersama Choco Pearl, gabungan kemanisan semula jadi kurma dan kerangupan badam yang lazat, disempurnakan dengan sentuhan koko serta keenakan coklat.\n\nSama ada untuk menikmati saat istimewa sendiri atau sebagai hidangan istimewa untuk dikongsi bersama insan tersayang, Choco Pearl ialah pilihan sempurna bagi pencinta manisan premium dan rasa yang istimewa.",
-      "bn": "Choco Pearl-এর সঙ্গে উপভোগ করুন এক অসাধারণ স্বাদের অভিজ্ঞতা। খেজুরের প্রাকৃতিক মিষ্টতা ও বাদামের মুচমুচে স্বাদ একসঙ্গে মিশেছে, যার সঙ্গে কোকোর ছোঁয়া এবং চকলেটের সমৃদ্ধ স্বাদ এনে দেয় এক অনন্য আনন্দ।\n\nনিজের জন্য মিষ্টি একটি মুহূর্ত হোক কিংবা প্রিয়জনদের সঙ্গে ভাগ করে নেওয়ার বিশেষ আপ্যায়ন—Choco Pearl হলো উন্নতমানের মিষ্টি ও অনন্য স্বাদের প্রেমীদের জন্য আদর্শ পছন্দ।",
-      "id": "Nikmati pengalaman rasa yang istimewa bersama Choco Pearl, perpaduan manis alami kurma dengan renyahnya kacang almond, disempurnakan oleh sentuhan kakao dan kelezatan cokelat.\n\nBaik untuk memanjakan diri dengan momen istimewa maupun sebagai sajian elegan untuk berbagi bersama orang-orang tercinta, Choco Pearl adalah pilihan sempurna bagi pecinta camilan manis premium dengan cita rasa istimewa."
+      "ar": "بطاقة منتج قيد الإعداد — ستُضاف التفاصيل قريبًا.",
+      "en": "Product sheet in preparation — details coming soon.",
+      "fr": "Fiche produit en préparation — les détails arrivent bientôt.",
+      "tr": "Ürün sayfası hazırlanıyor — ayrıntılar yakında eklenecek.",
+      "ur": "مصنوعات کا صفحہ تیاری میں ہے — تفصیلات جلد شامل کی جائیں گی۔",
+      "ms": "Helaian produk sedang disediakan — butiran akan menyusul.",
+      "bn": "পণ্য পাতা প্রস্তুত হচ্ছে — বিবরণ শীঘ্রই যোগ করা হবে।",
+      "id": "Lembar produk sedang disiapkan — detail akan segera ditambahkan."
     },
-    "images": [
-      "/media/uploads/1795535363273--.jpg",
-      "/media/uploads/1795535370557--.webp",
-      "/media/uploads/1795535385893--.jpg"
-    ],
+    "images": [],
     "price": {
       "amount": 0,
       "currency": "SAR"
     },
     "availability": "preorder",
     "contentStatus": "draft",
-    "kind": "gift",
-    "category": "nuts",
     "isConceptual": true
   },
   {
@@ -166,29 +162,33 @@
     "isConceptual": true
   },
   {
-    "id": "gift-mwum4t00",
+    "id": "gift-mwuvm81j",
     "slug": "",
     "name": {
-      "ar": "دقة المدينة ",
-      "en": "Dukka",
-      "fr": "Dukka",
-      "tr": "",
-      "ur": "",
-      "ms": "",
-      "bn": "",
-      "id": ""
+      "ar": "أصابع الشوكولاتة بالفستق",
+      "en": " Pistachio Chocolate Sticks",
+      "fr": "Bâtonnets de chocolat à la pistache",
+      "tr": "Antep Fıstıklı Çikolata Çubukları",
+      "ur": "پستے والی چاکلیٹ اسٹکس",
+      "ms": "Batang Coklat Pistachio",
+      "bn": "পেস্তা চকলেট স্টিকস",
+      "id": "Stik Cokelat Pistachio"
     },
     "teaser": {
-      "ar": "",
-      "en": "",
-      "fr": "",
-      "tr": "",
-      "ur": "",
-      "ms": "",
-      "bn": "",
-      "id": ""
+      "ar": "اكتشفوا المذاق الفاخر مع أصابع الشوكولاتة بالفستق، مزيج شهي يجمع بين غنى الشوكولاتة ونكهة الفستق المميزة، ليمنحكم تجربة مليئة بالمتعة واللذة في كل قضمة.  اطلبوها الآن واستمتعوا بلحظات من الحلاوة والفخامة ",
+      "en": "Discover the exquisite taste of Pistachio Chocolate Sticks, a delicious combination of rich chocolate and the distinctive flavor of pistachios, offering a delightful and irresistible experience with every bite.\nOrder now and enjoy moments of sweetness and indulgence",
+      "fr": "Découvrez le goût raffiné des bâtonnets de chocolat à la pistache, une délicieuse alliance entre la richesse du chocolat et la saveur unique de la pistache, pour une expérience gourmande et un plaisir irrésistible à chaque bouchée.\nCommandez dès maintenant et savourez des instants de douceur et de raffinement ",
+      "tr": "Antep fıstıklı çikolata çubuklarının eşsiz lezzetini keşfedin! Çikolatanın zengin tadı ile Antep fıstığının kendine özgü lezzetinin buluştuğu bu özel tat, her lokmada unutulmaz bir keyif sunar.\nHemen sipariş verin ve tatlılığın ve zarafetin tadını çıkarın",
+      "ur": "پستے والی چاکلیٹ اسٹکس کے شاندار ذائقے سے لطف اٹھائیں۔ بھرپور چاکلیٹ اور پستے کے منفرد ذائقے کا یہ مزیدار امتزاج ہر لقمے کو ایک لاجواب اور خوشگوار تجربہ بناتا ہے۔\n\nابھی آرڈر کریں اور مٹھاس و نفاست کے حسین لمحات سے لطف اندوز ہوں",
+      "ms": "Nikmati keenakan Batang Coklat Pistachio, gabungan lazat antara rasa coklat yang kaya dan keunikan pistachio, memberikan pengalaman yang memuaskan dan kenikmatan dalam setiap gigitan.\nPesan sekarang dan nikmati detik kemanisan dan keistimewaan",
+      "bn": "পেস্তা চকলেট স্টিকসের অসাধারণ স্বাদ উপভোগ করুন। সমৃদ্ধ চকলেটের স্বাদ ও পেস্তার অনন্য স্বাদের এই সুস্বাদু মিশ্রণ প্রতিটি কামড়ে এনে দেয় এক আনন্দদায়ক ও অতুলনীয় অভিজ্ঞতা।\n\nএখনই অর্ডার করুন এবং মিষ্টি ও আভিজাত্যের মুহূর্ত উপভোগ করুন",
+      "id": "Temukan kelezatan Stik Cokelat Pistachio, perpaduan sempurna antara cokelat yang kaya rasa dan cita rasa khas pistachio, menghadirkan pengalaman istimewa dan kenikmatan di setiap gigitan.\n\nPesan sekarang dan nikmati momen manis yang penuh kemewahan"
     },
-    "images": [],
+    "images": [
+      "/media/uploads/1795536133044--.jpg",
+      "/media/uploads/1795536139391--2.webp",
+      "/media/uploads/1795536146436--20-7-description-package.jpeg"
+    ],
     "price": {
       "amount": 0,
       "currency": "SAR"
