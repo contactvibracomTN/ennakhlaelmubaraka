@@ -704,20 +704,15 @@
         "at": "2026-11-24T11:33:14.003Z"
       },
       "en": {
-        "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-11-24T11:33:14.003Z"
+        "status": "machine",
+        "by": "admin",
+        "at": "2026-11-24T12:02:10.015Z",
+        "machine": true
       },
       "fr": {
         "status": "validated",
         "by": "catalogue existant",
         "at": "2026-11-24T11:33:14.003Z"
-      },
-      "tr": {
-        "status": "machine",
-        "by": "admin",
-        "at": "2026-11-24T12:02:06.717Z",
-        "machine": true
       }
     }
   }
