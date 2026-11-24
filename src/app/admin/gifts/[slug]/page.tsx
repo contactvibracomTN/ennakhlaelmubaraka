@@ -12,9 +12,11 @@ export const dynamic = "force-dynamic";
 export default async function AdminGiftEditorPage({ params }: { params: Promise<{ slug: string }> }) {
   await guardAdmin();
   const { slug } = await params;
-  const item = readGifts().find((p) => p.slug === decodeURIComponent(slug));
+  const key = decodeURIComponent(slug);
+  // Legacy items saved with an empty slug are still reachable by technical id.
+  const item = readGifts().find((p) => p.slug === key || p.id === key);
   if (!item) notFound();
-  const statuses = computeItemStatuses("gift", item.slug, item.name);
+  const statuses = computeItemStatuses("gift", item.slug || item.id, item.name);
 
   return (
     <div className="space-y-4">
@@ -22,10 +24,11 @@ export default async function AdminGiftEditorPage({ params }: { params: Promise<
         <Link href="/admin/gifts" className="text-xs text-emerald-700 underline">
           ← Retour aux cadeaux
         </Link>
-        <h1 className="text-xl font-bold text-emerald-950">{item.name.ar || item.slug}</h1>
+        <h1 className="text-xl font-bold text-emerald-950">{item.name.ar || item.name.en || item.id}</h1>
       </div>
       <GiftItemEditor
         item={item as GiftProduct}
+        originalKey={key}
         statuses={statuses}
         sourceLocale={getConfiguredSourceLocale()}
         translationAvailable={isTranslationConfigured()}

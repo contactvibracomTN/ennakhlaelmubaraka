@@ -114,13 +114,70 @@ function presentLocales(name: unknown): string[] {
   );
 }
 
-function upsert<T extends { slug: string }>(
+/** URL-safe slug: keep ASCII words, drop diacritics, use `-` as separator. */
+function slugify(value: string): string {
+  return value
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function localizedCandidate(value: unknown): string {
+  if (!value || typeof value !== "object") return "";
+  const record = value as Record<string, unknown>;
+  for (const locale of ["fr", "en", "ar", "tr", "ur", "ms", "bn", "id"]) {
+    const text = record[locale];
+    if (typeof text === "string" && slugify(text)) return text;
+  }
+  return "";
+}
+
+/**
+ * A saved item always has a non-empty, unique slug. New items arrive from the
+ * admin with `slug: ""`; deriving one here prevents every new item from
+ * overwriting the previous one (all of them shared the same empty slug).
+ */
+function withSafeSlug<T extends { slug: string; id?: string }>(
+  item: T,
+  list: T[],
+  fallback: string,
+): T {
+  const label =
+    localizedCandidate((item as { name?: unknown }).name) ||
+    localizedCandidate((item as { title?: unknown }).title);
+  const base =
+    slugify(item.slug) ||
+    slugify(label) ||
+    slugify(item.id ?? "") ||
+    slugify(fallback) ||
+    `item-${crypto.randomUUID().slice(0, 8)}`;
+  let candidate = base;
+  let suffix = 2;
+  while (
+    list.some(
+      (p) => p.slug === candidate && !(item.id && p.id === item.id),
+    )
+  ) {
+    candidate = `${base}-${suffix++}`;
+  }
+  return { ...item, slug: candidate };
+}
+
+function upsert<T extends { slug: string; id?: string }>(
   list: T[],
   oldSlug: string,
   item: T,
 ): T[] {
-  let idx = list.findIndex((p) => p.slug === oldSlug);
-  if (idx < 0) idx = list.findIndex((p) => p.slug === item.slug);
+  let idx = -1;
+  if (oldSlug) {
+    idx = list.findIndex(
+      (p) => p.slug === oldSlug || (!!p.id && p.id === oldSlug),
+    );
+  }
+  if (idx < 0 && item.slug) idx = list.findIndex((p) => p.slug === item.slug);
+  if (idx < 0 && item.id) idx = list.findIndex((p) => p.id === item.id);
   if (idx < 0) return [...list, item];
   const copy = [...list];
   copy[idx] = item;
@@ -176,32 +233,41 @@ async function saveItem(
   kind: ContentKind,
   oldSlug: string,
   rawItem: unknown,
-): Promise<{ ok: boolean; message?: string }> {
+): Promise<{ ok: boolean; message?: string; slug?: string }> {
   await requireAdmin();
   return withGithubCommit(async () => {
     try {
+      let savedSlug = "";
       if (kind === "date") {
-        const item = validateDateProduct(rawItem);
-        saveDates(upsert(readDates(), oldSlug, item));
+        const list = readDates();
+        const item = withSafeSlug(validateDateProduct(rawItem), list, oldSlug);
+        savedSlug = item.slug;
+        saveDates(upsert(list, oldSlug, item));
         ensureItemState(kind, item.slug, presentLocales(item.name), []);
       } else if (kind === "gift") {
-        const item = validateGiftProduct(rawItem);
-        saveGifts(upsert(readGifts(), oldSlug, item));
+        const list = readGifts();
+        const item = withSafeSlug(validateGiftProduct(rawItem), list, oldSlug);
+        savedSlug = item.slug;
+        saveGifts(upsert(list, oldSlug, item));
         ensureItemState(kind, item.slug, presentLocales(item.name), []);
       } else if (kind === "post") {
-        const item = validateBlogPost(rawItem);
-        savePosts(upsert(readPosts(), oldSlug, item));
+        const list = readPosts();
+        const item = withSafeSlug(validateBlogPost(rawItem), list, oldSlug);
+        savedSlug = item.slug;
+        savePosts(upsert(list, oldSlug, item));
         ensureItemState(kind, item.slug, presentLocales(item.title), []);
       } else {
-        const item = validateGuideVariety(rawItem);
-        saveGuide(upsert(readGuide(), oldSlug, item));
+        const list = readGuide();
+        const item = withSafeSlug(validateGuideVariety(rawItem), list, oldSlug);
+        savedSlug = item.slug;
+        saveGuide(upsert(list, oldSlug, item));
         ensureItemState(kind, item.slug, presentLocales(item.title), []);
       }
 
       resetGlossaryCache();
       audit("admin", "save", `${kind}:${oldSlug || "(nouveau)"}`, { oldSlug });
       revalidatePath("/admin", "layout");
-      return { ok: true };
+      return { ok: true, slug: savedSlug };
     } catch (err) {
       const message = err instanceof Error ? err.message : "Données invalides.";
       return { ok: false, message };
@@ -218,7 +284,7 @@ export async function saveDateAction(
 export async function saveGiftAction(
   oldSlug: string,
   item: unknown,
-): Promise<{ ok: boolean; message?: string }> {
+): Promise<{ ok: boolean; message?: string; slug?: string }> {
   return saveItem("gift", oldSlug, item);
 }
 export async function savePostAction(
@@ -349,10 +415,12 @@ export async function translateItemAction(
         errors: [saved.message ?? "Sauvegarde impossible"].concat(errors),
       };
     }
+    const savedSlug = saved.slug ?? slug;
+    (doc as { slug?: string }).slug = savedSlug;
     for (const loc of translatedLocales) {
-      setItemLocaleState(kind, slug, loc, "machine", "traduction Google");
+      setItemLocaleState(kind, savedSlug, loc, "machine", "traduction Google");
     }
-    audit("admin", "translate", `${kind}:${slug}`, {
+    audit("admin", "translate", `${kind}:${savedSlug}`, {
       translatedLocales,
       errors,
     });

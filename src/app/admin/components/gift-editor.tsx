@@ -42,17 +42,20 @@ function linesToContents(lines: Record<string, string[]>): GiftProduct["contents
 
 export function GiftItemEditor({
   item,
+  originalKey,
   statuses,
   sourceLocale,
   translationAvailable,
 }: {
   item: GiftProduct;
+  /** Route key: the slug, or the technical id for legacy items with no slug. */
+  originalKey?: string;
   statuses: Record<string, ItemLocaleState>;
   sourceLocale: string;
   translationAvailable: boolean;
 }) {
   const router = useRouter();
-  const originalSlug = item.slug;
+  const originalSlug = originalKey || item.slug;
   const [doc, setDoc] = useState<GiftProduct>(structuredClone(item));
   const [busy, setBusy] = useState<"save" | "translate" | "delete" | null>(null);
   const [banner, setBanner] = useState<{ ok: boolean; message: string } | null>(null);
@@ -65,13 +68,14 @@ export function GiftItemEditor({
     try {
       if (kind === "delete") {
         if (!confirm(`Supprimer définitivement « ${doc.name.ar || doc.slug} » ?`)) return;
-        await deleteItemAction("gift", doc.slug);
+        await deleteItemAction("gift", originalSlug || doc.slug);
         router.push("/admin/gifts");
         router.refresh();
         return;
       }
       if (kind === "save") {
         const res = await saveGiftAction(originalSlug, doc as unknown);
+        if (res.ok && res.slug) setDoc((d) => ({ ...d, slug: res.slug! }));
         setBanner(
           res.ok
             ? { ok: true, message: "Enregistré. Déployez pour publier." }
@@ -146,7 +150,7 @@ export function GiftItemEditor({
       <section className="rounded-xl border border-neutral-200 bg-white p-4">
         <h2 className="mb-3 text-sm font-bold uppercase tracking-wide text-neutral-800">Identité</h2>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          <Field label="Slug (URL)">
+          <Field label="Slug (URL) — généré automatiquement si vide">
             <TextInput value={doc.slug} onChange={(v) => patch({ slug: v })} />
           </Field>
           <Field label="ID technique">
