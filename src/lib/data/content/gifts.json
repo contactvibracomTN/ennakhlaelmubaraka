@@ -160,5 +160,39 @@
     "availability": "preorder",
     "contentStatus": "draft",
     "isConceptual": true
+  },
+  {
+    "id": "gift-mwum4t00",
+    "slug": "",
+    "name": {
+      "ar": "دقة المدينة ",
+      "en": "Dukka",
+      "fr": "Dukka",
+      "tr": "",
+      "ur": "",
+      "ms": "",
+      "bn": "",
+      "id": ""
+    },
+    "teaser": {
+      "ar": "",
+      "en": "",
+      "fr": "",
+      "tr": "",
+      "ur": "",
+      "ms": "",
+      "bn": "",
+      "id": ""
+    },
+    "images": [],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
   }
 ]
