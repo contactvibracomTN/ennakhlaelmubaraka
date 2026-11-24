@@ -167,24 +167,28 @@
     "name": {
       "ar": "زيت زيتون ",
       "en": "olive oil",
-      "fr": "huile d'olive",
+      "fr": "Huile d'olive",
       "tr": "zeytinyağı",
       "ur": "زیتون کا تیل",
-      "ms": "minyak zaitun",
+      "ms": "Minyak zaitun",
       "bn": "জলপাই তেল",
-      "id": "minyak zaitun"
+      "id": "Minyak zaitun"
     },
     "teaser": {
-      "ar": "",
-      "en": "",
-      "fr": "",
-      "tr": "",
-      "ur": "",
-      "ms": "",
-      "bn": "",
-      "id": ""
+      "ar": "حكاية بنّة وجودة، زيت الزيتونة متاعنا من خير أرضنا، لخير مائدة\n",
+      "en": "A story of flavor and quality—our olive oil, from the bounty of our land to the finest of tables",
+      "fr": "Une histoire de saveur et de qualité : notre huile d'olive, issue des richesses de notre terre, pour sublimer votre table ",
+      "tr": "Lezzet ve kalite dolu bir hikâye; topraklarımızın bereketinden en seçkin sofralara uzanan zeytinyağımız ",
+      "ur": "ذائقے اور معیار کی ایک کہانی، ہمارا زیتون کا تیل ہماری زرخیز زمین سے آپ کے دسترخوان تک",
+      "ms": "Kisah rasa dan kualiti, minyak zaitun kami dari bumi yang subur terus ke meja hidangan anda",
+      "bn": "স্বাদ ও গুণমানের এক গল্প, আমাদের জলপাই তেল উর্বর মাটি থেকে সরাসরি আপনার খাবার টেবিলে",
+      "id": "Kisah cita rasa dan kualitas, minyak zaitun kami berasal dari tanah yang subur untuk menemani hidangan Anda\n\n\n"
     },
-    "images": [],
+    "images": [
+      "/media/uploads/1795526650947--1.jpg",
+      "/media/uploads/1795526660839--150-.jpg",
+      "/media/uploads/1795526671389--400-.jpg"
+    ],
     "price": {
       "amount": 0,
       "currency": "SAR"

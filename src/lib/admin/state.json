@@ -704,46 +704,39 @@
         "at": "2026-11-24T11:33:14.003Z"
       },
       "en": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-11-24T13:04:50.369Z",
-        "machine": true
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-24T11:33:14.003Z"
       },
       "fr": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-11-24T13:04:50.370Z",
-        "machine": true
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-24T11:33:14.003Z"
       },
       "tr": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-11-24T13:04:50.370Z",
-        "machine": true
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-24T13:25:17.507Z"
       },
       "ur": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-11-24T13:04:50.371Z",
-        "machine": true
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-24T13:25:17.507Z"
       },
       "ms": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-11-24T13:04:50.371Z",
-        "machine": true
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-24T13:25:17.507Z"
       },
       "bn": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-11-24T13:04:50.372Z",
-        "machine": true
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-24T13:25:17.507Z"
       },
       "id": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-11-24T13:04:50.372Z",
-        "machine": true
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-24T13:25:17.507Z"
       }
     }
   }
