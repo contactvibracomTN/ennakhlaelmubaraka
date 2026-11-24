@@ -704,14 +704,46 @@
         "at": "2026-11-24T11:33:14.003Z"
       },
       "en": {
-        "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-11-24T11:33:14.003Z"
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-24T12:00:57.908Z",
+        "machine": true
       },
       "fr": {
-        "status": "validated",
-        "by": "catalogue existant",
-        "at": "2026-11-24T11:33:14.003Z"
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-24T12:00:57.908Z",
+        "machine": true
+      },
+      "tr": {
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-24T12:00:57.908Z",
+        "machine": true
+      },
+      "ur": {
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-24T12:00:57.909Z",
+        "machine": true
+      },
+      "ms": {
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-24T12:00:57.909Z",
+        "machine": true
+      },
+      "bn": {
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-24T12:00:57.909Z",
+        "machine": true
+      },
+      "id": {
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-24T12:00:57.909Z",
+        "machine": true
       }
     }
   }

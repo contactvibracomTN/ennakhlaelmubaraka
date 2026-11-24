@@ -162,17 +162,17 @@
     "isConceptual": true
   },
   {
-    "id": "gift-mwum4t00",
+    "id": "gift-mwun6f5y",
     "slug": "",
     "name": {
-      "ar": "دقة المدينة ",
-      "en": "Dukka",
-      "fr": "Dukka",
-      "tr": "",
-      "ur": "",
-      "ms": "",
-      "bn": "",
-      "id": ""
+      "ar": "زيت زيتون ",
+      "en": "olive oil",
+      "fr": "huile d'olive",
+      "tr": "zeytinyağı",
+      "ur": "زیتون کا تیل",
+      "ms": "minyak zaitun",
+      "bn": "জলপাই তেল",
+      "id": "minyak zaitun"
     },
     "teaser": {
       "ar": "",
