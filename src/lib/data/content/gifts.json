@@ -62,35 +62,39 @@
   {
     "id": "misc-nuts",
     "slug": "nuts-selection",
-    "kind": "gift",
-    "category": "nuts",
     "name": {
-      "ar": "مكسّرات مشكّلة",
-      "en": "Assorted Nuts",
-      "fr": "Fruits secs assortis",
-      "tr": "Karışık Kuruyemiş",
-      "ur": "مشترک خشک میوہ جات",
-      "ms": "Kacang Campuran",
-      "bn": "মিশ্র বাদাম",
-      "id": "Aneka Kacang"
+      "ar": "شوكو بيرل",
+      "en": "Choco Pearl",
+      "fr": "Choco Pearle",
+      "tr": "Çikolata İncisi",
+      "ur": "چاکو پرل",
+      "ms": "Choco Pearl",
+      "bn": "চকো পার্ল",
+      "id": "Choco Pearl"
     },
     "teaser": {
-      "ar": "بطاقة منتج قيد الإعداد — ستُضاف التفاصيل قريبًا.",
-      "en": "Product sheet in preparation — details coming soon.",
-      "fr": "Fiche produit en préparation — les détails arrivent bientôt.",
-      "tr": "Ürün sayfası hazırlanıyor — ayrıntılar yakında eklenecek.",
-      "ur": "مصنوعات کا صفحہ تیاری میں ہے — تفصیلات جلد شامل کی جائیں گی۔",
-      "ms": "Helaian produk sedang disediakan — butiran akan menyusul.",
-      "bn": "পণ্য পাতা প্রস্তুত হচ্ছে — বিবরণ শীঘ্রই যোগ করা হবে।",
-      "id": "Lembar produk sedang disiapkan — detail akan segera ditambahkan."
+      "ar": "استمتعوا بتجربة مذاق استثنائية مع شوكو بيرل، حيث تلتقي حلاوة التمر الطبيعية مع قرمشة اللوز الغنية، في تناغم شهي يكتمل بلمسة الكاكاو وفخامة الشوكولاتة\nسواء كنتم تبحثون عن لحظة من الدلال والاستمتاع، أو عن ضيافة أنيقة لمشاركتها مع الأحباب، فإن شوكو بيرل هو الخيار المثالي لعشاق الحلويات الراقية والنكهات المميزة.",
+      "en": "Enjoy an exceptional taste experience with Choco Pearl, where the natural sweetness of dates meets the rich crunch of almonds, in a delightful combination enhanced by a touch of cocoa and the richness of chocolate.\nWhether you're looking for a moment of indulgence or an elegant treat to share with your loved ones, Choco Pearl is the perfect choice for lovers of fine sweets and distinctive flavors.",
+      "fr": "Savourez une expérience gustative exceptionnelle avec Choco Pearl, où la douceur naturelle des dattes rencontre le croquant des amandes, dans une délicieuse harmonie sublimée par une touche de cacao et la richesse du chocolat.\nQue vous recherchiez un instant de plaisir et de gourmandise ou une délicieuse attention à partager avec vos proches, Choco Pearl est le choix idéal pour les amateurs de douceurs raffinées et de saveurs uniques.",
+      "tr": "Choco Pearl ile eşsiz bir lezzet deneyiminin tadını çıkarın! Hurmanın doğal tatlılığı, bademin enfes çıtırlığıyla buluşuyor; kakao dokunuşu ve çikolatanın zengin lezzetiyle mükemmel bir uyum yakalıyor.\n\nİster kendinizi şımartmak için tatlı bir an arayın, ister sevdiklerinizle paylaşabileceğiniz şık bir ikram tercih edin, Choco Pearl özel tatlardan hoşlananlar için ideal bir seçimdir.",
+      "ur": "Choco Pearl کے ساتھ ایک منفرد ذائقے کا لطف اٹھائیں، جہاں کھجور کی قدرتی مٹھاس بادام کی خستہ لذت سے ملتی ہے، اور کوکو اور چاکلیٹ کا بھرپور ذائقہ اسے مزید خاص بناتا ہے۔\n\nچاہے آپ اپنے لیے خوشگوار لمحہ چاہتے ہوں یا اپنے پیاروں کے ساتھ بانٹنے کے لیے کوئی خاص تحفہ، Choco Pearl نفیس مٹھاس اور منفرد ذائقوں کے شوقین افراد کے لیے بہترین انتخاب ہے۔",
+      "ms": "Nikmati pengalaman rasa yang luar biasa bersama Choco Pearl, gabungan kemanisan semula jadi kurma dan kerangupan badam yang lazat, disempurnakan dengan sentuhan koko serta keenakan coklat.\n\nSama ada untuk menikmati saat istimewa sendiri atau sebagai hidangan istimewa untuk dikongsi bersama insan tersayang, Choco Pearl ialah pilihan sempurna bagi pencinta manisan premium dan rasa yang istimewa.",
+      "bn": "Choco Pearl-এর সঙ্গে উপভোগ করুন এক অসাধারণ স্বাদের অভিজ্ঞতা। খেজুরের প্রাকৃতিক মিষ্টতা ও বাদামের মুচমুচে স্বাদ একসঙ্গে মিশেছে, যার সঙ্গে কোকোর ছোঁয়া এবং চকলেটের সমৃদ্ধ স্বাদ এনে দেয় এক অনন্য আনন্দ।\n\nনিজের জন্য মিষ্টি একটি মুহূর্ত হোক কিংবা প্রিয়জনদের সঙ্গে ভাগ করে নেওয়ার বিশেষ আপ্যায়ন—Choco Pearl হলো উন্নতমানের মিষ্টি ও অনন্য স্বাদের প্রেমীদের জন্য আদর্শ পছন্দ।",
+      "id": "Nikmati pengalaman rasa yang istimewa bersama Choco Pearl, perpaduan manis alami kurma dengan renyahnya kacang almond, disempurnakan oleh sentuhan kakao dan kelezatan cokelat.\n\nBaik untuk memanjakan diri dengan momen istimewa maupun sebagai sajian elegan untuk berbagi bersama orang-orang tercinta, Choco Pearl adalah pilihan sempurna bagi pecinta camilan manis premium dengan cita rasa istimewa."
     },
-    "images": [],
+    "images": [
+      "/media/uploads/1795535363273--.jpg",
+      "/media/uploads/1795535370557--.webp",
+      "/media/uploads/1795535385893--.jpg"
+    ],
     "price": {
       "amount": 0,
       "currency": "SAR"
     },
     "availability": "preorder",
     "contentStatus": "draft",
+    "kind": "gift",
+    "category": "nuts",
     "isConceptual": true
   },
   {
@@ -130,37 +134,35 @@
   {
     "id": "misc-oils",
     "slug": "oils-selection",
+    "kind": "gift",
+    "category": "oils",
     "name": {
-      "ar": "زيت زيتون تونسي",
-      "en": "Tunisian olive oil",
-      "fr": "Huile d'olive tunisienne",
-      "tr": "Tunus zeytinyağı",
-      "ur": "تیونس کا زیتون کا تیل",
-      "ms": "Minyak Zaitun Tunisia",
-      "bn": "তিউনিসিয়ার জলপাই তেল",
-      "id": "Minyak Zaitun Tunisia"
+      "ar": "زيوت طبيعية",
+      "en": "Natural Oils",
+      "fr": "Huiles naturelles",
+      "tr": "Doğal Yağlar",
+      "ur": "قدرتی تیل",
+      "ms": "Minyak Semula Jadi",
+      "bn": "প্রাকৃতিক তেল",
+      "id": "Minyak Alami"
     },
     "teaser": {
-      "ar": "من أرض تونس المباركة إلى مائدتكم، نقدم لكم زيت زيتون يجمع بين عراقة التقاليد وجمال المذاق، ليكون الخيار المثالي لعشاق المنتجات الطبيعية والأصيلة.",
-      "en": "From the blessed land of Tunisia to your table, we bring you an olive oil that blends time-honored tradition with exquisite flavor—the perfect choice for those who cherish natural, authentic products.",
-      "fr": "Des terres bénies de Tunisie jusqu’à votre table, nous vous proposons une huile d’olive qui allie la richesse des traditions ancestrales à la finesse du goût, pour satisfaire les amateurs de produits naturels et authentiques.",
-      "tr": "Tunus’un bereketli topraklarından sofralarınıza, köklü gelenekleri eşsiz lezzetle buluşturan zeytinyağımızı sunuyoruz. Doğal ve otantik ürünleri sevenler için ideal bir seçim.",
-      "ur": "تیونس کی بابرکت سرزمین سے آپ کے دسترخوان تک، ہم آپ کے لیے ایسا زیتون کا تیل پیش کرتے ہیں جو قدیم روایات اور منفرد ذائقے کا حسین امتزاج ہے، اور قدرتی و خالص مصنوعات کے شوقین افراد کے لیے بہترین انتخاب ہے۔",
-      "ms": "Dari bumi Tunisia yang penuh keberkatan ke meja hidangan anda, kami mempersembahkan minyak zaitun yang menggabungkan keindahan tradisi turun-temurun dengan cita rasa yang istimewa, pilihan sempurna bagi pencinta produk semula jadi dan asli.",
-      "bn": "তিউনিসিয়ার আশীর্বাদপুষ্ট ভূমি থেকে আপনার খাবার টেবিলে, আমরা নিয়ে এসেছি এমন জলপাই তেল, যা প্রাচীন ঐতিহ্য ও অনন্য স্বাদের সমন্বয়ে তৈরি। প্রাকৃতিক ও খাঁটি পণ্যের প্রেমীদের জন্য এটি একটি আদর্শ পছন্দ।",
-      "id": "Dari tanah Tunisia yang penuh berkah hingga ke meja Anda, kami menghadirkan minyak zaitun yang memadukan kekayaan tradisi turun-temurun dengan cita rasa istimewa, menjadi pilihan sempurna bagi pencinta produk alami dan autentik."
+      "ar": "بطاقة منتج قيد الإعداد — ستُضاف التفاصيل قريبًا.",
+      "en": "Product sheet in preparation — details coming soon.",
+      "fr": "Fiche produit en préparation — les détails arrivent bientôt.",
+      "tr": "Ürün sayfası hazırlanıyor — ayrıntılar yakında eklenecek.",
+      "ur": "مصنوعات کا صفحہ تیاری میں ہے — تفصیلات جلد شامل کی جائیں گی۔",
+      "ms": "Helaian produk sedang disediakan — butiran akan menyusul.",
+      "bn": "পণ্য পাতা প্রস্তুত হচ্ছে — বিবরণ শীঘ্রই যোগ করা হবে।",
+      "id": "Lembar produk sedang disiapkan — detail akan segera ditambahkan."
     },
-    "images": [
-      "/media/uploads/1795534748364--3.jpg"
-    ],
+    "images": [],
     "price": {
       "amount": 0,
       "currency": "SAR"
     },
     "availability": "preorder",
     "contentStatus": "draft",
-    "kind": "gift",
-    "category": "oils",
     "isConceptual": true
   },
   {

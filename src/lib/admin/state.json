@@ -714,46 +714,46 @@
         "at": "2026-11-24T11:33:14.003Z"
       }
     },
-    "gift:oils-selection": {
+    "gift:nuts-selection": {
       "ar": {
         "status": "validated",
         "by": "rédaction (langue source)",
-        "at": "2026-11-24T15:39:23.283Z"
+        "at": "2026-11-24T15:50:11.068Z"
       },
       "en": {
         "status": "validated",
         "by": "catalogue existant",
-        "at": "2026-11-24T15:39:23.283Z"
+        "at": "2026-11-24T15:50:11.068Z"
       },
       "fr": {
         "status": "validated",
         "by": "catalogue existant",
-        "at": "2026-11-24T15:39:23.283Z"
+        "at": "2026-11-24T15:50:11.068Z"
       },
       "tr": {
         "status": "validated",
         "by": "catalogue existant",
-        "at": "2026-11-24T15:39:23.283Z"
+        "at": "2026-11-24T15:50:11.068Z"
       },
       "ur": {
         "status": "validated",
         "by": "catalogue existant",
-        "at": "2026-11-24T15:39:23.283Z"
+        "at": "2026-11-24T15:50:11.068Z"
       },
       "ms": {
         "status": "validated",
         "by": "catalogue existant",
-        "at": "2026-11-24T15:39:23.283Z"
+        "at": "2026-11-24T15:50:11.068Z"
       },
       "bn": {
         "status": "validated",
         "by": "catalogue existant",
-        "at": "2026-11-24T15:39:23.283Z"
+        "at": "2026-11-24T15:50:11.068Z"
       },
       "id": {
         "status": "validated",
         "by": "catalogue existant",
-        "at": "2026-11-24T15:39:23.283Z"
+        "at": "2026-11-24T15:50:11.068Z"
       }
     }
   }
