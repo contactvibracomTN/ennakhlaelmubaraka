@@ -96,17 +96,54 @@
   {
     "id": "misc-coffee",
     "slug": "coffee-selection",
+    "name": {
+      "ar": "قهوة بيشة الذهبية",
+      "en": "Golden Bisha Coffee",
+      "fr": "Café Bisha Doré",
+      "tr": "Altın Bisha Kahvesi",
+      "ur": " بیشہ گولڈن کافی",
+      "ms": "Kopi Emas Bisha",
+      "bn": "বিশা গোল্ডেন কফি",
+      "id": "Kopi Emas Bisha"
+    },
+    "teaser": {
+      "ar": "استمتعوا بتجربة قهوة مميزة مع قهوة بيشة الذهبية، عنوان الذوق الرفيع والتميز. كل فنجان يحمل لكم لحظات من المتعة، ورائحة تأسر الحواس ومذاق يضيف لمسة من الدفء والضيافة لأوقاتكم\nاطلبوها الآن واستمتعوا بسحر القهوة",
+      "en": "Experience an exceptional coffee journey with Bisha Golden Coffee—the hallmark of refined taste and excellence. Every cup brings you moments of pure pleasure, an aroma that captivates the senses, and a flavor that adds a touch of warmth and hospitality to your time.\nOrder now and enjoy the magic of coffee.",
+      "fr": "Vivez un voyage café exceptionnel avec Bisha Golden Coffee, symbole du goût raffiné et de l’excellence. Chaque tasse vous offre des moments de pur plaisir, un arôme qui captive les sens et une saveur qui apporte une touche de chaleur et de convivialité à vos instants.\nCommandez dès maintenant et profitez de la magie du café ",
+      "tr": "isha Golden Coffee ile eşsiz bir kahve yolculuğu yaşayın. Zarif lezzetin ve mükemmelliğin simgesi olan her fincan, size saf bir keyif, duyularınızı büyüleyen bir aroma ve anlarınıza sıcaklık ve misafirperverlik katan özel bir tat sunar.\nHemen sipariş verin ve kahvenin büyüsünün tadını çıkarın",
+      "ur": "بیشہ گولڈن کافی کے ساتھ کافی کے ایک منفرد سفر کا تجربہ کریں۔ نفیس ذائقے اور عمدگی کی علامت، ہر کپ آپ کو خالص لطف، حواس کو مسحور کرنے والی خوشبو اور آپ کے لمحات میں گرمجوشی اور مہمان نوازی کا احساس بخشتا ہے۔\n\nابھی آرڈر کریں اور کافی کے جادو سے لطف اندوز ہوں",
+      "ms": "Nikmati pengalaman kopi yang luar biasa bersama Bisha Golden Coffee, lambang cita rasa yang istimewa dan kecemerlangan. Setiap cawan memberikan detik kenikmatan, aroma yang memikat deria serta rasa yang membawa kehangatan dan kemesraan dalam setiap saat.",
+      "bn": "বিশা গোল্ডেন কফি-এর সঙ্গে উপভোগ করুন এক অসাধারণ কফির অভিজ্ঞতা। উন্নত স্বাদ ও উৎকর্ষের প্রতীক প্রতিটি কাপ আপনাকে দেবে নির্মল আনন্দ, ইন্দ্রিয়কে মুগ্ধ করা সুবাস এবং আপনার মুহূর্তগুলোতে উষ্ণতা ও আতিথেয়তার ছোঁয়া।\nএখনই অর্ডার করুন এবং কফির জাদু উপভোগ করুন",
+      "id": "Nikmati pengalaman kopi yang istimewa bersama Bisha Golden Coffee, simbol cita rasa elegan dan kualitas unggul. Setiap cangkir menghadirkan kenikmatan, aroma yang memikat indra, serta cita rasa yang memberikan kehangatan dan keramahan di setiap momen.\nPesan sekarang dan nikmati keajaiban kopi"
+    },
+    "images": [
+      "/media/uploads/1795528917482--.webp",
+      "/media/uploads/1795528934782--.webp"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "preorder",
+    "contentStatus": "draft",
     "kind": "gift",
     "category": "coffee",
+    "isConceptual": true
+  },
+  {
+    "id": "misc-oils",
+    "slug": "oils-selection",
+    "kind": "gift",
+    "category": "oils",
     "name": {
-      "ar": "قهوة مختارة",
-      "en": "Selected Coffee",
-      "fr": "Café sélectionné",
-      "tr": "Seçkin Kahve",
-      "ur": "منتخب قہوہ",
-      "ms": "Kopi Pilihan",
-      "bn": "নির্বাচিত কফি",
-      "id": "Kopi Pilihan"
+      "ar": "زيوت طبيعية",
+      "en": "Natural Oils",
+      "fr": "Huiles naturelles",
+      "tr": "Doğal Yağlar",
+      "ur": "قدرتی تیل",
+      "ms": "Minyak Semula Jadi",
+      "bn": "প্রাকৃতিক তেল",
+      "id": "Minyak Alami"
     },
     "teaser": {
       "ar": "بطاقة منتج قيد الإعداد — ستُضاف التفاصيل قريبًا.",
@@ -125,44 +162,6 @@
     },
     "availability": "preorder",
     "contentStatus": "draft",
-    "isConceptual": true
-  },
-  {
-    "id": "misc-oils",
-    "slug": "oils-selection",
-    "name": {
-      "ar": "زيت زيتون",
-      "en": "olive oil",
-      "fr": "Huile d'olive",
-      "tr": " zeytinyağı",
-      "ur": "زیتون کا تیل",
-      "ms": "Minyak zaitun",
-      "bn": "জলপাই তেল",
-      "id": "Minyak zaitun"
-    },
-    "teaser": {
-      "ar": "حكاية بنّة وجودة، زيت الزيتونة متاعنا من خير أرضنا، لخير مائدة",
-      "en": "A story of flavor and quality—our olive oil, from the bounty of our land to the finest of tables!",
-      "fr": "Une histoire de saveur et de qualité : notre huile d'olive, issue des richesses de notre terre, pour sublimer votre table ",
-      "tr": "Lezzet ve kalite dolu bir hikâye; topraklarımızın bereketinden en seçkin sofralara uzanan zeytinyağımız",
-      "ur": "ذائقے اور معیار کی ایک کہانی، ہمارا زیتون کا تیل ہماری زرخیز زمین سے آپ کے دسترخوان تک",
-      "ms": "Kisah rasa dan kualiti, minyak zaitun kami dari bumi yang subur terus ke meja hidangan anda!",
-      "bn": "স্বাদ ও গুণমানের এক গল্প, আমাদের জলপাই তেল উর্বর মাটি থেকে সরাসরি আপনার খাবার টেবিলে",
-      "id": "Kisah cita rasa dan kualitas, minyak zaitun kami berasal dari tanah yang subur untuk menemani hidangan Anda!\n\n\n\n\n\n"
-    },
-    "images": [
-      "/media/uploads/1795527247657--1.jpg",
-      "/media/uploads/1795527272527--150-.jpg",
-      "/media/uploads/1795527279458--400-.jpg"
-    ],
-    "price": {
-      "amount": 0,
-      "currency": "SAR"
-    },
-    "availability": "preorder",
-    "contentStatus": "draft",
-    "kind": "gift",
-    "category": "oils",
     "isConceptual": true
   },
   {
