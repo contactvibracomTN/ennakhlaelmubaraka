@@ -198,5 +198,115 @@
     "kind": "gift",
     "category": "sweets",
     "contents": []
+  },
+  {
+    "id": "gift-mwum4t00",
+    "slug": "dukka",
+    "name": {
+      "ar": "دقة المدينة ",
+      "en": "Dukka",
+      "fr": "Dukka",
+      "tr": "",
+      "ur": "",
+      "ms": "",
+      "bn": "",
+      "id": ""
+    },
+    "teaser": {
+      "ar": "",
+      "en": "",
+      "fr": "",
+      "tr": "",
+      "ur": "",
+      "ms": "",
+      "bn": "",
+      "id": ""
+    },
+    "images": [],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mwun6f5y",
+    "slug": "huile-d-olive",
+    "name": {
+      "ar": "زيت زيتون ",
+      "en": "olive oil",
+      "fr": "Huile d'olive",
+      "tr": "zeytinyağı",
+      "ur": "زیتون کا تیل",
+      "ms": "Minyak zaitun",
+      "bn": "জলপাই তেল",
+      "id": "Minyak zaitun"
+    },
+    "teaser": {
+      "ar": "حكاية بنّة وجودة، زيت الزيتونة متاعنا من خير أرضنا، لخير مائدة\n",
+      "en": "A story of flavor and quality—our olive oil, from the bounty of our land to the finest of tables",
+      "fr": "Une histoire de saveur et de qualité : notre huile d'olive, issue des richesses de notre terre, pour sublimer votre table ",
+      "tr": "Lezzet ve kalite dolu bir hikâye; topraklarımızın bereketinden en seçkin sofralara uzanan zeytinyağımız ",
+      "ur": "ذائقے اور معیار کی ایک کہانی، ہمارا زیتون کا تیل ہماری زرخیز زمین سے آپ کے دسترخوان تک",
+      "ms": "Kisah rasa dan kualiti, minyak zaitun kami dari bumi yang subur terus ke meja hidangan anda",
+      "bn": "স্বাদ ও গুণমানের এক গল্প, আমাদের জলপাই তেল উর্বর মাটি থেকে সরাসরি আপনার খাবার টেবিলে",
+      "id": "Kisah cita rasa dan kualitas, minyak zaitun kami berasal dari tanah yang subur untuk menemani hidangan Anda\n\n\n"
+    },
+    "images": [
+      "/media/uploads/1795526650947--1.jpg",
+      "/media/uploads/1795526660839--150-.jpg",
+      "/media/uploads/1795526671389--400-.jpg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mwuvm81j",
+    "slug": "batonnets-de-chocolat-a-la-pistache",
+    "name": {
+      "ar": "أصابع الشوكولاتة بالفستق",
+      "en": " Pistachio Chocolate Sticks",
+      "fr": "Bâtonnets de chocolat à la pistache",
+      "tr": "Antep Fıstıklı Çikolata Çubukları",
+      "ur": "پستے والی چاکلیٹ اسٹکس",
+      "ms": "Batang Coklat Pistachio",
+      "bn": "পেস্তা চকলেট স্টিকস",
+      "id": "Stik Cokelat Pistachio"
+    },
+    "teaser": {
+      "ar": "اكتشفوا المذاق الفاخر مع أصابع الشوكولاتة بالفستق، مزيج شهي يجمع بين غنى الشوكولاتة ونكهة الفستق المميزة، ليمنحكم تجربة مليئة بالمتعة واللذة في كل قضمة.  اطلبوها الآن واستمتعوا بلحظات من الحلاوة والفخامة ",
+      "en": "Discover the exquisite taste of Pistachio Chocolate Sticks, a delicious combination of rich chocolate and the distinctive flavor of pistachios, offering a delightful and irresistible experience with every bite.\nOrder now and enjoy moments of sweetness and indulgence",
+      "fr": "Découvrez le goût raffiné des bâtonnets de chocolat à la pistache, une délicieuse alliance entre la richesse du chocolat et la saveur unique de la pistache, pour une expérience gourmande et un plaisir irrésistible à chaque bouchée.\nCommandez dès maintenant et savourez des instants de douceur et de raffinement ",
+      "tr": "Antep fıstıklı çikolata çubuklarının eşsiz lezzetini keşfedin! Çikolatanın zengin tadı ile Antep fıstığının kendine özgü lezzetinin buluştuğu bu özel tat, her lokmada unutulmaz bir keyif sunar.\nHemen sipariş verin ve tatlılığın ve zarafetin tadını çıkarın",
+      "ur": "پستے والی چاکلیٹ اسٹکس کے شاندار ذائقے سے لطف اٹھائیں۔ بھرپور چاکلیٹ اور پستے کے منفرد ذائقے کا یہ مزیدار امتزاج ہر لقمے کو ایک لاجواب اور خوشگوار تجربہ بناتا ہے۔\n\nابھی آرڈر کریں اور مٹھاس و نفاست کے حسین لمحات سے لطف اندوز ہوں",
+      "ms": "Nikmati keenakan Batang Coklat Pistachio, gabungan lazat antara rasa coklat yang kaya dan keunikan pistachio, memberikan pengalaman yang memuaskan dan kenikmatan dalam setiap gigitan.\nPesan sekarang dan nikmati detik kemanisan dan keistimewaan",
+      "bn": "পেস্তা চকলেট স্টিকসের অসাধারণ স্বাদ উপভোগ করুন। সমৃদ্ধ চকলেটের স্বাদ ও পেস্তার অনন্য স্বাদের এই সুস্বাদু মিশ্রণ প্রতিটি কামড়ে এনে দেয় এক আনন্দদায়ক ও অতুলনীয় অভিজ্ঞতা।\n\nএখনই অর্ডার করুন এবং মিষ্টি ও আভিজাত্যের মুহূর্ত উপভোগ করুন",
+      "id": "Temukan kelezatan Stik Cokelat Pistachio, perpaduan sempurna antara cokelat yang kaya rasa dan cita rasa khas pistachio, menghadirkan pengalaman istimewa dan kenikmatan di setiap gigitan.\n\nPesan sekarang dan nikmati momen manis yang penuh kemewahan"
+    },
+    "images": [
+      "/media/uploads/1795536133044--.jpg",
+      "/media/uploads/1795536139391--2.webp",
+      "/media/uploads/1795536146436--20-7-description-package.jpeg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
   }
 ]
