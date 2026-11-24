@@ -19,7 +19,12 @@ import {
   writeFileSync,
 } from "node:fs";
 import { join } from "node:path";
-import type { DateProduct, GiftProduct, DateCategoryInfo, GiftCategoryInfo } from "@/types/product";
+import type {
+  DateProduct,
+  GiftProduct,
+  DateCategoryInfo,
+  GiftCategoryInfo,
+} from "@/types/product";
 import type { BlogPost } from "@/types/blog";
 import type { GuideVariety } from "@/types/guide";
 import type { Testimonial } from "@/types/testimonial";
@@ -34,17 +39,28 @@ import {
   stateFile,
   testimonialsFile,
 } from "./paths";
+import {
+  bufferedText,
+  isBuffered,
+  isGithubMode,
+  queueWrite,
+} from "./github-writes";
 
 /* ------------------------------------------------------------------ */
 /* low-level                                                          */
 /* ------------------------------------------------------------------ */
 
 function readJson<T>(file: string): T {
+  const buffered = bufferedText(file);
+  if (buffered !== null) return JSON.parse(buffered) as T;
   return JSON.parse(readFileSync(file, "utf8")) as T;
 }
 
 function mkdirFor(file: string): void {
-  mkdirSync(file.slice(0, Math.max(file.lastIndexOf("/"), file.lastIndexOf("\\"))), { recursive: true });
+  mkdirSync(
+    file.slice(0, Math.max(file.lastIndexOf("/"), file.lastIndexOf("\\"))),
+    { recursive: true },
+  );
 }
 
 /** Copy `file` into `.backup/<basename>-<ts>.json`, keep the newest 40 per basename. */
@@ -53,7 +69,11 @@ function backupFile(file: string): void {
     if (!existsSync(file)) return;
     const dir = backupDir();
     mkdirSync(dir, { recursive: true });
-    const base = file.split(/[\\/]/).pop()?.replace(/\.json$/i, "") ?? "file";
+    const base =
+      file
+        .split(/[\\/]/)
+        .pop()
+        ?.replace(/\.json$/i, "") ?? "file";
     const ts = new Date().toISOString().replace(/[:.]/g, "-");
     copyFileSync(file, join(dir, `${base}-${ts}.json`));
     // prune
@@ -79,11 +99,17 @@ function rmQuiet(file: string): void {
 function isReadOnlyFsError(err: unknown): boolean {
   if (!err || typeof err !== "object") return false;
   const code = (err as { code?: string }).code;
-  return code === "EROFS" || code === "EACCES" || code === "EPERM" || code === "ENOTSUP";
+  return (
+    code === "EROFS" ||
+    code === "EACCES" ||
+    code === "EPERM" ||
+    code === "ENOTSUP"
+  );
 }
 
 function readOnlyAdminError(cause?: unknown): Error {
-  const detail = cause instanceof Error ? cause.message : cause ? String(cause) : "";
+  const detail =
+    cause instanceof Error ? cause.message : cause ? String(cause) : "";
   return new Error(
     "Enregistrement impossible : l'environnement d'exécution est en lecture seule (ex. Vercel/serverless). " +
       "Le panneau admin de ce projet modifie des fichiers JSON locaux. " +
@@ -92,8 +118,12 @@ function readOnlyAdminError(cause?: unknown): Error {
   );
 }
 
-/** Atomic writer: tmp + rename (keeps the previous file until replace). */
+/** Atomic writer: tmp + rename locally, buffered commit when online. */
 function atomicWrite(file: string, data: unknown): void {
+  if (isGithubMode()) {
+    queueWrite(file, JSON.stringify(data, null, 2) + "\n", "utf-8");
+    return;
+  }
   try {
     mkdirFor(file);
     const tmp = `${file}.tmp`;
@@ -138,10 +168,18 @@ export function saveGuide(varieties: GuideVariety[]): void {
   atomicWrite(guideFile(), varieties);
 }
 
-export function readCategoriesData(): { dates: DateCategoryInfo[]; gifts: GiftCategoryInfo[] } {
-  return readJson<{ dates: DateCategoryInfo[]; gifts: GiftCategoryInfo[] }>(categoriesFile());
+export function readCategoriesData(): {
+  dates: DateCategoryInfo[];
+  gifts: GiftCategoryInfo[];
+} {
+  return readJson<{ dates: DateCategoryInfo[]; gifts: GiftCategoryInfo[] }>(
+    categoriesFile(),
+  );
 }
-export function saveCategoriesData(data: { dates: DateCategoryInfo[]; gifts: GiftCategoryInfo[] }): void {
+export function saveCategoriesData(data: {
+  dates: DateCategoryInfo[];
+  gifts: GiftCategoryInfo[];
+}): void {
   atomicWrite(categoriesFile(), data);
 }
 
@@ -166,13 +204,25 @@ export function saveTestimonials(items: Testimonial[]): void {
 /* messages (per locale)                                              */
 /* ------------------------------------------------------------------ */
 
-export const ADMIN_LOCALES: readonly string[] = ["ar", "en", "fr", "tr", "ur", "ms", "bn", "id"];
+export const ADMIN_LOCALES: readonly string[] = [
+  "ar",
+  "en",
+  "fr",
+  "tr",
+  "ur",
+  "ms",
+  "bn",
+  "id",
+];
 
 export function readMessages(locale: string): Record<string, unknown> {
   return readJson<Record<string, unknown>>(messagesFile(locale));
 }
 
-export function saveMessages(locale: string, data: Record<string, unknown>): void {
+export function saveMessages(
+  locale: string,
+  data: Record<string, unknown>,
+): void {
   atomicWrite(messagesFile(locale), data);
 }
 
@@ -191,7 +241,7 @@ export function readAllMessages(): Record<string, Record<string, unknown>> {
 
 export function readJsonFile<T>(file: string): T | null {
   try {
-    if (!existsSync(file)) return null;
+    if (!isBuffered(file) && !existsSync(file)) return null;
     return readJson<T>(file);
   } catch {
     return null;
@@ -203,7 +253,7 @@ export function saveJsonFile(file: string, data: unknown): void {
 }
 
 export function pathExists(file: string): boolean {
-  return existsSync(file);
+  return isBuffered(file) || existsSync(file);
 }
 
 export function listBackupFiles(): string[] {
@@ -225,7 +275,7 @@ export function restoreBackupFiles(names: string[]): number {
       if (!target) continue;
       const src = join(dir, name);
       if (existsSync(src)) {
-        copyFileSync(src, target);
+        queueWrite(target, readFileSync(src, "utf8"), "utf-8");
         restored += 1;
       }
     }
@@ -264,7 +314,8 @@ function joinContentTarget(name: string): string | null {
     case "testimonials.json":
       return testimonialsFile();
     default:
-      if (ADMIN_LOCALES.some((l) => base === l)) return messagesFile(base as string);
+      if (ADMIN_LOCALES.some((l) => base === l))
+        return messagesFile(base as string);
       return null;
   }
 }
@@ -276,9 +327,15 @@ export function snapshotAll(prefix: string): string {
     const stamp = new Date().toISOString().replace(/[:.]/g, "-");
     const folder = join(dir, `${prefix}-${stamp}`);
     mkdirSync(folder, { recursive: true });
-    const sources = [datesFile(), giftsFile(), postsFile(), guideFile(), categoriesFile(), testimonialsFile(), stateFile()].concat(
-      ADMIN_LOCALES.map((l) => messagesFile(l)),
-    );
+    const sources = [
+      datesFile(),
+      giftsFile(),
+      postsFile(),
+      guideFile(),
+      categoriesFile(),
+      testimonialsFile(),
+      stateFile(),
+    ].concat(ADMIN_LOCALES.map((l) => messagesFile(l)));
     for (const src of sources) {
       if (existsSync(src)) {
         const name = src.split(/[\\/]/).pop();

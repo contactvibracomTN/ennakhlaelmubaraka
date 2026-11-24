@@ -10,6 +10,7 @@
 import { randomBytes } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { passwordFile, secretFile, secretsDir } from "./paths";
+import { isGithubMode } from "./github-writes";
 
 export interface PasswordResult {
   password: string;
@@ -20,9 +21,16 @@ export interface PasswordResult {
 export function getAdminPassword(): PasswordResult {
   const env = process.env.ADMIN_PASSWORD?.trim();
   if (env) return { password: env, generated: false };
+  if (isGithubMode()) {
+    // Auto-generation cannot survive serverless instances: require the env var.
+    return { password: "", generated: false };
+  }
   mkdirSync(secretsDir(), { recursive: true });
   if (existsSync(passwordFile())) {
-    return { password: readFileSync(passwordFile(), "utf8").trim(), generated: false };
+    return {
+      password: readFileSync(passwordFile(), "utf8").trim(),
+      generated: false,
+    };
   }
   const generated = randomBytes(9).toString("base64url"); // 12 chars, URL-safe
   writeFileSync(passwordFile(), generated, "utf8");
@@ -32,8 +40,14 @@ export function getAdminPassword(): PasswordResult {
 export function getAdminSecret(): string {
   const env = process.env.ADMIN_SECRET?.trim();
   if (env) return env;
+  if (isGithubMode()) {
+    throw new Error(
+      "ADMIN_SECRET est obligatoire dans Vercel en mode GitHub (le disque est en lecture seule).",
+    );
+  }
   mkdirSync(secretsDir(), { recursive: true });
-  if (existsSync(secretFile())) return readFileSync(secretFile(), "utf8").trim();
+  if (existsSync(secretFile()))
+    return readFileSync(secretFile(), "utf8").trim();
   const generated = randomBytes(24).toString("hex");
   writeFileSync(secretFile(), generated, "utf8");
   return generated;

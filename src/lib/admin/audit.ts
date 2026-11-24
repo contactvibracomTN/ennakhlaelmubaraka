@@ -4,6 +4,7 @@
  */
 import { appendFileSync, mkdirSync, readFileSync } from "node:fs";
 import { auditFile, logsDir } from "./paths";
+import { noteAudit } from "./github-writes";
 
 export interface AuditEntry {
   ts: string;
@@ -13,10 +14,24 @@ export interface AuditEntry {
   detail?: Record<string, unknown>;
 }
 
-export function audit(actor: string, action: string, target: string, detail?: Record<string, unknown>): void {
+export function audit(
+  actor: string,
+  action: string,
+  target: string,
+  detail?: Record<string, unknown>,
+): void {
+  // Online mode: no writable disk. Keep the action in the commit message so
+  // the git history remains the audit trail.
+  noteAudit(action, target);
   try {
     mkdirSync(logsDir(), { recursive: true });
-    const entry: AuditEntry = { ts: new Date().toISOString(), actor, action, target, detail };
+    const entry: AuditEntry = {
+      ts: new Date().toISOString(),
+      actor,
+      action,
+      target,
+      detail,
+    };
     appendFileSync(auditFile(), JSON.stringify(entry) + "\n", "utf8");
   } catch {
     /* ignore — audit must never fail the caller */
