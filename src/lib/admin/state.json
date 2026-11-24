@@ -709,9 +709,14 @@
         "at": "2026-11-24T11:33:14.003Z"
       },
       "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-24T11:33:14.003Z"
+      },
+      "ur": {
         "status": "machine",
         "by": "admin",
-        "at": "2026-11-24T13:04:35.846Z",
+        "at": "2026-11-24T13:04:39.520Z",
         "machine": true
       }
     }
