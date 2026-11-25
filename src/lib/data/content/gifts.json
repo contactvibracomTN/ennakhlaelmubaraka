@@ -130,35 +130,39 @@
   {
     "id": "misc-oils",
     "slug": "oils-selection",
-    "kind": "gift",
-    "category": "oils",
     "name": {
-      "ar": "زيوت طبيعية",
-      "en": "Natural Oils",
-      "fr": "Huiles naturelles",
-      "tr": "Doğal Yağlar",
-      "ur": "قدرتی تیل",
-      "ms": "Minyak Semula Jadi",
-      "bn": "প্রাকৃতিক তেল",
-      "id": "Minyak Alami"
+      "ar": "زيت الحبة السوداء",
+      "en": "Black Seed Oil",
+      "fr": "\t Huile de nigelle",
+      "tr": "\t Çörek Otu Yağı",
+      "ur": "کلونجی کا تیل",
+      "ms": "Minyak Habbatus Sauda",
+      "bn": "\t কালোজিরার তেল",
+      "id": "Minyak Habbatussauda"
     },
     "teaser": {
-      "ar": "بطاقة منتج قيد الإعداد — ستُضاف التفاصيل قريبًا.",
-      "en": "Product sheet in preparation — details coming soon.",
-      "fr": "Fiche produit en préparation — les détails arrivent bientôt.",
-      "tr": "Ürün sayfası hazırlanıyor — ayrıntılar yakında eklenecek.",
-      "ur": "مصنوعات کا صفحہ تیاری میں ہے — تفصیلات جلد شامل کی جائیں گی۔",
-      "ms": "Helaian produk sedang disediakan — butiran akan menyusul.",
-      "bn": "পণ্য পাতা প্রস্তুত হচ্ছে — বিবরণ শীঘ্রই যোগ করা হবে।",
-      "id": "Lembar produk sedang disiapkan — detail akan segera ditambahkan."
+      "ar": "اكتشفوا زيت الحبة السوداء  واستمتعوا بمنتج طبيعي مستخلص من حبوب الحبة السوداء، يتميز بلونه المميز ورائحته العطرية وطبيعته الغنية",
+      "en": "Discover Black Seed Oil and enjoy a natural product extracted from black seeds, distinguished by its unique color, aromatic scent, and rich natural properties.",
+      "fr": "Découvrez l'huile de nigelle et profitez d'un produit naturel extrait des graines de nigelle, qui se distingue par sa couleur particulière, son parfum aromatique et sa richesse naturelle.",
+      "tr": "Çörek otu tohumlarından elde edilen doğal bir ürün olan çörek otu yağını keşfedin. Kendine özgü rengi, aromatik kokusu ve doğal zenginliğiyle öne çıkar.",
+      "ur": "کلونجی کے بیجوں سے حاصل کردہ قدرتی تیل دریافت کریں، جو اپنے منفرد رنگ، خوشبودار مہک اور قدرتی خصوصیات کی وجہ سے ممتاز ہے۔",
+      "ms": "Temui Minyak Habbatus Sauda, produk semula jadi yang diekstrak daripada biji habbatus sauda, terkenal dengan warna yang tersendiri, aroma yang harum dan khasiat semula jadinya.",
+      "bn": "কালোজিরার বীজ থেকে নিষ্কাশিত একটি প্রাকৃতিক পণ্য কালোজিরার তেল আবিষ্কার করুন। এর রয়েছে স্বতন্ত্র রং, সুগন্ধি ঘ্রাণ এবং প্রাকৃতিক গুণাবলি।",
+      "id": "Temukan Minyak Habbatussauda, produk alami yang diekstrak dari biji jintan hitam, dengan warna khas, aroma harum, dan kekayaan alami yang istimewa."
     },
-    "images": [],
+    "images": [
+      "/media/uploads/1795614297568--.jpg",
+      "/media/uploads/1795614303476--125-.webp",
+      "/media/uploads/1795614309712-2-.webp"
+    ],
     "price": {
       "amount": 0,
       "currency": "SAR"
     },
     "availability": "preorder",
     "contentStatus": "draft",
+    "kind": "gift",
+    "category": "oils",
     "isConceptual": true
   },
   {
