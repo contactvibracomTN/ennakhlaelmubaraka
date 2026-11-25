@@ -192,4 +192,23 @@ Sauvegardes : `.backup/` · Secrets : `.admin/` (et `.env.local`).
 
 ---
 
+## 11. Administration en ligne (Vercel)
+
+Les sections 7 et 10 décrivent le fonctionnement **local** (fichiers et copies
+`.backup/`). Sur Vercel, le disque est en lecture seule : les enregistrements sont
+alors **committés sur la branche `dev`** via GitHub, et la production n’est mise à
+jour que lorsque tu fusionnes `dev` dans `main` depuis ton poste.
+
+- Un seul commit par « Enregistrer » ; le message du commit sert de journal d’audit.
+- L’écran « Déploiement » devient « Publication sur la branche dev » : il affiche
+  le dernier commit et le lien de preview, et le bouton déclenche le déploiement
+  de cette preview.
+- Les langues, les traductions, les validations et les images fonctionnent
+  exactement de la même manière.
+
+Procédure complète et configuration Vercel :
+[docs/admin-github-dev-workflow.md](./docs/admin-github-dev-workflow.md).
+
+---
+
 *Panneau d'administration nakhla-v3 — pour toute question technique, contactez le développeur.*

@@ -9,13 +9,14 @@ export default async function AdminGiftsPage() {
   await guardAdmin();
   const gifts = readGifts();
   const rows: ItemListRow[] = gifts.map((p) => {
-    const statuses = computeItemStatuses("gift", p.slug, p.name);
+    const key = p.slug || p.id;
+    const statuses = computeItemStatuses("gift", key, p.name);
     const pending = Object.values(statuses).filter((s) => s.status !== "validated").length;
     return {
-      href: `/admin/gifts/${encodeURIComponent(p.slug)}`,
+      href: `/admin/gifts/${encodeURIComponent(key)}`,
       thumb: p.images?.[0],
-      title: p.name.ar || p.name.en || p.slug,
-      slug: p.slug,
+      title: p.name.ar || p.name.en || key,
+      slug: key,
       badge: p.contentStatus,
       note:
         pending === 0
