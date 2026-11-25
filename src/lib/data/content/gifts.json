@@ -688,5 +688,43 @@
     "kind": "gift",
     "category": "sweets",
     "contents": []
+  },
+  {
+    "id": "gift-mww76rwd",
+    "slug": "dattes-sagai",
+    "name": {
+      "ar": "صقعي",
+      "en": "Sagai Dates",
+      "fr": "\t Dattes Sagai",
+      "tr": "\t Sagai Hurması",
+      "ur": "\t صقعی کھجور",
+      "ms": "\t Kurma Sagai",
+      "bn": "সাগাই খেজুর",
+      "id": "\t Kurma Sagai"
+    },
+    "teaser": {
+      "ar": "استمتعوا بحلاوة تمر الصقعي، واجعلوه رفيق لحظاتكم الجميلة مع القهوة العربية، ولمسة أصيلة تضفي على موائدكم أجواء الضيافة السعودية",
+      "en": "Enjoy the natural sweetness of Sagai dates and make them the perfect companion to your special moments with Arabic coffee, adding an authentic touch of Saudi hospitality to your table.",
+      "fr": "Savourez la douceur naturelle des dattes Sagai et faites-en les compagnes idéales de vos beaux moments autour d'un café arabe, en apportant une touche authentique de l'hospitalité saoudienne à votre table.",
+      "tr": "Sagai hurmasının doğal tatlılığının tadını çıkarın. Arap kahvesi eşliğinde güzel anlarınıza eşlik etsin ve sofralarınıza Suudi misafirperverliğinin otantik dokunuşunu katsın.\n\n",
+      "ur": "صقعی کھجور کی قدرتی مٹھاس سے لطف اندوز ہوں اور اسے عربی کافی کے ساتھ اپنے خوبصورت لمحات کا بہترین ساتھی بنائیں، جو آپ کی میز پر سعودی مہمان نوازی کا مستند رنگ بھرے۔",
+      "ms": "Nikmati kemanisan semula jadi kurma Sagai dan jadikannya teman sempurna untuk saat-saat indah bersama kopi Arab, sambil menambahkan sentuhan asli keramahan Saudi di meja hidangan anda.",
+      "bn": "সাগাই খেজুরের প্রাকৃতিক মিষ্টতা উপভোগ করুন এবং আরবি কফির সঙ্গে আপনার সুন্দর মুহূর্তগুলোর সঙ্গী করে তুলুন। এটি আপনার খাবার টেবিলে সৌদি আতিথেয়তার এক অনন্য ছোঁয়া যোগ করবে।",
+      "id": "Nikmati manis alami kurma Sagai dan jadikan sebagai teman sempurna untuk momen-momen indah bersama kopi Arab, sekaligus menghadirkan sentuhan autentik keramahan Saudi di meja Anda."
+    },
+    "images": [
+      "/media/uploads/1795615670867--200-.jpg",
+      "/media/uploads/1795615678989--800-.jpg",
+      "/media/uploads/1795615686192--400-.webp"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
   }
 ]
