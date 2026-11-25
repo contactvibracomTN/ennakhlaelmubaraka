@@ -1032,6 +1032,48 @@
         "by": "catalogue existant",
         "at": "2026-11-25T11:56:31.867Z"
       }
+    },
+    "gift:zaatar-de-taiba": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      }
     }
   }
 }
