@@ -1200,6 +1200,48 @@
         "by": "catalogue existant",
         "at": "2026-11-25T13:33:52.475Z"
       }
+    },
+    "gift:cafe-dore-de-bisha": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      }
     }
   }
 }
