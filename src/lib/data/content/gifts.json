@@ -350,5 +350,42 @@
     "kind": "gift",
     "category": "sweets",
     "contents": []
+  },
+  {
+    "id": "gift-mww1ocen",
+    "slug": "chocolat-au-lait",
+    "name": {
+      "ar": "\t شوكولاتة بالحليب",
+      "en": "\t Milk Chocolate",
+      "fr": "\t Chocolat au lait",
+      "tr": "Sütlü Çikolata",
+      "ur": "\t دودھ والی چاکلیٹ",
+      "ms": "\t Coklat Susu",
+      "bn": "\t দুধ চকলেট",
+      "id": "\t Cokelat Susu"
+    },
+    "teaser": {
+      "ar": "استمتعوا بتجربة شوكولاتة استثنائية تجمع بين غنى الشوكولاتة بالحليب وقرمشة البسكويت والكنافة الشهية في حشوة لذيذة من الداخل.\n\nتتميز بقوام يجمع بين نعومة الشوكولاتة وقرمشة البسكويت والكنافة، لتمنحكم مزيجًا رائعًا من النكهات والقوام في كل قضمة",
+      "en": "Enjoy an exceptional chocolate experience that combines the richness of milk chocolate with the crunchiness of delicious biscuits and crispy kunafa in a delightful filling.\n\nIts texture combines smooth chocolate with crunchy biscuits and kunafa, offering a wonderful blend of flavors and textures in every bite.",
+      "fr": "Savourez une expérience chocolatée exceptionnelle qui associe la richesse du chocolat au lait au croustillant de délicieux biscuits et de kadaïf dans une garniture savoureuse.\n\nSa texture allie la douceur fondante du chocolat au croquant des biscuits et du kadaïf, pour vous offrir un merveilleux mélange de saveurs et de textures à chaque bouchée.",
+      "tr": "Sütlü çikolatanın zengin lezzetini, lezzetli bisküvilerin ve çıtır kadayıfın eşsiz dokusuyla buluşturan olağanüstü bir çikolata deneyiminin keyfini çıkarın.\n\nYumuşak çikolata dokusu, çıtır bisküvi ve kadayıfla birleşerek her lokmada harika bir lezzet ve doku uyumu sunar.",
+      "ur": "ایک منفرد چاکلیٹ کے ذائقے سے لطف اندوز ہوں، جس میں دودھ والی چاکلیٹ کی بھرپور لذت کے ساتھ مزیدار بسکٹ اور خستہ کنافا کی کرنچ شامل ہے۔\n\nاس کی نرم چاکلیٹ، کرارے بسکٹ اور کنافا کے امتزاج سے ہر لقمے میں ذائقوں اور ساخت کا بہترین توازن ملتا ہے۔",
+      "ms": "Nikmati pengalaman coklat yang luar biasa, menggabungkan kekayaan rasa coklat susu dengan kerangupan biskut yang lazat dan kunafa rangup dalam inti yang menyelerakan.\n\nTeksturnya menggabungkan kelembutan coklat dengan kerangupan biskut dan kunafa, memberikan gabungan rasa dan tekstur yang sempurna dalam setiap gigitan.",
+      "bn": "একটি অসাধারণ চকলেটের স্বাদ উপভোগ করুন, যেখানে মিল্ক চকলেটের সমৃদ্ধ স্বাদের সঙ্গে রয়েছে সুস্বাদু বিস্কুট ও মুচমুচে কুনাফার মজাদার পুর।\n\nএর নরম চকলেটের সঙ্গে মুচমুচে বিস্কুট ও কুনাফার মিশ্রণ প্রতিটি কামড়ে এনে দেয় স্বাদ ও গঠনের এক দারুণ সমন্বয়।",
+      "id": "Nikmati pengalaman cokelat istimewa yang memadukan kekayaan rasa cokelat susu dengan renyahnya biskuit lezat dan kunafa yang gurih dalam isian yang menggugah selera.\n\nTeksturnya memadukan kelembutan cokelat dengan kerenyahan biskuit dan kunafa, menghadirkan perpaduan rasa dan tekstur yang sempurna di setiap gigitan."
+    },
+    "images": [
+      "/media/uploads/1795606673061--2.jpg",
+      "/media/uploads/1795606678983--.webp"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
   }
 ]
