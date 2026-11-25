@@ -96,35 +96,38 @@
   {
     "id": "misc-coffee",
     "slug": "coffee-selection",
-    "kind": "gift",
-    "category": "coffee",
     "name": {
-      "ar": "قهوة مختارة",
-      "en": "Selected Coffee",
-      "fr": "Café sélectionné",
-      "tr": "Seçkin Kahve",
-      "ur": "منتخب قہوہ",
-      "ms": "Kopi Pilihan",
-      "bn": "নির্বাচিত কফি",
-      "id": "Kopi Pilihan"
+      "ar": "قهوة بيشة الذهبية",
+      "en": "\t Golden Bisha Coffee",
+      "fr": "\t Café doré de Bisha",
+      "tr": " Altın Bisha Kahvesi",
+      "ur": "بیشہ کی سنہری کافی",
+      "ms": "Kopi Emas Bisha",
+      "bn": "গোল্ডেন বিশা কফি",
+      "id": "\t Kopi Emas Bisha"
     },
     "teaser": {
-      "ar": "بطاقة منتج قيد الإعداد — ستُضاف التفاصيل قريبًا.",
-      "en": "Product sheet in preparation — details coming soon.",
-      "fr": "Fiche produit en préparation — les détails arrivent bientôt.",
-      "tr": "Ürün sayfası hazırlanıyor — ayrıntılar yakında eklenecek.",
-      "ur": "مصنوعات کا صفحہ تیاری میں ہے — تفصیلات جلد شامل کی جائیں گی۔",
-      "ms": "Helaian produk sedang disediakan — butiran akan menyusul.",
-      "bn": "পণ্য পাতা প্রস্তুত হচ্ছে — বিবরণ শীঘ্রই যোগ করা হবে।",
-      "id": "Lembar produk sedang disiapkan — detail akan segera ditambahkan."
+      "ar": "عيشوا تجربة القهوة السعودية الأصيلة مع قهوة بيشة الذهبية، واجعلوا من كل فنجان حكاية تجمع بين الكرم والأصالة وفخامة المذاق. تتميز بنكهتها الغنية ورائحتها العطرية المميزة، لتكون الخيار المثالي للتقديم في جلسات الضيافة والمناسبات، ومشاركة أجمل اللحظات مع الأهل والأحباب",
+      "en": "Experience the authentic taste of Saudi coffee with Golden Bisha Coffee, and let every cup tell a story of generosity, tradition, and exceptional flavor. It is distinguished by its rich taste and delightful aroma, making it the perfect choice for serving during hospitality gatherings and special occasions, and for sharing beautiful moments with family and loved ones.",
+      "fr": "Vivez une expérience authentique du café saoudien avec le Café Doré de Bisha, et faites de chaque tasse une histoire de générosité, de tradition et de saveurs raffinées. Il se distingue par son goût riche et son arôme envoûtant, ce qui en fait le choix idéal pour accompagner vos moments de convivialité, vos réceptions et vos occasions spéciales, à partager en famille et entre proches.",
+      "tr": "Golden Bisha Kahvesi ile Suudi kahvesinin otantik lezzetini keşfedin. Her fincanıyla cömertliği, geleneği ve eşsiz lezzeti yansıtan özel bir deneyim yaşayın. Zengin aroması ve hoş kokusuyla misafir ağırlamalarında, özel davetlerde ve sevdiklerinizle paylaşacağınız güzel anlarda ideal bir seçimdir",
+      "ur": "گولڈن بیشہ کافی کے ساتھ سعودی کافی کے مستند ذائقے کا تجربہ کریں۔ ہر کپ سخاوت، روایت اور بہترین ذائقے کی ایک خوبصورت داستان بیان کرتا ہے۔ اپنی بھرپور خوشبو اور منفرد ذائقے کی وجہ سے یہ مہمان نوازی کی محفلوں، خاص تقریبات اور اہلِ خانہ و عزیزوں کے ساتھ خوشگوار لمحات بانٹنے کے لیے بہترین انتخاب ہے۔",
+      "ms": "Nikmati pengalaman kopi Saudi yang asli bersama Kopi Emas Bisha, dan biarkan setiap cawan menceritakan kisah kemurahan hati, tradisi dan cita rasa yang istimewa. Dengan rasa yang kaya serta aroma yang memikat, kopi ini merupakan pilihan sempurna untuk majlis keramahtamahan, acara istimewa dan saat-saat indah bersama keluarga serta insan tersayang.",
+      "bn": "গোল্ডেন বিশা কফির সঙ্গে সৌদি কফির আসল স্বাদ উপভোগ করুন। প্রতিটি কাপ যেন উদারতা, ঐতিহ্য এবং অসাধারণ স্বাদের এক গল্প বলে। এর সমৃদ্ধ স্বাদ ও মনোমুগ্ধকর সুবাস এটিকে অতিথি আপ্যায়ন, বিশেষ অনুষ্ঠান এবং পরিবার ও প্রিয়জনদের সঙ্গে সুন্দর মুহূর্ত ভাগ করে নেওয়ার জন্য আদর্শ করে তোলে।",
+      "id": "Nikmati pengalaman kopi Saudi yang autentik bersama Kopi Emas Bisha, dan biarkan setiap cangkir menghadirkan kisah keramahan, tradisi, dan cita rasa istimewa. Dengan rasa yang kaya dan aroma yang menggugah selera, kopi ini menjadi pilihan sempurna untuk acara jamuan, perayaan khusus, serta berbagi momen indah bersama keluarga dan orang-orang tercinta."
     },
-    "images": [],
+    "images": [
+      "/media/uploads/1795615326172--500.jpg",
+      "/media/uploads/1795615333355--.webp"
+    ],
     "price": {
       "amount": 0,
       "currency": "SAR"
     },
     "availability": "preorder",
     "contentStatus": "draft",
+    "kind": "gift",
+    "category": "coffee",
     "isConceptual": true
   },
   {
