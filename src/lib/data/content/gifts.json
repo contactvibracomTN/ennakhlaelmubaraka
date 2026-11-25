@@ -222,7 +222,12 @@
       "bn": "",
       "id": ""
     },
-    "images": [],
+    "images": [
+      "/media/uploads/1795606165167--90.jpg",
+      "/media/uploads/1795606172411--150.jpg",
+      "/media/uploads/1795606179199--300.jpg",
+      "/media/uploads/1795606187418--.webp"
+    ],
     "price": {
       "amount": 0,
       "currency": "SAR"
