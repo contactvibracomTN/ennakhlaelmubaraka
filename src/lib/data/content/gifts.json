@@ -96,8 +96,6 @@
   {
     "id": "misc-coffee",
     "slug": "coffee-selection",
-    "kind": "gift",
-    "category": "coffee",
     "name": {
       "ar": "قهوة مختارة",
       "en": "Selected Coffee",
@@ -118,47 +116,55 @@
       "bn": "পণ্য পাতা প্রস্তুত হচ্ছে — বিবরণ শীঘ্রই যোগ করা হবে।",
       "id": "Lembar produk sedang disiapkan — detail akan segera ditambahkan."
     },
-    "images": [],
+    "images": [
+      "/media/uploads/1795618568043--.webp"
+    ],
     "price": {
       "amount": 0,
       "currency": "SAR"
     },
     "availability": "preorder",
     "contentStatus": "draft",
+    "kind": "gift",
+    "category": "coffee",
     "isConceptual": true
   },
   {
     "id": "misc-oils",
     "slug": "oils-selection",
-    "kind": "gift",
-    "category": "oils",
     "name": {
-      "ar": "زيوت طبيعية",
-      "en": "Natural Oils",
-      "fr": "Huiles naturelles",
-      "tr": "Doğal Yağlar",
-      "ur": "قدرتی تیل",
-      "ms": "Minyak Semula Jadi",
-      "bn": "প্রাকৃতিক তেল",
-      "id": "Minyak Alami"
+      "ar": "زيت الحبة السوداء",
+      "en": "Black Seed Oil",
+      "fr": "\t Huile de nigelle",
+      "tr": "\t Çörek Otu Yağı",
+      "ur": "کلونجی کا تیل",
+      "ms": "Minyak Habbatus Sauda",
+      "bn": "\t কালোজিরার তেল",
+      "id": "Minyak Habbatussauda"
     },
     "teaser": {
-      "ar": "بطاقة منتج قيد الإعداد — ستُضاف التفاصيل قريبًا.",
-      "en": "Product sheet in preparation — details coming soon.",
-      "fr": "Fiche produit en préparation — les détails arrivent bientôt.",
-      "tr": "Ürün sayfası hazırlanıyor — ayrıntılar yakında eklenecek.",
-      "ur": "مصنوعات کا صفحہ تیاری میں ہے — تفصیلات جلد شامل کی جائیں گی۔",
-      "ms": "Helaian produk sedang disediakan — butiran akan menyusul.",
-      "bn": "পণ্য পাতা প্রস্তুত হচ্ছে — বিবরণ শীঘ্রই যোগ করা হবে।",
-      "id": "Lembar produk sedang disiapkan — detail akan segera ditambahkan."
+      "ar": "اكتشفوا زيت الحبة السوداء  واستمتعوا بمنتج طبيعي مستخلص من حبوب الحبة السوداء، يتميز بلونه المميز ورائحته العطرية وطبيعته الغنية",
+      "en": "Discover Black Seed Oil and enjoy a natural product extracted from black seeds, distinguished by its unique color, aromatic scent, and rich natural properties.",
+      "fr": "Découvrez l'huile de nigelle et profitez d'un produit naturel extrait des graines de nigelle, qui se distingue par sa couleur particulière, son parfum aromatique et sa richesse naturelle.",
+      "tr": "Çörek otu tohumlarından elde edilen doğal bir ürün olan çörek otu yağını keşfedin. Kendine özgü rengi, aromatik kokusu ve doğal zenginliğiyle öne çıkar.",
+      "ur": "کلونجی کے بیجوں سے حاصل کردہ قدرتی تیل دریافت کریں، جو اپنے منفرد رنگ، خوشبودار مہک اور قدرتی خصوصیات کی وجہ سے ممتاز ہے۔",
+      "ms": "Temui Minyak Habbatus Sauda, produk semula jadi yang diekstrak daripada biji habbatus sauda, terkenal dengan warna yang tersendiri, aroma yang harum dan khasiat semula jadinya.",
+      "bn": "কালোজিরার বীজ থেকে নিষ্কাশিত একটি প্রাকৃতিক পণ্য কালোজিরার তেল আবিষ্কার করুন। এর রয়েছে স্বতন্ত্র রং, সুগন্ধি ঘ্রাণ এবং প্রাকৃতিক গুণাবলি।",
+      "id": "Temukan Minyak Habbatussauda, produk alami yang diekstrak dari biji jintan hitam, dengan warna khas, aroma harum, dan kekayaan alami yang istimewa."
     },
-    "images": [],
+    "images": [
+      "/media/uploads/1795614297568--.jpg",
+      "/media/uploads/1795614303476--125-.webp",
+      "/media/uploads/1795614309712-2-.webp"
+    ],
     "price": {
       "amount": 0,
       "currency": "SAR"
     },
     "availability": "preorder",
     "contentStatus": "draft",
+    "kind": "gift",
+    "category": "oils",
     "isConceptual": true
   },
   {
@@ -222,7 +228,12 @@
       "bn": "",
       "id": ""
     },
-    "images": [],
+    "images": [
+      "/media/uploads/1795606165167--90.jpg",
+      "/media/uploads/1795606172411--150.jpg",
+      "/media/uploads/1795606179199--300.jpg",
+      "/media/uploads/1795606187418--.webp"
+    ],
     "price": {
       "amount": 0,
       "currency": "SAR"
@@ -258,8 +269,7 @@
     },
     "images": [
       "/media/uploads/1795526650947--1.jpg",
-      "/media/uploads/1795526660839--150-.jpg",
-      "/media/uploads/1795526671389--400-.jpg"
+      "/media/uploads/1795526660839--150-.jpg"
     ],
     "price": {
       "amount": 0,
@@ -298,6 +308,523 @@
       "/media/uploads/1795536133044--.jpg",
       "/media/uploads/1795536139391--2.webp",
       "/media/uploads/1795536146436--20-7-description-package.jpeg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww17vrw",
+    "slug": "chocolat-de-dubai",
+    "name": {
+      "ar": "شوكولاتة دبي",
+      "en": "Dubai Chocolate",
+      "fr": "Chocolat de Dubaï",
+      "tr": "Dubai Çikolatası",
+      "ur": "\t دبئی چاکلیٹ",
+      "ms": "Coklat Dubai",
+      "bn": "\t দুবাই চকলেট",
+      "id": "Cokelat Dubai"
+    },
+    "teaser": {
+      "ar": "لا تفوّتوا فرصة تجربة شوكولاتة دبي! قطعة واحدة كفيلة بأن تأخذكم إلى عالم من النكهات الغنية والمتعة التي لا تُقاوم",
+      "en": "Don't miss the chance to try Dubai Chocolate! One bite is enough to take you into a world of rich flavors and irresistible pleasure",
+      "fr": "Ne manquez pas l'occasion de goûter au Chocolat de Dubaï ! Une seule bouchée suffit pour vous transporter dans un univers de saveurs riches et de plaisir irrésistible",
+      "tr": "Dubai Çikolatasını deneme fırsatını kaçırmayın! Tek bir lokma, sizi zengin lezzetler ve karşı konulmaz bir keyif dünyasına götürmeye yeter",
+      "ur": "دبئی چاکلیٹ چکھنے کا موقع ہاتھ سے نہ جانے دیں! صرف ایک نوالہ آپ کو بھرپور ذائقوں اور ناقابلِ مزاحمت لذت کی دنیا میں لے جانے کے لیے کافی ہے",
+      "ms": "Jangan lepaskan peluang untuk mencuba Coklat Dubai! Satu gigitan sahaja sudah cukup untuk membawa anda ke dunia rasa yang kaya dan kenikmatan yang tidak dapat ditolak",
+      "bn": "দুবাই চকলেটের স্বাদ নেওয়ার সুযোগ হাতছাড়া করবেন না! মাত্র এক কামড়ই আপনাকে সমৃদ্ধ স্বাদ ও অপ্রতিরোধ্য আনন্দের জগতে নিয়ে যাওয়ার জন্য যথেষ্ট",
+      "id": "Jangan lewatkan kesempatan untuk mencoba Cokelat Dubai! Satu gigitan saja cukup untuk membawa Anda ke dunia cita rasa yang kaya dan kenikmatan yang tak tertahankan"
+    },
+    "images": [
+      "/media/uploads/1795605992015--.webp",
+      "/media/uploads/1795605999367-35f3253b-40e4-4eca-b9bc-fb09a0d7e410.jpg-tplv-aphluv4xwc-res.jpg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww1ocen",
+    "slug": "chocolat-au-lait",
+    "name": {
+      "ar": "\t شوكولاتة بالحليب",
+      "en": "\t Milk Chocolate",
+      "fr": "\t Chocolat au lait",
+      "tr": "Sütlü Çikolata",
+      "ur": "\t دودھ والی چاکلیٹ",
+      "ms": "\t Coklat Susu",
+      "bn": "\t দুধ চকলেট",
+      "id": "\t Cokelat Susu"
+    },
+    "teaser": {
+      "ar": "استمتعوا بتجربة شوكولاتة استثنائية تجمع بين غنى الشوكولاتة بالحليب وقرمشة البسكويت والكنافة الشهية في حشوة لذيذة من الداخل.\n\nتتميز بقوام يجمع بين نعومة الشوكولاتة وقرمشة البسكويت والكنافة، لتمنحكم مزيجًا رائعًا من النكهات والقوام في كل قضمة",
+      "en": "Enjoy an exceptional chocolate experience that combines the richness of milk chocolate with the crunchiness of delicious biscuits and crispy kunafa in a delightful filling.\n\nIts texture combines smooth chocolate with crunchy biscuits and kunafa, offering a wonderful blend of flavors and textures in every bite.",
+      "fr": "Savourez une expérience chocolatée exceptionnelle qui associe la richesse du chocolat au lait au croustillant de délicieux biscuits et de kadaïf dans une garniture savoureuse.\n\nSa texture allie la douceur fondante du chocolat au croquant des biscuits et du kadaïf, pour vous offrir un merveilleux mélange de saveurs et de textures à chaque bouchée.",
+      "tr": "Sütlü çikolatanın zengin lezzetini, lezzetli bisküvilerin ve çıtır kadayıfın eşsiz dokusuyla buluşturan olağanüstü bir çikolata deneyiminin keyfini çıkarın.\n\nYumuşak çikolata dokusu, çıtır bisküvi ve kadayıfla birleşerek her lokmada harika bir lezzet ve doku uyumu sunar.",
+      "ur": "ایک منفرد چاکلیٹ کے ذائقے سے لطف اندوز ہوں، جس میں دودھ والی چاکلیٹ کی بھرپور لذت کے ساتھ مزیدار بسکٹ اور خستہ کنافا کی کرنچ شامل ہے۔\n\nاس کی نرم چاکلیٹ، کرارے بسکٹ اور کنافا کے امتزاج سے ہر لقمے میں ذائقوں اور ساخت کا بہترین توازن ملتا ہے۔",
+      "ms": "Nikmati pengalaman coklat yang luar biasa, menggabungkan kekayaan rasa coklat susu dengan kerangupan biskut yang lazat dan kunafa rangup dalam inti yang menyelerakan.\n\nTeksturnya menggabungkan kelembutan coklat dengan kerangupan biskut dan kunafa, memberikan gabungan rasa dan tekstur yang sempurna dalam setiap gigitan.",
+      "bn": "একটি অসাধারণ চকলেটের স্বাদ উপভোগ করুন, যেখানে মিল্ক চকলেটের সমৃদ্ধ স্বাদের সঙ্গে রয়েছে সুস্বাদু বিস্কুট ও মুচমুচে কুনাফার মজাদার পুর।\n\nএর নরম চকলেটের সঙ্গে মুচমুচে বিস্কুট ও কুনাফার মিশ্রণ প্রতিটি কামড়ে এনে দেয় স্বাদ ও গঠনের এক দারুণ সমন্বয়।",
+      "id": "Nikmati pengalaman cokelat istimewa yang memadukan kekayaan rasa cokelat susu dengan renyahnya biskuit lezat dan kunafa yang gurih dalam isian yang menggugah selera.\n\nTeksturnya memadukan kelembutan cokelat dengan kerenyahan biskuit dan kunafa, menghadirkan perpaduan rasa dan tekstur yang sempurna di setiap gigitan."
+    },
+    "images": [
+      "/media/uploads/1795606673061--2.jpg",
+      "/media/uploads/1795606678983--.webp"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww20r5o",
+    "slug": "talbina",
+    "name": {
+      "ar": "\t تلبينة",
+      "en": "Talbina",
+      "fr": "Talbina",
+      "tr": "\t Arpa Lapası",
+      "ur": "\t تلبینہ",
+      "ms": "\t Talbinah",
+      "bn": "\t তালবিনা",
+      "id": "\t Talbinah"
+    },
+    "teaser": {
+      "ar": "اكتشفوا مذاق التلبينة التقليدية، إحدى أشهر الوصفات الغذائية المصنوعة من الشعير، والتي تتميز بقوامها الناعم والكريمي وطعمها اللذيذ.",
+      "en": "Discover the taste of traditional Talbina, one of the most famous barley-based nutritional recipes, known for its smooth, creamy texture and delicious taste.",
+      "fr": "Découvrez la saveur de la Talbina traditionnelle, l'une des préparations alimentaires à base d'orge les plus connues, caractérisée par sa texture douce et crémeuse ainsi que son goût délicieux.",
+      "tr": "Yumuşak ve kremsi dokusu, lezzetli tadıyla öne çıkan, arpadan yapılan en meşhur geleneksel besin tariflerinden biri olan geleneksel Talbina'nın tadını keşfedin",
+      "ur": "روایتی تلبینہ کا ذائقہ دریافت کریں، جو جو سے تیار ہونے والی مشہور غذائی ترکیبوں میں سے ایک ہے۔ یہ اپنی نرم، کریمی ساخت اور مزیدار ذائقے کے لیے مشہور ہے۔",
+      "ms": "Nikmati rasa Talbinah tradisional, salah satu hidangan berkhasiat berasaskan barli yang terkenal, dengan tekstur yang lembut, berkrim dan rasa yang lazat.",
+      "bn": "ঐতিহ্যবাহী তালবিনার স্বাদ আবিষ্কার করুন। এটি যব দিয়ে তৈরি অন্যতম জনপ্রিয় পুষ্টিকর খাবার, যার রয়েছে নরম, ক্রিমি গঠন এবং সুস্বাদু স্বাদ।",
+      "id": "Temukan cita rasa Talbinah tradisional, salah satu hidangan bergizi berbahan dasar jelai yang terkenal, dengan tekstur lembut, creamy, dan rasa yang lezat."
+    },
+    "images": [
+      "/media/uploads/1795606973599--.png",
+      "/media/uploads/1795606981912--.jpg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww2f84z",
+    "slug": "douceur-aux-dattes",
+    "name": {
+      "ar": "تمرية",
+      "en": "Date Sweet",
+      "fr": "Douceur aux dattes",
+      "tr": "\t Hurmalı Tatlı",
+      "ur": "\t کھجور کی مٹھائی",
+      "ms": "Manisan Kurma",
+      "bn": "খেজুরের মিষ্টি",
+      "id": "Manisan Kurma"
+    },
+    "teaser": {
+      "ar": "عيشوا مذاق الضيافة السعودية الأصيلة مع التمرية، حيث يلتقي جمال التقديم بحلاوة التمر في كل حبة!\n\nتتميز التمرية بمذاق التمر الطبيعي وحلاوته الغنية، مع لمسات من التزيين اللذيذ التي تجعل كل حبة قطعة فريدة تجمع بين الأصالة والفخامة",
+      "en": "Experience the authentic taste of Saudi hospitality with Tamriyah, where beautiful presentation meets the natural sweetness of dates in every piece!\n\nTamriyah is distinguished by the natural flavor and rich sweetness of dates, enhanced with delicious decorative touches that make every piece unique, combining tradition and elegance",
+      "fr": "Découvrez le goût authentique de l'hospitalité saoudienne avec la Tamriyah, où la beauté de la présentation rencontre la douceur des dattes dans chaque bouchée !\n\nLa Tamriyah se distingue par la saveur naturelle des dattes et leur douceur généreuse, sublimées par de délicieuses touches de décoration qui rendent chaque pièce unique, alliant authenticité et élégance.",
+      "tr": "Her lokmada güzel sunumun hurmanın doğal tatlılığıyla buluştuğu Tamriyah ile Suudi misafirperverliğinin otantik lezzetini keşfedin!\n\nTamriyah, hurmanın doğal aroması ve zengin tatlılığıyla öne çıkar. Lezzetli süsleme dokunuşları her parçayı gelenek ve zarafeti bir araya getiren eşsiz bir lezzete dönüştürür.",
+      "ur": "تمرية کے ساتھ سعودی مہمان نوازی کے مستند ذائقے سے لطف اندوز ہوں، جہاں ہر ٹکڑے میں خوبصورت پیشکش اور کھجور کی قدرتی مٹھاس یکجا ہوتی ہے!\n\nتمرية کھجور کے قدرتی ذائقے اور بھرپور مٹھاس سے ممتاز ہے، جسے مزیدار آرائشی انداز ایک منفرد شکل دیتے ہیں اور روایت و نفاست کو یکجا کرتے ہیں۔",
+      "ms": "Nikmati cita rasa asli keramahan Arab Saudi dengan Tamriyah, di mana persembahan yang menarik bertemu dengan kemanisan semula jadi kurma dalam setiap gigitan!\n\nTamriyah menampilkan rasa semula jadi kurma dan kemanisan yang kaya, dihiasi dengan sentuhan hiasan yang menarik, menjadikan setiap hidangan unik dengan gabungan tradisi dan keanggunan.",
+      "bn": "তামরিয়ার সঙ্গে সৌদি আতিথেয়তার আসল স্বাদ উপভোগ করুন, যেখানে প্রতিটি টুকরোতে সুন্দর পরিবেশনার সঙ্গে খেজুরের প্রাকৃতিক মিষ্টতা মিশে রয়েছে!\n\nতামরিয়া খেজুরের প্রাকৃতিক স্বাদ ও সমৃদ্ধ মিষ্টতার জন্য বিশেষ। সুস্বাদু সাজসজ্জার ছোঁয়া প্রতিটি টুকরোকে অনন্য করে তোলে, যেখানে ঐতিহ্য ও আভিজাত্যের সুন্দর সমন্বয় রয়েছে।",
+      "id": "Nikmati cita rasa asli keramahan Arab Saudi dengan Tamriyah, di mana keindahan penyajian berpadu dengan manis alami kurma dalam setiap gigitan!\n\nTamriyah memiliki cita rasa alami kurma dengan rasa manis yang kaya, dihiasi sentuhan dekorasi yang lezat sehingga setiap potongannya menjadi istimewa, memadukan keaslian tradisi dan keanggunan."
+    },
+    "images": [
+      "/media/uploads/1795607644805--.jpg",
+      "/media/uploads/1795607650518--.webp",
+      "/media/uploads/1795607657114--600-.jpeg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww51tmr",
+    "slug": "zaatar-de-taiba",
+    "name": {
+      "ar": "\t زعتر طيبة",
+      "en": "Taiba Zaatar",
+      "fr": "Zaatar de Taiba",
+      "tr": "\t Taiba Zahteri",
+      "ur": "\t طیبہ زعتر",
+      "ms": "Za'atar Taiba",
+      "bn": "তাইবা জাআতার",
+      "id": "\t Za'atar Taiba"
+    },
+    "teaser": {
+      "ar": "اكتشفوا المذاق الأصيل مع زعتر طيبة، واستمتعوا بنكهة شرقية مميزة تجمع بين عبق الأعشاب العطرية وغنى التوابل، لتضيف لمسة شهية ومميزة إلى أطباقكم اليومية",
+      "en": "Discover the authentic taste of Taiba Zaatar and enjoy a distinctive Middle Eastern flavor that combines the aroma of fragrant herbs with the richness of spices, adding a delicious and special touch to your everyday dishes.",
+      "fr": "Découvrez le goût authentique du Zaatar Taiba et savourez une délicieuse saveur orientale qui associe les arômes des herbes parfumées à la richesse des épices, pour apporter une touche savoureuse et unique à vos plats quotidiens.",
+      "tr": "Taiba Zaatar'ın otantik lezzetini keşfedin! Aromatik otların kokusunu baharatların zenginliğiyle buluşturan eşsiz Orta Doğu lezzetinin tadını çıkarın ve günlük yemeklerinize özel, lezzetli bir dokunuş katın.",
+      "ur": "طیبہ زعتر کے مستند ذائقے کو دریافت کریں اور ایک منفرد مشرقی ذائقے سے لطف اندوز ہوں، جو خوشبودار جڑی بوٹیوں کی مہک اور مصالحوں کی بھرپور خوشبو کو یکجا کرتا ہے، تاکہ آپ کے روزمرہ کے کھانوں میں ایک مزیدار اور خاص ذائقہ شامل ہو۔",
+      "ms": "Temui rasa asli Taiba Zaatar dan nikmati cita rasa Timur Tengah yang istimewa, menggabungkan aroma herba yang harum dengan kekayaan rempah-ratus untuk menambahkan sentuhan lazat dan istimewa pada hidangan harian anda.",
+      "bn": "তাইবা জাআতারের আসল স্বাদ আবিষ্কার করুন এবং উপভোগ করুন এক অনন্য মধ্যপ্রাচ্যের স্বাদ, যেখানে সুগন্ধি ভেষজের সুবাস ও মসলার সমৃদ্ধ স্বাদ একসঙ্গে মিশে আপনার প্রতিদিনের খাবারে যোগ করে বিশেষ ও সুস্বাদু স্বাদ।",
+      "id": "Temukan cita rasa autentik Taiba Zaatar dan nikmati kelezatan khas Timur Tengah yang memadukan aroma rempah-rempah herbal dengan kekayaan bumbu, untuk memberikan sentuhan istimewa dan lezat pada hidangan sehari-hari Anda."
+    },
+    "images": [
+      "/media/uploads/1795612183656--.jpg",
+      "/media/uploads/1795612192909--300-.png"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww5eedh",
+    "slug": "maamoul-aux-dattes-et-a-la-cardamome",
+    "name": {
+      "ar": "معمول بالعجوة والهيل",
+      "en": "\t Date Maamoul with Cardamom",
+      "fr": "\t Maâmoul aux dattes et à la cardamome",
+      "tr": "Hurmalı ve Kakuleli Mamul",
+      "ur": "\t کھجور اور الائچی والا معمول",
+      "ms": "\t Maamoul Kurma dengan Buah Pelaga",
+      "bn": "\t খেজুর ও এলাচ দিয়ে মামুল",
+      "id": "\t Maamoul Kurma dengan Kapulaga"
+    },
+    "teaser": {
+      "ar": "دلّلوا أنفسكم بمذاق المعمول بالعجوة والهيل، حيث تلتقي حلاوة التمر بأصالة الهيل في كل قطعة، لتعيشوا لحظات من المتعة والضيافة العربية الأصيلة",
+      "en": "Treat yourself to the delicious taste of Maamoul with Ajwa dates and cardamom, where the sweetness of dates meets the authentic aroma of cardamom in every piece, offering moments of pure pleasure and traditional Arabic hospitality.",
+      "fr": "Faites-vous plaisir avec le délicieux Maâmoul aux dattes Ajwa et à la cardamome, où la douceur des dattes rencontre l'arôme authentique de la cardamome dans chaque bouchée, pour vous offrir des moments de pur plaisir et de véritable hospitalité arabe.",
+      "tr": "Hurma tatlılığının kakulenin otantik aromasıyla buluştuğu, Acve hurmalı ve kakuleli Maamoul'un eşsiz lezzetinin tadını çıkarın. Her lokmada geleneksel Arap misafirperverliğini ve keyif dolu anları yaşayın.",
+      "ur": "عجوہ کھجور اور الائچی والے معمول کے مزیدار ذائقے سے لطف اندوز ہوں، جہاں کھجور کی مٹھاس اور الائچی کی مستند خوشبو ہر ٹکڑے میں یکجا ہوتی ہے، تاکہ آپ روایتی عرب مہمان نوازی اور لطف کے خوبصورت لمحات کا تجربہ کر سکیں",
+      "ms": "Manjakan diri anda dengan keenakan Maamoul berinti kurma Ajwa dan buah pelaga, di mana kemanisan kurma bertemu dengan aroma asli buah pelaga dalam setiap gigitan, memberikan anda detik penuh kenikmatan dan keramahan tradisional Arab.",
+      "bn": "আজওয়া খেজুর ও এলাচ দিয়ে তৈরি মামুলের সুস্বাদু স্বাদ উপভোগ করুন। প্রতিটি টুকরোতে খেজুরের মিষ্টতা ও এলাচের আসল সুগন্ধ একসঙ্গে মিশে আপনাকে দেবে আনন্দ এবং ঐতিহ্যবাহী আরব আতিথেয়তার এক অনন্য অভিজ্ঞতা।",
+      "id": "Manjakan diri Anda dengan kelezatan Maamoul isi kurma Ajwa dan kapulaga, perpaduan manisnya kurma dengan aroma autentik kapulaga dalam setiap gigitan, menghadirkan momen penuh kenikmatan dan keramahan tradisional Arab."
+    },
+    "images": [
+      "/media/uploads/1795612640314--.webp"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww5nhiq",
+    "slug": "maamoul-aux-dattes-ajwa-et-aux-graines-de-nigelle",
+    "name": {
+      "ar": "معمول عجوة بحبة البركة",
+      "en": "\t Ajwa Date Maamoul with Black Seeds",
+      "fr": "Maâmoul aux dattes Ajwa et aux graines de nigelle",
+      "tr": "Acve Hurmalı ve Çörek Otlu Mamul",
+      "ur": "\t عجوہ کھجور اور کلونجی والا معمول",
+      "ms": "Maamoul Kurma Ajwa dengan Habbatus Sauda",
+      "bn": "আজওয়া খেজুর ও কালোজিরা দিয়ে মামুল",
+      "id": "Maamoul Kurma Ajwa dengan Habbatussauda"
+    },
+    "teaser": {
+      "ar": "دلّلوا أنفسكم بمذاق المعمول بالعجوة وحبة البركة، حيث تلتقي حلاوة التمر الغنية مع نكهة حبة البركة المميزة في كل قطعة، لتستمتعوا بتجربة شهية تجمع بين الأصالة والتميز، وتضفي على لحظاتكم لمسة من الضيافة العربية الأصيلة",
+      "en": "Treat yourself to the delicious taste of Maamoul with Ajwa dates and black seeds, where the rich sweetness of dates meets the distinctive flavor of black seeds in every piece, offering a delightful experience that combines tradition and uniqueness, while adding a touch of authentic Arabic hospitality to your special moments.",
+      "fr": "Faites-vous plaisir avec le délicieux Maâmoul aux dattes Ajwa et aux graines de nigelle, où la douceur généreuse des dattes rencontre la saveur unique des graines de nigelle dans chaque bouchée. Une expérience gourmande qui allie authenticité et raffinement, tout en apportant une touche de l'hospitalité arabe traditionnelle à vos moments précieux.",
+      "tr": "Acve hurması ve çörek otlu Maamoul'un eşsiz lezzetiyle kendinizi şımartın. Her lokmada hurmanın zengin tatlılığı, çörek otunun kendine özgü aromasıyla buluşarak gelenek ve özgünlüğü bir araya getiren lezzetli bir deneyim sunar ve özel anlarınıza otantik Arap misafirperverliğinden bir dokunuş katar",
+      "ur": "عجوہ کھجور اور کلونجی والے معمول کے مزیدار ذائقے سے لطف اندوز ہوں، جہاں کھجور کی بھرپور مٹھاس اور کلونجی کا منفرد ذائقہ ہر ٹکڑے میں یکجا ہوتا ہے۔ یہ ایک لذیذ تجربہ ہے جو روایت اور انفرادیت کو ملاتا ہے اور آپ کے خاص لمحات میں مستند عرب مہمان نوازی کا رنگ بھرتا ہے۔",
+      "ms": "Manjakan diri anda dengan keenakan Maamoul berinti kurma Ajwa dan habbatus sauda. Kemanisan kurma yang kaya berpadu dengan rasa unik habbatus sauda dalam setiap gigitan, memberikan pengalaman lazat yang menggabungkan tradisi dan keistimewaan serta menambahkan sentuhan keramahan Arab yang asli pada saat-saat istimewa anda.",
+      "bn": "আজওয়া খেজুর ও কালোজিরা দিয়ে তৈরি মামুলের সুস্বাদু স্বাদ উপভোগ করুন। প্রতিটি টুকরোতে খেজুরের সমৃদ্ধ মিষ্টতা ও কালোজিরার স্বতন্ত্র স্বাদ একসঙ্গে মিশে ঐতিহ্য ও অনন্যতার এক মনোরম অভিজ্ঞতা দেয় এবং আপনার বিশেষ মুহূর্তে যোগ করে খাঁটি আরব আতিথেয়তার ছোঁয়া।",
+      "id": "Manjakan diri Anda dengan kelezatan Maamoul isi kurma Ajwa dan jintan hitam, perpaduan rasa manis kurma yang kaya dengan cita rasa khas jintan hitam di setiap potongannya. Pengalaman lezat yang memadukan tradisi dan keunikan, sekaligus menghadirkan sentuhan keramahan Arab yang autentik dalam momen istimewa Anda.\n\n\n"
+    },
+    "images": [
+      "/media/uploads/1795613065677--500-.webp",
+      "/media/uploads/1795613072481--.jpg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww5tev8",
+    "slug": "maamoul-aux-dattes-ajwa-et-au-millet",
+    "name": {
+      "ar": "معمول بالعجوة والدخن",
+      "en": "\t Ajwa Date Maamoul with Millet",
+      "fr": "\t Maâmoul aux dattes Ajwa et au millet",
+      "tr": "\t Acve Hurmalı ve Darılı Mamul",
+      "ur": "عجوہ کھجور اور باجرے والا معمول",
+      "ms": "\t Maamoul Kurma Ajwa dengan Millet",
+      "bn": "\t আজওয়া খেজুর ও বাজরা দিয়ে মামুল",
+      "id": "Maamoul Kurma Ajwa dengan Millet"
+    },
+    "teaser": {
+      "ar": "دلّلوا أنفسكم بمذاق المعمول بالعجوة والدخن، حيث تلتقي حلاوة التمر الغنية مع المذاق المميز للدخن في كل قطعة، لتستمتعوا بتجربة شهية تجمع بين الأصالة والتقاليد، وتضفي على لحظاتكم لمسة من الضيافة العربية الأصيلة",
+      "en": "Treat yourself to the delicious taste of Maamoul with Ajwa dates and millet, where the rich sweetness of dates meets the distinctive flavor of millet in every piece. Enjoy a delightful experience that combines authenticity and tradition, bringing a touch of genuine Arabic hospitality to your special moments.",
+      "fr": "Faites-vous plaisir avec le délicieux Maâmoul aux dattes Ajwa et au millet, où la douceur généreuse des dattes rencontre la saveur particulière du millet dans chaque bouchée. Savourez une expérience gourmande qui allie authenticité et tradition, en apportant une touche de véritable hospitalité arabe à vos moments précieux.",
+      "tr": "Acve hurmalı ve darılı Maamoul'un eşsiz lezzetiyle kendinizi şımartın. Her lokmada hurmanın zengin tatlılığı, darının kendine özgü lezzetiyle buluşur. Gelenek ve özgünlüğü bir araya getiren bu lezzetli deneyim, özel anlarınıza otantik Arap misafirperverliğinden bir dokunuş katar.",
+      "ur": "عجوہ کھجور اور باجرے والے معمول کے مزیدار ذائقے سے لطف اندوز ہوں، جہاں کھجور کی بھرپور مٹھاس ہر ٹکڑے میں باجرے کے منفرد ذائقے سے ملتی ہے۔ ایک ایسا لذیذ تجربہ جو اصالت اور روایت کو یکجا کرتا ہے اور آپ کے خاص لمحات میں حقیقی عرب مہمان نوازی کا رنگ بھرتا ہے۔",
+      "ms": "Manjakan diri anda dengan keenakan Maamoul berinti kurma Ajwa dan millet. Kemanisan kurma yang kaya berpadu dengan rasa millet yang tersendiri dalam setiap gigitan. Nikmati pengalaman lazat yang menggabungkan keaslian dan tradisi serta memberikan sentuhan keramahan Arab yang tulen pada saat-saat istimewa anda.",
+      "bn": "আজওয়া খেজুর ও বাজরা দিয়ে তৈরি মামুলের সুস্বাদু স্বাদ উপভোগ করুন। প্রতিটি টুকরোতে খেজুরের সমৃদ্ধ মিষ্টতা ও বাজরার স্বতন্ত্র স্বাদ একসঙ্গে মিশে যায়। এই মনোরম অভিজ্ঞতা ঐতিহ্য ও আভিজাত্যের সমন্বয়ে আপনার বিশেষ মুহূর্তে খাঁটি আরব আতিথেয়তার ছোঁয়া এনে দেয়।",
+      "id": "Manjakan diri Anda dengan kelezatan Maamoul isi kurma Ajwa dan millet. Manisnya kurma yang kaya berpadu dengan cita rasa khas millet di setiap potongannya. Nikmati pengalaman lezat yang memadukan keaslian dan tradisi, serta menghadirkan sentuhan keramahan Arab yang autentik dalam momen istimewa Anda."
+    },
+    "images": [
+      "/media/uploads/1795613554741--1.webp",
+      "/media/uploads/1795613562219--.webp"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww6205n",
+    "slug": "cafe-dore-de-bisha",
+    "name": {
+      "ar": "قهوة بيشة الذهبية",
+      "en": "\t Golden Bisha Coffee",
+      "fr": "\t Café doré de Bisha",
+      "tr": "\t Altın Bisha Kahvesi",
+      "ur": "بیشہ کی سنہری کافی",
+      "ms": "Kopi Emas Bisha",
+      "bn": "গোল্ডেন বিশা কফি",
+      "id": "\t Kopi Emas Bisha"
+    },
+    "teaser": {
+      "ar": "عيشوا تجربة القهوة السعودية الأصيلة مع قهوة بيشة الذهبية، واجعلوا من كل فنجان حكاية تجمع بين الكرم والأصالة وفخامة المذاق. تتميز بنكهتها الغنية ورائحتها العطرية المميزة، لتكون الخيار المثالي للتقديم في جلسات الضيافة والمناسبات، ومشاركة أجمل اللحظات مع الأهل والأحباب",
+      "en": "Experience the authentic taste of Saudi coffee with Golden Bisha Coffee, and let every cup tell a story of generosity, tradition, and exceptional flavor. It is distinguished by its rich taste and delightful aroma, making it the perfect choice for serving during hospitality gatherings and special occasions, and for sharing beautiful moments with family and loved ones.",
+      "fr": "Vivez une expérience authentique du café saoudien avec le Café Doré de Bisha, et faites de chaque tasse une histoire de générosité, de tradition et de saveurs raffinées. Il se distingue par son goût riche et son arôme envoûtant, ce qui en fait le choix idéal pour accompagner vos moments de convivialité, vos réceptions et vos occasions spéciales, à partager en famille et entre proches.",
+      "tr": "Golden Bisha Kahvesi ile Suudi kahvesinin otantik lezzetini keşfedin. Her fincanıyla cömertliği, geleneği ve eşsiz lezzeti yansıtan özel bir deneyim yaşayın. Zengin aroması ve hoş kokusuyla misafir ağırlamalarında, özel davetlerde ve sevdiklerinizle paylaşacağınız güzel anlarda ideal bir seçimdir",
+      "ur": "گولڈن بیشہ کافی کے ساتھ سعودی کافی کے مستند ذائقے کا تجربہ کریں۔ ہر کپ سخاوت، روایت اور بہترین ذائقے کی ایک خوبصورت داستان بیان کرتا ہے۔ اپنی بھرپور خوشبو اور منفرد ذائقے کی وجہ سے یہ مہمان نوازی کی محفلوں، خاص تقریبات اور اہلِ خانہ و عزیزوں کے ساتھ خوشگوار لمحات بانٹنے کے لیے بہترین انتخاب ہے۔",
+      "ms": "Nikmati pengalaman kopi Saudi yang asli bersama Kopi Emas Bisha, dan biarkan setiap cawan menceritakan kisah kemurahan hati, tradisi dan cita rasa yang istimewa. Dengan rasa yang kaya serta aroma yang memikat, kopi ini merupakan pilihan sempurna untuk majlis keramahtamahan, acara istimewa dan saat-saat indah bersama keluarga serta insan tersayang.",
+      "bn": "গোল্ডেন বিশা কফির সঙ্গে সৌদি কফির আসল স্বাদ উপভোগ করুন। প্রতিটি কাপ যেন উদারতা, ঐতিহ্য এবং অসাধারণ স্বাদের এক গল্প বলে। এর সমৃদ্ধ স্বাদ ও মনোমুগ্ধকর সুবাস এটিকে অতিথি আপ্যায়ন, বিশেষ অনুষ্ঠান এবং পরিবার ও প্রিয়জনদের সঙ্গে সুন্দর মুহূর্ত ভাগ করে নেওয়ার জন্য আদর্শ করে তোলে।",
+      "id": "Nikmati pengalaman kopi Saudi yang autentik bersama Kopi Emas Bisha, dan biarkan setiap cangkir menghadirkan kisah keramahan, tradisi, dan cita rasa istimewa. Dengan rasa yang kaya dan aroma yang menggugah selera, kopi ini menjadi pilihan sempurna untuk acara jamuan, perayaan khusus, serta berbagi momen indah bersama keluarga dan orang-orang tercinta."
+    },
+    "images": [
+      "/media/uploads/1795613792109--500.jpg",
+      "/media/uploads/1795613799825--.webp"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww6my3l",
+    "slug": "huile-d-olive-tunisienne",
+    "name": {
+      "ar": "\t زيت زيتون تونسي",
+      "en": "Tunisian Olive Oil",
+      "fr": "\t Huile d'olive tunisienne",
+      "tr": "Tunus Zeytinyağı",
+      "ur": "تیونس کا زیتون کا تیل",
+      "ms": "\t Minyak Zaitun Tunisia",
+      "bn": "\t তিউনিসিয়ার জলপাই তেল",
+      "id": "Minyak Zaitun Tunisia"
+    },
+    "teaser": {
+      "ar": "اكتشفوا أصالة زيت الزيتون التونسي، واستمتعوا بمذاق طبيعي مميز يعكس عراقة التراث التونسي وجودة منتجاته. يتميز بنكهته الغنية ورائحته العطرية التي تضفي لمسة خاصة على مختلف أطباقكم",
+      "en": "Discover the authenticity of Tunisian olive oil and enjoy its distinctive natural taste, reflecting the richness of Tunisia's heritage and the quality of its products. It is distinguished by its rich flavor and aromatic fragrance, adding a special touch to all your dishes.",
+      "fr": "Découvrez l'authenticité de l'huile d'olive tunisienne et savourez son goût naturel unique, reflet de la richesse du patrimoine tunisien et de la qualité de ses produits. Elle se distingue par sa saveur riche et son arôme parfumé, qui apportent une touche particulière à tous vos plats.",
+      "tr": "Découvrez l'authenticité de l'huile d'olive tunisienne et savourez son goût naturel unique, reflet de la richesse du patrimoine tunisien et de la qualité de ses produits. Elle se distingue par sa saveur riche et son arôme parfumé, qui apportent une touche particulière à tous vos plats.",
+      "ur": "تیونس کے زیتون کے تیل کی اصلیت دریافت کریں اور اس کے منفرد قدرتی ذائقے سے لطف اندوز ہوں، جو تیونس کی قدیم روایات اور مصنوعات کے معیار کی عکاسی کرتا ہے۔ یہ اپنے بھرپور ذائقے اور خوشبودار مہک کی وجہ سے آپ کے مختلف کھانوں میں ایک خاص رنگ بھرتا ہے۔",
+      "ms": "Temui keaslian minyak zaitun Tunisia dan nikmati rasa semula jadinya yang istimewa, mencerminkan kekayaan warisan Tunisia serta kualiti produknya. Ia mempunyai rasa yang kaya dan aroma yang harum, memberikan sentuhan istimewa kepada pelbagai hidangan anda.",
+      "bn": "তিউনিসিয়ার অলিভ অয়েলের আসল স্বাদ আবিষ্কার করুন এবং এর অনন্য প্রাকৃতিক স্বাদ উপভোগ করুন, যা তিউনিসিয়ার সমৃদ্ধ ঐতিহ্য ও পণ্যের গুণমানকে তুলে ধরে। এর সমৃদ্ধ স্বাদ ও সুগন্ধ আপনার প্রতিটি খাবারে যোগ করে এক বিশেষ ছোঁয়া।",
+      "id": "Temukan keaslian minyak zaitun Tunisia dan nikmati cita rasa alaminya yang istimewa, mencerminkan kekayaan warisan Tunisia serta kualitas produknya. Minyak ini memiliki rasa yang kaya dan aroma harum yang memberikan sentuhan istimewa pada berbagai hidangan Anda."
+    },
+    "images": [
+      "/media/uploads/1795614766258--3.jpg",
+      "/media/uploads/1795614772178-whatsapp-image-2026-11-25-at-11.04.29-am.jpeg",
+      "/media/uploads/1795614778452-whatsapp-image-2026-11-25-at-11.04.38-am.jpeg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww76rwd",
+    "slug": "dattes-sagai",
+    "name": {
+      "ar": "صقعي",
+      "en": "Sagai Dates",
+      "fr": "\t Dattes Sagai",
+      "tr": "\t Sagai Hurması",
+      "ur": "\t صقعی کھجور",
+      "ms": "\t Kurma Sagai",
+      "bn": "সাগাই খেজুর",
+      "id": "\t Kurma Sagai"
+    },
+    "teaser": {
+      "ar": "استمتعوا بحلاوة تمر الصقعي، واجعلوه رفيق لحظاتكم الجميلة مع القهوة العربية، ولمسة أصيلة تضفي على موائدكم أجواء الضيافة السعودية",
+      "en": "Enjoy the natural sweetness of Sagai dates and make them the perfect companion to your special moments with Arabic coffee, adding an authentic touch of Saudi hospitality to your table.",
+      "fr": "Savourez la douceur naturelle des dattes Sagai et faites-en les compagnes idéales de vos beaux moments autour d'un café arabe, en apportant une touche authentique de l'hospitalité saoudienne à votre table.",
+      "tr": "Sagai hurmasının doğal tatlılığının tadını çıkarın. Arap kahvesi eşliğinde güzel anlarınıza eşlik etsin ve sofralarınıza Suudi misafirperverliğinin otantik dokunuşunu katsın.\n\n",
+      "ur": "صقعی کھجور کی قدرتی مٹھاس سے لطف اندوز ہوں اور اسے عربی کافی کے ساتھ اپنے خوبصورت لمحات کا بہترین ساتھی بنائیں، جو آپ کی میز پر سعودی مہمان نوازی کا مستند رنگ بھرے۔",
+      "ms": "Nikmati kemanisan semula jadi kurma Sagai dan jadikannya teman sempurna untuk saat-saat indah bersama kopi Arab, sambil menambahkan sentuhan asli keramahan Saudi di meja hidangan anda.",
+      "bn": "সাগাই খেজুরের প্রাকৃতিক মিষ্টতা উপভোগ করুন এবং আরবি কফির সঙ্গে আপনার সুন্দর মুহূর্তগুলোর সঙ্গী করে তুলুন। এটি আপনার খাবার টেবিলে সৌদি আতিথেয়তার এক অনন্য ছোঁয়া যোগ করবে।",
+      "id": "Nikmati manis alami kurma Sagai dan jadikan sebagai teman sempurna untuk momen-momen indah bersama kopi Arab, sekaligus menghadirkan sentuhan autentik keramahan Saudi di meja Anda."
+    },
+    "images": [
+      "/media/uploads/1795615670867--200-.jpg",
+      "/media/uploads/1795615678989--800-.jpg",
+      "/media/uploads/1795615686192--400-.webp"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww7g4nq",
+    "slug": "dattes-sagai-aux-amandes",
+    "name": {
+      "ar": "صقعي باللوز",
+      "en": "Sagai Dates with Almonds",
+      "fr": "Dattes Sagai aux amandes",
+      "tr": "\t Bademli Sagai Hurması",
+      "ur": "\t بادام والی صقعی کھجور",
+      "ms": "Kurma Sagai dengan Badam",
+      "bn": "\t বাদামসহ সাগাই খেজুর",
+      "id": "\t Kurma Sagai dengan Kacang Almond"
+    },
+    "teaser": {
+      "ar": "استمتعوا بتجربة مذاق فريدة في كل حبة، واجعلوا صقعي باللوز خياركم المثالي للضيافة وتقديمه مع القهوة العربية، ومشاركة أجمل اللحظات مع الأهل والأحباب",
+      "en": "Enjoy a unique taste experience in every piece, and make Sagai Dates with Almonds your perfect choice for hospitality, serving alongside Arabic coffee, and sharing beautiful moments with family and loved ones.",
+      "fr": "Savourez une expérience gustative unique à chaque bouchée et faites des dattes Sagai aux amandes votre choix idéal pour vos réceptions, à déguster avec un café arabe et à partager lors de beaux moments en famille et entre proches.",
+      "tr": "Her lokmada eşsiz bir lezzet deneyiminin tadını çıkarın. Bademli Sagai hurmasını misafirlerinize ikram etmek, Arap kahvesinin yanında sunmak ve ailenizle sevdiklerinizle güzel anlar paylaşmak için tercih edin.",
+      "ur": "ہر کھجور میں منفرد ذائقے کا لطف اٹھائیں۔ بادام والی صقعی کھجور کو مہمان نوازی کے لیے، عربی کافی کے ساتھ پیش کرنے اور اہلِ خانہ و عزیزوں کے ساتھ خوبصورت لمحات بانٹنے کے لیے بہترین انتخاب بنائیں۔",
+      "ms": "Nikmati pengalaman rasa yang unik dalam setiap gigitan. Jadikan Kurma Sagai dengan Badam pilihan ideal untuk majlis keramahtamahan, dihidangkan bersama kopi Arab serta dinikmati ketika berkongsi saat-saat indah bersama keluarga dan insan tersayang.",
+      "bn": "প্রতিটি টুকরোতে উপভোগ করুন অনন্য স্বাদের অভিজ্ঞতা। বাদামসহ সাগাই খেজুরকে অতিথি আপ্যায়ন, আরবি কফির সঙ্গে পরিবেশন এবং পরিবার ও প্রিয়জনদের সঙ্গে সুন্দর মুহূর্ত ভাগ করে নেওয়ার আদর্শ পছন্দ করে তুলুন।",
+      "id": "Nikmati pengalaman rasa yang unik di setiap gigitan. Jadikan Kurma Sagai dengan Kacang Almond sebagai pilihan sempurna untuk jamuan, disajikan bersama kopi Arab, serta dinikmati saat berbagi momen indah bersama keluarga dan orang-orang tercinta."
+    },
+    "images": [
+      "/media/uploads/1795616147545--.jpg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww7x5om",
+    "slug": "dattes-barni-fourrees-aux-amandes",
+    "name": {
+      "ar": "برني مكبوس باللوز ",
+      "en": "Mabsoos Barni Dates with Almonds",
+      "fr": "\t Dattes Barni fourrées aux amandes",
+      "tr": "Badem Dolgulu Barni Hurması",
+      "ur": "بادام سے بھری برنی کھجور",
+      "ms": "\t Kurma Barni Berinti Badam",
+      "bn": "বাদাম ভর্তি বারনি খেজুর",
+      "id": "\t Kurma Barni Isi Kacang Almond"
+    },
+    "teaser": {
+      "ar": "اكتشفوا المذاق الفاخر لتمر البرني المكبوس باللوز، حيث تلتقي حلاوة التمر الطبيعية مع القرمشة اللذيذة للوز في مزيج شهي يجمع بين الأصالة والتميز.",
+      "en": "Discover the luxurious taste of Barni dates stuffed with almonds, where the natural sweetness of dates meets the delicious crunch of almonds in a delightful blend of tradition and excellence.",
+      "fr": "Découvrez la saveur raffinée des dattes Barni fourrées aux amandes, où la douceur naturelle des dattes rencontre le délicieux croquant des amandes dans un mélange gourmand alliant authenticité et raffinement.",
+      "tr": "Badem dolgulu Barni hurmasının eşsiz lezzetini keşfedin. Hurmanın doğal tatlılığı, bademin enfes çıtırlığıyla buluşarak gelenek ve zarafeti bir araya getiren lezzetli bir uyum sunar.",
+      "ur": "بادام سے بھری برنی کھجور کے شاندار ذائقے کو دریافت کریں، جہاں کھجور کی قدرتی مٹھاس بادام کی مزیدار کرنچ کے ساتھ مل کر روایت اور نفاست کا حسین امتزاج پیش کرتی ہے",
+      "ms": "Temui keenakan Kurma Barni Berinti Badam, yang menggabungkan kemanisan semula jadi kurma dengan kerangupan badam yang lazat dalam gabungan istimewa yang menyatukan keaslian dan keistimewaan.",
+      "bn": "বাদাম ভরা বারনি খেজুরের অসাধারণ স্বাদ আবিষ্কার করুন, যেখানে খেজুরের প্রাকৃতিক মিষ্টতা ও বাদামের মচমচে স্বাদ একসঙ্গে মিশে ঐতিহ্য ও আভিজাত্যের এক মনোরম সমন্বয় তৈরি করে।",
+      "id": "Temukan kelezatan Kurma Barni isi kacang almond, perpaduan manis alami kurma dengan renyahnya kacang almond dalam kombinasi istimewa yang memadukan keaslian dan keunggulan."
+    },
+    "images": [
+      "/media/uploads/1795616873366-whatsapp-image-2026-11-03-at-12.31.49-1-.jpeg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
+  },
+  {
+    "id": "gift-mww84th5",
+    "slug": "tamriya-aux-fruits-secs",
+    "name": {
+      "ar": "تمرية المكسرات",
+      "en": "\t Nut-Filled Tamriya",
+      "fr": "\t Tamriya aux fruits secs",
+      "tr": "\t Kuruyemişli Tamriya",
+      "ur": "خشک میوہ جات والی تمریہ",
+      "ms": "Tamriya dengan Kacang Campuran",
+      "bn": "বিভিন্ন বাদাম দিয়ে তৈরি তামরিয়া",
+      "id": "Tamriya dengan Aneka Kacang"
+    },
+    "teaser": {
+      "ar": "استمتعوا بالمذاق الشهي للتمرية بالمكسرات، حيث يلتقي التمر الطري المحشو بالطحينة الغنية مع تشكيلة لذيذة من المكسرات المقرمشة التي تزيّن سطحها الخارجي، لتقدم لكم مزيجًا رائعًا يجمع بين حلاوة التمر ونعومة الطحينة وقرمشة المكسرات",
+      "en": "Enjoy the delicious taste of Nut-Filled Tamriya, where soft dates stuffed with rich tahini meet a delightful selection of crunchy nuts decorating the outside, creating a wonderful blend of natural date sweetness, smooth tahini, and the irresistible crunch of nuts.",
+      "fr": "Savourez la délicieuse Tamriya aux fruits secs, composée de dattes moelleuses fourrées à la tahini onctueuse et garnies à l'extérieur d'un délicieux assortiment de fruits secs croquants. Une combinaison gourmande qui marie parfaitement la douceur des dattes, l'onctuosité du tahini et le croquant des fruits secs.",
+      "tr": "Lezzetli kuruyemişli Tamriya'nın tadını çıkarın. İçinde tahinle doldurulmuş yumuşak hurmalar, dışında ise çıtır çıtır kuruyemiş çeşitleri bulunur. Hurmanın doğal tatlılığını, tahinin yumuşak dokusunu ve kuruyemişlerin çıtırlığını bir araya getiren eşsiz bir lezzet sunar.",
+      "ur": "مزیدار مکسڈ نٹس تمریہ کے ذائقے سے لطف اندوز ہوں، جس میں نرم کھجوریں مزیدار طحینی سے بھری ہوتی ہیں اور باہر سے مختلف خستہ میوہ جات سے سجائی جاتی ہیں۔ یہ کھجور کی قدرتی مٹھاس، طحینی کی نرمی اور میوہ جات کی کرکراھٹ کا بہترین امتزاج ہے۔",
+      "ms": "Nikmati keenakan Tamriya dengan aneka kekacang, yang terdiri daripada kurma lembut berinti tahini yang kaya, dihiasi dengan pelbagai jenis kekacang rangup di bahagian luar. Gabungan sempurna antara kemanisan kurma, kelembutan tahini dan kerangupan kekacang.",
+      "bn": "বাদামযুক্ত সুস্বাদু তামরিয়ার স্বাদ উপভোগ করুন। নরম খেজুরের ভেতরে রয়েছে সমৃদ্ধ তাহিনির পুর এবং বাইরের অংশে সাজানো রয়েছে বিভিন্ন ধরনের মচমচে বাদাম। খেজুরের প্রাকৃতিক মিষ্টতা, তাহিনির কোমলতা এবং বাদামের মচমচে স্বাদের এক অসাধারণ সমন্বয়।",
+      "id": "Nikmati kelezatan Tamriya dengan aneka kacang, berupa kurma lembut yang diisi dengan tahini kaya rasa dan dihiasi berbagai macam kacang renyah di bagian luarnya. Perpaduan sempurna antara manis alami kurma, kelembutan tahini, dan kerenyahan kacang dalam setiap gigitan."
+    },
+    "images": [
+      "/media/uploads/1795617251247--.webp"
     ],
     "price": {
       "amount": 0,

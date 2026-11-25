@@ -864,6 +864,678 @@
         "by": "catalogue existant",
         "at": "2026-11-24T16:10:25.525Z"
       }
+    },
+    "gift:chocolat-de-dubai": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T11:27:02.173Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:27:02.173Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:27:02.173Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:27:02.173Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:27:02.173Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:27:02.173Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:27:02.173Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:27:02.173Z"
+      }
+    },
+    "gift:chocolat-au-lait": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T11:38:13.813Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:38:13.813Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:38:13.813Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:38:13.813Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:38:13.813Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:38:13.813Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:38:13.813Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:38:13.813Z"
+      }
+    },
+    "gift:talbina": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T11:46:05.700Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:46:05.700Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:46:05.700Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:46:05.700Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:46:05.700Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:46:05.700Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:46:05.700Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:46:05.700Z"
+      }
+    },
+    "gift:douceur-aux-dattes": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T11:56:31.867Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:56:31.867Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:56:31.867Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:56:31.867Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:56:31.867Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:56:31.867Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:56:31.867Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T11:56:31.867Z"
+      }
+    },
+    "gift:zaatar-de-taiba": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:10:04.628Z"
+      }
+    },
+    "gift:maamoul-aux-dattes-et-a-la-cardamome": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      }
+    },
+    "gift:maamoul-aux-dattes-ajwa-et-aux-graines-de-nigelle": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T13:27:30.436Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:27:30.436Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:27:30.436Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:27:30.436Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:27:30.436Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:27:30.436Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:27:30.436Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:27:30.436Z"
+      }
+    },
+    "gift:maamoul-aux-dattes-ajwa-et-au-millet": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T13:33:52.475Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:33:52.475Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:33:52.475Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:33:52.475Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:33:52.475Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:33:52.475Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:33:52.475Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:33:52.475Z"
+      }
+    },
+    "gift:cafe-dore-de-bisha": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:41:13.155Z"
+      }
+    },
+    "gift:oils-selection": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T13:49:33.099Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:49:33.099Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:49:33.099Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:49:33.099Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:49:33.099Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:49:33.099Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:49:33.099Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:49:33.099Z"
+      }
+    },
+    "gift:huile-d-olive-tunisienne": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T13:56:21.703Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:56:21.703Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:56:21.703Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:56:21.703Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:56:21.703Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:56:21.703Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:56:21.703Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:56:21.703Z"
+      }
+    },
+    "gift:coffee-selection": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T14:04:24.942Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:04:24.942Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:04:24.942Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:04:24.942Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:04:24.942Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:04:24.942Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:04:24.942Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:04:24.942Z"
+      }
+    },
+    "gift:dattes-sagai": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T14:12:36.195Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:12:36.195Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:12:36.195Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:12:36.195Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:12:36.195Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:12:36.195Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:12:36.195Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:12:36.195Z"
+      }
+    },
+    "gift:dattes-sagai-aux-amandes": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T14:19:46.662Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:19:46.662Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:19:46.662Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:19:46.662Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:19:46.662Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:19:46.662Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:19:46.662Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:19:46.662Z"
+      }
+    },
+    "gift:dattes-barni-fourrees-aux-amandes": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T14:30:00.231Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:30:00.231Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:30:00.231Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:30:00.231Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:30:00.231Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:30:00.231Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:30:00.231Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:30:00.231Z"
+      }
+    },
+    "gift:tamriya-aux-fruits-secs": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T14:38:20.844Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:38:20.844Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:38:20.844Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:38:20.844Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:38:20.844Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:38:20.844Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:38:20.844Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T14:38:20.844Z"
+      }
     }
   }
 }
