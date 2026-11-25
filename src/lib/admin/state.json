@@ -1074,6 +1074,48 @@
         "by": "catalogue existant",
         "at": "2026-11-25T13:10:04.628Z"
       }
+    },
+    "gift:maamoul-aux-dattes-et-a-la-cardamome": {
+      "ar": {
+        "status": "validated",
+        "by": "rédaction (langue source)",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "en": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "fr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "tr": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "ur": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "ms": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "bn": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      },
+      "id": {
+        "status": "validated",
+        "by": "catalogue existant",
+        "at": "2026-11-25T13:19:34.678Z"
+      }
     }
   }
 }

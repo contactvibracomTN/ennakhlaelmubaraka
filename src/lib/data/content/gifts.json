@@ -499,5 +499,41 @@
     "kind": "gift",
     "category": "sweets",
     "contents": []
+  },
+  {
+    "id": "gift-mww5eedh",
+    "slug": "maamoul-aux-dattes-et-a-la-cardamome",
+    "name": {
+      "ar": "معمول بالعجوة والهيل",
+      "en": "\t Date Maamoul with Cardamom",
+      "fr": "\t Maâmoul aux dattes et à la cardamome",
+      "tr": "Hurmalı ve Kakuleli Mamul",
+      "ur": "\t کھجور اور الائچی والا معمول",
+      "ms": "\t Maamoul Kurma dengan Buah Pelaga",
+      "bn": "\t খেজুর ও এলাচ দিয়ে মামুল",
+      "id": "\t Maamoul Kurma dengan Kapulaga"
+    },
+    "teaser": {
+      "ar": "دلّلوا أنفسكم بمذاق المعمول بالعجوة والهيل، حيث تلتقي حلاوة التمر بأصالة الهيل في كل قطعة، لتعيشوا لحظات من المتعة والضيافة العربية الأصيلة",
+      "en": "Treat yourself to the delicious taste of Maamoul with Ajwa dates and cardamom, where the sweetness of dates meets the authentic aroma of cardamom in every piece, offering moments of pure pleasure and traditional Arabic hospitality.",
+      "fr": "Faites-vous plaisir avec le délicieux Maâmoul aux dattes Ajwa et à la cardamome, où la douceur des dattes rencontre l'arôme authentique de la cardamome dans chaque bouchée, pour vous offrir des moments de pur plaisir et de véritable hospitalité arabe.",
+      "tr": "Hurma tatlılığının kakulenin otantik aromasıyla buluştuğu, Acve hurmalı ve kakuleli Maamoul'un eşsiz lezzetinin tadını çıkarın. Her lokmada geleneksel Arap misafirperverliğini ve keyif dolu anları yaşayın.",
+      "ur": "عجوہ کھجور اور الائچی والے معمول کے مزیدار ذائقے سے لطف اندوز ہوں، جہاں کھجور کی مٹھاس اور الائچی کی مستند خوشبو ہر ٹکڑے میں یکجا ہوتی ہے، تاکہ آپ روایتی عرب مہمان نوازی اور لطف کے خوبصورت لمحات کا تجربہ کر سکیں",
+      "ms": "Manjakan diri anda dengan keenakan Maamoul berinti kurma Ajwa dan buah pelaga, di mana kemanisan kurma bertemu dengan aroma asli buah pelaga dalam setiap gigitan, memberikan anda detik penuh kenikmatan dan keramahan tradisional Arab.",
+      "bn": "আজওয়া খেজুর ও এলাচ দিয়ে তৈরি মামুলের সুস্বাদু স্বাদ উপভোগ করুন। প্রতিটি টুকরোতে খেজুরের মিষ্টতা ও এলাচের আসল সুগন্ধ একসঙ্গে মিশে আপনাকে দেবে আনন্দ এবং ঐতিহ্যবাহী আরব আতিথেয়তার এক অনন্য অভিজ্ঞতা।",
+      "id": "Manjakan diri Anda dengan kelezatan Maamoul isi kurma Ajwa dan kapulaga, perpaduan manisnya kurma dengan aroma autentik kapulaga dalam setiap gigitan, menghadirkan momen penuh kenikmatan dan keramahan tradisional Arab."
+    },
+    "images": [
+      "/media/uploads/1795612640314--.webp"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
   }
 ]
