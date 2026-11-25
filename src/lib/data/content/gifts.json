@@ -308,5 +308,42 @@
     "kind": "gift",
     "category": "sweets",
     "contents": []
+  },
+  {
+    "id": "gift-mww17vrw",
+    "slug": "chocolat-de-dubai",
+    "name": {
+      "ar": "شوكولاتة دبي",
+      "en": "Dubai Chocolate",
+      "fr": "Chocolat de Dubaï",
+      "tr": "Dubai Çikolatası",
+      "ur": "\t دبئی چاکلیٹ",
+      "ms": "Coklat Dubai",
+      "bn": "\t দুবাই চকলেট",
+      "id": "Cokelat Dubai"
+    },
+    "teaser": {
+      "ar": "لا تفوّتوا فرصة تجربة شوكولاتة دبي! قطعة واحدة كفيلة بأن تأخذكم إلى عالم من النكهات الغنية والمتعة التي لا تُقاوم",
+      "en": "Don't miss the chance to try Dubai Chocolate! One bite is enough to take you into a world of rich flavors and irresistible pleasure",
+      "fr": "Ne manquez pas l'occasion de goûter au Chocolat de Dubaï ! Une seule bouchée suffit pour vous transporter dans un univers de saveurs riches et de plaisir irrésistible",
+      "tr": "Dubai Çikolatasını deneme fırsatını kaçırmayın! Tek bir lokma, sizi zengin lezzetler ve karşı konulmaz bir keyif dünyasına götürmeye yeter",
+      "ur": "دبئی چاکلیٹ چکھنے کا موقع ہاتھ سے نہ جانے دیں! صرف ایک نوالہ آپ کو بھرپور ذائقوں اور ناقابلِ مزاحمت لذت کی دنیا میں لے جانے کے لیے کافی ہے",
+      "ms": "Jangan lepaskan peluang untuk mencuba Coklat Dubai! Satu gigitan sahaja sudah cukup untuk membawa anda ke dunia rasa yang kaya dan kenikmatan yang tidak dapat ditolak",
+      "bn": "দুবাই চকলেটের স্বাদ নেওয়ার সুযোগ হাতছাড়া করবেন না! মাত্র এক কামড়ই আপনাকে সমৃদ্ধ স্বাদ ও অপ্রতিরোধ্য আনন্দের জগতে নিয়ে যাওয়ার জন্য যথেষ্ট",
+      "id": "Jangan lewatkan kesempatan untuk mencoba Cokelat Dubai! Satu gigitan saja cukup untuk membawa Anda ke dunia cita rasa yang kaya dan kenikmatan yang tak tertahankan"
+    },
+    "images": [
+      "/media/uploads/1795605992015--.webp",
+      "/media/uploads/1795605999367-35f3253b-40e4-4eca-b9bc-fb09a0d7e410.jpg-tplv-aphluv4xwc-res.jpg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
   }
 ]
