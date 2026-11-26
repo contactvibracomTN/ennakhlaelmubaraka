@@ -600,6 +600,16 @@
       "bn": "ঐতিহ্যবাহী তালবিনার স্বাদ আবিষ্কার করুন। এটি যব দিয়ে তৈরি অন্যতম জনপ্রিয় পুষ্টিকর খাবার, যার রয়েছে নরম, ক্রিমি গঠন এবং সুস্বাদু স্বাদ।",
       "id": "Temukan cita rasa Talbinah tradisional, salah satu hidangan bergizi berbahan dasar jelai yang terkenal, dengan tekstur lembut, creamy, dan rasa yang lezat."
     },
+    "description": {
+      "ar": "استمتعوا بمذاق التلبينة التقليدية المصنوعة من الشعير، بوصفة مميزة تجمع بين البساطة والأصالة. تتميز بقوامها الناعم والكريمي وطعمها اللذيذ، لتمنحكم تجربة شهية ودافئة في كل ملعقة. خيار رائع لمحبي النكهات التقليدية والأطعمة المستوحاة من التراث.",
+      "en": "Enjoy the taste of traditional Talbina, made from barley with a special recipe that combines simplicity and authenticity. It is characterized by its smooth, creamy texture and delicious taste, offering you a warm and delightful experience with every spoonful. A wonderful choice for lovers of traditional flavours and heritage-inspired foods.",
+      "fr": "Savourez la Talbina traditionnelle, préparée à base d'orge selon une recette spéciale qui allie simplicité et authenticité. Elle se distingue par sa texture douce et crémeuse ainsi que son goût délicieux, pour vous offrir une expérience savoureuse et réconfortante à chaque cuillère. Un excellent choix pour les amateurs de saveurs traditionnelles et de recettes inspirées du patrimoine.",
+      "tr": "Arpadan hazırlanan geleneksel Talbina'nın lezzetini keşfedin. Sadelik ve özgünlüğü bir araya getiren özel tarifiyle öne çıkar. Yumuşak, kremamsı dokusu ve lezzetli tadıyla her kaşıkta keyifli ve sıcak bir deneyim sunar. Geleneksel lezzetleri sevenler için harika bir seçimdir.",
+      "ur": "جو سے تیار کردہ روایتی تلبینہ کے ذائقے سے لطف اندوز ہوں۔ یہ ایک خاص ترکیب ہے جو سادگی اور اصالت کو یکجا کرتی ہے۔ اپنی نرم اور کریمی ساخت اور مزیدار ذائقے کے ساتھ، یہ ہر چمچ میں ایک خوشگوار اور آرام دہ تجربہ فراہم کرتی ہے۔ روایتی ذائقوں کے شوقین افراد کے لیے ایک بہترین انتخاب۔",
+      "ms": "Nikmati keenakan Talbina tradisional yang diperbuat daripada barli dengan resipi istimewa yang menggabungkan kesederhanaan dan keaslian. Teksturnya yang lembut dan berkrim serta rasanya yang lazat memberikan pengalaman yang menyelerakan dan menyenangkan dalam setiap sudu. Pilihan terbaik bagi pencinta rasa tradisional dan makanan berinspirasi warisan.",
+      "bn": "যব দিয়ে তৈরি ঐতিহ্যবাহী তালবিনার স্বাদ উপভোগ করুন। এর বিশেষ রেসিপিতে সরলতা ও ঐতিহ্যের মেলবন্ধন ঘটেছে। এর নরম, ক্রিমি গঠন এবং সুস্বাদু স্বাদ প্রতিটি চামচে এনে দেয় তৃপ্তিদায়ক ও আরামদায়ক অভিজ্ঞতা। ঐতিহ্যবাহী স্বাদের অনুরাগীদের জন্য এটি একটি চমৎকার পছন্দ।",
+      "id": "Nikmati kelezatan Talbina tradisional yang terbuat dari jelai dengan resep istimewa yang memadukan kesederhanaan dan keaslian. Memiliki tekstur lembut dan creamy serta rasa yang lezat, memberikan pengalaman yang nikmat dan menghangatkan di setiap sendok. Pilihan tepat bagi pecinta cita rasa tradisional dan makanan yang terinspirasi dari warisan kuliner.\n\n\n"
+    },
     "images": [
       "/media/uploads/1795606973599--.png",
       "/media/uploads/1795606981912--.jpg"
@@ -612,7 +622,17 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [],
+    "sizeLabel": {
+      "ar": "150/300غرام ",
+      "en": "150 / 300 Grams",
+      "fr": "150 / 300 Grammes",
+      "tr": "150 / 300 Gram",
+      "ur": "150 / 300 گرام",
+      "ms": "150 / 300 Gram",
+      "bn": " ১৫০ / ৩০০ গ্রাম",
+      "id": "150 / 300 Gram"
+    }
   },
   {
     "id": "gift-mww2f84z",
