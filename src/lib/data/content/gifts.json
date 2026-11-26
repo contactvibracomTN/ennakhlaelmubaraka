@@ -501,7 +501,7 @@
       "/media/uploads/1795605999367-35f3253b-40e4-4eca-b9bc-fb09a0d7e410.jpg-tplv-aphluv4xwc-res.jpg"
     ],
     "price": {
-      "amount": 7,
+      "amount": 0,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -558,7 +558,7 @@
       "/media/uploads/1795606678983--.webp"
     ],
     "price": {
-      "amount": 0,
+      "amount": 20,
       "currency": "SAR"
     },
     "availability": "in-stock",
