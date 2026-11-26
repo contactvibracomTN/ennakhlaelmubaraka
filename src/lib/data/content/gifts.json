@@ -846,6 +846,16 @@
       "id": "Maamoul Kurma Ajwa dengan Millet"
     },
     "teaser": {
+      "ar": "حلاوة العجوة وسحر الدخن ,مذاق تراثي لا يُقاوم",
+      "en": "The Sweetness of Ajwa Dates and the Magic of Millet... An Irresistible Traditional Taste.",
+      "fr": "La douceur des dattes Ajwa et la magie du millet... Une saveur traditionnelle irrésistible.",
+      "tr": "Acve Hurmasının Tatlılığı ve Darının Büyüsü... Karşı Konulmaz Geleneksel Bir Lezzet.",
+      "ur": "عجوہ کھجور کی مٹھاس اور باجرے کا جادو... ایک ناقابلِ مزاحمت روایتی ذائقہ۔",
+      "ms": "Kemanisan Kurma Ajwa dan Keistimewaan Millet... Rasa Tradisional yang Menggoda.",
+      "bn": "আজওয়া খেজুরের মিষ্টতা ও বাজরার জাদু... এক অন irresistible ঐতিহ্যবাহী স্বাদ।",
+      "id": " Manisnya Kurma Ajwa dan Keistimewaan Millet... Cita Rasa Tradisional yang Menggugah Selera.\n\n\n"
+    },
+    "description": {
       "ar": "دلّلوا أنفسكم بمذاق المعمول بالعجوة والدخن، حيث تلتقي حلاوة التمر الغنية مع المذاق المميز للدخن في كل قطعة، لتستمتعوا بتجربة شهية تجمع بين الأصالة والتقاليد، وتضفي على لحظاتكم لمسة من الضيافة العربية الأصيلة",
       "en": "Treat yourself to the delicious taste of Maamoul with Ajwa dates and millet, where the rich sweetness of dates meets the distinctive flavor of millet in every piece. Enjoy a delightful experience that combines authenticity and tradition, bringing a touch of genuine Arabic hospitality to your special moments.",
       "fr": "Faites-vous plaisir avec le délicieux Maâmoul aux dattes Ajwa et au millet, où la douceur généreuse des dattes rencontre la saveur particulière du millet dans chaque bouchée. Savourez une expérience gourmande qui allie authenticité et tradition, en apportant une touche de véritable hospitalité arabe à vos moments précieux.",
@@ -867,7 +877,17 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [],
+    "sizeLabel": {
+      "ar": "400 غرام",
+      "en": "400 Grams",
+      "fr": "400 Grammes",
+      "tr": "400 Gram",
+      "ur": "400 گرام",
+      "ms": " 400 Gram",
+      "bn": " ৪০০ গ্রাম",
+      "id": "400 Gram"
+    }
   },
   {
     "id": "gift-mww6205n",
