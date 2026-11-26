@@ -282,14 +282,24 @@
       "id": ""
     },
     "teaser": {
-      "ar": "",
-      "en": "",
-      "fr": "",
-      "tr": "",
-      "ur": "",
-      "ms": "",
-      "bn": "",
-      "id": ""
+      "ar": "دقة المدينة الأصيلة .....مذاق أصيل من المدينة",
+      "en": "Authentic Madinah Dukkah – An Authentic Taste of Madinah",
+      "fr": "Dukkah authentique de Médine – Une saveur authentique de Médine",
+      "tr": "Orijinal Medine Dukkahı – Medine’den Otantik Bir Lezzet",
+      "ur": "مدینہ کی اصل دُقہ – مدینہ کا مستند ذائقہ",
+      "ms": "Dukkah Asli Madinah – Rasa Asli dari Madinah",
+      "bn": " আসল মদিনার দুক্কাহ – মদিনার খাঁটি স্বাদ",
+      "id": "Dukkah Asli Madinah – Cita Rasa Asli dari Madinah"
+    },
+    "description": {
+      "en": "Discover the authentic taste of Madinah Dukkah, a distinctive blend of traditional flavours inspired by the heritage of Madinah. It is characterized by its rich taste and delightful aroma, adding a touch of authenticity and distinction to your everyday dishes.",
+      "ar": "اكتشفوا مذاق دقة المدينة الأصيل، بمزيج مميز من النكهات التقليدية المستوحاة من تراث المدينة المنورة. تتميز بمذاقها الغني ورائحتها الشهية، لتضيف لمسة من الأصالة والتميز إلى أطباقكم اليومية.",
+      "fr": "Découvrez le goût authentique de la Dukkah de Médine, un mélange unique de saveurs traditionnelles inspirées du patrimoine de Médine. Elle se distingue par son goût riche et son arôme savoureux, apportant une touche d'authenticité et de raffinement à vos plats quotidiens.",
+      "tr": "Medine'nin mirasından ilham alan geleneksel lezzetlerin özel karışımıyla, Medine Dukkah'ın otantik tadını keşfedin. Zengin lezzeti ve hoş aromasıyla günlük yemeklerinize özgünlük ve ayrıcalık katar.",
+      "ur": "مدینہ دُقہ کا مستند ذائقہ دریافت کریں، جو مدینہ منورہ کے ورثے سے متاثر روایتی ذائقوں کا ایک منفرد امتزاج ہے۔ اپنے بھرپور ذائقے اور خوشبودار مہک کے ساتھ، یہ آپ کے روزمرہ کے کھانوں میں اصالت اور انفرادیت کا اضافہ کرتا ہے۔",
+      "ms": "Nikmati rasa asli Dukkah Madinah, gabungan istimewa perisa tradisional yang diinspirasikan daripada warisan Madinah. Dengan rasa yang kaya dan aroma yang menyelerakan, ia menambahkan sentuhan keaslian dan keistimewaan pada hidangan harian anda.",
+      "bn": "মদিনার ঐতিহ্য থেকে অনুপ্রাণিত ঐতিহ্যবাহী স্বাদের এক বিশেষ মিশ্রণ, আসল মদিনা দুক্কার স্বাদ আবিষ্কার করুন। এর সমৃদ্ধ স্বাদ ও মনোরম সুগন্ধ আপনার প্রতিদিনের খাবারে যোগ করবে এক অনন্য ও ঐতিহ্যবাহী ছোঁয়া।",
+      "id": "Temukan cita rasa autentik Dukkah Madinah, perpaduan istimewa dari rempah-rempah tradisional yang terinspirasi oleh warisan Madinah. Dengan rasa yang kaya dan aroma yang menggugah selera, produk ini menambahkan sentuhan keaslian dan keistimewaan pada hidangan sehari-hari Anda."
     },
     "images": [
       "/media/uploads/1795606165167--90.jpg",
@@ -305,7 +315,28 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [
+      {
+        "ar": "ب10 ريال وفي صغيرة ب5ريالات",
+        "en": "10 Saudi Riyals, and the small size is 5 Saudi Riyals.",
+        "fr": "À 10 riyals saoudiens, et le petit format à 5 riyals.",
+        "tr": "10 Suudi Riyali, küçük boyu ise 5 Suudi Riyali.",
+        "ur": "10 سعودی ریال، اور چھوٹا سائز 5 سعودی ریال۔",
+        "ms": "10 Riyal Saudi, saiz kecil pula 5 Riyal Saudi.",
+        "bn": "১০ সৌদি রিয়াল, ছোট সাইজ ৫ সৌদি রিয়াল।",
+        "id": "10 Riyal Saudi, ukuran kecil 5 Riyal Saudi."
+      }
+    ],
+    "sizeLabel": {
+      "ar": "90/300جرام  ",
+      "en": "90 / 300 Grams",
+      "fr": "90 / 300 Grammes",
+      "tr": "90 / 300 Gram",
+      "ur": "90 / 300 گرام",
+      "ms": "90 / 300 Gram",
+      "bn": "৯০ / ৩০০ গ্রাম",
+      "id": "90 / 300 Gram"
+    }
   },
   {
     "id": "gift-mwun6f5y",
