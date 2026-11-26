@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang='fr'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta name='description' content='Guide général, progressif et anonyme pour comprendre, connecter et utiliser les MCP Meta sans jargon.'>
+  <title>Les MCP Meta, sans jargon et avec les mains dans le cambouis</title>
+  <style>
+    :root {
+      --ink:#15241f; --muted:#5d6b64; --green:#0d4f3a; --green-2:#0f6b4f;
+      --green-soft:#e6f3ed; --sand:#f7f2e8; --paper:#fff; --line:#d8e0da;
+      --gold:#c9a227; --gold-soft:#fff8e1; --warn:#8a4b08; --warn-soft:#fff4df;
+      --danger:#8b1e1e; --danger-soft:#fdecec; --info:#165a8a; --info-soft:#eaf4fb;
+      --radius:16px; --shadow:0 1px 2px rgba(15,40,30,.05);
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:var(--sand); font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:16px; line-height:1.62; -webkit-font-smoothing:antialiased; }
+    .progress { position:fixed; inset:0 0 auto 0; height:4px; z-index:60; }
+    .progress > span { display:block; height:100%; width:0; background:var(--gold); }
+    header { color:#fff; background:radial-gradient(circle at 85% 15%,rgba(201,162,39,.28),transparent 32%),linear-gradient(135deg,#0b4332,#0f6b4f 72%,#147452); padding:58px 24px 46px; }
+    .wrap { max-width:1080px; margin:0 auto; } header .wrap { max-width:980px; }
+    .eyebrow { display:inline-block; font-size:.78rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:#ffe9a8; margin-bottom:12px; }
+    header h1 { margin:0 0 12px; font-size:clamp(2rem,5vw,3.35rem); line-height:1.08; letter-spacing:-.035em; max-width:900px; }
+    header p.lead { margin:0; max-width:790px; color:#dff1e8; font-size:clamp(1rem,2vw,1.18rem); }
+    .badges { display:flex; flex-wrap:wrap; gap:9px; margin-top:22px; }
+    .badge { display:inline-flex; align-items:center; gap:6px; border:1px solid rgba(255,255,255,.4); background:rgba(255,255,255,.1); border-radius:999px; padding:5px 12px; font-size:.78rem; font-weight:700; }
+    .badge.ok { background:#d9f2e5; color:#0a4c37; border-color:#b7e0cc; }
+    .badge.info { background:#eaf4fb; color:#124e78; border-color:#bcdcf0; }
+    .badge.warn { background:#fff4df; color:#7a4207; border-color:#e6c98d; }
+    .hero-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin-top:28px; }
+    .hero-stat { background:rgba(255,255,255,.09); border:1px solid rgba(255,255,255,.18); border-radius:12px; padding:14px 16px; }
+    .hero-stat b { display:block; font-size:1.5rem; line-height:1.1; }
+    .hero-stat span { color:#d8ece4; font-size:.84rem; }    .layout { display:grid; grid-template-columns:260px minmax(0,1fr); gap:28px; align-items:start; max-width:1180px; margin:0 auto; padding:28px 20px 70px; }
+    aside { position:sticky; top:18px; max-height:calc(100vh - 36px); overflow:auto; background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); }
+    aside h2 { margin:0 0 10px; font-size:.82rem; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); }
+    aside ol { margin:0; padding-left:20px; font-size:.9rem; } aside li { margin-bottom:6px; }
+    aside a { color:var(--ink); text-decoration:none; } aside a:hover { color:var(--green); text-decoration:underline; }
+    .aside-tools { border-top:1px solid var(--line); margin-top:16px; padding-top:14px; }
+    .aside-tools label { display:block; font-size:.8rem; font-weight:700; color:var(--muted); margin-bottom:6px; }
+    input[type='search'] { width:100%; border:1px solid var(--line); border-radius:9px; padding:8px 10px; font:inherit; font-size:.88rem; background:#fbfdfc; }
+    .mini-btn { margin-top:8px; width:100%; border:1px solid var(--line); background:var(--green-soft); color:var(--green); border-radius:9px; padding:7px 10px; font:inherit; font-size:.82rem; font-weight:700; cursor:pointer; }
+    main { min-width:0; }
+    .panel { background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); padding:28px; margin-bottom:22px; box-shadow:var(--shadow); overflow-x:auto; overscroll-behavior-x:contain; }
+    .part { border-top:5px solid var(--green); }
+    h2 { margin:0 0 14px; font-size:1.55rem; line-height:1.25; letter-spacing:-.02em; color:var(--green); }
+    h3 { margin:26px 0 8px; font-size:1.13rem; line-height:1.3; } h4 { margin:18px 0 6px; font-size:1rem; }
+    p { margin:0 0 12px; } ul,ol { margin:0 0 14px; padding-left:22px; } li { margin-bottom:7px; } a { color:var(--green-2); }
+    code { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; background:#edf3ef; border-radius:6px; padding:2px 6px; font-size:.88em; word-break:break-word; }
+    pre { position:relative; background:#10231d; color:#e8f5ef; border-radius:12px; padding:18px; margin:12px 0 16px; overflow-x:auto; line-height:1.55; }
+    pre code { background:none; color:inherit; padding:0; font-size:.86rem; }
+    .copy { position:absolute; top:8px; right:8px; border:1px solid rgba(255,255,255,.25); background:rgba(255,255,255,.1); color:#eafff6; border-radius:7px; padding:4px 9px; font-size:.72rem; font-weight:700; cursor:pointer; }
+    .copy:hover { background:rgba(255,255,255,.22); }
+    .callout { border-left:5px solid var(--green); background:var(--green-soft); border-radius:0 12px 12px 0; padding:14px 16px; margin:16px 0; }
+    .callout.info { border-left-color:var(--info); background:var(--info-soft); }
+    .callout.warn { border-left-color:var(--warn); background:var(--warn-soft); }
+    .callout.danger { border-left-color:var(--danger); background:var(--danger-soft); }
+    .callout.gold { border-left-color:var(--gold); background:var(--gold-soft); }
+    .callout strong { display:block; margin-bottom:4px; font-size:.95rem; } .callout p:last-child { margin-bottom:0; }
+    table { width:100%; border-collapse:collapse; margin:12px 0 18px; font-size:.9rem; }
+    th,td { border:1px solid var(--line); padding:9px 11px; text-align:left; vertical-align:top; }
+    th { background:#f1f6f3; font-weight:750; position:sticky; top:0; z-index:2; } tbody tr:nth-child(even) { background:#fbfdfc; }
+    .tool-row[hidden] { display:none; } .no-result { display:none; color:var(--warn); font-weight:700; margin:10px 0; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:14px; margin:14px 0; }
+    .card { border:1px solid var(--line); border-radius:12px; padding:16px; background:#fcfdfc; }
+    .card h3,.card h4 { margin-top:0; } .card p:last-child { margin-bottom:0; }
+    .tool { border:1px solid var(--line); border-left:4px solid var(--green-2); border-radius:10px; padding:13px 15px; margin:11px 0; background:#fcfdfc; }
+    .tool-head { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-bottom:5px; }
+    .tool-name { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.92rem; font-weight:800; color:#0b4d39; }
+    .tag { border-radius:999px; padding:2px 8px; font-size:.7rem; font-weight:800; background:var(--green-soft); color:var(--green); }
+    .tag.read { background:#eaf4fb; color:#124e78; } .tag.write { background:var(--warn-soft); color:var(--warn); }
+    .tool p { margin:0 0 6px; } .tool .prompt { margin-top:6px; color:var(--muted); font-size:.9rem; }
+    .steps { counter-reset:step; margin:14px 0; } .step { position:relative; padding:0 0 18px 48px; }
+    .step::before { counter-increment:step; content:counter(step); position:absolute; left:0; top:0; width:32px; height:32px; border-radius:50%; background:var(--green); color:#fff; display:grid; place-items:center; font-weight:800; font-size:.85rem; }
+    .step:not(:last-child)::after { content:''; position:absolute; left:15px; top:38px; bottom:0; width:2px; background:var(--line); }
+    .step h4 { margin:3px 0 5px; }
+    details { border:1px solid var(--line); border-radius:10px; background:#fbfdfc; padding:10px 14px; margin:12px 0; }
+    summary { cursor:pointer; font-weight:750; color:var(--green); } details > *:not(summary) { margin-top:10px; }
+    figure { margin:18px 0; } figure svg,.mock { width:100%; height:auto; display:block; }
+    figcaption { color:var(--muted); font-size:.82rem; margin-top:8px; text-align:center; }
+    .diagram { border:1px solid var(--line); border-radius:12px; background:#fbfdfc; padding:12px; }
+    .mock { border:1px solid #c8d4cd; border-radius:12px; overflow:hidden; background:#fff; font-size:.86rem; box-shadow:var(--shadow); }
+    .mock-bar { background:#eef3f0; border-bottom:1px solid #d8e0da; padding:8px 12px; display:flex; gap:6px; align-items:center; }
+    .dot { width:9px; height:9px; border-radius:50%; background:#c7d2cb; } .dot.a { background:#e6a0a0; } .dot.b { background:#e8c979; } .dot.c { background:#8fc7a8; }
+    .mock-url { margin-left:8px; color:var(--muted); background:#fff; border:1px solid var(--line); border-radius:6px; padding:2px 8px; flex:1; }
+    .mock-body { padding:16px; } .mock-title { font-weight:800; font-size:1rem; margin-bottom:8px; }
+    .mock-row { display:flex; gap:10px; align-items:flex-start; padding:9px 0; border-bottom:1px solid #edf1ee; } .mock-row:last-child { border-bottom:0; }
+    .mock-check { width:20px; height:20px; border-radius:50%; display:grid; place-items:center; flex:0 0 auto; font-size:.72rem; font-weight:900; color:#fff; background:var(--green-2); }
+    .mock-check.off { background:#aebbb3; }
+    .mock-cta { display:inline-flex; border-radius:8px; padding:7px 12px; font-weight:800; font-size:.8rem; background:var(--green); color:#fff; }
+    .mock-cta.ghost { background:#edf3ef; color:var(--green); border:1px solid var(--line); }
+    .mock-note { margin-top:10px; color:var(--muted); font-size:.78rem; }
+    .roadmap { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin:16px 0; }
+    .roadmap div { border:1px solid var(--line); border-radius:12px; padding:12px; background:#fcfdfc; }
+    .roadmap b { display:grid; place-items:center; width:28px; height:28px; border-radius:50%; background:var(--gold); color:#3a2c00; margin-bottom:8px; }
+    .roadmap span { font-size:.84rem; display:block; }
+    .gloss { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+    .gloss div { border-left:4px solid var(--info); background:var(--info-soft); border-radius:0 10px 10px 0; padding:12px 14px; }
+    .gloss b { display:block; color:#124e78; } .gloss span { font-size:.88rem; }
+    .checklist { list-style:none; padding-left:0; } .checklist li { position:relative; padding-left:30px; }
+    .checklist li::before { content:'☐'; position:absolute; left:0; top:-1px; font-size:1.1rem; color:var(--green); }
+    .muted { color:var(--muted); } .small { font-size:.86rem; } .center { text-align:center; }
+    footer { max-width:1180px; margin:0 auto; padding:0 20px 46px; color:var(--muted); font-size:.86rem; text-align:center; }
+    @media (max-width:880px) { .layout { grid-template-columns:1fr; padding-top:18px; } aside { position:static; max-height:none; } .panel { padding:20px; } header { padding:42px 18px 34px; } th { position:static; } }
+    @media print {
+      @page { size:A4; margin:14mm 12mm; } html,body { background:#fff; } body { font-size:10pt; line-height:1.45; color:#111; }
+      header { background:#0d4f3a !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; padding:18pt 0 14pt; }
+      header h1 { font-size:24pt; } header p.lead { font-size:11pt; }
+      .progress,aside,.copy,.mini-btn,input[type='search'] { display:none !important; } .layout { display:block; max-width:none; padding:0; } main { width:100%; }
+      .panel { box-shadow:none; border:1px solid #bbb; border-radius:8px; padding:12pt; margin-bottom:10pt; break-inside:avoid; } .part { break-before:page; border-top-width:3pt; }
+      h2 { font-size:16pt; } h3 { font-size:12pt; } h4 { font-size:10.5pt; }
+      pre { background:#f2f5f3 !important; color:#14221d !important; border:1px solid #ccc; white-space:pre-wrap; word-break:break-word; }
+      pre code { color:inherit !important; font-size:8.5pt; } code { background:#eef2ef; }
+      .callout,.tool,.card,.step,tr,figure,.mock,.roadmap div,.gloss div { break-inside:avoid; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+      th { position:static; background:#e9efeb !important; } a { color:#0d4f3a; text-decoration:none; }
+      details { border:none; padding:0; } details > summary { font-weight:800; } details > *:not(summary) { display:block !important; } footer { padding-top:10pt; }
+    }
+  </style>
+</head>
+<body>
+  <div class='progress' aria-hidden='true'><span id='progressBar'></span></div>
+  <header>
+    <div class='wrap'>
+      <span class='eyebrow'>Guide général · novembre 2026</span>
+      <h1>Les MCP Meta, sans jargon et avec les mains dans le cambouis</h1>
+      <p class='lead'>Un parcours progressif pour comprendre ce qu’est un MCP, connecter les bons outils Meta en toute sécurité, puis les utiliser au quotidien — même si vous n’êtes pas développeur.</p>
+      <div class='badges'>
+        <span class='badge ok'>Guide anonyme</span><span class='badge ok'>Débutant bienvenu</span>
+        <span class='badge info'>Lecture avant écriture</span><span class='badge warn'>Aucun secret à coller</span>
+        <span class='badge ok'>PDF avec Ctrl + P</span>
+      </div>
+      <div class='hero-grid'>
+        <div class='hero-stat'><b>5 min</b><span>pour comprendre le principe</span></div>
+        <div class='hero-stat'><b>6 étapes</b><span>pour installer sans sauter une case</span></div>
+        <div class='hero-stat'><b>4 règles</b><span>pour garder le contrôle</span></div>
+        <div class='hero-stat'><b>0 secret</b><span>exposé dans ce document</span></div>
+      </div>
+    </div>
+  </header>
+  <div class='layout'>
+    <aside>
+      <h2>Sommaire</h2>
+      <ol>
+        <li><a href='#lire'>Comment lire ce guide</a></li>
+        <li><a href='#comprendre'>Comprendre en 5 minutes</a></li>
+        <li><a href='#familles'>Les quatre familles d’outils</a></li>
+        <li><a href='#parcours'>Parcours d’installation</a></li>
+        <li><a href='#droits'>Comptes et autorisations</a></li>
+        <li><a href='#quotidien'>Utiliser au quotidien</a></li>
+        <li><a href='#depannage'>Dépannage sans jargon</a></li>
+        <li><a href='#glossaire'>Glossaire visuel</a></li>
+        <li><a href='#checklists'>Checklists</a></li>
+        <li><a href='#ressources'>Aller plus loin</a></li>
+      </ol>
+      <div class='aside-tools'>
+        <label for='toolSearch'>Trouver un mot</label>
+        <input id='toolSearch' type='search' placeholder='Ex. : token, OAuth, Page…'>
+        <button class='mini-btn' id='expandAll' type='button'>Ouvrir tous les détails</button>
+      </div>
+    </aside>
+    <main>
+      <section class='panel' id='lire'>
+        <h2>0. Comment lire ce guide</h2>
+        <p>Ce guide est fait pour quelqu’un qui entend parler de « MCP » pour la première fois. Il ne suppose aucune connaissance en programmation. Quand un mot technique apparaît, il est expliqué juste après, et il se retrouve dans le <a href='#glossaire'>glossaire visuel</a>.</p>
+        <div class='grid'>
+          <div class='card'><h4>Si vous êtes pressé</h4><p>Lisez <a href='#comprendre'>la partie 1</a>, puis suivez <a href='#parcours'>les 6 étapes</a>. Revenez aux autres parties seulement si un point vous bloque.</p></div>
+          <div class='card'><h4>Si vous préparez une équipe</h4><p>Partagez les <a href='#checklists'>checklists</a> et la règle « lecture avant écriture ». Ce sont elles qui évitent la majorité des erreurs.</p></div>
+          <div class='card'><h4>Si vous aimez les images</h4><p>Les schémas et maquettes sont intégrés au document. Ils sont volontairement anonymes : aucun compte réel, aucun identifiant et aucun secret n’apparaissent.</p></div>
+        </div>
+        <div class='callout gold'><strong>La promesse de ce guide</strong><p>À la fin, vous saurez dire : quel outil je connecte, pourquoi je le connecte, quelles autorisations je donne, et comment refuser une action qui dépasse ce que je voulais faire.</p></div>
+        <p class='small muted'>Les noms d’outils et les libellés des interfaces Meta peuvent évoluer. Si un écran diffère légèrement de la maquette, cherchez la fonction — pas le mot exact.</p>
+      </section>
+      <section class='panel part' id='comprendre'>
+        <h2>1. Comprendre un MCP en 5 minutes</h2>
+        <h3>Une phrase simple</h3>
+        <p>Un <b>MCP</b> est un intermédiaire : il permet à l’endroit où vous écrivez vos demandes de parler proprement à un service externe, ici Meta.</p>
+        <figure>
+          <div class='diagram'>
+            <svg viewBox='0 0 920 250' role='img' aria-labelledby='flowTitle flowDesc'>
+              <title id='flowTitle'>Chemin d’une demande MCP</title>
+              <desc id='flowDesc'>Vous écrivez une demande dans un client, le client appelle un serveur MCP, le serveur appelle l’API Meta, qui lit ou écrit les données autorisées.</desc>
+              <defs><marker id='arrow' markerWidth='10' markerHeight='8' refX='9' refY='4' orient='auto'><path d='M0,0 L10,4 L0,8 Z' fill='#0d4f3a'/></marker></defs>
+              <g font-family='Arial, sans-serif' font-size='14'>
+                <rect x='10' y='70' width='150' height='90' rx='14' fill='#e6f3ed' stroke='#0d4f3a'/>
+                <text x='85' y='108' text-anchor='middle' font-weight='bold' fill='#0d4f3a'>Vous</text>
+                <text x='85' y='132' text-anchor='middle' font-size='12'>« Montre-moi… »</text>
+                <rect x='225' y='70' width='170' height='90' rx='14' fill='#eaf4fb' stroke='#165a8a'/>
+                <text x='310' y='108' text-anchor='middle' font-weight='bold' fill='#124e78'>Client MCP</text>
+                <text x='310' y='132' text-anchor='middle' font-size='12'>l’interface où vous écrivez</text>
+                <rect x='460' y='70' width='170' height='90' rx='14' fill='#fff8e1' stroke='#c9a227'/>
+                <text x='545' y='108' text-anchor='middle' font-weight='bold' fill='#7a5b00'>Serveur MCP</text>
+                <text x='545' y='132' text-anchor='middle' font-size='12'>le traducteur d’outils</text>
+                <rect x='695' y='70' width='210' height='90' rx='14' fill='#f1f6f3' stroke='#0f6b4f'/>
+                <text x='800' y='108' text-anchor='middle' font-weight='bold' fill='#0d4f3a'>API Meta</text>
+                <text x='800' y='132' text-anchor='middle' font-size='12'>Pages · Instagram · Ads · WhatsApp</text>
+                <line x1='162' y1='115' x2='218' y2='115' stroke='#0d4f3a' stroke-width='2' marker-end='url(#arrow)'/>
+                <line x1='397' y1='115' x2='453' y2='115' stroke='#0d4f3a' stroke-width='2' marker-end='url(#arrow)'/>
+                <line x1='632' y1='115' x2='688' y2='115' stroke='#0d4f3a' stroke-width='2' marker-end='url(#arrow)'/>
+                <text x='460' y='205' text-anchor='middle' font-size='12' fill='#5d6b64'>Le serveur ne devine pas : il appelle un outil précis, avec les droits que vous avez donnés.</text>
+              </g>
+            </svg>
+          </div>
+          <figcaption>Schéma 1 — Une demande passe toujours par les mêmes couches. Si une couche manque, rien ne circule.</figcaption>
+        </figure>
+        <h3>Ce qu’un MCP fait</h3>
+        <ul><li>Il présente une <b>liste d’outils</b> compréhensibles : « lister les pages », « lire les statistiques », « chercher des commentaires ».</li><li>Il <b>traduit</b> votre demande en appel technique vers Meta.</li><li>Il <b>ramène une réponse</b> que votre client peut vous afficher.</li></ul>
+        <h3>Ce qu’un MCP ne fait pas</h3>
+        <ul><li>Il ne décide pas à votre place de publier, répondre ou modifier un budget.</li><li>Il ne contourne pas les autorisations : si Meta refuse, il refuse aussi.</li><li>Il ne rend pas un serveur « connecté » automatiquement utilisable : il faut tester une lecture simple.</li></ul>
+        <h3>Les trois couches à ne pas confondre</h3>
+        <div class='grid'>
+          <div class='card'><h4>L’application Meta</h4><p>C’est l’identité technique que vous créez chez Meta. Elle porte les autorisations.</p></div>
+          <div class='card'><h4>La Page ou le compte pro</h4><p>Ce sont vos données réelles : publications, commentaires, statistiques, campagnes.</p></div>
+          <div class='card'><h4>Le client MCP</h4><p>C’est l’endroit où vous discutez. Il utilise le serveur MCP, mais il ne remplace pas Meta.</p></div>
+        </div>
+        <div class='callout info'><strong>Image mentale</strong><p>L’application Meta est le <b>badge d’accès</b>, la Page est le <b>bâtiment</b>, et le MCP est le <b>guide</b> qui sait frapper à la bonne porte. Le guide n’ouvre rien sans badge valide.</p></div>
+      </section>
+      <section class='panel part' id='familles'>
+        <h2>2. Les quatre familles d’outils</h2>
+        <p>Tous les serveurs ne se valent pas. Certains sont officiels, d’autres communautaires, et leur disponibilité dépend de votre client MCP. Le tableau ci-dessous sert à <b>choisir</b>, pas à tout installer.</p>
+        <div class='aside-tools'><label for='outilSearch'>Filtrer le tableau</label><input id='outilSearch' type='search' placeholder='Ex. : Instagram, lecture, WhatsApp…'></div>
+        <p class='no-result' id='noResult'>Aucune ligne ne correspond à cette recherche.</p>
+        <table>
+          <thead><tr><th>Famille</th><th>Sert à</th><th>Niveau</th><th>À retenir</th></tr></thead>
+          <tbody>
+            <tr class='tool-row'><td><b>Meta Ads</b></td><td>Consulter campagnes, groupes d’annonces, dépenses et métriques.</td><td><span class='tag read'>Lecture conseillée</span></td><td>Le plus utile pour un premier rapport. Évitez d’activer la gestion d’annonces au début.</td></tr>
+            <tr class='tool-row'><td><b>Social Technologies</b></td><td>Explorer l’API Graph, les pages et les données de l’application.</td><td><span class='tag'>Intermédiaire</span></td><td>Très puissant, mais plus technique. À garder pour plus tard si vous débutez.</td></tr>
+            <tr class='tool-row'><td><b>WhatsApp Business</b></td><td>Vérifier la configuration, les modèles et les conversations autorisées.</td><td><span class='tag write'>Sensible</span></td><td>La messagerie peut écrire. N’activez que ce dont vous avez besoin, et jamais « par précaution ».</td></tr>
+            <tr class='tool-row'><td><b>Contenu local Page / Instagram</b></td><td>Lister une Page, lire des médias, des commentaires et des statistiques.</td><td><span class='tag read'>Idéal pour commencer</span></td><td>Parfait pour une routine quotidienne : voir ce qui a été publié et ce qui a généré de l’engagement.</td></tr>
+          </tbody>
+        </table>
+        <h3>Anatomie d’un outil MCP</h3>
+        <div class='tool'>
+          <div class='tool-head'><span class='tool-name'>lire_statistiques</span><span class='tag read'>lecture</span><span class='tag'>exemple générique</span></div>
+          <p><b>Ce qu’il fait :</b> retourne des chiffres pour une période donnée.</p>
+          <p><b>Ce qu’il demande :</b> un identifiant de compte et une période.</p>
+          <p><b>Ce qu’il ne fait pas :</b> il ne modifie rien et ne publie rien.</p>
+          <p class='prompt'>Prompt utile : « Donne-moi la portée des 7 derniers jours, sans rien modifier. »</p>
+        </div>
+        <div class='callout warn'><strong>Règle de choix</strong><p>N’ajoutez que le serveur dont vous avez besoin aujourd’hui. Chaque outil supplémentaire ajoute des possibilités… et donc des façons de se tromper.</p></div>
+      </section>
+      <section class='panel part' id='parcours'>
+        <h2>3. Parcours d’installation en 6 étapes</h2>
+        <p>Suivez cet ordre. Il évite de devoir refaire une authentification parce qu’une autorisation manquait.</p>
+        <div class='roadmap' aria-label='Étapes du parcours'>
+          <div><b>1</b><span>Choisir le serveur</span></div><div><b>2</b><span>Vérifier le client</span></div>
+          <div><b>3</b><span>Préparer l’application</span></div><div><b>4</b><span>Donner le minimum de droits</span></div>
+          <div><b>5</b><span>Connecter</span></div><div><b>6</b><span>Tester une lecture</span></div>
+        </div>
+        <div class='steps'>
+          <div class='step'><h4>Choisir le serveur</h4><p>Partez de votre besoin : statistiques ? campagnes ? messagerie ? Reportez-vous au <a href='#familles'>tableau précédent</a>.</p></div>
+          <div class='step'><h4>Vérifier le client MCP</h4><p>Regardez la documentation du serveur : tel client est parfois pris en charge pour un outil, mais pas pour un autre. Ne supposez pas que tout est compatible partout.</p></div>
+          <div class='step'><h4>Préparer l’application Meta</h4><p>Utilisez une application dédiée, avec un nom clair. Ajoutez le site web de l’organisation si le formulaire le demande. Gardez l’application en brouillon / non publiée tant que tout n’est pas vérifié.</p></div>
+          <div class='step'><h4>Donner le minimum de droits</h4><p>Cochez seulement les autorisations nécessaires à la tâche. Commencez par la lecture. Laissez l’écriture de côté jusqu’à ce que vous en ayez réellement besoin.</p></div>
+          <div class='step'><h4>Connecter</h4><p>Deux cas fréquents sont expliqués juste après : <b>OAuth</b> (connexion dans le navigateur) et <b>token System User</b> (identité de service, pour un flux automatisé).</p></div>
+          <div class='step'><h4>Tester une lecture</h4><p>Demandez une information sans danger, par exemple : « Liste mes pages » ou « Donne les 3 dernières publications ». Un serveur affiché comme connecté n’est fiable qu’après cet essai.</p></div>
+        </div>
+        <h3>Visuel : écran de consentement simplifié</h3>
+        <figure>
+          <div class='mock'>
+            <div class='mock-bar'><span class='dot a'></span><span class='dot b'></span><span class='dot c'></span><span class='mock-url'>connexion.meta.fr · autorisation</span></div>
+            <div class='mock-body'>
+              <div class='mock-title'>Autoriser l’application ?</div>
+              <div class='mock-row'><span class='mock-check'>✓</span><div><b>Voir la liste des pages</b><br><span class='muted'>Nécessaire pour choisir la bonne page.</span></div></div>
+              <div class='mock-row'><span class='mock-check'>✓</span><div><b>Voir les statistiques</b><br><span class='muted'>Lecture seule. Aucune publication modifiée.</span></div></div>
+              <div class='mock-row'><span class='mock-check off'></span><div><b>Publier sur la page</b><br><span class='muted'>Coché par défaut ? Décochez si vous ne voulez pas écrire.</span></div></div>
+              <div style='margin-top:14px; display:flex; gap:8px; flex-wrap:wrap'><span class='mock-cta'>Continuer</span><span class='mock-cta ghost'>Annuler</span></div>
+              <div class='mock-note'>Maquette anonyme : les libellés réels peuvent changer, mais le principe reste le même — lisez chaque ligne avant de continuer.</div>
+            </div>
+          </div>
+          <figcaption>Capture simplifiée — ce qu’il faut regarder avant de donner son accord.</figcaption>
+        </figure>
+        <h3>Deux façons de se connecter</h3>
+        <div class='grid'>
+          <div class='card'><h4>OAuth</h4><p>Le client ouvre une page Meta. Vous vous connectez, vous lisez les autorisations, vous acceptez. C’est le plus simple pour une personne.</p><p class='small muted'>Utile pour : navigation, exploration, tests ponctuels.</p></div>
+          <div class='card'><h4>Token System User</h4><p>C’est une identité « robot » créée dans le gestionnaire d’entreprise, avec un rôle précis et une durée de vie limitée. On l’utilise pour un flux répétitif, jamais dans une conversation.</p><p class='small muted'>Utile pour : un serveur local, une tâche planifiée, un usage serveur à serveur.</p></div>
+        </div>
+        <div class='callout danger'><strong>Ne jamais faire</strong><p>Ne collez pas un token, un secret d’application ou un mot de passe dans un chat, un document partagé ou une capture d’écran. Un secret vu une fois doit être considéré comme compromis.</p></div>
+        <details>
+          <summary>Où mettre un token quand c’est vraiment nécessaire ?</summary>
+          <p>Dans un emplacement privé prévu à cet effet, par exemple un fichier d’environnement local non partagé. Le guide ne montre aucune valeur réelle : utilisez toujours un espace réservé comme <code>&lt;VOTRE_TOKEN&gt;</code>.</p>
+          <pre><code>META_ACCESS_TOKEN=&lt;VOTRE_TOKEN&gt;
+META_PAGE_ID=&lt;ID_DE_LA_PAGE&gt;</code><button class='copy' type='button'>Copier</button></pre>
+          <p class='small muted'>Si le fichier est versionné, vérifiez qu’il est bien ignoré par le système de suivi avant d’écrire quoi que ce soit.</p>
+        </details>
+        <details>
+          <summary>Et les URL de rappel locales ?</summary>
+          <p>Certains outils affichent une adresse du type <code>http://localhost:&lt;PORT&gt;/callback</code>. Elle sert à l’ordinateur qui lance l’outil. En général, <b>vous n’avez pas à l’enregistrer telle quelle dans Meta</b> : suivez la procédure indiquée par le serveur MCP. Si un port est déjà utilisé, choisissez-en un autre libre et gardez la même valeur dans la configuration.</p>
+        </details>
+      </section>
+      <section class='panel part' id='droits'>
+        <h2>4. Comptes, autorisations et sécurité</h2>
+        <h3>Illustration : lecture ou écriture ?</h3>
+        <figure>
+          <div class='diagram'>
+            <svg viewBox='0 0 920 230' role='img' aria-labelledby='rwTitle rwDesc'>
+              <title id='rwTitle'>Deux chemins : lecture et écriture</title>
+              <desc id='rwDesc'>Le chemin vert de lecture mène à des données et ne modifie rien. Le chemin orange d’écriture passe par une confirmation avant toute modification.</desc>
+              <g font-family='Arial, sans-serif' font-size='14'>
+                <rect x='20' y='85' width='170' height='70' rx='14' fill='#e6f3ed' stroke='#0d4f3a'/>
+                <text x='105' y='125' text-anchor='middle' font-weight='bold' fill='#0d4f3a'>Votre demande</text>
+                <rect x='300' y='40' width='230' height='60' rx='12' fill='#eaf4fb' stroke='#165a8a'/>
+                <text x='415' y='78' text-anchor='middle' font-weight='bold' fill='#124e78'>Lecture</text>
+                <rect x='300' y='135' width='230' height='60' rx='12' fill='#fff4df' stroke='#8a4b08'/>
+                <text x='415' y='173' text-anchor='middle' font-weight='bold' fill='#8a4b08'>Écriture</text>
+                <rect x='640' y='40' width='250' height='60' rx='12' fill='#e6f3ed' stroke='#0f6b4f'/>
+                <text x='765' y='72' text-anchor='middle' fill='#0d4f3a'>Voir, compter, résumer</text>
+                <text x='765' y='90' text-anchor='middle' font-size='12' fill='#0d4f3a'>Rien n’est changé</text>
+                <rect x='640' y='135' width='250' height='60' rx='12' fill='#fdecec' stroke='#8b1e1e'/>
+                <text x='765' y='167' text-anchor='middle' fill='#8b1e1e'>Confirmer avant d’agir</text>
+                <text x='765' y='185' text-anchor='middle' font-size='12' fill='#8b1e1e'>Publier · répondre · modifier</text>
+                <line x1='190' y1='115' x2='292' y2='70' stroke='#0f6b4f' stroke-width='2' marker-end='url(#arrow)'/>
+                <line x1='190' y1='120' x2='292' y2='165' stroke='#8a4b08' stroke-width='2' marker-end='url(#arrow)'/>
+                <line x1='532' y1='70' x2='632' y2='70' stroke='#0f6b4f' stroke-width='2' marker-end='url(#arrow)'/>
+                <line x1='532' y1='165' x2='632' y2='165' stroke='#8b1e1e' stroke-width='2' marker-end='url(#arrow)'/>
+              </g>
+            </svg>
+          </div>
+          <figcaption>Schéma 2 — La lecture est réversible. L’écriture doit toujours passer par un accord explicite.</figcaption>
+        </figure>
+        <h3>Autorisations courantes, expliquées simplement</h3>
+        <table>
+          <thead><tr><th>Autorisation</th><th>Ce qu’elle donne</th><th>Quand la demander</th></tr></thead>
+          <tbody>
+            <tr><td><code>public_profile</code></td><td>Informations publiques de base.</td><td>Généralement implicite.</td></tr>
+            <tr><td><code>pages_show_list</code></td><td>Voir la liste des Pages accessibles.</td><td>Dès qu’il faut choisir une Page.</td></tr>
+            <tr><td><code>pages_read_engagement</code></td><td>Lire publications et engagements de la Page.</td><td>Pour un rapport ou une veille.</td></tr>
+            <tr><td><code>instagram_basic</code></td><td>Lire les informations et médias d’un compte professionnel.</td><td>Pour consulter le contenu Instagram.</td></tr>
+            <tr><td><code>instagram_manage_insights</code></td><td>Lire les statistiques Instagram.</td><td>Pour portée, interactions, audience.</td></tr>
+            <tr><td><code>ads_read</code></td><td>Lire les données publicitaires.</td><td>Pour un tableau de bord Ads.</td></tr>
+          </tbody>
+        </table>
+        <h3>À éviter au début</h3>
+        <p>Ces autorisations permettent d’agir. Elles peuvent être légitimes plus tard, mais n’ont rien à faire dans une première configuration.</p>
+        <ul><li><code>ads_management</code> — modifier des campagnes ou des budgets.</li><li><code>pages_manage_posts</code> — publier sur une Page.</li><li><code>instagram_content_publish</code> — publier sur Instagram.</li><li><code>instagram_manage_comments</code> — répondre à des commentaires.</li><li>Toute autorisation de messagerie si vous ne traitez pas réellement des conversations.</li></ul>
+        <div class='callout warn'><strong>Niveau Standard / Advanced</strong><p>Certaines lectures sont disponibles en accès Standard, d’autres demandent un accès avancé. Si une erreur dit qu’une permission ou une fonctionnalité manque, ce n’est pas forcément un bug de votre MCP : c’est souvent l’application qui n’a pas encore été approuvée pour cet usage.</p></div>
+        <details><summary>À quoi sert la revue d’application ?</summary><p>Quand vous demandez un accès avancé, Meta peut demander une description de votre usage, une courte vidéo de démonstration et un appel de test réussi. Le compteur d’appel peut mettre <b>jusqu’à 24 heures</b> à se mettre à jour. Prévoyez ce délai avant de prévoir une soumission.</p></details>
+        <details><summary>Qu’est-ce qu’un accès « partiel » ?</summary><p>Sur une Page ou un compte Instagram, vous pouvez parfois n’autoriser que les outils professionnels, et seulement les statistiques. C’est souvent suffisant pour lire des chiffres. Cochez uniquement les cases nécessaires, puis enregistrez.</p></details>
+      </section>
+      <section class='panel part' id='quotidien'>
+        <h2>5. Utiliser les MCP au quotidien</h2>
+        <p>Une fois la connexion vérifiée, la valeur vient de la régularité. Voici une routine simple, sans automatisation risquée.</p>
+        <div class='steps'>
+          <div class='step'><h4>Ouvrir la période</h4><p>Demandez un résumé des 7 derniers jours : publications, portée, interactions.</p></div>
+          <div class='step'><h4>Repérer un changement</h4><p>Comparez avec la semaine précédente. Cherchez une hausse, une baisse ou un sujet qui revient.</p></div>
+          <div class='step'><h4>Lire les retours</h4><p>Demandez les commentaires récents, puis demandez-en un résumé thématique.</p></div>
+          <div class='step'><h4>Noter une décision</h4><p>Écrivez une action possible, mais ne l’exécutez pas depuis le MCP sans accord explicite.</p></div>
+        </div>
+        <h3>Exemples de demandes</h3>
+        <pre><code>« Liste mes pages accessibles. Ne modifie rien. »
+« Donne la portée et les interactions des 7 derniers jours, avec la semaine précédente à côté. »
+« Résume les commentaires reçus hier par thème. »
+« Avant de publier quoi que ce soit, dis-moi exactement ce que tu vas faire et attends mon accord. »</code><button class='copy' type='button'>Copier</button></pre>
+        <h3>Bonnes habitudes</h3>
+        <ul><li>Demandez une <b>période précise</b> : « 7 derniers jours » plutôt que « récemment ».</li><li>Demandez un <b>format court</b> : 5 lignes, un tableau, trois points.</li><li>Ajoutez <b>« ne modifie rien »</b> quand vous voulez seulement lire.</li><li>Gardez une trace des demandes importantes : cela aide à comprendre un chiffre qui change.</li></ul>
+        <div class='callout info'><strong>Le réflexe à prendre</strong><p>Si une réponse vous semble étrange, demandez : « Quel outil as-tu utilisé, et quels chiffres as-tu lus ? ». Un bon MCP doit pouvoir expliquer son chemin.</p></div>
+      </section>
+      <section class='panel part' id='depannage'>
+        <h2>6. Dépannage sans jargon</h2>
+        <div class='grid'>
+          <div class='card'><h4>« needs authentication »</h4><p>La connexion a expiré ou n’a jamais été faite. Reconnectez-vous via la procédure du client. Vérifiez la date d’expiration si vous utilisez un token de service.</p></div>
+          <div class='card'><h4>« Permission manquante »</h4><p>L’autorisation n’est pas dans l’application, ou elle n’est pas encore approuvée pour un accès avancé. Vérifiez la liste des autorisations avant de changer le code.</p></div>
+          <div class='card'><h4>« 0 appel sur 1 »</h4><p>Un appel de test a peut-être réussi, mais Meta n’a pas encore mis à jour le compteur. Patientez jusqu’à 24 h avant de conclure à un échec.</p></div>
+          <div class='card'><h4>« Port déjà utilisé »</h4><p>Un autre programme occupe le port local. Choisissez un port libre et gardez la même valeur dans toute la configuration. N’enregistrez pas cette adresse locale dans Meta.</p></div>
+          <div class='card'><h4>« Aucun résultat »</h4><p>Vérifiez d’abord le compte sélectionné et la période. Beaucoup de réponses vides viennent d’un filtre trop étroit, pas d’un serveur cassé.</p></div>
+          <div class='card'><h4>« Serveur bêta »</h4><p>Cela signifie que les noms d’outils peuvent bouger. Consultez la liste affichée par votre client plutôt que de recopier un ancien exemple.</p></div>
+        </div>
+        <h3>Ordre de vérification</h3>
+        <ol><li>Le bon serveur est-il ajouté au client ?</li><li>Le client affiche-t-il les outils du serveur ?</li><li>L’authentification est-elle à jour ?</li><li>L’autorisation nécessaire est-elle bien cochée ?</li><li>Une lecture simple fonctionne-t-elle ?</li></ol>
+        <p class='muted small'>Suivez cet ordre. Il permet de corriger une cause à la fois, au lieu de tout réinstaller.</p>
+      </section>
+      <section class='panel part' id='glossaire'>
+        <h2>7. Glossaire visuel</h2>
+        <div class='gloss'>
+          <div><b>MCP</b><span>Un pont entre votre client et un service externe.</span></div>
+          <div><b>Client MCP</b><span>L’endroit où vous écrivez vos demandes.</span></div>
+          <div><b>Serveur MCP</b><span>Le programme qui expose des outils précis.</span></div>
+          <div><b>Outil</b><span>Une action nommée, avec des paramètres.</span></div>
+          <div><b>Token</b><span>Une clé d’accès. À garder privée, jamais dans un chat.</span></div>
+          <div><b>OAuth</b><span>Connexion dans le navigateur, avec consentement.</span></div>
+          <div><b>Application Meta</b><span>L’identité technique qui porte les autorisations.</span></div>
+          <div><b>Page</b><span>La présence publique d’une organisation sur Facebook.</span></div>
+          <div><b>System User</b><span>Une identité de service dédiée, utile pour un flux automatique.</span></div>
+          <div><b>Permission</b><span>Un droit précis : voir, lire, poster, modifier.</span></div>
+          <div><b>Lecture seule</b><span>Vous consultez sans rien changer.</span></div>
+          <div><b>Écriture</b><span>Vous créez, modifiez ou supprimez quelque chose.</span></div>
+          <div><b>App Review</b><span>La vérification Meta pour les accès sensibles.</span></div>
+          <div><b>Accès avancé</b><span>Un niveau supplémentaire après approbation.</span></div>
+        </div>
+      </section>
+      <section class='panel part' id='checklists'>
+        <h2>8. Checklists</h2>
+        <h3>Avant de connecter un MCP</h3>
+        <ul class='checklist'><li>J’ai identifié le besoin précis : lire des statistiques, des campagnes, des commentaires…</li><li>J’ai choisi un seul serveur pour commencer.</li><li>J’ai vérifié que mon client MCP le prend en charge.</li><li>J’ai prévu une application Meta dédiée, avec un nom compréhensible.</li><li>Je n’ai coché que les autorisations nécessaires.</li><li>J’ai prévu un test de lecture simple.</li></ul>
+        <h3>Avant une action sensible</h3>
+        <ul class='checklist'><li>Je sais exactement quel compte sera touché.</li><li>Je sais si l’action lit ou modifie.</li><li>J’ai demandé une confirmation explicite avant de publier, répondre ou modifier.</li><li>Je n’ai pas collé de token, de secret ou de mot de passe dans la conversation.</li><li>Je garde une trace de ce qui a été fait.</li></ul>
+        <h3>Avant de partager ce guide</h3>
+        <ul class='checklist'><li>Aucun identifiant réel n’a été ajouté dans le document.</li><li>Aucune capture contenant des données privées n’a été insérée.</li><li>Les exemples utilisent des espaces réservés comme <code>&lt;ID_DE_LA_PAGE&gt;</code>.</li><li>La version exportée en PDF a été relue après impression.</li></ul>
+        <div class='callout gold'><strong>Si vous ne retenez qu’une chose</strong><p>Connectez le strict nécessaire, testez une lecture, puis avancez par petites étapes. Un MCP bien configuré doit vous rendre le contrôle, pas vous le retirer.</p></div>
+      </section>
+      <section class='panel part' id='ressources'>
+        <h2>9. Aller plus loin</h2>
+        <h3>Sites utiles</h3>
+        <ul class='source-list'>
+          <li><a href='https://developers.facebook.com/docs/'>Documentation Meta for Developers</a> — référence des API, autorisations et revues d’application.</li>
+          <li><a href='https://developers.facebook.com/tools/explorer/'>Explorateur de l’API Graph</a> — pour tester un appel de lecture avec la bonne application.</li>
+          <li><a href='https://developers.facebook.com/apps/'>Gestion des applications</a> — pour vérifier les autorisations et le statut de publication.</li>
+          <li><a href='https://business.facebook.com/'>Gestionnaire d’entreprise</a> — pour les System Users et les accès aux actifs.</li>
+        </ul>
+        <h3>Fiche mémo</h3>
+        <pre><code>Application = identité technique
+Page / compte = données réelles
+MCP = intermédiaire
+Token = clé privée
+OAuth = consentement dans le navigateur
+Lecture = sûre
+Écriture = confirmation obligatoire</code><button class='copy' type='button'>Copier</button></pre>
+        <h3>Dernier mot</h3>
+        <p>Un MCP n’est pas une baguette magique. C’est un outil avec un nom, des paramètres et des droits. Quand vous savez quel outil appeler, pourquoi l’appeler et quoi refuser, vous êtes en contrôle. C’est exactement ce que ce guide cherche à vous donner.</p>
+      </section>
+    </main>
+  </div>
+  <footer>
+    Guide général et anonyme · aucun token, aucun identifiant réel, aucun compte privé · Impression : Ctrl + P puis « Enregistrer au format PDF »
+  </footer>
+  <script>
+    (function () {
+      var bar = document.getElementById('progressBar');
+      function updateProgress() {
+        var h = document.documentElement;
+        var max = h.scrollHeight - h.clientHeight;
+        bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+      }
+      window.addEventListener('scroll', updateProgress, { passive: true });
+      updateProgress();
+      document.querySelectorAll('.copy').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var code = btn.parentElement.querySelector('code');
+          var text = code ? code.innerText : btn.parentElement.innerText;
+          if (navigator.clipboard && window.isSecureContext) {
+            navigator.clipboard.writeText(text).then(function () {
+              btn.textContent = 'Copié'; setTimeout(function () { btn.textContent = 'Copier'; }, 1400);
+            });
+          } else {
+            var ta = document.createElement('textarea'); ta.value = text;
+            ta.style.position = 'fixed'; ta.style.opacity = '0';
+            document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta);
+            btn.textContent = 'Copié'; setTimeout(function () { btn.textContent = 'Copier'; }, 1400);
+          }
+        });
+      });
+      var search = document.getElementById('toolSearch');
+      search.addEventListener('input', function () {
+        var q = search.value.trim().toLowerCase();
+        document.querySelectorAll('aside li').forEach(function (li) { li.hidden = q.length > 0 && li.textContent.toLowerCase().indexOf(q) === -1; });
+      });
+      var outilSearch = document.getElementById('outilSearch');
+      var noResult = document.getElementById('noResult');
+      outilSearch.addEventListener('input', function () {
+        var q = outilSearch.value.trim().toLowerCase(); var visible = 0;
+        document.querySelectorAll('.tool-row').forEach(function (row) {
+          var match = q.length === 0 || row.textContent.toLowerCase().indexOf(q) !== -1;
+          row.hidden = !match; if (match) visible++;
+        });
+        noResult.style.display = (q.length > 0 && visible === 0) ? 'block' : 'none';
+      });
+      var expand = document.getElementById('expandAll');
+      expand.addEventListener('click', function () {
+        var details = document.querySelectorAll('details');
+        var allOpen = Array.prototype.every.call(details, function (d) { return d.open; });
+        details.forEach(function (d) { d.open = !allOpen; });
+        expand.textContent = allOpen ? 'Ouvrir tous les détails' : 'Fermer tous les détails';
+      });
+    })();
+  </script>
+</body>
+</html>

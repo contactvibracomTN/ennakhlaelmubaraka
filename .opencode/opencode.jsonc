@@ -1,0 +1,92 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+    "plugins": [
+    "git+https://github.com/anomalyco/opencode.git#path:packages/plugins/figma"
+  ],
+  "providers": {
+    "kimi": {
+      "name": "Kimi",
+      "env": ["KIMI_API_KEY"],
+      "package": "@opencode/ai/providers/openai-compatible",
+      "settings": {
+        "baseURL": "https://api.moonshot.ai/v1",
+        "apiKey": "{env:KIMI_API_KEY}"
+      },
+      "models": {
+        "kimi-k2.7-code": {
+          "name": "Kimi K2.7 Code",
+          "capabilities": {
+            "tools": true,
+            "input": ["text"],
+            "output": ["text"]
+          },
+          "limit": {
+            "context": 262144,
+            "output": 32768
+          }
+        },
+        "kimi-k3.1-pro": {
+          "name": "Kimi K3.1 Pro",
+          "capabilities": {
+            "tools": true,
+            "input": ["text"],
+            "output": ["text"]
+          },
+          "limit": {
+            "context": 262144,
+            "output": 32768
+          }
+        }
+      }
+    }
+  },
+  "mcp": {
+    "servers": {
+      "meta-content": {
+        "type": "local",
+        "command": ["node", "scripts/meta-content-mcp.mjs"],
+        "environment": {
+          "META_CONTENT_TOKEN": "{env:META_CONTENT_TOKEN}",
+          "META_PAGE_ID": "1237934092745712",
+          "META_IG_ACCOUNT_ID": "17841432161316016"
+        },
+        "timeout": {
+          "execution": 120000
+        }
+      },
+      "meta-whatsapp": {
+        "type": "remote",
+        "url": "https://mcp.facebook.com/whatsapp_business_tools",
+        "oauth": {
+          "client_id": "1195663766127310",
+          "callback_port": 19877,
+          "redirect_uri": "http://localhost:19877/callback"
+        }
+      }
+    }
+  },
+  "instructions": [
+    "docs/agents/palette-officielle.md",
+    "docs/agents/brand-bible.md",
+    "docs/agents/referentiel-marque-ia.md",
+    "docs/agents/workflow-creation-visuels.md",
+    "docs/agents/workflow-visuels-prix-ads.md",
+    "docs/calendrier-editorial-decembre-2026.md",
+    "docs/meta-integration-plan.md",
+    "docs/agent-contenu-quotidien.md"
+  ],
+  "commands": {
+    "meta-post": {
+      "description": "Préparer une publication Meta sans la publier",
+      "template": "Utilise d'abord creative-brief pour réviser les textes et proposer {{TITRE}}, {{VARIÉTÉ}} et {{SIGNATURE}}, puis méta-caption-writer avec les skills social-post-writer-seo et avoid-ai-writing pour préparer la publication. Le calendrier est un planning seul. Ne publie rien, ne programme rien, ne lance aucune production visuelle sans validation humaine, ne modifie aucune campagne et retourne seulement la proposition. Termine par « Aucune action d’écriture effectuée. »"
+    },
+    "meta-daily": {
+      "description": "Analyse Meta en lecture seule et prépare des angles, briefs et prompts conformes au workflow",
+      "template": "Applique intégralement .opencode/commands/meta-daily.md. Lecture seule : aucune publication, aucun boost, aucune modification de campagne, aucune réponse, aucun message WhatsApp, aucune génération ni redéploiement. Palette exclusive, {{SIGNATURE}} éditable, AdsCopy si prix, Gemini en relai complet après validation du prompt. Termine chaque livrable par « Aucune action d’écriture effectuée. »"
+    },
+    "ads-copy": {
+      "description": "Router un visuel avec prix vers ads-copy-designer selon AdsCopy",
+      "template": "Mot clé : AdsCopy. Dès qu'un prix apparaît dans un brief ou un visuel, active ads-copy-designer et applique docs/agents/workflow-visuels-prix-ads.md. Fais valider explicitement par l'humain le montant, l'unité, la devise et la formulation avant toute production ; un seul prix par visuel sauf validation contraire ; saisie manuelle du prix ; palette exclusive ; aucun ancien libellé de prix ou de disponibilité. Ne publie pas, ne modifie pas de campagne et termine par « Aucune action d’écriture effectuée. »"
+    }
+  }
+}

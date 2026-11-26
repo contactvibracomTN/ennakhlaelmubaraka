@@ -1,0 +1,267 @@
+<!doctype html>
+<!-- Outil local de consultation, d'édition et de validation des briefs. Source de vérité : les fichiers brief-XX.md. Aucune publication, programmation, boost ou appel réseau. -->
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Validation des briefs — décembre 2026</title>
+  <meta name="description" content="Tableau local de consultation, d’édition et de validation des 20 briefs de décembre 2026.">
+  <style>
+    :root {
+      --emerald: #163E2B;
+      --gold: #D4B376;
+      --cream: #F7F4EB;
+      --charcoal: #1A1A1A;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--charcoal);
+      font-family: "IBM Plex Sans Arabic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+    }
+    header { background: var(--emerald); color: var(--cream); padding: 32px 20px 26px; }
+    .wrap { max-width: 1080px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.5rem, 3vw, 2.2rem); }
+    header p { margin: 0 0 16px; }
+    .counts { font-weight: 700; }
+    .alert { margin-top: 16px; padding: 12px 14px; background: var(--gold); color: var(--emerald); font-weight: 700; }
+    .alert[hidden] { display: none; }
+    nav {
+      position: sticky; top: 0; z-index: 5;
+      background: var(--emerald); padding: 10px 20px;
+      border-bottom: 3px solid var(--gold);
+    }
+    nav .wrap { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    button {
+      font: inherit; cursor: pointer;
+      background: var(--cream); color: var(--emerald);
+      border: 1px solid var(--gold); padding: 6px 11px;
+    }
+    button.active { background: var(--gold); color: var(--emerald); font-weight: 700; }
+    button.primary { background: var(--emerald); color: var(--cream); }
+    button:disabled { opacity: .55; cursor: not-allowed; }
+    main { padding: 22px 20px 60px; }
+    .card {
+      background: var(--cream);
+      border: 2px solid var(--emerald);
+      margin-bottom: 16px;
+      padding: 16px;
+    }
+    .card-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+    .id { font-weight: 700; font-size: 1.15rem; }
+    .title { flex: 1 1 260px; }
+    .meta { color: var(--charcoal); font-size: .92rem; }
+    .pill { display: inline-block; padding: 3px 9px; font-size: .78rem; font-weight: 700; }
+    .pill.a_valider { background: var(--gold); color: var(--emerald); }
+    .pill.pret_pour_prompt { background: var(--cream); color: var(--emerald); border: 1px solid var(--gold); }
+    .pill.a_preparer { background: var(--charcoal); color: var(--cream); }
+    .pill.valide { background: var(--emerald); color: var(--cream); }
+    .pill.a_reverifier { background: var(--charcoal); color: var(--gold); }
+    .checks { display: flex; flex-wrap: wrap; gap: 14px; margin: 14px 0; }
+    label { display: inline-flex; gap: 6px; align-items: center; }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    textarea {
+      width: 100%; min-height: 250px;
+      background: var(--cream); color: var(--charcoal);
+      border: 1px solid var(--emerald); padding: 10px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: .88rem; line-height: 1.45;
+    }
+    details { margin-top: 12px; border-top: 1px solid var(--gold); padding-top: 10px; }
+    summary { cursor: pointer; font-weight: 700; }
+    a { color: var(--emerald); }
+    footer { padding: 20px; border-top: 3px solid var(--gold); font-size: .9rem; }
+    .note { font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Validation des briefs — décembre 2026</h1>
+      <p>Outil local. La source de vérité reste les fichiers <code>brief-XX.md</code>. L’humain coche les cases ; l’agent ne coche rien.</p>
+      <div class="counts" id="counts">Chargement…</div>
+      <div class="alert" id="alert" hidden></div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="wrap" id="filters">
+      <button type="button" data-filter="all" class="active">Tous</button>
+      <button type="button" data-filter="a_valider">À valider</button>
+      <button type="button" data-filter="pret_pour_prompt">Prêt pour prompt</button>
+      <button type="button" data-filter="a_preparer">En attente</button>
+      <button type="button" data-filter="valide">Validés</button>
+      <button type="button" data-filter="a_reverifier">À revérifier</button>
+      <button type="button" id="refresh" class="primary">Actualiser</button>
+    </div>
+  </nav>
+
+  <main class="wrap" id="board"></main>
+
+  <footer>
+    <div class="wrap">
+      <p class="note">Coche <strong>T</strong> texte arabe, <strong>C</strong> champs éditables, <strong>P</strong> photo source, <strong>Pr</strong> prompt complet. La génération d’un visuel exige les quatre cases.</p>
+      <p class="note">Aucune action d’écriture effectuée.</p>
+    </div>
+  </footer>
+
+  <script>
+    const LABELS = {
+      texte: "T — texte arabe",
+      champs: "C — champs éditables",
+      photo: "P — photo source",
+      prompt: "Pr — prompt validé",
+    };
+    const PILLS = {
+      a_valider: "À valider",
+      pret_pour_prompt: "Prêt pour prompt",
+      a_preparer: "En attente",
+      valide: "Validé",
+      a_reverifier: "À revérifier",
+    };
+    let view = null;
+    let filter = "all";
+
+    async function request(url, options) {
+      const response = await fetch(url, options);
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "Erreur");
+      return data;
+    }
+
+    async function load() {
+      view = await request("/api/state");
+      render();
+    }
+
+    function element(tag, className, text) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined) node.textContent = text;
+      return node;
+    }
+
+    function render() {
+      const c = view.counts;
+      document.getElementById("counts").textContent =
+        `${c.a_valider} à valider · ${c.pret_pour_prompt} prêt(s) pour prompt · ` +
+        `${c.a_preparer} en attente · ${c.valide} validé(s) · ${c.a_reverifier} à revérifier`;
+
+      const alert = document.getElementById("alert");
+      if (c.a_valider || c.a_reverifier) {
+        alert.textContent = `${c.a_valider} brief(s) à valider et ${c.a_reverifier} à revérifier.`;
+        alert.hidden = false;
+      } else {
+        alert.hidden = true;
+      }
+
+      const board = document.getElementById("board");
+      board.replaceChildren();
+      const items = view.briefs.filter((b) => filter === "all" || b.status === filter);
+
+      if (!items.length) {
+        board.appendChild(element("p", "note", "Aucun brief dans ce filtre."));
+        return;
+      }
+
+      for (const brief of items) {
+        const card = element("section", "card");
+        const head = element("div", "card-head");
+        head.appendChild(element("span", "id", `[${brief.id}]`));
+        head.appendChild(element("span", "title", brief.title || "Brief"));
+        head.appendChild(element("span", `pill ${brief.status}`, PILLS[brief.status]));
+        card.appendChild(head);
+        card.appendChild(element("div", "meta", brief.meta || ""));
+
+        const checks = element("div", "checks");
+        for (const field of ["texte", "champs", "photo", "prompt"]) {
+          const label = element("label");
+          const input = document.createElement("input");
+          input.type = "checkbox";
+          input.checked = brief.checks[field];
+          input.disabled = field === "prompt" && !brief.promptPresent;
+          input.addEventListener("change", async () => {
+            try {
+              await request("/api/check", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ id: brief.id, field, value: input.checked }),
+              });
+              await load();
+            } catch (error) {
+              window.alert(error.message);
+              await load();
+            }
+          });
+          label.appendChild(input);
+          label.appendChild(document.createTextNode(LABELS[field]));
+          checks.appendChild(label);
+        }
+        card.appendChild(checks);
+
+        const actions = element("div", "actions");
+        const open = element("a", "", "Ouvrir le .md dans VSCode");
+        open.href = brief.vscodeUrl;
+        open.target = "_blank";
+        open.rel = "noopener";
+        actions.appendChild(open);
+        if (brief.promptUrl) {
+          const promptLink = element("a", "", "Ouvrir le prompt");
+          promptLink.href = brief.promptUrl;
+          promptLink.target = "_blank";
+          promptLink.rel = "noopener";
+          actions.appendChild(promptLink);
+        }
+        card.appendChild(actions);
+
+        const details = document.createElement("details");
+        details.appendChild(element("summary", "", "Éditer le Markdown du brief"));
+        const area = document.createElement("textarea");
+        area.value = brief.content;
+        area.spellcheck = false;
+        details.appendChild(area);
+
+        const editActions = element("div", "actions");
+        const save = element("button", "primary", "Enregistrer");
+        save.type = "button";
+        save.addEventListener("click", async () => {
+          try {
+            await request("/api/save", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ id: brief.id, content: area.value }),
+            });
+            await load();
+          } catch (error) {
+            window.alert(error.message);
+          }
+        });
+        editActions.appendChild(save);
+        const select = element("button", "", "Sélectionner tout");
+        select.type = "button";
+        select.addEventListener("click", () => area.select());
+        editActions.appendChild(select);
+        details.appendChild(editActions);
+        card.appendChild(details);
+
+        board.appendChild(card);
+      }
+    }
+
+    document.getElementById("refresh").addEventListener("click", load);
+    document.getElementById("filters").addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-filter]");
+      if (!button) return;
+      filter = button.dataset.filter;
+      for (const node of document.querySelectorAll("button[data-filter]")) {
+        node.classList.toggle("active", node === button);
+      }
+      render();
+    });
+
+    load();
+  </script>
+</body>
+</html>

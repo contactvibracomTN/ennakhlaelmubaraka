@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-25T14:45:20.430Z",
+  "briefs": {
+    "10": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "11": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "12": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "13": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "14": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "15": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "16": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "17": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "18": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "19": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "20": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "01": {
+      "texte": true,
+      "champs": true,
+      "photo": true,
+      "prompt": true,
+      "hashes": {
+        "brief": "67f2fe48c123",
+        "prompt": "f6d0daf76563"
+      },
+      "checkedAt": {
+        "texte": "2026-11-25T14:45:17.839Z",
+        "champs": "2026-11-25T14:45:18.797Z",
+        "photo": "2026-11-25T14:45:19.613Z",
+        "prompt": "2026-11-25T14:45:20.429Z"
+      }
+    },
+    "02": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": true,
+      "hashes": {
+        "brief": null,
+        "prompt": "3e515d5b0de9"
+      },
+      "checkedAt": {
+        "prompt": "2026-11-25T14:38:23.746Z"
+      }
+    },
+    "03": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "04": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "05": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "06": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "07": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "08": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    },
+    "09": {
+      "texte": false,
+      "champs": false,
+      "photo": false,
+      "prompt": false,
+      "hashes": {
+        "brief": null,
+        "prompt": null
+      },
+      "checkedAt": {}
+    }
+  }
+}

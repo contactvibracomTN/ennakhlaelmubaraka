@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guide — Agent Meta Ads dans OpenCode</title>
+  <style>
+    :root {
+      --ink: #17241f;
+      --muted: #5d6b64;
+      --green: #0f6b4f;
+      --green-soft: #e6f3ed;
+      --sand: #f7f2e8;
+      --line: #d8e0da;
+      --warn: #8a4b08;
+      --warn-soft: #fff4df;
+      --danger: #8b1e1e;
+      --danger-soft: #fdecec;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--sand);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      font-size: 16px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0d4f3a, #0f6b4f);
+      color: var(--white);
+      padding: 56px 24px 44px;
+    }
+
+    header .wrap, main, footer { max-width: 960px; margin: 0 auto; }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      margin: 0;
+      max-width: 720px;
+      color: #dff1e8;
+      font-size: 1.05rem;
+    }
+
+    .badges { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 10px; }
+
+    .badge {
+      display: inline-block;
+      border: 1px solid rgba(255,255,255,.45);
+      background: rgba(255,255,255,.10);
+      border-radius: 999px;
+      padding: 5px 12px;
+      font-size: .82rem;
+      font-weight: 650;
+    }
+
+    .badge.ok { background: #d9f2e5; color: #0a4c37; border-color: #b7e0cc; }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255,255,255,.96);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(8px);
+    }
+
+    nav .wrap {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px 16px;
+    }
+
+    nav a {
+      white-space: nowrap;
+      text-decoration: none;
+      color: var(--green);
+      font-weight: 650;
+      font-size: .9rem;
+      padding: 6px 10px;
+      border-radius: 8px;
+    }
+
+    nav a:hover { background: var(--green-soft); }
+
+    main { padding: 36px 20px 64px; }
+
+    section {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 26px;
+      margin-bottom: 22px;
+      box-shadow: 0 1px 2px rgba(15, 40, 30, .04);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.35rem;
+      color: #0b4d39;
+      letter-spacing: -0.01em;
+    }
+
+    h3 { margin: 22px 0 8px; font-size: 1.05rem; }
+
+    p { margin: 0 0 12px; }
+
+    ul, ol { margin: 0 0 14px; padding-left: 22px; }
+
+    li { margin-bottom: 7px; }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: #edf3ef;
+      border-radius: 6px;
+      padding: 2px 6px;
+      font-size: .9em;
+    }
+
+    pre {
+      position: relative;
+      background: #10231d;
+      color: #e8f5ef;
+      border-radius: 12px;
+      padding: 18px;
+      overflow-x: auto;
+      margin: 10px 0 16px;
+    }
+
+    pre code {
+      background: none;
+      color: inherit;
+      padding: 0;
+      font-size: .88rem;
+      line-height: 1.55;
+    }
+
+    .copy {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      border: 1px solid rgba(255,255,255,.25);
+      background: rgba(255,255,255,.10);
+      color: #eafff6;
+      border-radius: 7px;
+      padding: 4px 9px;
+      font-size: .72rem;
+      cursor: pointer;
+    }
+
+    .copy:hover { background: rgba(255,255,255,.2); }
+
+    .callout {
+      border-left: 4px solid var(--green);
+      background: var(--green-soft);
+      border-radius: 0 10px 10px 0;
+      padding: 14px 16px;
+      margin: 14px 0;
+    }
+
+    .callout.warn {
+      border-left-color: var(--warn);
+      background: var(--warn-soft);
+    }
+
+    .callout.danger {
+      border-left-color: var(--danger);
+      background: var(--danger-soft);
+    }
+
+    .callout strong { display: block; margin-bottom: 4px; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 16px;
+      font-size: .92rem;
+    }
+
+    th, td {
+      border: 1px solid var(--line);
+      padding: 9px 11px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th { background: #f1f6f3; font-weight: 700; }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+      margin-top: 12px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+      background: #fcfdfc;
+    }
+
+    .card h3 { margin-top: 0; }
+
+    .card p:last-child { margin-bottom: 0; }
+
+    .step {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 12px;
+      align-items: start;
+      margin-bottom: 14px;
+    }
+
+    .num {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: var(--green);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-weight: 750;
+      font-size: .85rem;
+    }
+
+    .muted { color: var(--muted); font-size: .92rem; }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: .86rem;
+      padding: 0 20px 40px;
+    }
+
+    @media print {
+      header { padding: 28px 0 20px; background: #0f6b4f !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      nav, .copy { display: none !important; }
+      body { background: white; font-size: 11pt; }
+      main { padding: 0; max-width: none; }
+      section { break-inside: avoid; box-shadow: none; border-color: #bbb; padding: 18px; margin-bottom: 14px; }
+      pre { background: #f2f5f3; color: #14221d; border: 1px solid #ccc; }
+      pre code { color: inherit; }
+      a { color: inherit; text-decoration: none; }
+      .badge { border-color: #999; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Guide pratique — Agent Meta Ads dans OpenCode</h1>
+    <p>
+      Comment accéder à l’agent, quoi lui demander, quelle syntaxe utiliser, et comment rester en lecture seule
+      tant que la validation juridique et métier n’est pas faite.
+    </p>
+    <div class="badges">
+      <span class="badge ok">Connexion MCP vérifiée</span>
+      <span class="badge">20 novembre 2026</span>
+      <span class="badge">Compte cible : nakhla mubaraka</span>
+      <span class="badge">Français</span>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#principe">1. Principe</a>
+    <a href="#acces">2. Accéder à l’agent</a>
+    <a href="#connexion">3. Vérifier la connexion</a>
+    <a href="#syntaxe">4. Syntaxe</a>
+    <a href="#regles">5. Règles d’or</a>
+    <a href="#prompts">6. Prompts prêts</a>
+    <a href="#etat">7. État actuel</a>
+    <a href="#depannage">8. Dépannage</a>
+    <a href="#pdf">9. PDF</a>
+  </div>
+</nav>
+
+<main>
+
+<section id="principe">
+  <h2>1. Le principe : l’agent, c’est cette conversation</h2>
+  <p>
+    Il n’y a pas de site séparé ni de logiciel supplémentaire à ouvrir. L’agent est la conversation OpenCode elle-même.
+    Le serveur <code>meta-ads</code> est branché à cette conversation via le protocole MCP.
+  </p>
+  <p>
+    Concrètement : tu continues à écrire normalement. Quand ta demande concerne Meta Ads, l’agent choisit tout seul
+    les outils du serveur <code>meta-ads</code>, comme il choisirait un outil de lecture de fichier ou de recherche web.
+  </p>
+
+  <div class="callout">
+    <strong>À retenir</strong>
+    Tu n’as pas à taper <code>tools["meta-ads"].ads_get_ad_accounts(...)</code>. C’est l’agent qui le fait.
+    Toi, tu écris en français.
+  </div>
+
+  <h3>Ce qui a été configuré</h3>
+  <ul>
+    <li>Serveur MCP : <code>https://mcp.facebook.com/ads</code></li>
+    <li>Nom local du serveur : <code>meta-ads</code></li>
+    <li>App OAuth : <code>Ennakhlaelmubaraka</code>, ID <code>2553279325206274</code></li>
+    <li>Compte publicitaire cible : <code>act_1321318896669263</code> — <strong>nakhla mubaraka</strong></li>
+    <li>Connexion vérifiée par un appel en lecture seule</li>
+  </ul>
+</section>
+
+<section id="acces">
+  <h2>2. Accéder à l’agent depuis OpenCode</h2>
+
+  <h3>Depuis le desktop OpenCode</h3>
+  <div class="step"><div class="num">1</div><div>Ouvre le desktop OpenCode.</div></div>
+  <div class="step"><div class="num">2</div><div>Ouvre le projet <code>C:\Users\BY 4\Desktop\nakhla-v3</code>, ou reste dans la session en cours.</div></div>
+  <div class="step"><div class="num">3</div><div>Écris simplement ta demande dans la conversation.</div></div>
+  <div class="step"><div class="num">4</div><div>Si tu veux être explicite, commence par : <code>Utilise le serveur meta-ads pour…</code></div></div>
+
+  <h3>Depuis le terminal</h3>
+  <p>Dans le dossier du projet :</p>
+  <pre><code>cd "C:\Users\BY 4\Desktop\nakhla-v3"
+opencode</code><button class="copy" type="button">Copier</button></pre>
+
+  <p>Si <code>opencode</code> n’est pas dans le PATH, utilise le binaire installé :</p>
+  <pre><code>&amp; "C:\Users\BY 4\AppData\Local\Programs\@opencode-aidesktop\resources\opencode-cli.exe"</code><button class="copy" type="button">Copier</button></pre>
+
+  <div class="callout warn">
+    <strong>Ne confonds pas deux commandes</strong>
+    <code>/mcps</code> sert à gérer la connexion des serveurs MCP. Ce n’est pas la commande pour poser une question.
+    Pour travailler, tu écris directement dans la conversation.
+  </div>
+</section>
+
+<section id="connexion">
+  <h2>3. Vérifier que le serveur est connecté</h2>
+
+  <p>Dans OpenCode :</p>
+  <pre><code>/mcps</code><button class="copy" type="button">Copier</button></pre>
+  <p>Puis sélectionne <code>meta-ads</code>. Le statut attendu est :</p>
+  <pre><code>✓ meta-ads  connected</code><button class="copy" type="button">Copier</button></pre>
+
+  <p>En ligne de commande :</p>
+  <pre><code>&amp; "C:\Users\BY 4\AppData\Local\Programs\@opencode-aidesktop\resources\opencode-cli.exe" mcp list</code><button class="copy" type="button">Copier</button></pre>
+
+  <p>Si une reconnexion est nécessaire :</p>
+  <pre><code>&amp; "C:\Users\BY 4\AppData\Local\Programs\@opencode-aidesktop\resources\opencode-cli.exe" mcp logout meta-ads</code><button class="copy" type="button">Copier</button></pre>
+  <p>Puis <code>/mcps</code> → <code>meta-ads</code> → sign in.</p>
+
+  <div class="callout">
+    <strong>Rappel important</strong>
+    Le champ des URI de redirection dans l’app Meta doit rester vide. En mode développement, Meta autorise
+    automatiquement <code>http://localhost</code>. N’ajoute pas <code>http://127.0.0.1</code>.
+  </div>
+</section>
+
+<section id="syntaxe">
+  <h2>4. Syntaxe : comment formuler une demande</h2>
+
+  <p>La syntaxe est du langage naturel. Il n’y a pas de commande spéciale à apprendre.</p>
+
+  <table>
+    <thead>
+      <tr><th>Forme</th><th>Exemple</th><th>Quand l’utiliser</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Simple</td>
+        <td><code>Liste mes comptes publicitaires.</code></td>
+        <td>Quand le contexte est déjà clair.</td>
+      </tr>
+      <tr>
+        <td>Explicite</td>
+        <td><code>Utilise meta-ads pour lister mes comptes publicitaires.</code></td>
+        <td>Pour forcer l’usage du serveur Meta.</td>
+      </tr>
+      <tr>
+        <td>Cadré</td>
+        <td><code>Sur nakhla mubaraka, montre les campagnes actives.</code></td>
+        <td>Quand plusieurs comptes sont accessibles.</td>
+      </tr>
+      <tr>
+        <td>En deux temps</td>
+        <td><code>Propose des changements sans les appliquer.</code></td>
+        <td>Pour analyser avant toute modification.</td>
+      </tr>
+      <tr>
+        <td>Avec confirmation</td>
+        <td><code>Applique uniquement la modification que je valide.</code></td>
+        <td>Quand tu passes aux actions d’écriture.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Bonnes pratiques de formulation</h3>
+  <ul>
+    <li>Précise toujours le compte : <code>nakhla mubaraka</code> ou <code>act_1321318896669263</code>.</li>
+    <li>Demande une seule chose principale par message.</li>
+    <li>Dis <code>sans appliquer</code> ou <code>en lecture seule</code> si tu veux seulement voir une proposition.</li>
+    <li>Si la réponse est trop technique, dis <code>Réponds en français, simplement</code>.</li>
+    <li>Si l’agent propose une action, réponds <code>Applique</code> seulement après avoir lu le détail.</li>
+  </ul>
+
+  <div class="callout danger">
+    <strong>Ne jamais coller de secret dans le chat</strong>
+    Ne demande pas à l’agent d’afficher un token, l’App Secret ou une variable <code>META_*</code>.
+    Le token OAuth est stocké par OpenCode hors du projet. Il n’a pas besoin d’apparaître ici.
+  </div>
+</section>
+
+<section id="regles">
+  <h2>5. Règles d’or pour travailler avec cet agent</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>Lecture d’abord</h3>
+      <p>Commence par lister, lire, comparer. N’écris rien tant que tu n’as pas compris ce que l’agent a vu.</p>
+    </div>
+    <div class="card">
+      <h3>Compte explicite</h3>
+      <p>Le compte accessible et activé est <code>act_1321318896669263</code>. Les autres comptes visibles ne sont pas la cible.</p>
+    </div>
+    <div class="card">
+      <h3>Proposition avant action</h3>
+      <p>Pour une modification, demande d’abord un plan. Puis valide précisément la modification à appliquer.</p>
+    </div>
+    <div class="card">
+      <h3>Pas de déploiement implicite</h3>
+      <p>Une demande Meta Ads ne déploie rien sur Vercel. Le déploiement reste différé jusqu’à nouvel ordre.</p>
+    </div>
+    <div class="card">
+      <h3>Pas de juridique automatique</h3>
+      <p>La politique de confidentialité et le consentement doivent être validés avant activation CAPI et mise à jour des 8 langues.</p>
+    </div>
+    <div class="card">
+      <h3>Confirmation écrite</h3>
+      <p>Toute action sensible doit être confirmée par toi dans la conversation, avec le détail de ce qui sera changé.</p>
+    </div>
+  </div>
+</section>
+
+<section id="prompts">
+  <h2>6. Prompts prêts à copier</h2>
+
+  <h3>A. Vérification et découverte</h3>
+  <pre><code>Vérifie la connexion Meta Ads et liste mes comptes publicitaires.
+Dis-moi lequel est actif, interrogeable et activé pour Ads MCP.</code><button class="copy" type="button">Copier</button></pre>
+
+  <pre><code>Utilise les outils meta-ads en lecture seule.
+Quel compte dois-je utiliser pour les publicités de nakhla mubaraka ?</code><button class="copy" type="button">Copier</button></pre>
+
+  <h3>B. Reporting</h3>
+  <pre><code>Sur nakhla mubaraka, montre-moi les campagnes actives.
+Réponds en français.</code><button class="copy" type="button">Copier</button></pre>
+
+  <pre><code>Sur le compte act_1321318896669263, résume les dépenses des 30 derniers jours.
+Montre les 5 campagnes les plus dépensières.</code><button class="copy" type="button">Copier</button></pre>
+
+  <pre><code>Compare les 7 derniers jours aux 7 jours précédents sur nakhla mubaraka.
+Donne-moi les variations principales, sans rien modifier.</code><button class="copy" type="button">Copier</button></pre>
+
+  <h3>C. Diagnostic</h3>
+  <pre><code>Pourquoi cette campagne ne dépense-t-elle pas ?
+Analyse le compte nakhla mubaraka en lecture seule et explique en français.</code><button class="copy" type="button">Copier</button></pre>
+
+  <pre><code>Vérifie s'il y a des problèmes de diffusion sur nakhla mubaraka.
+Ne modifie rien, donne-moi seulement le diagnostic.</code><button class="copy" type="button">Copier</button></pre>
+
+  <h3>D. Analyse et optimisation, sans application</h3>
+  <pre><code>Analyse les campagnes de nakhla mubaraka sur les 14 derniers jours.
+Propose 3 améliorations possibles, mais ne les applique pas.</code><button class="copy" type="button">Copier</button></pre>
+
+  <pre><code>Repère les annonces les moins efficaces sur nakhla mubaraka.
+Prépare une liste de recommandations sans rien changer.</code><button class="copy" type="button">Copier</button></pre>
+
+  <h3>E. Création, seulement quand tu es prêt</h3>
+  <pre><code>Prépare un plan de campagne pour nakhla mubaraka.
+Ne crée rien. Je veux d'abord valider le plan.</code><button class="copy" type="button">Copier</button></pre>
+
+  <p>Après validation :</p>
+  <pre><code>Applique uniquement la campagne que nous avons validée.
+Demande-moi confirmation avant toute création effective.</code><button class="copy" type="button">Copier</button></pre>
+
+  <h3>F. Actifs et créatives</h3>
+  <pre><code>Liste les Pages Facebook et les comptes Instagram liés au compte publicitaire nakhla mubaraka.</code><button class="copy" type="button">Copier</button></pre>
+
+  <pre><code>Montre-moi les créatives utilisées dans les campagnes actives de nakhla mubaraka.</code><button class="copy" type="button">Copier</button></pre>
+
+  <div class="callout warn">
+    <strong>Ordre recommandé</strong>
+    A → B → C → D → F → E. Ne saute pas directement à la création de campagne.
+  </div>
+</section>
+
+<section id="etat">
+  <h2>7. État vérifié le 20 novembre 2026</h2>
+  <p>Un appel en lecture seule a déjà été effectué avec succès. Voici ce que l’agent a vu :</p>
+
+  <table>
+    <thead>
+      <tr><th>Compte</th><th>Statut</th><th>Utilisable</th><th>Note</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>nakhla mubaraka</strong><br><code>act_1321318896669263</code></td>
+        <td><code>ACTIVE</code></td>
+        <td>Oui</td>
+        <td>Cible retenue. Ads MCP activé, interrogeable, devise SAR, moyen de paiement présent.</td>
+      </tr>
+      <tr>
+        <td><code>2105241320197670</code></td>
+        <td><code>ACTIVE</code></td>
+        <td>Oui, mais non cible</td>
+        <td>Compte Odoo en lecture seule. Ne pas l’utiliser par défaut.</td>
+      </tr>
+      <tr>
+        <td><code>2166851061375076</code></td>
+        <td><code>ACTIVE</code></td>
+        <td>Non</td>
+        <td><code>is_ads_mcp_enabled: false</code>. Ads MCP pas encore déployé sur ce compte.</td>
+      </tr>
+      <tr>
+        <td><code>1566405957927217</code></td>
+        <td><code>UNSETTLED</code></td>
+        <td>Non</td>
+        <td>Non interrogeable.</td>
+      </tr>
+      <tr>
+        <td><code>3354695981384838</code></td>
+        <td><code>DISABLED</code></td>
+        <td>Non</td>
+        <td>Activité suspecte signalée par Meta, publicités suspendues.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    Cette vérification prouve que l’OAuth fonctionne, que le bon client ID est utilisé, que les permissions sont
+    suffisantes et que le compte cible est accessible.
+  </p>
+</section>
+
+<section id="depannage">
+  <h2>8. Dépannage rapide</h2>
+
+  <table>
+    <thead>
+      <tr><th>Symptôme</th><th>Cause probable</th><th>Action</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>needs authentication</code></td>
+        <td>Session OAuth expirée ou jamais faite.</td>
+        <td><code>/mcps</code> → <code>meta-ads</code> → sign in.</td>
+      </tr>
+      <tr>
+        <td><code>Dynamic Client Registration rejected</code></td>
+        <td>Ancienne config sans client ID.</td>
+        <td>Déjà corrigé : client ID <code>2553279325206274</code> dans OpenCode.</td>
+      </tr>
+      <tr>
+        <td><code>redirect_uris are not registered</code></td>
+        <td>URI <code>127.0.0.1</code> ajoutée dans Meta.</td>
+        <td>Supprime-la. Laisse le champ vide. La config utilise <code>localhost</code>.</td>
+      </tr>
+      <tr>
+        <td><code>insufficient permissions</code></td>
+        <td>Les actifs n’ont pas été sélectionnés lors du consentement.</td>
+        <td>Refais le sign in et sélectionne le compte publicitaire et la Page.</td>
+      </tr>
+      <tr>
+        <td>Aucun outil n’apparaît</td>
+        <td>Le client n’a pas rechargé la liste des outils.</td>
+        <td>Redémarre OpenCode, puis <code>/mcps</code> → reconnecte.</td>
+      </tr>
+      <tr>
+        <td><code>is_ads_mcp_enabled: false</code></td>
+        <td>Ce compte n’est pas encore activé par Meta.</td>
+        <td>Utilise <code>act_1321318896669263</code>.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="pdf">
+  <h2>9. Enregistrer ce guide en PDF</h2>
+  <p>
+    Ce document est une page HTML autonome, sans dépendance externe. Il est aussi optimisé pour l’impression.
+  </p>
+  <ol>
+    <li>Ouvre ce fichier dans ton navigateur.</li>
+    <li>Appuie sur <code>Ctrl + P</code>.</li>
+    <li>Choisis <strong>Enregistrer au format PDF</strong> comme destination.</li>
+    <li>Laisse les marges par défaut et active les arrière-plans si tu veux garder les couleurs.</li>
+    <li>Enregistre, par exemple sous <code>guide-agent-meta-ads.pdf</code>.</li>
+  </ol>
+  <p class="muted">
+    Fichier source : <code>docs/guide-agent-meta-ads.html</code> dans le dépôt.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  Guide préparé pour ennakhlaelmubaraka.com — connexion MCP Meta Ads vérifiée le 20 novembre 2026.
+</footer>
+
+<script>
+  document.querySelectorAll('.copy').forEach(function (button) {
+    button.addEventListener('click', async function () {
+      var code = button.parentElement.querySelector('code');
+      if (!code) return;
+      try {
+        await navigator.clipboard.writeText(code.textContent);
+        var old = button.textContent;
+        button.textContent = 'Copié';
+        setTimeout(function () { button.textContent = old; }, 1400);
+      } catch (e) {
+        button.textContent = 'Sélectionnez';
+      }
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+# Brief [01] — Comptoir n°49
+
+**Identifiant · date · canal · format**
+[01] — mardi 1er décembre 2026, 19h45 (heure Médine) · Instagram `@nakhla_mubaraka` · Feed statique 4:5 — 1080×1350. Sélectionné pour test de production : prompt en attente de validation humaine ; aucune publication.
+
+**Objectif et funnel**
+Obtenir des commentaires identifiant une variété ou un souvenir lié au marché. Funnel : TOFU — faire connaître le point de vente n°49 comme ancrage concret, avant toute logique d’achat.
+
+**Persona cible**
+Habitant de Médine qui connaît le marché central des dattes ou souhaite repérer une boutique spécialisée ; public visiteur en repérage. Arabe saoudien naturel, sans supposition de nationalité ni de religion.
+
+**Angle éditorial détaillé**
+Ouvrir la série « Origine et confiance » par un seul fait vérifiable : le numéro du magasin et le marché. Pas de récit de famille, pas d’ancienneté inventée. Le plateau est présenté comme une sélection du jour, sans emballage ni poids affiché. Levier retenu : Social Proof. Garde-fou : aucun faux comptoir, aucun employé simulé, aucun avis inventé.
+
+**Message clé**
+« Nous sommes au n°49, au marché central des dattes de Médine, et nous choisissons les variétés nous-mêmes. »
+
+**CTA**
+Action unique : écrire en commentaire le nom du produit recherché. Aucun CTA WhatsApp dans ce visuel.
+
+**Ton**
+Chaleureux, accueillant, simple, commercial sans agressivité. Une question, une seule.
+
+**Texte public proposé (arabe, à valider)**
+Caption :
+في متجر النّخلة المباركة بسوق التمور المركزي بالمدينة المنوّرة
+نختار لكم ولأحبابكم من التّمور، ونعتني باختيارها بأنفسنا.
+أي صنف من التّمور تبحث عنه هذه الأيام؟ اكتبه لنا في التعليق.
+طعم الكرم من قلب المدينة المنوّرة
+
+Écran : المتجر رقم 49 — سوق التمور المركزي
+
+Hashtags Instagram (5) : #النخلة_المباركة #تمورالمدينة #سوق_التمور #عجوةالمدينة #المدينة_المنورة
+
+**Consignes visuelles**
+- Format : 1080×1350, recomposé pour ce ratio, jamais étiré depuis un autre format.
+- Palette exclusive : `#163E2B` (structure, titre), `#D4B376` (accent ≤ 10 %), `#F7F4EB` (fond), `#1A1A1A` (texte). Aucun autre hex, aucun dégradé, aucune couleur dérivée.
+- Logo officiel : importer `public/images/brand/logo-square.png` tel quel, en haut, avec zone de respiration ; jamais redessiné ni recoloré.
+- Texte saisi manuellement après production ; aucun texte généré par IA ne subsiste dans le visuel final.
+- Composition : plateau de dattes réel au centre, lumière douce, ombres courtes ; environ 25 % d’espace libre en haut pour le titre ; bande sobre non saturée ; pas de visage, pas de main artificielle, pas de décor orientaliste.
+- Signature : `{{SIGNATURE}}`, valeur par défaut `طعم الكرم من قلب المدينة المنوّرة`, proposée à validation ; non figée.
+- Interdictions : prix, fourchette, poids, stock, badge de récolte, superlatif, promesse de livraison, texte IA résiduel.
+
+**Références**
+Sources : `docs/agents/revision-textes-calendrier-decembre.md` [01] ; `docs/agents/palette-officielle.md` ; `docs/agents/brand-bible.md` §1.1, §4.2, §8 ; `docs/agents/referentiel-marque-ia.md` §1.1, §4.3 ; `docs/agents/workflow-creation-visuels.md` ; `docs/calendrier-editorial-decembre-2026.md` [01] — planning uniquement. Coordonnées et adresse : `src/lib/config/site.config.ts`. Fichier réel à importer : `public/images/brand/logo-square.png` ; photo de plateau réelle à confirmer auprès de la maison.
+
+**SEO / contraintes techniques**
+Mots-clés : `سوق التمور المركزي`, `المتجر رقم 49`, `تمور المدينة`, `عجوة المدينة`, `النخلة المباركة`. Contraintes : 5 hashtags pertinents ; une seule question ; lisibilité mobile du titre ; aucun prix ni mention d’emballage ; phrases courtes, pas d’adjectif générique. Routage AdsCopy non applicable : aucun prix.
+
+**Champs éditables soumis à validation**
+`{{TITRE}}` = المتجر رقم 49 في سوق التمور المركزي · `{{VARIÉTÉ}}` = عجوة المدينة · `{{SIGNATURE}}` = طعم الكرم من قلب المدينة المنوّرة.
+
+**Points à valider par l’humain**
+Produit réellement présent ce jour-là ; pratique réelle « نختار بأنفسنا » ; adresse et numéro de magasin ; photo source autorisée ; lisibilité du titre et de la signature ; champs éditables.
+
+Aucune action d’écriture effectuée.
