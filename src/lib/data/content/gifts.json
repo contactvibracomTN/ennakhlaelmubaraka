@@ -903,6 +903,16 @@
       "id": "\t Kopi Emas Bisha"
     },
     "teaser": {
+      "ar": "سحر القهوة السعودية في فنجان,مذاق أصيل ورائحة تأسر الحواس",
+      "en": "The Magic of Saudi Coffee in Every Cup... An Authentic Taste and an Aroma That Captivates the Senses.",
+      "fr": "La magie du café saoudien dans chaque tasse... Un goût authentique et un arôme qui envoûte les sens.",
+      "tr": "Her Fincanda Suudi Kahvesinin Büyüsü... Duyuları Büyüleyen Otantik Bir Lezzet ve Aroma.",
+      "ur": "ہر پیالی میں سعودی قہوے کا جادو... مستند ذائقہ اور دل موہ لینے والی خوشبو۔",
+      "ms": "Keistimewaan Kopi Saudi dalam Setiap Cawan... Rasa Asli dan Aroma yang Memikat Deria.",
+      "bn": "প্রতিটি কাপে সৌদি কফির জাদু... আসল স্বাদ ও মনোমুগ্ধকর সুবাস।",
+      "id": "Keajaiban Kopi Saudi dalam Setiap Cangkir... Cita Rasa Autentik dan Aroma yang Memikat Indra.\n\n\n"
+    },
+    "description": {
       "ar": "عيشوا تجربة القهوة السعودية الأصيلة مع قهوة بيشة الذهبية، واجعلوا من كل فنجان حكاية تجمع بين الكرم والأصالة وفخامة المذاق. تتميز بنكهتها الغنية ورائحتها العطرية المميزة، لتكون الخيار المثالي للتقديم في جلسات الضيافة والمناسبات، ومشاركة أجمل اللحظات مع الأهل والأحباب",
       "en": "Experience the authentic taste of Saudi coffee with Golden Bisha Coffee, and let every cup tell a story of generosity, tradition, and exceptional flavor. It is distinguished by its rich taste and delightful aroma, making it the perfect choice for serving during hospitality gatherings and special occasions, and for sharing beautiful moments with family and loved ones.",
       "fr": "Vivez une expérience authentique du café saoudien avec le Café Doré de Bisha, et faites de chaque tasse une histoire de générosité, de tradition et de saveurs raffinées. Il se distingue par son goût riche et son arôme envoûtant, ce qui en fait le choix idéal pour accompagner vos moments de convivialité, vos réceptions et vos occasions spéciales, à partager en famille et entre proches.",
@@ -924,7 +934,17 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [],
+    "sizeLabel": {
+      "ar": "500 / 250 غرام",
+      "en": "500 / 250 Grams",
+      "fr": "500 / 250 Grammes",
+      "tr": " 500 / 250 Gram",
+      "ur": "500 / 250 گرام",
+      "ms": "500 / 250 Gram",
+      "bn": " ৫০০ / ২৫০ গ্রাম",
+      "id": "500 / 250 Gram"
+    }
   },
   {
     "id": "gift-mww6my3l",
