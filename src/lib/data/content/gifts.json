@@ -173,7 +173,7 @@
       "amount": 10,
       "currency": "SAR"
     },
-    "availability": "preorder",
+    "availability": "in-stock",
     "contentStatus": "draft",
     "kind": "gift",
     "category": "oils",
