@@ -960,6 +960,16 @@
       "id": "Minyak Zaitun Tunisia"
     },
     "teaser": {
+      "ar": "أصالة الزيتون في كل قطرة,مذاق أصيل من أرض تونس",
+      "en": "The Authenticity of Olive Oil in Every Drop... An Authentic Taste from the Land of Tunisia.",
+      "fr": "L'authenticité de l'huile d'olive dans chaque goutte... Une saveur authentique venue de la terre tunisienne.",
+      "tr": "Her Damlasında Zeytinin Özgünlüğü... Tunus Topraklarından Gelen Otantik Lezzet.",
+      "ur": "زیتون کی اصلیت ہر قطرے میں... تیونس کی سرزمین کا مستند ذائقہ۔",
+      "ms": "Keaslian Minyak Zaitun dalam Setiap Titisan... Rasa Asli dari Bumi Tunisia.",
+      "bn": "প্রতিটি ফোঁটায় জলপাইয়ের আসল স্বাদ... তিউনিসিয়ার মাটি থেকে আসা খাঁটি স্বাদ।",
+      "id": "Keaslian Minyak Zaitun dalam Setiap Tetes... Cita Rasa Autentik dari Tanah Tunisia."
+    },
+    "description": {
       "ar": "اكتشفوا أصالة زيت الزيتون التونسي، واستمتعوا بمذاق طبيعي مميز يعكس عراقة التراث التونسي وجودة منتجاته. يتميز بنكهته الغنية ورائحته العطرية التي تضفي لمسة خاصة على مختلف أطباقكم",
       "en": "Discover the authenticity of Tunisian olive oil and enjoy its distinctive natural taste, reflecting the richness of Tunisia's heritage and the quality of its products. It is distinguished by its rich flavor and aromatic fragrance, adding a special touch to all your dishes.",
       "fr": "Découvrez l'authenticité de l'huile d'olive tunisienne et savourez son goût naturel unique, reflet de la richesse du patrimoine tunisien et de la qualité de ses produits. Elle se distingue par sa saveur riche et son arôme parfumé, qui apportent une touche particulière à tous vos plats.",
@@ -982,7 +992,17 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [],
+    "sizeLabel": {
+      "ar": " 3 / 1 لتر",
+      "en": "3 / 1 Litres",
+      "fr": "3 / 1 Litres",
+      "tr": " 3 / 1 Litre",
+      "ur": "3 / 1 لیٹر",
+      "ms": "3 / 1 Liter",
+      "bn": "৩ / ১ লিটার",
+      "id": "3 / 1 Liter"
+    }
   },
   {
     "id": "gift-mww76rwd",
