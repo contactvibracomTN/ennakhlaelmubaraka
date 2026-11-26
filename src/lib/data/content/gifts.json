@@ -421,6 +421,16 @@
       "id": "Stik Cokelat Pistachio"
     },
     "teaser": {
+      "ar": "فخامة الشوكولاتة وسحر الفستق....متعة لا تُنسى بكل قضمة",
+      "en": "Chocolate Luxury and Pistachio Magic... Unforgettable Pleasure in Every Bite.",
+      "fr": "Le raffinement du chocolat et la magie de la pistache... Un plaisir inoubliable à chaque bouchée.",
+      "tr": "Çikolatanın Zarafeti ve Antep Fıstığının Büyüsü... Her Lokmada Unutulmaz Bir Lezzet.",
+      "ur": " چاکلیٹ کی شان اور پستے کا جادو... ہر نوالے میں ناقابلِ فراموش لطف۔",
+      "ms": " Kemewahan Coklat dan Keistimewaan Pistachio... Kenikmatan yang Tidak Terlupakan dalam Setiap Gigitan.",
+      "bn": "চকলেটের আভিজাত্য ও পেস্তার জাদু... প্রতিটি কামড়ে অবিস্মরণীয় আনন্দ।",
+      "id": "Kemewahan Cokelat dan Pesona Pistachio... Kenikmatan Tak Terlupakan di Setiap Gigitan."
+    },
+    "description": {
       "ar": "اكتشفوا المذاق الفاخر مع أصابع الشوكولاتة بالفستق، مزيج شهي يجمع بين غنى الشوكولاتة ونكهة الفستق المميزة، ليمنحكم تجربة مليئة بالمتعة واللذة في كل قضمة.  اطلبوها الآن واستمتعوا بلحظات من الحلاوة والفخامة ",
       "en": "Discover the exquisite taste of Pistachio Chocolate Sticks, a delicious combination of rich chocolate and the distinctive flavor of pistachios, offering a delightful and irresistible experience with every bite.\nOrder now and enjoy moments of sweetness and indulgence",
       "fr": "Découvrez le goût raffiné des bâtonnets de chocolat à la pistache, une délicieuse alliance entre la richesse du chocolat et la saveur unique de la pistache, pour une expérience gourmande et un plaisir irrésistible à chaque bouchée.\nCommandez dès maintenant et savourez des instants de douceur et de raffinement ",
@@ -431,9 +441,7 @@
       "id": "Temukan kelezatan Stik Cokelat Pistachio, perpaduan sempurna antara cokelat yang kaya rasa dan cita rasa khas pistachio, menghadirkan pengalaman istimewa dan kenikmatan di setiap gigitan.\n\nPesan sekarang dan nikmati momen manis yang penuh kemewahan"
     },
     "images": [
-      "/media/uploads/1795536133044--.jpg",
-      "/media/uploads/1795536139391--2.webp",
-      "/media/uploads/1795536146436--20-7-description-package.jpeg"
+      "/media/uploads/1795536139391--2.webp"
     ],
     "price": {
       "amount": 0,
@@ -443,7 +451,17 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [],
+    "sizeLabel": {
+      "ar": "200 غرام",
+      "en": "200 Grams",
+      "fr": "200 Grams",
+      "tr": "200 Gram",
+      "ur": "200 گرام",
+      "ms": "200 Gram",
+      "bn": "২০০ গ্রাম",
+      "id": "200 Gram"
+    }
   },
   {
     "id": "gift-mww17vrw",
