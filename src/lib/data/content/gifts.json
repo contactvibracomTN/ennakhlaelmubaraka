@@ -177,6 +177,18 @@
     "contentStatus": "draft",
     "kind": "gift",
     "category": "oils",
+    "contents": [
+      {
+        "ar": "10 ريال",
+        "en": "10 Saudi Riyals",
+        "fr": "À 10 riyals saoudiens",
+        "tr": "10 Suudi Riyali",
+        "ur": "10 سعودی ریال",
+        "ms": "10 Riyal Saudi",
+        "bn": "১০ সৌদি রিয়াল",
+        "id": "10 Riyal Saudi"
+      }
+    ],
     "sizeLabel": {
       "ar": "125 ملليلتر",
       "en": "125 milliliters",
