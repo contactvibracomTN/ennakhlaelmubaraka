@@ -1027,6 +1027,16 @@
       "bn": "সাগাই খেজুরের প্রাকৃতিক মিষ্টতা উপভোগ করুন এবং আরবি কফির সঙ্গে আপনার সুন্দর মুহূর্তগুলোর সঙ্গী করে তুলুন। এটি আপনার খাবার টেবিলে সৌদি আতিথেয়তার এক অনন্য ছোঁয়া যোগ করবে।",
       "id": "Nikmati manis alami kurma Sagai dan jadikan sebagai teman sempurna untuk momen-momen indah bersama kopi Arab, sekaligus menghadirkan sentuhan autentik keramahan Saudi di meja Anda."
     },
+    "description": {
+      "ar": "استمتعوا بمذاق تمر الصقعي الفاخر، الذي يجمع بين حلاوة التمر الطبيعية وقرمشة السمسم وغنى اللوز، مع لمسة من العسل تضيف مذاقًا شهيًا ومميزًا. مزيج رائع يجمع بين النكهات المتناغمة والجودة، ليمنحكم تجربة لذيذة في كل قضمة، مثالي للضيافة ومشاركة أجمل اللحظات مع الأحباب.",
+      "en": "Enjoy the exquisite taste of Sukkari dates, combining the natural sweetness of dates with the crunchiness of sesame seeds and the richness of almonds, enhanced by a touch of honey that adds a delicious and distinctive flavour. A wonderful blend of harmonious flavours and quality, offering you a delightful experience with every bite. Perfect for hospitality and sharing beautiful moments with your loved ones.",
+      "fr": "Savourez le goût raffiné des dattes Sukkari, qui associent la douceur naturelle des dattes au croquant des graines de sésame et à la richesse des amandes, avec une touche de miel qui apporte une saveur délicieuse et unique. Un mélange exquis de saveurs harmonieuses et de qualité, pour vous offrir une expérience gourmande à chaque bouchée. Idéal pour recevoir vos invités et partager de beaux moments avec vos proches.",
+      "tr": "Sukkari hurmasının eşsiz lezzetinin tadını çıkarın! Hurmanın doğal tatlılığı, susamın çıtırlığı ve bademin zengin aroması, lezzetli ve özel bir tat katan bal dokunuşuyla bir araya geliyor. Her lokmada keyifli bir deneyim sunan bu özel karışım, misafirlerinize ikram etmek ve sevdiklerinizle güzel anlar paylaşmak için idealdir.",
+      "ur": "لذیذ سکری کھجوروں کے شاندار ذائقے سے لطف اندوز ہوں، جو کھجور کی قدرتی مٹھاس، تل کی خستگی اور بادام کی بھرپور خوشبو کو شہد کی ہلکی سی مٹھاس کے ساتھ یکجا کرتی ہیں۔ ذائقوں کا یہ بہترین امتزاج ہر نوالے میں ایک مزیدار تجربہ فراہم کرتا ہے۔ مہمان نوازی اور اپنے پیاروں کے ساتھ خوشگوار لمحات بانٹنے کے لیے بہترین انتخاب۔",
+      "ms": "Nikmati keenakan kurma Sukkari yang istimewa, menggabungkan kemanisan semula jadi kurma, kerangupan biji bijan dan keenakan badam, dengan sentuhan madu yang menambahkan rasa yang lazat dan unik. Gabungan rasa yang harmoni dan berkualiti ini memberikan pengalaman istimewa dalam setiap gigitan. Sesuai untuk hidangan tetamu dan berkongsi detik indah bersama insan tersayang.",
+      "bn": "উপভোগ করুন সুস্বাদু সুক্কারি খেজুরের অনন্য স্বাদ, যেখানে খেজুরের প্রাকৃতিক মিষ্টতা, তিলের মুচমুচে ভাব এবং কাঠবাদামের সমৃদ্ধ স্বাদের সঙ্গে মধুর হালকা ছোঁয়া মিলেছে। স্বাদের এই চমৎকার সমন্বয় প্রতিটি কামড়ে এনে দেয় আনন্দদায়ক অভিজ্ঞতা। অতিথি আপ্যায়ন এবং প্রিয়জনদের সঙ্গে সুন্দর মুহূর্ত ভাগ করে নেওয়ার জন্য আদর্শ।",
+      "id": "Nikmati kelezatan kurma Sukkari yang istimewa, memadukan manis alami kurma, renyahnya biji wijen, dan gurihnya kacang almond, dengan sentuhan madu yang menambah cita rasa lezat dan khas. Perpaduan rasa yang harmonis dan berkualitas ini menghadirkan pengalaman nikmat di setiap gigitan. Cocok untuk menjamu tamu dan berbagi momen indah bersama orang-orang tercinta.\n\n\n"
+    },
     "images": [
       "/media/uploads/1795615670867--200-.jpg",
       "/media/uploads/1795615678989--800-.jpg",
@@ -1040,7 +1050,17 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [],
+    "sizeLabel": {
+      "ar": "200 / 400 / 800 غرام",
+      "en": "200 / 400 / 800 Grams",
+      "fr": "200 / 400 / 800 Grammes",
+      "tr": "200 / 400 / 800 Gram",
+      "ur": "200 / 400 / 800 گرام",
+      "ms": "200 / 400 / 800 Gram",
+      "bn": "২০০ / ৪০০ / ৮০০ গ্রাম",
+      "id": "200 / 400 / 800 Gram"
+    }
   },
   {
     "id": "gift-mww7g4nq",
