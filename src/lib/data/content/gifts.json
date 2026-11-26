@@ -62,8 +62,6 @@
   {
     "id": "misc-nuts",
     "slug": "nuts-selection",
-    "kind": "gift",
-    "category": "nuts",
     "name": {
       "ar": "مكسّرات مشكّلة",
       "en": "Assorted Nuts",
@@ -84,13 +82,17 @@
       "bn": "পণ্য পাতা প্রস্তুত হচ্ছে — বিবরণ শীঘ্রই যোগ করা হবে।",
       "id": "Lembar produk sedang disiapkan — detail akan segera ditambahkan."
     },
-    "images": [],
+    "images": [
+      "/media/uploads/1795683638175-whatsapp-image-2026-11-14-at-8.52.30-pm.jpeg"
+    ],
     "price": {
       "amount": 0,
       "currency": "SAR"
     },
     "availability": "preorder",
     "contentStatus": "draft",
+    "kind": "gift",
+    "category": "nuts",
     "isConceptual": true
   },
   {
