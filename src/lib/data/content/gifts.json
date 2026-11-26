@@ -1209,5 +1209,53 @@
       "bn": "৫০০ গ্রাম",
       "id": "500 Gram"
     }
+  },
+  {
+    "id": "gift-mwxnqc90",
+    "slug": "perle-au-chocolat",
+    "name": {
+      "ar": "شوكو بيرل",
+      "en": "Choco Pearl",
+      "fr": "Perle au Chocolat",
+      "tr": "Çikolata İnci",
+      "ur": "چاکلیٹ پرل",
+      "ms": "Mutiara Coklat",
+      "bn": "চকোলেট পার্ল",
+      "id": "Mutiara Cokelat"
+    },
+    "teaser": {
+      "ar": "قرمشة اللوز وسحر الشوكولاتة… متعة لا تُقاوم",
+      "en": "The Crunch of Almonds and the Magic of Chocolate… An Irresistible Delight.",
+      "fr": "Le croquant des amandes et la magie du chocolat… Un plaisir irrésistible.",
+      "tr": "Bademin Çıtırlığı ve Çikolatanın Büyüsü… Karşı Konulmaz Bir Lezzet.",
+      "ur": "بادام کی خستگی اور چاکلیٹ کا جادو… ایک ناقابلِ مزاحمت لطف۔",
+      "ms": "Kerangupan Badam dan Keistimewaan Coklat… Kenikmatan yang Menggoda.",
+      "bn": "কাঠবাদামের মুচমুচে স্বাদ ও চকোলেটের জাদু… এক অপ্রতিরোধ্য আনন্দ।",
+      "id": "Renyahnya Almond dan Keistimewaan Cokelat… Kenikmatan yang Menggoda."
+    },
+    "description": {
+      "ar": "اكتشفوا روعة شوكو بيرل، حبات شهية تجمع بين حلاوة التمر الطري المحشو باللوز المقرمش، والمغطى بطبقة غنية من الشوكولاتة اللذيذة. مزيج استثنائي يجمع بين نعومة التمر وقرمشة اللوز وحلاوة الشوكولاتة، ليمنحكم تجربة فاخرة ومميزة في كل قضمة. خيار مثالي للضيافة وتقديمه مع القهوة ومشاركة أجمل اللحظات مع الأهل والأحباب",
+      "en": "Discover the deliciousness of Choco Pearl, delightful bites combining the natural sweetness of soft dates stuffed with crunchy almonds and coated in a rich layer of delicious chocolate. An exceptional blend of soft dates, crunchy almonds, and sweet chocolate, offering you a luxurious and unique experience in every bite. Perfect for hospitality, serving with coffee, and sharing beautiful moments with family and loved ones.",
+      "fr": "Découvrez la gourmandise de Choco Pearl, de délicieuses bouchées associant la douceur des dattes moelleuses fourrées aux amandes croquantes, le tout enrobé d'une généreuse couche de chocolat savoureux. Un mélange exceptionnel qui allie le fondant des dattes, le croquant des amandes et la douceur du chocolat, pour vous offrir une expérience raffinée et unique à chaque bouchée. Idéal pour recevoir, accompagner votre café et partager de beaux moments en famille et entre proches.",
+      "tr": "Choco Pearl'ün eşsiz lezzetini keşfedin! Yumuşak hurmaların içindeki çıtır bademler, lezzetli ve zengin bir çikolata kaplamasıyla buluşuyor. Hurmanın yumuşaklığı, bademin çıtırlığı ve çikolatanın tatlılığı her lokmada benzersiz ve özel bir deneyim sunuyor. Misafirlerinize ikram etmek, kahvenin yanında sunmak ve sevdiklerinizle güzel anlar paylaşmak için mükemmeldir.",
+      "ur": "شکو پرل کے مزیدار ذائقے سے لطف اندوز ہوں، جس میں نرم کھجوروں کے اندر خستہ بادام بھرے گئے ہیں اور انہیں مزیدار چاکلیٹ کی بھرپور تہہ سے ڈھانپا گیا ہے۔ کھجور کی نرمی، بادام کی خستگی اور چاکلیٹ کی مٹھاس کا یہ شاندار امتزاج ہر نوالے میں ایک منفرد اور شاہانہ تجربہ فراہم کرتا ہے۔ مہمان نوازی، قہوے کے ساتھ پیش کرنے اور اپنے پیاروں کے ساتھ خوبصورت لمحات بانٹنے کے لیے بہترین انتخاب",
+      "ms": "Temui keenakan Choco Pearl, snek istimewa yang menggabungkan kemanisan kurma lembut berinti badam rangup, disaluti lapisan coklat yang kaya dan lazat. Gabungan istimewa kelembutan kurma, kerangupan badam dan kemanisan coklat memberikan pengalaman mewah dan unik dalam setiap gigitan. Sesuai untuk hidangan tetamu, dinikmati bersama kopi dan dikongsi bersama keluarga serta insan tersayang",
+      "bn": "চোকো পার্লের অসাধারণ স্বাদ আবিষ্কার করুন! নরম খেজুরের ভেতরে ভরা মুচমুচে কাঠবাদাম এবং বাইরে সুস্বাদু চকোলেটের সমৃদ্ধ আবরণ। খেজুরের কোমলতা, কাঠবাদামের মুচমুচে স্বাদ ও চকোলেটের মিষ্টতার অপূর্ব সমন্বয় প্রতিটি কামড়ে এনে দেয় এক বিলাসবহুল ও অনন্য অভিজ্ঞতা। অতিথি আপ্যায়ন, কফির সঙ্গে পরিবেশন এবং প্রিয়জনদের সঙ্গে সুন্দর মুহূর্ত ভাগ করে নেওয়ার জন্য আদর্শ।",
+      "id": "Temukan kelezatan Choco Pearl, camilan istimewa yang memadukan manisnya kurma lembut berisi kacang almond renyah, dibalut lapisan cokelat yang kaya dan lezat. Perpaduan sempurna antara kelembutan kurma, kerenyahan almond, dan manisnya cokelat menghadirkan pengalaman istimewa dan mewah di setiap gigitan. Cocok untuk menjamu tamu, dinikmati bersama kopi, serta berbagi momen indah bersama keluarga dan orang-orang tercinta."
+    },
+    "images": [
+      "/media/uploads/1795704607054--.jpg",
+      "/media/uploads/1795704613390--.webp",
+      "/media/uploads/1795704619758--.jpg"
+    ],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
   }
 ]
