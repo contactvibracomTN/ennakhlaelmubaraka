@@ -1168,6 +1168,16 @@
       "id": "Tamriya dengan Aneka Kacang"
     },
     "teaser": {
+      "ar": "حلاوة التمر وسحر المكسرات… مذاق فاخر في كل قضمة ",
+      "en": "The Sweetness of Dates and the Magic of Nuts… A Luxurious Taste in Every Bite.",
+      "fr": "La douceur des dattes et la magie des fruits secs… Une saveur raffinée à chaque bouchée.",
+      "tr": "Hurmanın Tatlılığı ve Kuruyemişlerin Büyüsü… Her Lokmada Eşsiz Bir Lezzet.",
+      "ur": "کھجور کی مٹھاس اور خشک میوہ جات کا جادو… ہر نوالے میں شاہانہ ذائقہ۔",
+      "ms": " Kemanisan Kurma dan Keistimewaan Kekacang… Rasa Mewah dalam Setiap Gigitan",
+      "bn": "খেজুরের মিষ্টতা ও বাদামের জাদু… প্রতিটি কামড়ে বিলাসবহুল স্বাদ।",
+      "id": "Manisnya Kurma dan Kelezatan Kacang-kacangan… Cita Rasa Istimewa di Setiap Gigitan."
+    },
+    "description": {
       "ar": "استمتعوا بالمذاق الشهي للتمرية بالمكسرات، حيث يلتقي التمر الطري المحشو بالطحينة الغنية مع تشكيلة لذيذة من المكسرات المقرمشة التي تزيّن سطحها الخارجي، لتقدم لكم مزيجًا رائعًا يجمع بين حلاوة التمر ونعومة الطحينة وقرمشة المكسرات",
       "en": "Enjoy the delicious taste of Nut-Filled Tamriya, where soft dates stuffed with rich tahini meet a delightful selection of crunchy nuts decorating the outside, creating a wonderful blend of natural date sweetness, smooth tahini, and the irresistible crunch of nuts.",
       "fr": "Savourez la délicieuse Tamriya aux fruits secs, composée de dattes moelleuses fourrées à la tahini onctueuse et garnies à l'extérieur d'un délicieux assortiment de fruits secs croquants. Une combinaison gourmande qui marie parfaitement la douceur des dattes, l'onctuosité du tahini et le croquant des fruits secs.",
@@ -1188,6 +1198,16 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [],
+    "sizeLabel": {
+      "ar": "500 غرام",
+      "en": "500 Grams",
+      "fr": "500 Grammes",
+      "tr": "500 Gram",
+      "ur": "500 گرام",
+      "ms": "500 Gram",
+      "bn": "৫০০ গ্রাম",
+      "id": "500 Gram"
+    }
   }
 ]
