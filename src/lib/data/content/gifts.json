@@ -1249,7 +1249,7 @@
       "/media/uploads/1795704619758--.jpg"
     ],
     "price": {
-      "amount": 30,
+      "amount": 0,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -1285,7 +1285,7 @@
       "/media/uploads/1795710000261-whatsapp-image-2026-11-03-at-12.32.00-1-.jpeg"
     ],
     "price": {
-      "amount": 0,
+      "amount": 10,
       "currency": "SAR"
     },
     "availability": "in-stock",
