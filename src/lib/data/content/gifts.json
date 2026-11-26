@@ -534,6 +534,16 @@
       "id": "\t Cokelat Susu"
     },
     "teaser": {
+      "ar": "قرمشة الكنافة وسحر الشوكولاتة",
+      "en": "The Crunch of Kunafa and the Magic of Chocolate.",
+      "fr": "Le croustillant de la kunafa et la magie du chocolat.",
+      "tr": " Kadayıfın Çıtırlığı ve Çikolatanın Büyüsü.",
+      "ur": "کنافی کی خستگی اور چاکلیٹ کا جادو۔",
+      "ms": "Kerangupan Kunafa dan Keajaiban Coklat.",
+      "bn": "কুনাফার মুচমুচে স্বাদ ও চকোলেটের জাদু।",
+      "id": "Renyahnya Kunafa dan Keajaiban Cokelat."
+    },
+    "description": {
       "ar": "استمتعوا بتجربة شوكولاتة استثنائية تجمع بين غنى الشوكولاتة بالحليب وقرمشة البسكويت والكنافة الشهية في حشوة لذيذة من الداخل.\n\nتتميز بقوام يجمع بين نعومة الشوكولاتة وقرمشة البسكويت والكنافة، لتمنحكم مزيجًا رائعًا من النكهات والقوام في كل قضمة",
       "en": "Enjoy an exceptional chocolate experience that combines the richness of milk chocolate with the crunchiness of delicious biscuits and crispy kunafa in a delightful filling.\n\nIts texture combines smooth chocolate with crunchy biscuits and kunafa, offering a wonderful blend of flavors and textures in every bite.",
       "fr": "Savourez une expérience chocolatée exceptionnelle qui associe la richesse du chocolat au lait au croustillant de délicieux biscuits et de kadaïf dans une garniture savoureuse.\n\nSa texture allie la douceur fondante du chocolat au croquant des biscuits et du kadaïf, pour vous offrir un merveilleux mélange de saveurs et de textures à chaque bouchée.",
@@ -555,7 +565,17 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [],
+    "sizeLabel": {
+      "ar": "450 غرام",
+      "en": "450 Grams",
+      "fr": "450 Grammes",
+      "tr": "450 Gram",
+      "ur": "450 گرام",
+      "ms": "450 Gram",
+      "bn": "৪৫০ গ্রাম",
+      "id": " 450 Gram"
+    }
   },
   {
     "id": "gift-mww20r5o",
