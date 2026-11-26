@@ -776,7 +776,7 @@
       "/media/uploads/1795612640314--.webp"
     ],
     "price": {
-      "amount": 0,
+      "amount": 15,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -870,7 +870,7 @@
       "/media/uploads/1795613562219--.webp"
     ],
     "price": {
-      "amount": 15,
+      "amount": 0,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -985,7 +985,7 @@
       "/media/uploads/1795614778452-whatsapp-image-2026-11-25-at-11.04.38-am.jpeg"
     ],
     "price": {
-      "amount": 0,
+      "amount": 45,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -1043,7 +1043,7 @@
       "/media/uploads/1795615686192--400-.webp"
     ],
     "price": {
-      "amount": 7,
+      "amount": 0,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -1099,7 +1099,7 @@
       "/media/uploads/1795616147545--.jpg"
     ],
     "price": {
-      "amount": 0,
+      "amount": 9,
       "currency": "SAR"
     },
     "availability": "in-stock",
