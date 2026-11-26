@@ -253,7 +253,7 @@
     "weightOptions": [],
     "grades": [
       {
-        "id": "g-20",
+        "id": "g-1",
         "label": {
           "ar": "20 ريال/كجم",
           "en": "SAR 20/kg",
@@ -266,7 +266,7 @@
         "tier": "premium"
       },
       {
-        "id": "g-15",
+        "id": "g-2",
         "label": {
           "ar": "15 ريال/كجم",
           "en": "SAR 15/kg",
