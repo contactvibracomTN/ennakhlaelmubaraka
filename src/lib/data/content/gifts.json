@@ -373,9 +373,19 @@
       "bn": "স্বাদ ও গুণমানের এক গল্প, আমাদের জলপাই তেল উর্বর মাটি থেকে সরাসরি আপনার খাবার টেবিলে",
       "id": "Kisah cita rasa dan kualitas, minyak zaitun kami berasal dari tanah yang subur untuk menemani hidangan Anda\n\n\n"
     },
+    "description": {
+      "ar": "استمتعوا بمذاق زيت الزيتون الطبيعي، المستخلص من أجود ثمار الزيتون، بنكهته الغنية ورائحته الزكية ولونه المميز. جودة وأصالة تجتمعان في كل قطرة، ليضفي على أطباقكم مذاقاً شهياً ولمسة من التميز.",
+      "en": "Enjoy the taste of natural olive oil, extracted from the finest olives. It is distinguished by its rich flavour, delightful aroma, and beautiful colour. Quality and authenticity come together in every drop, adding a delicious taste and a touch of excellence to your dishes.",
+      "fr": "Savourez le goût de l'huile d'olive naturelle, extraite des meilleures olives. Elle se distingue par sa saveur riche, son arôme délicat et sa belle couleur. Qualité et authenticité se réunissent dans chaque goutte pour apporter une saveur délicieuse et une touche d'excellence à vos plats.",
+      "tr": "En kaliteli zeytinlerden elde edilen doğal zeytinyağının tadını çıkarın. Zengin lezzeti, hoş aroması ve kendine özgü rengiyle öne çıkar. Her damlasında kalite ve doğallığı bir araya getirerek yemeklerinize lezzet ve ayrıcalık katar.",
+      "ur": "\nبہترین زیتون سے حاصل کیے گئے قدرتی زیتون کے تیل کے ذائقے سے لطف اندوز ہوں۔ یہ اپنے بھرپور ذائقے، خوشگوار خوشبو اور خوبصورت رنگ کی وجہ سے ممتاز ہے۔ ہر قطرے میں معیار اور اصالت کا امتزاج ہے، جو آپ کے کھانوں میں مزیدار ذائقہ اور خوبصورتی کا اضافہ کرتا ہے۔",
+      "ms": "Nikmati rasa minyak zaitun semula jadi yang dihasilkan daripada buah zaitun terbaik. Ia mempunyai rasa yang kaya, aroma yang harum dan warna yang menarik. Kualiti dan keaslian bersatu dalam setiap titisan, menambahkan kelazatan dan keistimewaan pada hidangan anda.",
+      "bn": "সেরা জলপাই থেকে তৈরি প্রাকৃতিক জলপাই তেলের স্বাদ উপভোগ করুন। এর সমৃদ্ধ স্বাদ, মনোরম সুগন্ধ এবং সুন্দর রং একে বিশেষ করে তুলেছে। প্রতিটি ফোঁটায় গুণমান ও বিশুদ্ধতার সমন্বয় আপনার খাবারে যোগ করে সুস্বাদু স্বাদ ও বিশেষত্ব।",
+      "id": "Nikmati cita rasa minyak zaitun alami yang dihasilkan dari buah zaitun pilihan terbaik. Memiliki rasa yang kaya, aroma yang harum, dan warna yang khas. Kualitas dan keaslian berpadu dalam setiap tetes, memberikan cita rasa lezat dan sentuhan istimewa pada hidangan Anda."
+    },
     "images": [
-      "/media/uploads/1795526650947--1.jpg",
-      "/media/uploads/1795526660839--150-.jpg"
+      "/media/uploads/1795689037097-8fbc6219-5e71-4687-b261-87a887ffd731-666.66666666667x1000-11.webp",
+      "/media/uploads/1795689043643-26d2cfef-83d9-44e6-b20f-d3e5a79909db-666.66666666667x1000-x2.webp"
     ],
     "price": {
       "amount": 0,
@@ -385,7 +395,17 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [],
+    "sizeLabel": {
+      "ar": "400 / 250 ملليلتر",
+      "en": "400 / 250 Milliliters (ml)",
+      "fr": " 400 / 250 Millilitres (ml)",
+      "tr": "400 / 250 Mililitre",
+      "ur": " 400 / 250 ملی لیٹر",
+      "ms": "400 / 250 Mililiter",
+      "bn": "৪০০ / ২৫০ মিলিলিটার",
+      "id": "400 / 250 Mililiter"
+    }
   },
   {
     "id": "gift-mwuvm81j",
