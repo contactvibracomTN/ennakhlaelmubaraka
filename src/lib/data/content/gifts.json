@@ -648,6 +648,16 @@
       "id": "Manisan Kurma"
     },
     "teaser": {
+      "ar": "التمرية الأصيلة بطعم لا يُقاوم.......مذاق فاخر في كل حبة",
+      "en": "Authentic Tamriyah with an Irresistible Taste... A Luxurious Flavour in Every Piece.",
+      "fr": "La Tamriyah authentique au goût irrésistible... Une saveur raffinée dans chaque pièce.",
+      "tr": "Vazgeçilmez Lezzetiyle Geleneksel Tamriyah... Her Lokmada Eşsiz Bir Lezzet.",
+      "ur": "اصلی تمریہ، ناقابلِ مزاحمت ذائقے کے ساتھ... ہر ٹکڑے میں شاہانہ ذائقہ۔",
+      "ms": "Tamriyah Asli dengan Rasa yang Menggoda... Kelezatan Mewah dalam Setiap Potongan.",
+      "bn": "অসাধারণ স্বাদের আসল তামরিয়াহ... প্রতিটি টুকরোতে বিলাসবহুল স্বাদ।",
+      "id": "Tamriyah Asli dengan Cita Rasa yang Menggugah Selera... Kelezatan Istimewa di Setiap Potongan."
+    },
+    "description": {
       "ar": "عيشوا مذاق الضيافة السعودية الأصيلة مع التمرية، حيث يلتقي جمال التقديم بحلاوة التمر في كل حبة!\n\nتتميز التمرية بمذاق التمر الطبيعي وحلاوته الغنية، مع لمسات من التزيين اللذيذ التي تجعل كل حبة قطعة فريدة تجمع بين الأصالة والفخامة",
       "en": "Experience the authentic taste of Saudi hospitality with Tamriyah, where beautiful presentation meets the natural sweetness of dates in every piece!\n\nTamriyah is distinguished by the natural flavor and rich sweetness of dates, enhanced with delicious decorative touches that make every piece unique, combining tradition and elegance",
       "fr": "Découvrez le goût authentique de l'hospitalité saoudienne avec la Tamriyah, où la beauté de la présentation rencontre la douceur des dattes dans chaque bouchée !\n\nLa Tamriyah se distingue par la saveur naturelle des dattes et leur douceur généreuse, sublimées par de délicieuses touches de décoration qui rendent chaque pièce unique, alliant authenticité et élégance.",
@@ -670,7 +680,17 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [],
+    "sizeLabel": {
+      "ar": "600 غرام ",
+      "en": "600 Grams",
+      "fr": "600 Grammes",
+      "tr": " 600 Gram",
+      "ur": " 600 گرام",
+      "ms": "600 Gram",
+      "bn": " ৬০০ গ্রাম",
+      "id": "600 Gram"
+    }
   },
   {
     "id": "gift-mww51tmr",
