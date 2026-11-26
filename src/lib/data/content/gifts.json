@@ -823,7 +823,7 @@
       "/media/uploads/1795613072481--.jpg"
     ],
     "price": {
-      "amount": 0,
+      "amount": 15,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -870,7 +870,7 @@
       "/media/uploads/1795613562219--.webp"
     ],
     "price": {
-      "amount": 15,
+      "amount": 0,
       "currency": "SAR"
     },
     "availability": "in-stock",
