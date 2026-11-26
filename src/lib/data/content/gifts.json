@@ -486,6 +486,16 @@
       "bn": "দুবাই চকলেটের স্বাদ নেওয়ার সুযোগ হাতছাড়া করবেন না! মাত্র এক কামড়ই আপনাকে সমৃদ্ধ স্বাদ ও অপ্রতিরোধ্য আনন্দের জগতে নিয়ে যাওয়ার জন্য যথেষ্ট",
       "id": "Jangan lewatkan kesempatan untuk mencoba Cokelat Dubai! Satu gigitan saja cukup untuk membawa Anda ke dunia cita rasa yang kaya dan kenikmatan yang tak tertahankan"
     },
+    "description": {
+      "ar": "اكتشفوا سحر شوكولاتة دبي، تجربة استثنائية تجمع بين مذاق الشوكولاتة الغني ونكهة الفستق المميزة، مع قوام شهي يمنحكم لحظات من المتعة والفخامة في كل قضمة. دلّلوا أنفسكم بمذاق يجمع بين الأناقة والحلاوة ويحوّل كل لحظة إلى تجربة لا تُنسى.",
+      "en": "Discover the magic of Dubai Chocolate, an exceptional experience combining the rich taste of chocolate with the distinctive flavour of pistachio. Its delicious texture offers moments of pleasure and luxury in every bite. Treat yourself to a taste that blends elegance and sweetness, turning every moment into an unforgettable experience.",
+      "fr": "Découvrez la magie du chocolat Dubaï, une expérience exceptionnelle qui associe la richesse du chocolat à la saveur unique de la pistache. Sa texture gourmande vous offre des moments de plaisir et de raffinement à chaque bouchée. Faites-vous plaisir avec une saveur qui allie élégance et douceur et transforme chaque instant en une expérience inoubliable.",
+      "tr": "Dubai Çikolatası'nın büyüsünü keşfedin! Çikolatanın zengin lezzetini Antep fıstığının eşsiz aromasıyla buluşturan özel bir deneyim. Lezzetli dokusuyla her lokmada keyif ve lüks sunar. Zarafet ve tatlılığı bir araya getiren bu eşsiz lezzetle kendinizi şımartın.",
+      "ur": "دبئی چاکلیٹ کے جادو کو دریافت کریں! ایک منفرد تجربہ جو چاکلیٹ کے بھرپور ذائقے کو پستے کے خاص ذائقے کے ساتھ یکجا کرتا ہے۔ اس کی لذیذ ساخت ہر نوالے میں لطف اور نفاست کا احساس دلاتی ہے۔ اپنے آپ کو ایک ایسے ذائقے سے نوازیں جو مٹھاس اور خوبصورتی کو یکجا کرتا ہے",
+      "ms": "Nikmati keistimewaan Coklat Dubai, pengalaman istimewa yang menggabungkan rasa coklat yang kaya dengan aroma pistachio yang unik. Teksturnya yang lazat memberikan detik kenikmatan dan kemewahan dalam setiap gigitan. Manjakan diri anda dengan gabungan keanggunan dan kemanisan yang menjadikan setiap saat tidak dapat dilupakan.",
+      "bn": "আবিষ্কার করুন দুবাই চকোলেটের জাদু! এটি একটি অসাধারণ অভিজ্ঞতা, যেখানে চকোলেটের সমৃদ্ধ স্বাদের সঙ্গে পেস্তার অনন্য স্বাদের মিশ্রণ ঘটেছে। এর সুস্বাদু গঠন প্রতিটি কামড়ে এনে দেয় আনন্দ ও আভিজাত্য। মিষ্টতা ও সৌন্দর্যের এই অনন্য স্বাদে নিজেকে মুগ্ধ করুন।",
+      "id": "Temukan keajaiban Cokelat Dubai, pengalaman istimewa yang memadukan cita rasa cokelat yang kaya dengan rasa pistachio yang khas. Teksturnya yang lezat menghadirkan kenikmatan dan kemewahan di setiap gigitan. Manjakan diri Anda dengan perpaduan keanggunan dan rasa manis yang menjadikan setiap momen tak terlupakan."
+    },
     "images": [
       "/media/uploads/1795605992015--.webp",
       "/media/uploads/1795605999367-35f3253b-40e4-4eca-b9bc-fb09a0d7e410.jpg-tplv-aphluv4xwc-res.jpg"
@@ -498,7 +508,17 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [],
+    "sizeLabel": {
+      "ar": "200 غرام",
+      "en": "200 Grams",
+      "fr": "200 Grammes",
+      "tr": "200 Gram",
+      "ur": "200 گرام",
+      "ms": "200 Gram",
+      "bn": "২০০ গ্রাম",
+      "id": "200 Gram"
+    }
   },
   {
     "id": "gift-mww1ocen",
