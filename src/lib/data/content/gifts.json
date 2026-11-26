@@ -1257,5 +1257,39 @@
     "kind": "gift",
     "category": "sweets",
     "contents": []
+  },
+  {
+    "id": "gift-mwxr3b5a",
+    "slug": "gift-mwxr3b5a",
+    "name": {
+      "ar": "",
+      "en": "",
+      "fr": "",
+      "tr": "",
+      "ur": "",
+      "ms": "",
+      "bn": "",
+      "id": ""
+    },
+    "teaser": {
+      "ar": "",
+      "en": "",
+      "fr": "",
+      "tr": "",
+      "ur": "",
+      "ms": "",
+      "bn": "",
+      "id": ""
+    },
+    "images": [],
+    "price": {
+      "amount": 0,
+      "currency": "SAR"
+    },
+    "availability": "in-stock",
+    "contentStatus": "demo",
+    "kind": "gift",
+    "category": "sweets",
+    "contents": []
   }
 ]
