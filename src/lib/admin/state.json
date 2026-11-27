@@ -662,10 +662,10 @@
         "machine": false
       },
       "fr": {
-        "status": "validated",
-        "by": "admin",
-        "at": "2026-11-27T15:59:06.621Z",
-        "machine": false
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-17T09:47:45.616Z",
+        "machine": true
       },
       "ur": {
         "status": "validated",
@@ -680,10 +680,10 @@
         "machine": false
       },
       "id": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-11-17T09:47:45.648Z",
-        "machine": true
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-27T15:59:10.940Z",
+        "machine": false
       },
       "en": {
         "status": "validated",
