@@ -574,7 +574,18 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": [],
+    "contents": [
+      {
+        "ar": "شكولاتة بالحليب محشوة ببسكو كريم مع عجينة الكنافة",
+        "en": "Milk chocolate filled with Bisco cream and kunafa dough.",
+        "fr": "Chocolat au lait fourré à la crème Bisco et aux cheveux d'ange (pâte à kunafa).",
+        "tr": "Bisco kreması ve kadayıf hamuru dolgulu sütlü çikolata.",
+        "ur": "بِسکو کریم اور کنافة کے آٹے سے بھری ہوئی دودھ کی چاکلیٹ۔",
+        "ms": "Coklat susu berinti krim Bisco dan doh kunafa.",
+        "bn": "বিস্কো ক্রিম ও কুনাফা ময়দার পুরভরা মিল্ক চকলেট।",
+        "id": "Cokelat susu dengan isian krim Bisco dan adonan kunafa."
+      }
+    ],
     "sizeLabel": {
       "ar": "450 غرام",
       "en": "450 Grams",
