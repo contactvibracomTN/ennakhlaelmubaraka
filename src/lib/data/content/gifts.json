@@ -92,6 +92,16 @@
     "contentStatus": "draft",
     "kind": "gift",
     "category": "nuts",
+    "sizeLabel": {
+      "ar": "1 كيلوغرام",
+      "en": "1 kilogram",
+      "fr": " 1 kilogramme",
+      "tr": "1 kilogram",
+      "ur": "1 کلوگرام",
+      "ms": "1 kilogram",
+      "bn": "১ কিলোগ্রাম",
+      "id": "1 kilogram"
+    },
     "isConceptual": true
   },
   {
