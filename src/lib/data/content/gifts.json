@@ -872,18 +872,7 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": [
-      {
-        "ar": "مصنوع بعجوة المدينة المنورة",
-        "en": "Made with Al-Madinah dates (Ajwa).",
-        "fr": "Fabriqué à base de dattes Ajwa de Médine.",
-        "tr": "Medine Acve hurması ile üretilmiştir.",
-        "ur": "مدینہ منورہ کی عجوہ کھجور سے تیار کردہ۔",
-        "ms": "Diperbuat daripada kurma Ajwa Madinah.",
-        "bn": "মদিনার আজওয়া খেজুর দিয়ে তৈরি।",
-        "id": "Dibuat dari kurma Ajwa Madinah."
-      }
-    ]
+    "contents": []
   },
   {
     "id": "gift-mww5tev8",
