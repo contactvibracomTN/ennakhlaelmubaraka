@@ -933,7 +933,18 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": [],
+    "contents": [
+      {
+        "ar": "قهوة سعودية بالهيل والزعفران سريعة التحضير",
+        "en": "Instant Saudi coffee with cardamom and saffron",
+        "fr": "Café saoudien instantané à la cardamome et au safran",
+        "tr": "Kakule ve safranlı hazır Suudi kahvesi",
+        "ur": "الائچی اور زعفران والی فوری سعودی کافی",
+        "ms": "Kopi Saudi segera dengan buah pelaga dan safron",
+        "bn": "এলাচ ও জাফরানযুক্ত তাৎক্ষণিক সৌদি কফি",
+        "id": "Kopi Arab Saudi instan dengan kapulaga dan saffron"
+      }
+    ],
     "sizeLabel": {
       "ar": "500 / 250 غرام",
       "en": "500 / 250 Grams",
