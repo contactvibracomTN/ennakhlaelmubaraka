@@ -1273,13 +1273,13 @@
     "slug": "gift-mwxr3b5a",
     "name": {
       "ar": "حيسة المدينة النبوية",
-      "en": "Al-Madinah Traditional Haysa",
-      "fr": "Haysa traditionnelle de Médine",
-      "tr": "Medine Usulü Haysa",
-      "ur": "مدینہ منورہ کی حیسہ",
-      "ms": "Haysa Tradisional Madinah",
-      "bn": "মদিনার ঐতিহ্যবাহী হাইসা",
-      "id": " Haysa Tradisional Madinah"
+      "en": "The neighborhood of Medina",
+      "fr": "Le quartier de Médine",
+      "tr": "Medina mahallesi",
+      "ur": "مدینہ کا محلہ",
+      "ms": "Kawasan kejiranan Madinah",
+      "bn": "মদিনা এলাকা",
+      "id": "Lingkungan Medina"
     },
     "teaser": {
       "ar": "",
@@ -1302,6 +1302,17 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": []
+    "contents": [
+      {
+        "ar": "منتج تقليدي غني بالمكونات الطبيعية، يجمع بين الدخن والتمر والبر والسمن والهيل  واللوز، ليقدم مذاقاً أصيلاً يجسد تراث المدينة المنورة",
+        "en": "A traditional product rich in natural ingredients, combining millet, dates, wheat, ghee, cardamom, and almonds, to offer an authentic taste that embodies the heritage of Medina.",
+        "fr": "Un produit traditionnel riche en ingrédients naturels, associant millet, dattes, blé, ghee, cardamome et amandes, pour offrir un goût authentique qui incarne le patrimoine de Médine.",
+        "tr": "Geleneksel bir ürün olan bu ürün, darı, hurma, buğday, tereyağı, kakule ve badem gibi doğal malzemeleri bir araya getirerek Medine'nin mirasını yansıtan otantik bir lezzet sunuyor.",
+        "ur": "جوار، کھجور، گندم، گھی، الائچی اور بادام کو ملا کر قدرتی اجزاء سے بھرپور روایتی پروڈکٹ، ایک مستند ذائقہ پیش کرنے کے لیے جو مدینہ کے ورثے کو مجسم کرتی ہے۔",
+        "ms": "Produk tradisional yang kaya dengan bahan-bahan semula jadi, menggabungkan bijirin, kurma, gandum, ghee, kapulaga dan badam, untuk menawarkan rasa asli yang merangkumi warisan Madinah.",
+        "bn": "প্রাকৃতিক উপাদানে সমৃদ্ধ একটি ঐতিহ্যবাহী পণ্য, যা বাজরা, খেজুর, গম, ঘি, এলাচ এবং বাদামের সমন্বয়ে মদিনার ঐতিহ্যকে ধারণ করা এক খাঁটি স্বাদ প্রদান করে।",
+        "id": "Produk tradisional yang kaya akan bahan-bahan alami, menggabungkan millet, kurma, gandum, ghee, kapulaga, dan almond, untuk menawarkan cita rasa otentik yang mewujudkan warisan Madinah."
+      }
+    ]
   }
 ]
