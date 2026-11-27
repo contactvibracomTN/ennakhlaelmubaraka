@@ -864,7 +864,6 @@
     }
   },
   {
-    "kind": "date",
     "id": "date-mabroom",
     "slug": "mabroom",
     "name": {
@@ -892,12 +891,45 @@
       "/images/dates/mabroom__2.jpg",
       "/images/dates/mabroom__3.jpg"
     ],
+    "imageAlts": {
+      "/images/dates/mabroom.jpg": {
+        "ar": "تمر المبروم الفاخر — درجة أولى، صورة حقيقية من متجرنا",
+        "en": "Premium Mabroom dates — grade 1, photo taken at our shop",
+        "fr": "Dattes Mabroom premium — première qualité, photo prise dans notre boutique",
+        "tr": "Premium Mabroom hurmaları — 1. kalite, mağazamızda çekilen fotoğraf",
+        "ur": "پریمیم مبروم کھجوریں — پہلا درجہ، ہماری دکان پر کھینچی گئی تصویر",
+        "ms": "Tarikh Mabroom premium gred 1 — foto diambil di kedai kami",
+        "bn": "প্রিমিয়াম মাবরুম খেজুর — গ্রেড ১, আমাদের দোকানে তোলা ছবি",
+        "id": "Kurma Mabroom premium gred 1 — foto diambil di toko kami"
+      },
+      "/images/dates/mabroom__2.jpg": {
+        "ar": "تمر المبروم الفاخر من المدينة المنوّرة",
+        "en": "Premium Mabroom dates from Madinah",
+        "fr": "Dattes Mabroom premium de Médine",
+        "tr": "Medine'den premium Mabroom hurmaları",
+        "ur": "مدینہ منورہ سے پریمیم مبروم کھجوریں",
+        "ms": "Tarikh Mabroom premium dari Madinah",
+        "bn": "মদিনা থেকে প্রিমিয়াম মাবরুম খেজুর",
+        "id": "Kurma Mabroom premium dari Madinah"
+      },
+      "/images/dates/mabroom__3.jpg": {
+        "ar": "تمر المبروم الفاخر — عرض المنتج",
+        "en": "Premium Mabroom dates — product view",
+        "fr": "Dattes Mabroom premium — vue produit",
+        "tr": "Premium Mabroom hurmaları — ürün görünümü",
+        "ur": "پریمیم مبروم کھجوریں — پروڈکٹ کی تصویر",
+        "ms": "Tarikh Mabroom premium — paparan produk",
+        "bn": "প্রিমিয়াম মাবরুম খেজুর — পণ্যের দৃশ্য",
+        "id": "Kurma Mabroom premium — tampilan produk"
+      }
+    },
     "price": {
       "amount": 35,
       "currency": "SAR"
     },
     "availability": "in-stock",
     "contentStatus": "published",
+    "kind": "date",
     "category": "kingdom",
     "origin": {
       "ar": "السعودية",
@@ -940,39 +972,7 @@
       }
     ],
     "defaultGradeId": "g-35",
-    "texture": "semi-soft",
-    "imageAlts": {
-      "/images/dates/mabroom.jpg": {
-        "ar": "تمر المبروم الفاخر — درجة أولى، صورة حقيقية من متجرنا",
-        "en": "Premium Mabroom dates — grade 1, photo taken at our shop",
-        "fr": "Dattes Mabroom premium — première qualité, photo prise dans notre boutique",
-        "tr": "Premium Mabroom hurmaları — 1. kalite, mağazamızda çekilen fotoğraf",
-        "ur": "پریمیم مبروم کھجوریں — پہلا درجہ، ہماری دکان پر کھینچی گئی تصویر",
-        "ms": "Tarikh Mabroom premium gred 1 — foto diambil di kedai kami",
-        "bn": "প্রিমিয়াম মাবরুম খেজুর — গ্রেড ১, আমাদের দোকানে তোলা ছবি",
-        "id": "Kurma Mabroom premium gred 1 — foto diambil di toko kami"
-      },
-      "/images/dates/mabroom__2.jpg": {
-        "ar": "تمر المبروم الفاخر من المدينة المنوّرة",
-        "en": "Premium Mabroom dates from Madinah",
-        "fr": "Dattes Mabroom premium de Médine",
-        "tr": "Medine'den premium Mabroom hurmaları",
-        "ur": "مدینہ منورہ سے پریمیم مبروم کھجوریں",
-        "ms": "Tarikh Mabroom premium dari Madinah",
-        "bn": "মদিনা থেকে প্রিমিয়াম মাবরুম খেজুর",
-        "id": "Kurma Mabroom premium dari Madinah"
-      },
-      "/images/dates/mabroom__3.jpg": {
-        "ar": "تمر المبروم الفاخر — عرض المنتج",
-        "en": "Premium Mabroom dates — product view",
-        "fr": "Dattes Mabroom premium — vue produit",
-        "tr": "Premium Mabroom hurmaları — ürün görünümü",
-        "ur": "پریمیم مبروم کھجوریں — پروڈکٹ کی تصویر",
-        "ms": "Tarikh Mabroom premium — paparan produk",
-        "bn": "প্রিমিয়াম মাবরুম খেজুর — পণ্যের দৃশ্য",
-        "id": "Kurma Mabroom premium — tampilan produk"
-      }
-    }
+    "texture": "semi-soft"
   },
   {
     "kind": "date",
