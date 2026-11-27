@@ -662,10 +662,10 @@
         "machine": false
       },
       "fr": {
-        "status": "machine",
-        "by": "traduction Google",
-        "at": "2026-11-17T09:47:45.616Z",
-        "machine": true
+        "status": "validated",
+        "by": "admin",
+        "at": "2026-11-27T15:59:06.621Z",
+        "machine": false
       },
       "ur": {
         "status": "validated",
