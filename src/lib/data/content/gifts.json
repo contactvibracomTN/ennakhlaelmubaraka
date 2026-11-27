@@ -404,7 +404,18 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": [],
+    "contents": [
+      {
+        "ar": "زيت زيتون عظوي بكر ممتاز عصرة أولى على البارد",
+        "en": "Organic extra virgin olive oil, first cold-pressed.",
+        "fr": "Huile d’olive biologique extra vierge, première pression à froid.",
+        "tr": "Organik natürel sızma zeytinyağı, ilk soğuk sıkım.",
+        "ur": "نامیاتی خالص اعلیٰ معیار کا زیتون کا تیل، پہلی بار ٹھنڈے طریقے سے نکالا گیا۔",
+        "ms": "Minyak zaitun organik extra virgin, perahan sejuk pertama.",
+        "bn": "জৈব এক্সট্রা ভার্জিন অলিভ অয়েল, প্রথমবার ঠান্ডা পদ্ধতিতে নিষ্কাশিত।",
+        "id": "Minyak zaitun organik extra virgin, hasil perasan dingin pertama."
+      }
+    ],
     "sizeLabel": {
       "ar": "400 / 250 ملليلتر",
       "en": "400 / 250 Milliliters (ml)",
