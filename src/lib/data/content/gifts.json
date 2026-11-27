@@ -1023,7 +1023,18 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": [],
+    "contents": [
+      {
+        "ar": "زيت زيتون بكر ممتاز، معصور على البارد، يتميز بنكهته الطبيعية الأصيلة وجودته العالية",
+        "en": "Extra virgin olive oil, cold-pressed, distinguished by its authentic natural flavor and high quality.",
+        "fr": "Huile d’olive extra vierge, pressée à froid, reconnue pour sa saveur naturelle authentique et sa grande qualité.",
+        "tr": "Soğuk sıkım natürel sızma zeytinyağı, kendine özgü doğal aroması ve yüksek kalitesiyle öne çıkar.",
+        "ur": "خالص اعلیٰ معیار کا زیتون کا تیل، جو ٹھنڈے طریقے سے نکالا گیا ہے اور اپنے قدرتی ذائقے اور اعلیٰ معیار کی وجہ سے ممتاز ہے۔",
+        "ms": "Minyak zaitun extra virgin yang diperah sejuk, terkenal dengan rasa semula jadi yang asli dan kualiti yang tinggi.",
+        "bn": "ঠান্ডা পদ্ধতিতে নিষ্কাশিত এক্সট্রা ভার্জিন অলিভ অয়েল, যা এর খাঁটি প্রাকৃতিক স্বাদ ও উচ্চমানের জন্য বিশেষভাবে পরিচিত।",
+        "id": "Minyak zaitun extra virgin yang diperas dingin, memiliki cita rasa alami yang autentik dan kualitas tinggi."
+      }
+    ],
     "sizeLabel": {
       "ar": " 3 / 1 لتر",
       "en": "3 / 1 Litres",
