@@ -650,46 +650,46 @@
     },
     "gift:belgian-pistachio-chocolate-20g": {
       "tr": {
-        "status": "validated",
-        "by": "admin",
-        "at": "2026-11-17T09:49:11.081Z",
-        "machine": false
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-27T15:59:17.751Z",
+        "machine": true
       },
       "ms": {
-        "status": "validated",
-        "by": "admin",
-        "at": "2026-11-17T09:49:13.357Z",
-        "machine": false
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-27T15:59:17.752Z",
+        "machine": true
       },
       "fr": {
         "status": "machine",
         "by": "traduction Google",
-        "at": "2026-11-17T09:47:45.616Z",
+        "at": "2026-11-27T15:59:17.751Z",
         "machine": true
       },
       "ur": {
-        "status": "validated",
-        "by": "admin",
-        "at": "2026-11-17T09:48:26.088Z",
-        "machine": false
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-27T15:59:17.752Z",
+        "machine": true
       },
       "bn": {
-        "status": "validated",
-        "by": "admin",
-        "at": "2026-11-17T09:48:18.641Z",
-        "machine": false
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-27T15:59:17.753Z",
+        "machine": true
       },
       "id": {
-        "status": "validated",
-        "by": "admin",
-        "at": "2026-11-27T15:59:10.940Z",
-        "machine": false
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-27T15:59:17.754Z",
+        "machine": true
       },
       "en": {
-        "status": "validated",
-        "by": "admin",
-        "at": "2026-11-17T09:49:12.261Z",
-        "machine": false
+        "status": "machine",
+        "by": "traduction Google",
+        "at": "2026-11-27T15:59:17.750Z",
+        "machine": true
       },
       "ar": {
         "status": "validated",
