@@ -1043,7 +1043,7 @@
       "/media/uploads/1795615686192--400-.webp"
     ],
     "price": {
-      "amount": 7,
+      "amount": 0,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -1145,7 +1145,7 @@
       "/media/uploads/1795616873366-whatsapp-image-2026-11-03-at-12.31.49-1-.jpeg"
     ],
     "price": {
-      "amount": 0,
+      "amount": 10,
       "currency": "SAR"
     },
     "availability": "in-stock",
@@ -1285,7 +1285,7 @@
       "/media/uploads/1795710000261-whatsapp-image-2026-11-03-at-12.32.00-1-.jpeg"
     ],
     "price": {
-      "amount": 0,
+      "amount": 10,
       "currency": "SAR"
     },
     "availability": "in-stock",
