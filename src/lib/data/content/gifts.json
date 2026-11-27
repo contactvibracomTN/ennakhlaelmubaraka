@@ -653,7 +653,18 @@
     "contentStatus": "demo",
     "kind": "gift",
     "category": "sweets",
-    "contents": [],
+    "contents": [
+      {
+        "ar": "شعير مطحون بنخالته",
+        "en": "Ground barley with its bran.",
+        "fr": "Orge moulue avec son son.",
+        "tr": "Kepeğiyle birlikte öğütülmüş arpa.",
+        "ur": "چوکر سمیت پسا ہوا جو۔",
+        "ms": "Barli yang dikisar bersama dedaknya.",
+        "bn": "ভুসিসহ গুঁড়ো করা যব।",
+        "id": "Jelai yang digiling bersama kulit arinya."
+      }
+    ],
     "sizeLabel": {
       "ar": "150/300غرام ",
       "en": "150 / 300 Grams",
